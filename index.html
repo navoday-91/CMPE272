@@ -10,7 +10,7 @@
 <meta charset="utf-8">
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lexis - Minimal, Corporate Bootstrap template</title>
+<title>ABC Consulting</title>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/flexslider.css">
 <link rel="stylesheet" href="css/jquery.fancybox.css">
@@ -25,7 +25,7 @@
 <!-- header section -->
 <section class="banner" role="banner">
   <header id="header">
-    <div class="header-content clearfix"> <a class="logo" href="index.html">LEXIS</a>
+    <div class="header-content clearfix"> <a class="logo" href="index.html">ABC Consulting</a>
       <nav class="navigation" role="navigation">
         <ul class="primary-nav">
           <li><a href="#intro">About</a></li>
@@ -188,12 +188,20 @@
 <section id="teams" class="section teams">
   <div class="container">
     <div class="row">
+      <?php
+      <?php
+        $myfile = fopen("webcontacts.txt", "r") or die("Unable to open file!");
+        while (!feof($webcontacts))
+        {
+        $frec = fgets($myfile);
+        $info = explode(";",$frec);
+      ?>
       <div class="col-md-3 col-sm-6">
-        <div class="person"><img src="images/team-1.jpg" alt="" class="img-responsive">
+        <div class="person"><img src=<?php $info[2]; ?> alt="" class="img-responsive">
           <div class="person-content">
-            <h4>Lisa Brown</h4>
-            <h5 class="role">The Mastermind</h5>
-            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
+            <h4><?php $info[0]; ?></h4>
+            <h5 class="role"><?php $info[1]; ?></h5>
+            <p><?php $info[3]; ?></p>
           </div>
           <ul class="social-icons clearfix">
             <li><a href="#"><span class="fa fa-facebook"></span></a></li>
@@ -204,54 +212,10 @@
           </ul>
         </div>
       </div>
-      <div class="col-md-3 col-sm-6">
-        <div class="person"> <img src="images/team-2.jpg" alt="" class="img-responsive">
-          <div class="person-content">
-            <h4>Johnathan Deo</h4>
-            <h5 class="role">Creative head</h5>
-            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          </div>
-          <ul class="social-icons clearfix">
-            <li><a href="#" class=""><span class="fa fa-facebook"></span></a></li>
-            <li><a href="#" class=""><span class="fa fa-twitter"></span></a></li>
-            <li><a href="#" class=""><span class="fa fa-linkedin"></span></a></li>
-            <li><a href="#" class=""><span class="fa fa-google-plus"></span></a></li>
-            <li><a href="#" class=""><span class="fa fa-dribbble"></span></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6">
-        <div class="person"> <img src="images/team-3.jpg" alt="" class="img-responsive">
-          <div class="person-content">
-            <h4>Mike collins</h4>
-            <h5 class="role">Technical lead</h5>
-            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          </div>
-          <ul class="social-icons clearfix">
-            <li><a href="#" class=""><span class="fa fa-facebook"></span></a></li>
-            <li><a href="#" class=""><span class="fa fa-twitter"></span></a></li>
-            <li><a href="#" class=""><span class="fa fa-linkedin"></span></a></li>
-            <li><a href="#" class=""><span class="fa fa-google-plus"></span></a></li>
-            <li><a href="#" class=""><span class="fa fa-dribbble"></span></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6">
-        <div class="person"> <img src="images/team-4.jpg" alt="" class="img-responsive">
-          <div class="person-content">
-            <h4>Rita Rose</h4>
-            <h5 class="role">Marketing head</h5>
-            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          </div>
-          <ul class="social-icons clearfix">
-            <li><a href="#" class=""><span class="fa fa-facebook"></span></a></li>
-            <li><a href="#" class=""><span class="fa fa-twitter"></span></a></li>
-            <li><a href="#" class=""><span class="fa fa-linkedin"></span></a></li>
-            <li><a href="#" class=""><span class="fa fa-google-plus"></span></a></li>
-            <li><a href="#" class=""><span class="fa fa-dribbble"></span></a></li>
-          </ul>
-        </div>
-      </div>
+      <?php
+        }
+        fclose($myfile);
+      ?>
     </div>
   </div>
 </section>
