@@ -198,8 +198,8 @@
       <div class="col-md-3 col-sm-6">
         <div class="person"><img src="<?php echo $info[2] ?>" alt="" class="img-responsive">
           <div class="person-content">
-            <h4>"<?php echo $info[0] ?>"</h4>
-            <h5 class="role">"<?php echo $info[1] ?>"</h5>
+            <h4><?php echo $info[0] ?></h4>
+            <h5 class="role"><?php echo $info[1] ?></h5>
             <p><?php echo $info[3]; ?></p>
           </div>
           <ul class="social-icons clearfix">
