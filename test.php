@@ -5,4 +5,5 @@
         $frec = fgets($myfile);
         $info = explode(";",$frec);
         print($info[0]);
+        }
       ?>
