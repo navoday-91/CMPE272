@@ -193,7 +193,6 @@
         while (!feof($myfile))
         {
         $frec = fgets($myfile);
-        echo $frec;
         $info = explode(";",$frec);
         echo $info[0];
       ?>

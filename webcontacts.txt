@@ -1,1 +1,1 @@
-Navoday Tomar;The Mastermind;images/team-1.jpg;Grad Student at SJSU
+Navoday Tomar;The Programmer;images/team-1.jpeg;Grad Student at SJSU
