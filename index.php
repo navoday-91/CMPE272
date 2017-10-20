@@ -203,11 +203,11 @@
             <p><?php echo $info[3]; ?></p>
           </div>
           <ul class="social-icons clearfix">
-            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-            <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-            <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
-            <li><a href="#"><span class="fa fa-dribbble"></span></a></li>
+            <li><a href="<?php echo $info[4]?>"><span class="fa fa-facebook"></span></a></li>
+            <li><a href="<?php echo $info[5]?>"><span class="fa fa-twitter"></span></a></li>
+            <li><a href="<?php echo $info[6]?>"><span class="fa fa-linkedin"></span></a></li>
+            <li><a href="<?php echo $info[7]?>"><span class="fa fa-google-plus"></span></a></li>
+            <li><a href="<?php echo $info[8]?>"><span class="fa fa-dribbble"></span></a></li>
           </ul>
         </div>
       </div>

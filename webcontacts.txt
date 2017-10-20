@@ -1,1 +1,2 @@
-Navoday Tomar;The Programmer;images/team-1.png;Grad Student at SJSU
+Navoday Tomar;The Programmer;images/team-1.png;Grad Student at SJSU;https://www.facebook.com/navoday.tomar;#;https://www.linkedin.com/in/navoday-tomar-48a52719/;#;#
+Rahul Tiwari;The Designer;images/default.jpg;Data Visualization Expert;#;#;#;#;#
