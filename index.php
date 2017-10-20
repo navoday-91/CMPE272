@@ -42,8 +42,8 @@
   <div class="container">
     <div class="col-md-10 col-md-offset-1">
       <div class="banner-text text-center">
-        <h1>Bootstrap One Page Multi Purpose Template</h1>
-        <p>Lorem ipsum dolor sit ametcursus magna vel scelerisque Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna vel scelerisque nisl consectetur et.nisl consectetur et.</p>
+        <h1>ABC Consulting: Solutions For Everything!</h1>
+        <p>Have a business? Problems are bound to arise... Contact us, we are a team of experts who love challenges. Our head on approach will yield results more promptly than you expect.</p>
         <a href="#" class="btn btn-large">Find out more</a> </div>
       <!-- banner text --> 
     </div>
@@ -55,7 +55,7 @@
   <div class="container">
     <div class="col-md-8 col-md-offset-2 text-center">
       <h3>We've got what you need!</h3>
-      <p>Start Bootstrap has everything you need to get your new website up and in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
+      <p>At ABC, we deliver solutions ranging from IT, marketing and web solutions to deep insights on your business patterns and data analytics. Champions of multi faceted business horizons. Take a look at our work!</p>
     </div>
   </div>
 </section>
@@ -67,37 +67,37 @@
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-strategy"></span>
         <div class="services-content">
           <h5>Strategy & Consulting</h5>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec nulla non metus.</p>
+
         </div>
       </div>
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-briefcase"></span>
         <div class="services-content">
           <h5>corporate identity</h5>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec nulla non metus.</p>
+
         </div>
       </div>
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-tools"></span>
         <div class="services-content">
           <h5>web design and development</h5>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec nulla non metus.</p>
+
         </div>
       </div>
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-genius"></span>
         <div class="services-content">
           <h5>Branding</h5>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec nulla non metus.</p>
+
         </div>
       </div>
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-megaphone"></span>
         <div class="services-content">
           <h5>Digital marketing</h5>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec nulla non metus.</p>
+
         </div>
       </div>
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-trophy"></span>
         <div class="services-content">
           <h5>Promotion material</h5>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec nulla non metus.</p>
+
         </div>
       </div>
     </div>
@@ -111,8 +111,8 @@
       <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-1.jpg" class="work-box"> <img src="images/work-1.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
-            <h5>Project Name</h5>
-            <p>Website Design</p>
+            <h5>Changing How It Looks!</h5>
+            <p>Portal Design</p>
           </div>
         </div>
         <!-- overlay --> 
@@ -120,8 +120,8 @@
       <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-2.jpg" class="work-box"> <img src="images/work-2.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
-            <h5>Project Name</h5>
-            <p>Website Design</p>
+            <h5>Process Matters!</h5>
+            <p>Process Management</p>
           </div>
         </div>
         <!-- overlay --> 
@@ -129,8 +129,8 @@
       <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-3.jpg" class="work-box"> <img src="images/work-3.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
-            <h5>Project Name</h5>
-            <p>Website Design</p>
+            <h5>Compliance & Standardization</h5>
+            <p>Compliance Certifications</p>
           </div>
         </div>
         <!-- overlay --> 
@@ -138,8 +138,8 @@
       <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-4.jpg" class="work-box"> <img src="images/work-4.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
-            <h5>Project Name</h5>
-            <p>Website Design</p>
+            <h5>Managing Tastes!</h5>
+            <p>Surveys and Analytics</p>
           </div>
         </div>
         <!-- overlay --> 
@@ -147,8 +147,8 @@
       <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-5.jpg" class="work-box"> <img src="images/work-5.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
-            <h5>Project Name</h5>
-            <p>Website Design</p>
+            <h5>Keeping You One Step Ahead!</h5>
+            <p>Reading Market Trends and Expectations</p>
           </div>
         </div>
         <!-- overlay --> 
@@ -156,8 +156,8 @@
       <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-6.jpg" class="work-box"> <img src="images/work-6.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
-            <h5>Project Name</h5>
-            <p>Website Design</p>
+            <h5>Supply Chain</h5>
+            <p>We know sourcing and management market better</p>
           </div>
         </div>
         <!-- overlay --> 
@@ -165,8 +165,8 @@
       <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-7.jpg" class="work-box"> <img src="images/work-7.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
-            <h5>Project Name</h5>
-            <p>Website Design</p>
+            <h5>Reinventing Style</h5>
+            <p>Designing and inventing new definitions</p>
           </div>
         </div>
         <!-- overlay --> 
@@ -174,8 +174,8 @@
       <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-8.jpg" class="work-box"> <img src="images/work-8.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
-            <h5>Project Name</h5>
-            <p>Website Design</p>
+            <h5>Legal Matters</h5>
+            <p>Sharper minds to save your pain</p>
           </div>
         </div>
         <!-- overlay --> 
@@ -228,7 +228,7 @@
           <li>
             <div class="col-md-12">
               <blockquote>
-                <h1>"Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Phasellus non dolor nibh. Nullam elementum Aenean eu leo quam..." </h1>
+                <h1>""Hey, I haven’t done that before. But I can find out how to do it, and it can be done."" </h1>
                 <p>Rene Brown, Open Window production</p>
               </blockquote>
             </div>
@@ -236,7 +236,7 @@
           <li>
             <div class="col-md-12">
               <blockquote>
-                <h1>"Cras dictum tellus dui, vitae sollicitudin ipsum. Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat shasellus non dolor nibh. Nullam elementum tellus pretium feugiat." </h1>
+                <h1>"It’s really helped us grow. I can keep all of the customer’s information in there so if I need to look up something in the future or call them for a follow up, I have all of that there so it’s really helped us organize the whole business. "</h1>
                 <p>Brain Rice, Lexix Private Limited.</p>
               </blockquote>
             </div>
@@ -244,7 +244,7 @@
           <li>
             <div class="col-md-12">
               <blockquote>
-                <h1>"Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur...." </h1>
+                <h1>"It’s really helped us grow. I can keep all of the customer’s information in there so if I need to look up something in the future or call them for a follow up, I have all of that there so it’s really helped us organize the whole business. "</h1>
                 <p>Andi Simond, Global Corporate Inc</p>
               </blockquote>
             </div>
@@ -252,7 +252,7 @@
           <li>
             <div class="col-md-12">
               <blockquote>
-                <h1>"Lorem ipsum dolor sit amet, consectetur adipiscing elitPhasellus non dolor nibh. Nullam elementum tellus pretium feugiat. Cras dictum tellus dui sollcitudin." </h1>
+                <h1>"With a heavy focus on collecting and analyzing data, they can help organizations that are looking for a robust analytical tool and consider content management a key concern." </h1>
                 <p>Kristy Gabbor, Martix Media</p>
               </blockquote>
             </div>
@@ -295,7 +295,7 @@
           <p>Collins Street West Victoria 8007 Australia.<br>
             1800 1234 56789 / 98532100987<br>
             support@lexis.com</p>
-          <p>Copyright © 2015 Lexis Inc. All Rights Reserved. Made with <i class="fa fa-heart pulse"></i> by <a href="http://www.designstub.com/">Designstub</a></p>
+          <p>All Rights Reserved. Made with <i class="fa fa-heart pulse"></i> by <a href="http://www.designstub.com/">Designstub</a></p>
         </div>
         <div class="footer-col col-md-3">
           <h5>Services We Offer</h5>
