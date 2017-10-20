@@ -292,9 +292,9 @@
       <div class="row">
         <div class="footer-col col-md-6">
           <h5>Our Office Location</h5>
-          <p>Collins Street West Victoria 8007 Australia.<br>
-            1800 1234 56789 / 98532100987<br>
-            support@lexis.com</p>
+          <p>3488, Cortese Circle, San Jose, CA - 95127.<br>
+            +1 (669) 265-5946<br>
+            support@abc.com</p>
           <p>All Rights Reserved. Made with <i class="fa fa-heart pulse"></i> by <a href="http://www.designstub.com/">Designstub</a></p>
         </div>
         <div class="footer-col col-md-3">
