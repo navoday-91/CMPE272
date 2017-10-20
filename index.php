@@ -194,7 +194,6 @@
         {
         $frec = fgets($myfile);
         $info = explode(";",$frec);
-        echo $info[0];
       ?>
       <div class="col-md-3 col-sm-6">
         <div class="person"><img src="<?php echo $info[2]; ?>" alt="" class="img-responsive">
