@@ -1,5 +1,6 @@
 <?php
 session_start(); // Starting Session
+echo("You are here!");
 $error=''; // Variable To Store Error Message
 if (isset($_POST['login'])) {
 if (empty($_POST['user_username']) || empty($_POST['user_password'])) {
