@@ -7,16 +7,20 @@ echo('you made it');
 if (empty($_POST['user_username']) || empty($_POST['user_password'])) {
 $error = "Username or Password is invalid";
 echo($error);
-header("location: html/base.php"); // Redirecting To Other Page
+header("location: ../index.html"); // Redirecting back
 }
 else
 {
 echo('You are here in else');
 // Define $username and $password
-$username=$_POST['username'];
-$password=$_POST['password'];
+$username=$_POST['user_username'];
+$password=$_POST['user_password'];
 // Establishing Connection with Server by passing server_name, user_id and password as a parameter
 $connection = mysql_connect("localhost", "root", "redhat");
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+echo("Connected successfully");
 // To protect MySQL injection for Security purpose
 $username = stripslashes($username);
 $password = stripslashes($password);
@@ -32,6 +36,7 @@ $_SESSION['login_user']=$username; // Initializing Session
 header("location: html/base.php"); // Redirecting To Other Page
 } else {
 $error = "Username or Password is invalid";
+echo($error);
 }
 mysql_close($connection); // Closing Connection
 }
