@@ -15,8 +15,9 @@ echo('You are here in else');
 // Define $username and $password
 $username=$_POST['user_username'];
 $password=$_POST['user_password'];
+echo($username);
 // Establishing Connection with Server by passing server_name, user_id and password as a parameter
-$connection = mysql_connect("localhost", "root", "redhat");
+$connection = new mysqli("localhost", "root", "redhat");
 echo($username + $password);
 if ($connection->connect_error) {
     die("Connection failed: " . $connection->connect_error);
