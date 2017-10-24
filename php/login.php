@@ -19,9 +19,9 @@ $password=$_POST['user_password'];
 $connection = mysql_connect("localhost", "root", "redhat");
 echo($username, $password);
 if ($connection->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+    die("Connection failed: " . $connection->connect_error);
     echo('connection to db failed');
-    echo('/n', $connection);
+    echo($connection);
 }
 echo("Connected successfully");
 // To protect MySQL injection for Security purpose
