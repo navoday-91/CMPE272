@@ -1,8 +1,8 @@
 <?php
 session_start(); // Starting Session
 $error=''; // Variable To Store Error Message
-if (isset($_POST['submit'])) {
-if (empty($_POST['username']) || empty($_POST['password'])) {
+if (isset($_POST['login'])) {
+if (empty($_POST['user_username']) || empty($_POST['user_password'])) {
 $error = "Username or Password is invalid";
 echo($error);
 header("location: html/base.php"); // Redirecting To Other Page
