@@ -17,7 +17,7 @@ $username=$_POST['user_username'];
 $password=$_POST['user_password'];
 // Establishing Connection with Server by passing server_name, user_id and password as a parameter
 $connection = mysql_connect("localhost", "root", "redhat");
-echo($username, $password);
+echo($username + $password);
 if ($connection->connect_error) {
     die("Connection failed: " . $connection->connect_error);
     echo('connection to db failed');
