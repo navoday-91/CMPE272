@@ -17,8 +17,11 @@ $username=$_POST['user_username'];
 $password=$_POST['user_password'];
 // Establishing Connection with Server by passing server_name, user_id and password as a parameter
 $connection = mysql_connect("localhost", "root", "redhat");
-if ($conn->connect_error) {
+echo($username, $password);
+if ($connection->connect_error) {
     die("Connection failed: " . $conn->connect_error);
+    echo('connection to db failed');
+    echo('/n', $connection);
 }
 echo("Connected successfully");
 // To protect MySQL injection for Security purpose
@@ -33,7 +36,7 @@ $query = mysql_query("select * from login where password='$password' AND usernam
 $rows = mysql_num_rows($query);
 if ($rows == 1) {
 $_SESSION['login_user']=$username; // Initializing Session
-header("location: html/base.php"); // Redirecting To Other Page
+header("location: ../base.php"); // Redirecting To Other Page
 } else {
 $error = "Username or Password is invalid";
 echo($error);
