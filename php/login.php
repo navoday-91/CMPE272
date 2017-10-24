@@ -2,7 +2,8 @@
 session_start(); // Starting Session
 echo("You are here!");
 $error=''; // Variable To Store Error Message
-if (isset($_POST['submit'])) {
+if (isset($_POST['Login'])) {
+echo('you made it');
 if (empty($_POST['user_username']) || empty($_POST['user_password'])) {
 $error = "Username or Password is invalid";
 echo($error);
@@ -10,6 +11,7 @@ header("location: html/base.php"); // Redirecting To Other Page
 }
 else
 {
+echo('You are here in else');
 // Define $username and $password
 $username=$_POST['username'];
 $password=$_POST['password'];
