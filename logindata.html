@@ -22,16 +22,29 @@
 
 <div id="dialog" class="dialog dialog-effect-in">
   <div class="dialog-front">
-      <h4>Users registered:</h4>
+      <h3>Users registered:</h3>
     <div class="dialog-content">
         <?php
-
+            $connection = mysqli_connect("localhost", "navoday", "redhat");
+            if ($connection-> connect_error)
+            {
+                die("Connection failed: " . $connection->connect_error);
+                echo('connection to db failed');
+                echo($connection);
+            }
+            echo("Connected successfully \n");
+            // Selecting Database
+            $db = mysqli_select_db($connection, "abc");
+            // SQL query to fetch information of registerd users and finds user match.
+            $query = mysqli_query($connection, "select * from login where password='$password' AND username='$username';");
+            $rows = mysqli_num_rows($query);
+            if ($rows > 0) {
+                while ($row = mysql_fetch_assoc($result)) {
         ?>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
+        <li><?php echo($row["username"]) ?></li>
         <?php
-
+                }
+            }
         ?>
         <h5><a href = "base.php"> Continue</a> to website.</h5>
     </div>
