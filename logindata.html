@@ -26,12 +26,6 @@
     <div class="dialog-content">
         <?php
             $connection = mysqli_connect("localhost", "navoday", "redhat");
-            if ($connection-> connect_error)
-            {
-                die("Connection failed: " . $connection->connect_error);
-                echo('connection to db failed');
-                echo($connection);
-            }
             echo("Connected successfully \n");
             // Selecting Database
             $db = mysqli_select_db($connection, "abc");
@@ -45,7 +39,11 @@
         <?php
                 }
             }
+            else
+            {
         ?>
+            <li>No Users Registered</li>
+        <?php } ?>
         <h5><a href = "base.php"> Continue</a> to website.</h5>
     </div>
   </div>
