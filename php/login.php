@@ -30,6 +30,7 @@ $password = ($_POST['user_password']);
 echo($username);
 echo($password);
 $query = mysqli_query("select * from login where password='$password' AND username='$username'", $connection);
+echo("select * from login where password='$password' AND username='$username'");
 $rows = mysqli_num_rows($query);
 if ($rows == 1) {
 $_SESSION['login_user']=$username; // Initializing Session
