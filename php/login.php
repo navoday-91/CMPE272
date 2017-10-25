@@ -28,8 +28,8 @@ echo("Connected successfully");
 // To protect MySQL injection for Security purpose
 $username = stripslashes($username);
 $password = stripslashes($password);
-$username = mysql_real_escape_string($username);
-$password = mysql_real_escape_string($password);
+$username = mysqli_real_escape_string($username);
+$password = mysqli_real_escape_string($password);
 // Selecting Database
 $db = mysql_select_db("abc", $connection);
 // SQL query to fetch information of registerd users and finds user match.
