@@ -29,7 +29,7 @@ $username = ($_POST['user_username']);
 $password = ($_POST['user_password']);
 echo($username);
 echo($password);
-$query = mysqli_query("select * from login where password='$password' AND username='$username'", $connection);
+$query = mysqli_query("select * from login where password='$password' AND username='$username';", $connection);
 echo("select * from login where password='$password' AND username='$username'");
 $rows = mysqli_num_rows($query);
 if ($rows == 1) {
