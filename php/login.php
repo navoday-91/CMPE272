@@ -3,8 +3,9 @@ session_start(); // Starting Session
 echo("You are here!");
 $error=''; // Variable To Store Error Message
 if (isset($_POST['Login'])) {
-echo('you made it');
-echo(($_POST['user_password']));
+$username=$_POST['user_username'];
+$password=$_POST['user_password'];
+echo($username + "     " + $password);
 if (empty($_POST['user_username']) || empty($_POST['user_password'])) {
 $error = "Username or Password is invalid";
 echo($error);
@@ -12,11 +13,7 @@ header("location: ../index.html"); // Redirecting back
 }
 else
 {
-echo('You are here in else');
-// Define $username and $password
-$username=$_POST['user_username'];
-$password=$_POST['user_password'];
-echo($username);
+echo('You are here in else' + '\n');
 // Establishing Connection with Server by passing server_name, user_id and password as a parameter
 $connection = mysqli_connect("localhost", "navoday", "redhat");
 echo($username + $password);
