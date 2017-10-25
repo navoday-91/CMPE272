@@ -29,12 +29,13 @@
             // Selecting Database
             $db = mysqli_select_db($connection, "abc");
             // SQL query to fetch information of registerd users and finds user match.
-            $query = mysqli_query($connection, "select username from login;");
+            $query = mysqli_query($connection, "select * from login;");
             $rows = mysqli_num_rows($query);
+            echo($rows);
             if ($rows > 0) {
                 while ($row = mysql_fetch_assoc($result)) {
         ?>
-        <li><?php echo($row["username"]) ?></li>
+        <li><?php echo($row["username"]); ?></li>
         <?php
                 }
             }
