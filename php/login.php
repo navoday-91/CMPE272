@@ -5,7 +5,7 @@ if (isset($_POST['Login'])) {
 if (empty($_POST['user_username']) || empty($_POST['user_password'])) {
 $error = "Username or Password is invalid";
 echo($error);
-$_SESSION['error'] = $error
+$_SESSION['error'] = $error;
 header("location: ../index.html"); // Redirecting back
 }
 else
