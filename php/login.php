@@ -23,13 +23,13 @@ $password = stripslashes($password);
 $username = mysqli_real_escape_string($username);
 $password = mysqli_real_escape_string($password);
 // Selecting Database
-$db = mysqli_select_db("abc", $connection);
+$db = mysqli_select_db($connection, "abc");
 // SQL query to fetch information of registerd users and finds user match.
 $username = ($_POST['user_username']);
 $password = ($_POST['user_password']);
 echo($username);
 echo($password);
-$query = mysqli_query("select * from login where password='$password' AND username='$username';", $connection);
+$query = mysqli_query($connection, "select * from login where password='$password' AND username='$username';");
 echo("select * from login where password='$password' AND username='$username'");
 $rows = mysqli_num_rows($query);
 if ($rows == 1) {
