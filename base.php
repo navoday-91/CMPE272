@@ -24,7 +24,6 @@
     session_start();
     if (!(isset($_SESSION['login_user'])))
     {
-    session_start();
     $_SESSION['error'] = "You must login first!";
     header("location: index.php");
     }
