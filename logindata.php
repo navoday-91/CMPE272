@@ -32,7 +32,7 @@
             $query = mysqli_query($connection, "select * from login;");
             $rows = mysqli_num_rows($query);
             $result = mysqli_fetch_all($query);
-            echo($result);
+            echo($result[0]);
             if ($rows > 0) {
                 while ($row = mysql_fetch_assoc($result)) {
         ?>
