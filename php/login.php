@@ -25,9 +25,11 @@ $password = mysqli_real_escape_string($password);
 // Selecting Database
 $db = mysqli_select_db("abc", $connection);
 // SQL query to fetch information of registerd users and finds user match.
-echo($_POST['user_username']);
-echo($_POST['user_password']);
-$query = mysqli_query("select * from login where password='$_POST['user_password']' AND username='$_POST['user_username']'", $connection);
+$username = ($_POST['user_username']);
+$password = ($_POST['user_password']);
+echo($username);
+echo($password);
+$query = mysqli_query("select * from login where password='$password' AND username='$username'", $connection);
 $rows = mysqli_num_rows($query);
 if ($rows == 1) {
 $_SESSION['login_user']=$username; // Initializing Session
