@@ -31,10 +31,10 @@ $password = stripslashes($password);
 $username = mysqli_real_escape_string($username);
 $password = mysqli_real_escape_string($password);
 // Selecting Database
-$db = mysql_select_db("abc", $connection);
+$db = mysqli_select_db("abc", $connection);
 // SQL query to fetch information of registerd users and finds user match.
-$query = mysql_query("select * from login where password='$password' AND username='$username'", $connection);
-$rows = mysql_num_rows($query);
+$query = mysqli_query("select * from login where password='$password' AND username='$username'", $connection);
+$rows = mysqli_num_rows($query);
 if ($rows == 1) {
 $_SESSION['login_user']=$username; // Initializing Session
 header("location: ../base.php"); // Redirecting To Other Page
@@ -42,7 +42,7 @@ header("location: ../base.php"); // Redirecting To Other Page
 $error = "Username or Password is invalid";
 echo($error);
 }
-mysql_close($connection); // Closing Connection
+mysqli_close($connection); // Closing Connection
 }
 }
 ?>
