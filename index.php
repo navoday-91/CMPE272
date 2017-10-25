@@ -33,7 +33,7 @@
           </div>
           <?php
             session_start();
-            echo(isset($_SESSION['error']);
+            echo(isset($_SESSION['error']));
             echo($_SESSION['error']);
           ?>
           <?php if (isset($_SESSION['error'])){ ?>
