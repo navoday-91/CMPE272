@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Login Widget</title>
+<?php
+    session_start();
+    if !(isset($_SESSION['login_user']))
+    {
+    header("location: index.html");
+    }
+?>
+
+  <link rel='stylesheet prefetch' href='https://www.google.com/fonts#UsePlace:use/Collection:Roboto:400,300,100,500'>
+<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://www.google.com/fonts#UsePlace:use/Collection:Roboto+Slab:400,700,300,100'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<div id="dialog" class="dialog dialog-effect-in">
+  <div class="dialog-front">
+      <h4>Users registered:</h4>
+    <div class="dialog-content">
+        <?php
+
+        ?>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <?php
+
+        ?>
+        <h5><a href = "base.php"> Continue</a> to website.</h5>
+    </div>
+  </div>
+</div>

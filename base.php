@@ -20,7 +20,13 @@
 <link rel="stylesheet" href="css/animate.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
-
+<?php
+    session_start();
+    if !(isset($_SESSION['login_user']))
+    {
+    header("location: index.html");
+    }
+?>
 <body>
 <!-- header section -->
 <section class="banner" role="banner">
