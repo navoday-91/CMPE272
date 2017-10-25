@@ -35,7 +35,7 @@ $_SESSION['login_user']=$username; // Initializing Session
 header("location: ../logindata.html"); // Redirecting To Other Page
 } else {
 $error = "Username or Password is invalid";
-$_SESSION['error'] = $error
+$_SESSION['error'] = $error;
 header("location: ../index.html"); // Redirecting To Login Page
 }
 mysqli_close($connection); // Closing Connection
