@@ -6,7 +6,7 @@ if (empty($_POST['user_username']) || empty($_POST['user_password'])) {
 $error = "Username or Password is invalid";
 echo($error);
 $_SESSION['error'] = $error;
-header("location: ../index.html"); // Redirecting back
+header("location: ../index.php"); // Redirecting back
 }
 else
 {
@@ -36,7 +36,7 @@ header("location: ../logindata.php"); // Redirecting To Other Page
 } else {
 $error = "Username or Password is invalid";
 $_SESSION['error'] = $error;
-header("location: ../index.html"); // Redirecting To Login Page
+header("location: ../index.php"); // Redirecting To Login Page
 }
 mysqli_close($connection); // Closing Connection
 }
