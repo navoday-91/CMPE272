@@ -31,12 +31,10 @@
             // SQL query to fetch information of registerd users and finds user match.
             $query = mysqli_query($connection, "select * from login;");
             $rows = mysqli_num_rows($query);
-            $result = mysqli_fetch_all($query);
-            echo($result[0]);
             if ($rows > 0) {
-                while ($row = mysql_fetch_assoc($result)) {
+                while ($user = $query->fetch_assoc()) {
         ?>
-        <li><?php echo($row["username"]); ?></li>
+        <li><?php echo($user["username"]); ?></li>
         <?php
                 }
             }
