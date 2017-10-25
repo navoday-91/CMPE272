@@ -4,6 +4,7 @@ echo("You are here!");
 $error=''; // Variable To Store Error Message
 if (isset($_POST['Login'])) {
 echo('you made it');
+echo(($_POST['user_password']));
 if (empty($_POST['user_username']) || empty($_POST['user_password'])) {
 $error = "Username or Password is invalid";
 echo($error);
@@ -33,7 +34,6 @@ $password = mysqli_real_escape_string($password);
 // Selecting Database
 $db = mysqli_select_db("abc", $connection);
 // SQL query to fetch information of registerd users and finds user match.
-echo($username + "   " + $password);
 $query = mysqli_query("select * from login where password='$password' AND username='$username'", $connection);
 $rows = mysqli_num_rows($query);
 if ($rows == 1) {
