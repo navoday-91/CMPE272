@@ -36,7 +36,7 @@
           ?>
           <?php if (isset($_SESSION['error'])){ ?>
           <div class="text-center pad-top-20">
-            <p><strong><?php echo($_SESSION['error']); ?></strong></p>
+            <p><font color="red"><strong><?php echo($_SESSION['error']); ?></strong></font></p>
           </div>
           <?php } ?>
           <div class="pad-top-20 pad-btm-20">
