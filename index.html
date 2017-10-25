@@ -31,6 +31,10 @@
           <div class="text-center pad-top-20">
             <p>Have you forgotten your<br><a href="#" class="link"><strong>username</strong></a> or <a href="#" class="link"><strong>password</strong></a>?</p>
           </div>
+          <?php
+            echo(isset($_SESSION['error']);
+            echo($_SESSION['error']
+          ?>
           <?php if (isset($_SESSION['error'])){ ?>
           <div class="text-center pad-top-20">
             <p><strong><?php echo($_SESSION['error']); ?></strong></p>
