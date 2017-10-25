@@ -33,8 +33,6 @@
           </div>
           <?php
             session_start();
-            echo(isset($_SESSION['error']));
-            echo($_SESSION['error']);
           ?>
           <?php if (isset($_SESSION['error'])){ ?>
           <div class="text-center pad-top-20">
