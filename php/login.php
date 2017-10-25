@@ -32,7 +32,7 @@ $query = mysqli_query($connection, "select * from login where password='$passwor
 $rows = mysqli_num_rows($query);
 if ($rows == 1) {
 $_SESSION['login_user']=$username; // Initializing Session
-header("location: ../logindata.html"); // Redirecting To Other Page
+header("location: ../logindata.php"); // Redirecting To Other Page
 } else {
 $error = "Username or Password is invalid";
 $_SESSION['error'] = $error;
