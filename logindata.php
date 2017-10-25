@@ -26,11 +26,10 @@
     <div class="dialog-content">
         <?php
             $connection = mysqli_connect("localhost", "navoday", "redhat");
-            echo("Connected successfully \n");
             // Selecting Database
             $db = mysqli_select_db($connection, "abc");
             // SQL query to fetch information of registerd users and finds user match.
-            $query = mysqli_query($connection, "select * from login where password='$password' AND username='$username';");
+            $query = mysqli_query($connection, "select username from login;");
             $rows = mysqli_num_rows($query);
             if ($rows > 0) {
                 while ($row = mysql_fetch_assoc($result)) {
