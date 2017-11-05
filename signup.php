@@ -15,7 +15,7 @@
 </head>
 
 <div id="dialog" class="dialog dialog-effect-in">
-  <div class="dialog-back">
+  <div class="dialog-front">
     <div class="dialog-content">
       <form id="register_form" class="dialog-form" action="php/signup.php" method="POST">
         <fieldset>
