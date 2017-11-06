@@ -236,14 +236,14 @@ h3,
   animation-delay: 300ms;
 }
 .dialog .dialog-form legend {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   font-size: 26px;
   font-weight: 300;
   color: #222;
   border-bottom: none;
 }
 .dialog .dialog-form .form-group {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   position: relative;
 }
 .dialog .dialog-form .form-group .form-control {

@@ -43,7 +43,7 @@
             <input type="submit" class="btn btn-default btn-block btn-lg" name="Login" value="Login">
           </div>
           <div class="text-center">
-            <p>Do you wish to register<br> for <a href="signup.php" class="link user-actions"><strong>a new account</strong></a>?</p>
+            <p>Do you wish to register<br> for <a href="register.php" class="link user-actions"><strong>a new account</strong></a>?</p>
           </div>
         </fieldset>
       </form>
