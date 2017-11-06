@@ -53,7 +53,7 @@
             <input type="submit" class="btn btn-default btn-block btn-lg" value="Continue"/>
           </div>
           <div class="text-center">
-            <p>Return to <a href="#" class="link user-actions"><strong>log in page</strong></a>?</p>
+            <p>Return to <a href="userlogin.php" class="link user-actions"><strong>log in page</strong></a>?</p>
           </div>
         </fieldset>
       </form>
