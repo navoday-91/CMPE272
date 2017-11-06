@@ -29,10 +29,6 @@
             <input type="password" id="user_password" class="form-control" name="user_password"/>
           </div>
           <div class="form-group">
-            <label for="user_cnf_password" class="control-label">Confirm password:</label>
-            <input type="password" id="user_cnf_password" class="form-control" name="user_cnf_password"/>
-          </div>
-          <div class="form-group">
             <label for="first_name" class="control-label">First Name:</label>
             <input type="text" id="first_name" class="form-control" name="first_name"/>
           </div>
@@ -45,14 +41,6 @@
             <input type="text" id="email" class="form-control" name="email"/> 
           </div>
           <div class="form-group">
-          <div class="form-group pad-top-20 form-group-checkbox">
-            <div class="checkbox">
-              <label>
-                <input type="checkbox" id="user_terms" name="user_terms">
-                I have read and I agree with the Terms and Conditions
-              </label>
-            </div>
-          </div>
           <div class="pad-btm-20">
             <input type="submit" class="btn btn-default btn-block btn-lg" value="Continue"/>
           </div>
