@@ -41,6 +41,14 @@
             <input type="text" id="email" class="form-control" name="email"/> 
           </div>
           <div class="form-group">
+            <label for="address" class="control-label">Address:</label>
+            <input type="text" id="address" class="form-control" name="address"/> 
+          </div>
+          <div class="form-group">
+            <label for="phone" class="control-label">Phone:</label>
+            <input type="text" id="phone" class="form-control" name="phone"/> 
+          </div>
+          <div class="form-group">
           <div class="pad-btm-20">
             <input type="submit" class="btn btn-default btn-block btn-lg" value="Continue"/>
           </div>
