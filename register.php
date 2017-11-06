@@ -50,7 +50,7 @@
           </div>
           <div class="form-group">
           <div class="pad-btm-20">
-            <input type="submit" class="btn btn-default btn-block btn-lg" value="Register"/>
+            <input type="submit" class="btn btn-default btn-block btn-lg" name = "Register" value="Register"/>
           </div>
           <div class="text-center">
             <p>Return to <a href="userlogin.php" class="link user-actions"><strong>log in page</strong></a>?</p>
