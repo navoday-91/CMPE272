@@ -20,14 +20,14 @@
 <link rel="stylesheet" href="css/animate.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
-//<?php
+<?php
 //    session_start();
 //    if (!(isset($_SESSION['login_user'])))
 //    {
 //    $_SESSION['error'] = "You must login first!";
 //    header("location: index.php");
 //    }
-//?>
+?>
 <body>
 <!-- header section -->
 <section class="banner" role="banner">
