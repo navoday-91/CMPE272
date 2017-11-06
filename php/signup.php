@@ -1,8 +1,10 @@
 <?php
-include "https://github.com/ccampbell/chromephp/blob/master/ChromePhp.php";
 session_start(); // Starting Session
 $error=''; // Variable To Store Error Message
+echo("failed");
+echo($_POST);
 if (isset($_POST['Register'])) {
+    echo("I m here");
     if (empty($_POST['user_username']) || empty($_POST['user_password']) || empty($_POST['first_name']) || empty($_POST['last_name']) || empty($_POST['email']) || empty($_POST['address']) || empty($_POST['phone'])) {
         if (empty($_POST['user_username'])) {
             $error = "Username can't be blank";
