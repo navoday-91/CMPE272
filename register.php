@@ -48,6 +48,14 @@
             <label for="phone" class="control-label">Phone:</label>
             <input type="text" id="phone" class="form-control" name="phone"/> 
           </div>
+          <?php
+            session_start();
+          ?>
+          <?php if (isset($_SESSION['error'])){ ?>
+          <div class="text-center pad-top-20">
+            <p><font color="red"><strong><?php echo($_SESSION['error']); ?></strong></font></p>
+          </div>
+          <?php } ?>
           <div class="form-group">
           <div class="pad-btm-20">
             <input type="submit" class="btn btn-default btn-block btn-lg" name = "Register" value="Register"/>
