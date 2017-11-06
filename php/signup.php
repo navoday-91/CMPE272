@@ -2,7 +2,9 @@
 session_start(); // Starting Session
 $error=''; // Variable To Store Error Message
 echo("failed");
-echo($_POST);
+foreach($_POST as $key=>$value){
+    echo($key + " --->" + $value);
+}
 if (isset($_POST['Register'])) {
     echo("I m here");
     if (empty($_POST['user_username']) || empty($_POST['user_password']) || empty($_POST['first_name']) || empty($_POST['last_name']) || empty($_POST['email']) || empty($_POST['address']) || empty($_POST['phone'])) {
