@@ -30,15 +30,15 @@ else
     $where_clause = '';
     $i = 0;
     if (!(empty($firstname))) {
-        $where_clause += "`first name` ="+ "'"+$firstname+"'";
+        $where_clause .= "`first name` ="+ "'"+$firstname+"'";
         $i += 1;
     }
     if (!(empty($lastname))) {
         if($i > 0){
-            $where_clause += " and `last name` =" + "'"+$lastname+"'";
+            $where_clause .= " and `last name` =" + "'"+$lastname+"'";
         }
         else{
-            $where_clause += "`last name` ="+ "'"+$lastname+"'";
+            $where_clause .= "`last name` ="+ "'"+$lastname+"'";
         }
             $i += 1;
         }
