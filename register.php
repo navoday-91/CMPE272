@@ -20,8 +20,8 @@
             session_start();
             if ($_SESSION['active-tab'] == "registration"){
         ?>
-        <li class="tab"><a href="#signup">Sign Up</a></li>
         <li class="tab.active"><a href="#login">User Search</a></li>
+        <li class="tab"><a href="#signup">Sign Up</a></li>
         <?php
             }
             else{
@@ -129,9 +129,6 @@
             <input type="text" autocomplete="off" name="phone"/>
           </div>
           
-          <?php
-            session_start();
-          ?>
           <?php if (isset($_SESSION['error'])){ ?>
           <div class="text-center pad-top-20">
             <p><font color="red"><strong><?php echo($_SESSION['error']); ?></strong></font></p>
