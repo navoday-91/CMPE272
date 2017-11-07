@@ -83,7 +83,7 @@ else
             header("location: ../register.php"); // Redirecting To Registration Page
         }
         $query = mysqli_query($connection, "insert into userdata values('$username','$firstname','$lastname','$email','$address','$phone');");
-        echo(mysqli_error($query));
+        echo(mysqli_error($db));
         $_SESSION['error'] = "Registration Successful";
         //header("location: ../userlogin.php");
     } 
