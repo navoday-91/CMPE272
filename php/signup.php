@@ -85,7 +85,7 @@ else
         $query = mysqli_query($connection, "insert into userdata values('$username','$firstname','$lastname','$email','$address','$phone');");
         echo(mysql_errno($query));
         $_SESSION['error'] = "Registration Successful";
-        header("location: ../userlogin.php");
+        //header("location: ../userlogin.php");
     } 
     else {
         $error = "Username is occupied, try another!";
