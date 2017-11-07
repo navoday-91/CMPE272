@@ -74,9 +74,11 @@ else
     // SQL query to fetch information of registerd users and finds user match.
     $query = mysqli_query($connection, "select * from login where username='$username';");
     $rows = mysqli_num_rows($query);
+    echo("Number of username rows = " + $rows);
     if ($rows == 0) {
         $query = mysqli_query($connection, "select * from userdata where email='$email';");
         $rows = mysqli_num_rows($query);
+        echo("Number of email rows = " + $rows);
         if ($rows > 0){
             $error = "E-mail is already registered, Please Login!";
             $_SESSION['error'] = $error;
@@ -87,7 +89,7 @@ else
         $query = mysqli_query($connection, "insert into login values(default,'$username','$password');");
         echo(mysqli_error($connection));
         $_SESSION['error'] = "Registration Successful";
-        header("location: ../userlogin.php");
+        //header("location: ../userlogin.php");
     } 
     else {
         $error = "Username is occupied, try another!";
