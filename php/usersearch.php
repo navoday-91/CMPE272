@@ -52,9 +52,7 @@ else
         header("location: ../register.php");
     } 
     else {
-        $error = "Username is occupied, try another!";
-        $_SESSION['error'] = $error;
-        header("location: ../register.php"); // Redirecting To Registration Page
+        header("location: ../userdata.php"); // Redirecting To Registration Page
         }
     mysqli_close($connection); // Closing Connection
 }

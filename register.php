@@ -116,6 +116,14 @@
             <input type="text" autocomplete="off" name="phone"/>
           </div>
           
+          <?php
+            session_start();
+          ?>
+          <?php if (isset($_SESSION['error'])){ ?>
+          <div class="text-center pad-top-20">
+            <p><font color="red"><strong><?php echo($_SESSION['error']); ?></strong></font></p>
+          </div>
+          <?php } ?>
           
           <button class="button button-block" name="user_search"/>Search</button>
           
