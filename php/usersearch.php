@@ -48,7 +48,8 @@ else
     $query = mysqli_query($connection, "select * from userdata where $where_clause;");
     $rows = mysqli_num_rows($query);
     if ($rows == 0) {
-        $_SESSION['error'] = "No Users Match This Criteria!";
+        //$_SESSION['error'] = "No Users Match This Criteria!";
+        $_SESSION['error'] = "select * from userdata where $where_clause;";
         header("location: ../register.php");
     } 
     else {
