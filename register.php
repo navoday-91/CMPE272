@@ -2,9 +2,10 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>ABC Consulting User Registration and Search</title>
-  
-  
+  <title>Sign-Up/User Search</title>
+  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
   
       <link rel="stylesheet" href="css/signup.css">
 
@@ -12,34 +13,109 @@
 </head>
 
 <body>
-  <div id="login-box">
-  <div class="left">
-    <h1>Sign up</h1>
-    <form id="register_form" action="php/signup.php" method="POST">
-    <fieldset>
-    <input type="text" name="user_username" placeholder="Username" />
-    <input type="password" name="user_password" placeholder="Password" />
-    <input type="text" name="first_name" placeholder="First Name" />
-    <input type="text" name="last_name" placeholder="Last Name" />
-    <input type="text" name="email" placeholder="E-mail" />
-    <input type="text" name="address" placeholder="Address" />
-    <input type="text" name="phone" placeholder="Phone" />
-    
-    <input type="submit" name="Register" value="Register" />
-    </fieldset>
-    </form
-  </div>
-  
-  <div class="right">
-    <span class="loginwith">Sign in with<br />social network</span>
-    
-    <button class="social-signin facebook">Log in with facebook</button>
-    <button class="social-signin twitter">Log in with Twitter</button>
-    <button class="social-signin google">Log in with Google+</button>
-  </div>
-  <div class="or">OR</div>
-</div>
-  
-  
+  <div class="form">
+      
+      <ul class="tab-group">
+        <li class="tab active"><a href="#signup">Sign Up</a></li>
+        <li class="tab"><a href="#login">Log In</a></li>
+      </ul>
+      
+      <div class="tab-content">
+        <div id="signup">   
+          <h1>Sign Up</h1>
+          
+          <form action="php/signup.php" method="post">
+          
+          <div class="top-row">
+            <div class="field-wrap">
+              <label>
+                User Name<span class="req">*</span>
+              </label>
+              <input type="text" required autocomplete="off" name="user_username"/>
+            </div>
+            
+            <div class="field-wrap">
+              <label>
+                First Name<span class="req">*</span>
+              </label>
+              <input type="text" required autocomplete="off" name="first_name"/>
+            </div>
+        
+            <div class="field-wrap">
+              <label>
+                Last Name<span class="req">*</span>
+              </label>
+              <input type="text"required autocomplete="off" name="last_name"/>
+            </div>
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              Email Address<span class="req">*</span>
+            </label>
+            <input type="email"required autocomplete="off" name="email"/>
+          </div>
+          
+          <div class="field-wrap">
+              <label>
+                Address<span class="req">*</span>
+              </label>
+              <input type="text" required autocomplete="off" name="address"/>
+          </div>
+          
+            <div class="field-wrap">
+              <label>
+                Phone<span class="req">*</span>
+              </label>
+              <input type="text" required autocomplete="off" name="phone"/>
+            </div>
+            
+          <div class="field-wrap">
+            <label>
+              Set A Password<span class="req">*</span>
+            </label>
+            <input type="password"required autocomplete="off" name="user_password"/>
+          </div>
+          
+          <button type="submit" class="button button-block" name="Register"/>Signup</button>
+          
+          </form>
+
+        </div>
+        
+        <div id="login">   
+          <h1>User Search</h1>
+          
+          <form action="/" method="post">
+          
+            <div class="field-wrap">
+            <label>
+              Email Address<span class="req">*</span>
+            </label>
+            <input type="email"required autocomplete="off"/>
+          </div>
+          
+          <div class="field-wrap">
+            <label>
+              Password<span class="req">*</span>
+            </label>
+            <input type="password"required autocomplete="off"/>
+          </div>
+          
+          <p class="forgot"><a href="#">Forgot Password?</a></p>
+          
+          <button class="button button-block"/>Log In</button>
+          
+          </form>
+
+        </div>
+        
+      </div><!-- tab-content -->
+      
+</div> <!-- /form -->
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script  src="js/signup.js"></script>
+
 </body>
 </html>
