@@ -88,7 +88,7 @@ else
         echo(mysqli_error($connection));
         $query = mysqli_query($connection, "insert into login values(default,'$username','$password');");
         echo(mysqli_error($connection));
-        $_SESSION['error'] = "Registration Successful";
+        //$_SESSION['error'] = "Registration Successful";
         //header("location: ../userlogin.php");
     } 
     else {
