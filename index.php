@@ -41,8 +41,22 @@
           <li><a href="#teams">Our Team</a></li>
           <li><a href="#testimonials">Testimonials</a></li>
           <li><a href="#contact">Contact</a></li>
+          <?php
+              session_start();
+              if(isset($_SESSION['login_user'])){
+          ?>
+          <li><a href="#"><?php echo($_SESSION['login_user']) ?></a></li>
+          <li><a href="php/logout.php">Logout</a></li>
+          <?php
+              }
+              else{
+          ?>
+          
           <li><a href="userlogin.php">Login</a></li>
-          <li><a href="register.php">Register</a></li>
+          <?php 
+              }
+          ?>
+          <li><a href="register.php">User Area</a></li>
         </ul>
       </nav>
       <a href="#" class="nav-toggle">Menu<span></span></a> </div>
