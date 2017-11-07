@@ -318,7 +318,7 @@
           <p>3488, Cortese Circle, San Jose, CA - 95127.<br>
             +1 (669) 265-5946<br>
             support@abc.com</p>
-          <p>All Rights Reserved. Made with <i class="fa fa-heart pulse"></i> by <a href="http://www.designstub.com/">Designstub</a></p>
+          <p>All Rights Reserved.</p>
         </div>
         <div class="footer-col col-md-3">
           <h5>Services We Offer</h5>
