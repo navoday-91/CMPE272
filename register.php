@@ -17,7 +17,7 @@
       
       <ul class="tab-group">
         <li class="tab active"><a href="#signup">Sign Up</a></li>
-        <li class="tab"><a href="#login">Log In</a></li>
+        <li class="tab"><a href="#login">User Search</a></li>
       </ul>
       
       <div class="tab-content">
@@ -86,25 +86,38 @@
         <div id="login">   
           <h1>User Search</h1>
           
-          <form action="/" method="post">
+          <form action="php/usersearch.php" method="post">
           
             <div class="field-wrap">
             <label>
               Email Address<span class="req">*</span>
             </label>
-            <input type="email"required autocomplete="off"/>
+            <input type="email" autocomplete="off" name="email"/>
           </div>
           
           <div class="field-wrap">
             <label>
-              Password<span class="req">*</span>
+              First Name<span class="req">*</span>
             </label>
-            <input type="password"required autocomplete="off"/>
+            <input type="text" autocomplete="off" name="first_name"/>
           </div>
           
-          <p class="forgot"><a href="#">Forgot Password?</a></p>
+          <div class="field-wrap">
+            <label>
+              Last Name<span class="req">*</span>
+            </label>
+            <input type="text" autocomplete="off" name="last_name"/>
+          </div>
           
-          <button class="button button-block"/>Log In</button>
+          <div class="field-wrap">
+            <label>
+              Phone<span class="req">*</span>
+            </label>
+            <input type="text" autocomplete="off" name="phone"/>
+          </div>
+          
+          
+          <button class="button button-block" name="user_search"/>Search</button>
           
           </form>
 
