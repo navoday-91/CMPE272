@@ -42,17 +42,36 @@ else
         }
             $i += 1;
         }
+    if (!(empty($email))) {
+        if($i > 0){
+            $where_clause .= " and `last name` =" . "'".$email."'";
+        }
+        else{
+            $where_clause .= "`last name` ="."'".$email."'";
+        }
+            $i += 1;
+        }
+    if (!(empty($phone))) {
+        if($i > 0){
+            $where_clause .= " and `last name` =" . "'".$phone."'";
+        }
+        else{
+            $where_clause .= "`last name` ="."'".$phone."'";
+        }
+            $i += 1;
+        }
     echo($where_clause);
     $db = mysqli_select_db($connection, "abc");
     // SQL query to fetch information of registerd users and finds user match.
     $query = mysqli_query($connection, "select * from userdata where $where_clause;");
     $rows = mysqli_num_rows($query);
     if ($rows == 0) {
-        //$_SESSION['error'] = "No Users Match This Criteria!";
-        $_SESSION['error'] = "select * from userdata where $where_clause $i $firstname $lastname;";
+        $_SESSION['error'] = "No Users Match This Criteria!";
+        //$_SESSION['error'] = "select * from userdata where $where_clause $i $firstname $lastname;";
         header("location: ../register.php");
     } 
     else {
+        $_SESSION['query'] = "select * from userdata where $where_clause;";
         header("location: ../userdata.php"); // Redirecting To Registration Page
         }
     mysqli_close($connection); // Closing Connection
