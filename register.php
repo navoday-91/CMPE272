@@ -15,7 +15,8 @@
   <div id="login-box">
   <div class="left">
     <h1>Sign up</h1>
-    
+    <form id="register_form" action="php/signup.php" method="POST">
+    <fieldset>
     <input type="text" name="user_username" placeholder="Username" />
     <input type="password" name="user_password" placeholder="Password" />
     <input type="text" name="first_name" placeholder="First Name" />
@@ -25,6 +26,8 @@
     <input type="text" name="phone" placeholder="Phone" />
     
     <input type="submit" name="Register" value="Register" />
+    </fieldset>
+    </form
   </div>
   
   <div class="right">
