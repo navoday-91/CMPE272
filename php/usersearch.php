@@ -49,7 +49,7 @@ else
     $rows = mysqli_num_rows($query);
     if ($rows == 0) {
         //$_SESSION['error'] = "No Users Match This Criteria!";
-        $_SESSION['error'] = "select * from userdata where $where_clause $i;";
+        $_SESSION['error'] = "select * from userdata where $where_clause $i $firstname $lastname;";
         header("location: ../register.php");
     } 
     else {

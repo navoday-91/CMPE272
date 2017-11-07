@@ -90,28 +90,28 @@
           
             <div class="field-wrap">
             <label>
-              Email Address<span class="req">*</span>
+              Email Address<span class="req"></span>
             </label>
             <input type="email" autocomplete="off" name="email"/>
           </div>
           
           <div class="field-wrap">
             <label>
-              First Name<span class="req">*</span>
+              First Name<span class="req"></span>
             </label>
             <input type="text" autocomplete="off" name="first_name"/>
           </div>
           
           <div class="field-wrap">
             <label>
-              Last Name<span class="req">*</span>
+              Last Name<span class="req"></span>
             </label>
             <input type="text" autocomplete="off" name="last_name"/>
           </div>
           
           <div class="field-wrap">
             <label>
-              Phone<span class="req">*</span>
+              Phone<span class="req"></span>
             </label>
             <input type="text" autocomplete="off" name="phone"/>
           </div>
@@ -123,7 +123,9 @@
           <div class="text-center pad-top-20">
             <p><font color="red"><strong><?php echo($_SESSION['error']); ?></strong></font></p>
           </div>
-          <?php } ?>
+          <?php } 
+          $_SESSION['error'] = '';
+          ?>
           
           <button class="button button-block" name="user_search"/>Search</button>
           
