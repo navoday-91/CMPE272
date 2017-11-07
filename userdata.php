@@ -14,11 +14,6 @@
 
 <body>
   <div class="form">
-
-      <ul class="tab-group">
-        <li class="tab active"><a href="#signup">Sign Up</a></li>
-      </ul>
-
       <div class="tab-content">
         <div id="signup">
           <h1>User Search Results</h1>
@@ -34,7 +29,7 @@
             if ($rows > 0) {
                 while ($user = $query->fetch_assoc()) {
         ?>
-        <li><?php echo($user["username"]."  ".$user["first name"]."  ".$user["last name"]."..".$user["email"]."..".$user["phone"]); ?></li>
+        <li><font color="white"><?php echo($user["username"]."  ".$user["first name"]."  ".$user["last name"]."..".$user["email"]."..".$user["phone"]); ?></font></li>
         <?php
                 }
             }

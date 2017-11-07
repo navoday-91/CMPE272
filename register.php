@@ -16,8 +16,21 @@
   <div class="form">
       
       <ul class="tab-group">
+        <?php
+            session_start();
+            if ($_SESSION['active-tab'] == "registration"){
+        ?>
+        <li class="tab"><a href="#signup">Sign Up</a></li>
+        <li class="tab.active"><a href="#login">User Search</a></li>
+        <?php
+            }
+            else{
+        ?>
         <li class="tab active"><a href="#signup">Sign Up</a></li>
         <li class="tab"><a href="#login">User Search</a></li>
+        <?php
+            }
+        ?>
       </ul>
       
       <div class="tab-content">

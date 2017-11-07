@@ -7,6 +7,7 @@ if (isset($_POST['user_search'])) {
             $error = "Specify atleast one criteria";
             echo($error);
             $_SESSION['error'] = $error;
+            $_SESSION['active-tab'] = "registration";
             header("location: ../register.php"); // Redirecting back
         
 }
@@ -67,12 +68,13 @@ else
     $rows = mysqli_num_rows($query);
     if ($rows == 0) {
         $_SESSION['error'] = "No Users Match This Criteria!";
+        $_SESSION['active-tab'] = "registration";
         //$_SESSION['error'] = "select * from userdata where $where_clause $i $firstname $lastname;";
         header("location: ../register.php");
     } 
     else {
         $_SESSION['query'] = "select * from userdata where $where_clause;";
-        header("location: ../userdata.php"); // Redirecting To Registration Page
+        header("location: ../userdata.php"); // Redirecting To User Data Page
         }
     mysqli_close($connection); // Closing Connection
 }
