@@ -1,53 +1,18 @@
 <?php
 session_start(); // Starting Session
 $error=''; // Variable To Store Error Message
-if (isset($_POST['Register'])) {
-    if (empty($_POST['user_username']) || empty($_POST['user_password']) || empty($_POST['first_name']) || empty($_POST['last_name']) || empty($_POST['email']) || empty($_POST['address']) || empty($_POST['phone'])) {
-        if (empty($_POST['user_username'])) {
-            $error = "Username can't be blank";
+echo("Session Started");
+if (isset($_POST['user_search'])) {
+    if (empty($_POST['first_name']) && empty($_POST['last_name']) && empty($_POST['email']) && empty($_POST['phone'])) {
+            $error = "Specify atleast one criteria";
             echo($error);
             $_SESSION['error'] = $error;
             header("location: ../register.php"); // Redirecting back
-            }
-        if (empty($_POST['user_password'])) {
-            $error = "Password can't be blank";
-            echo($error);
-            $_SESSION['error'] = $error;
-            header("location: ../register.php"); // Redirecting back
-            }
-        if (empty($_POST['first_name'])) {
-            $error = "First Name can't be blank";
-            echo($error);
-            $_SESSION['error'] = $error;
-            header("location: ../register.php"); // Redirecting back
-            }
-        if (empty($_POST['last_name'])) {
-            $error = "Last Name can't be blank";
-            echo($error);
-            $_SESSION['error'] = $error;
-            header("location: ../register.php"); // Redirecting back
-            }
-        if (empty($_POST['email'])) {
-            $error = "E-mail can't be blank";
-            echo($error);
-            $_SESSION['error'] = $error;
-            header("location: ../register.php"); // Redirecting back
-            }
-        if (empty($_POST['address'])) {
-            $error = "Address can't be blank";
-            echo($error);
-            $_SESSION['error'] = $error;
-            header("location: ../register.php"); // Redirecting back
-            }
-        if (empty($_POST['phone'])) {
-            $error = "Phone can't be blank";
-            echo($error);
-            $_SESSION['error'] = $error;
-            header("location: ../register.php"); // Redirecting back
-            }
+        
 }
 else
 {
+    echo("In ELSE");
 // Establishing Connection with Server by passing server_name, user_id and password as a parameter
     $connection = mysqli_connect("localhost", "navoday", "redhat");
     if ($connection->connect_error) {
@@ -57,34 +22,34 @@ else
     }
     echo("Connected successfully \n");
     // To protect MySQL injection for Security purpose
-    $username = ($_POST['user_username']);
-    $password = ($_POST['user_password']);
     $firstname = ($_POST['first_name']);
     $lastname = ($_POST['last_name']);
     $email = ($_POST['email']);
-    $address = ($_POST['address']);
     $phone = ($_POST['phone']);
-    $username = stripslashes($username);
-    $password = stripslashes($password);
-    $username = mysqli_real_escape_string($connection, $username);
-    $password = mysqli_real_escape_string($connection, $password);
     // Selecting Database
+    $where_clause = '';
+    $i = 0;
+    if (!(empty($firstname))) {
+        $where_clause += "`first name` ="+ "'"+$firstname+"'";
+        $i += 1;
+    }
+    if (!(empty($lastname))) {
+        if($i > 0){
+            $where_clause += " and `last name` =" + "'"+$lastname+"'";
+        }
+        else{
+            $where_clause += "`last name` ="+ "'"+$lastname+"'";
+        }
+            $i += 1;
+        }
+    echo($where_clause);
     $db = mysqli_select_db($connection, "abc");
     // SQL query to fetch information of registerd users and finds user match.
-    $query = mysqli_query($connection, "select * from login where username='$username';");
+    $query = mysqli_query($connection, "select * from userdata where $where_clause;");
     $rows = mysqli_num_rows($query);
     if ($rows == 0) {
-        $query = mysqli_query($connection, "select * from userdata where email='$email';");
-        $rows = mysqli_num_rows($query);
-        if ($rows > 0){
-            $error = "E-mail is already registered, Please Login!";
-            $_SESSION['error'] = $error;
-            header("location: ../register.php"); // Redirecting To Registration Page
-        }
-        $query = mysqli_query($connection, "insert into userdata values(default,'$username','$firstname','$lastname','$email','$address','$phone');");
-        $query = mysqli_query($connection, "insert into login values(default,'$username','$password');");
-        $_SESSION['error'] = "Registration Successful";
-        header("location: ../userlogin.php");
+        $_SESSION['error'] = "No Users Match This Criteria!";
+        header("location: ../register.php");
     } 
     else {
         $error = "Username is occupied, try another!";
