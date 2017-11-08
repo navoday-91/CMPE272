@@ -116,7 +116,9 @@
             <input type="text" autocomplete="off" name="phone"/>
           </div>
           
-          <?php if (isset($_SESSION['error'])){ ?>
+          <?php 
+          session_start();
+          if (isset($_SESSION['error'])){ ?>
           <div class="text-center pad-top-20">
             <p><font color="red"><strong><?php echo($_SESSION['error']); ?></strong></font></p>
           </div>
