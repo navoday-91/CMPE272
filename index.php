@@ -37,7 +37,6 @@
         <ul class="primary-nav">
           <li><a href="#intro">About</a></li>
           <li><a href="#services">services</a></li>
-          <li><a href="#works">Works</a></li>
           <li><a href="#teams">Our Team</a></li>
           <li><a href="#testimonials">Testimonials</a></li>
           <li><a href="#contact">Contact</a></li>
