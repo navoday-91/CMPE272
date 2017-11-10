@@ -6,13 +6,10 @@
 <meta name="description" content="ABC Consultants" />
 <meta name="keywords" content="ABC Template" />
 <link rel="stylesheet" type="text/css" href="style.css"/>
-<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 <link href='http://fonts.googleapis.com/css?family=Voces' rel='stylesheet' type='text/css' />
 </head>
 <body>
 
-<div class="blacktab"><div class="logo"><a href="#"><img src="images/logo.png" alt="Zen Template" /></a></div></div>
-<div class="banner"><img src="images/banner.jpg" height="240" width="880" alt="Zen Banner"/></div>
 </div><!-- close header -->
 <div class="page">
 
