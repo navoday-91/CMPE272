@@ -130,29 +130,29 @@
 <section id="works" class="works section no-padding">
   <div class="container-fluid">
     <div class="row no-gutter">
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-1.jpg" class="work-box"> <img src="images/work-1.jpg" alt="">
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="services/portal.php" class="work-box"> <img src="images/work-1.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <h5>Changing How It Looks!</h5>
-            <p><a href = "services/portal.php">Portal Design</a></p>
+            <p>Portal Design</p>
           </div>
         </div>
         <!-- overlay --> 
         </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-2.jpg" class="work-box"> <img src="images/work-2.jpg" alt="">
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="services/process_mgmt.php" class="work-box"> <img src="images/work-2.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <h5>Process Matters!</h5>
-            <p><a href = "services/process_mgmt.php">Process Management</a></p>
+            <p>Process Management</p>
           </div>
         </div>
         <!-- overlay --> 
         </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-3.jpg" class="work-box"> <img src="images/work-3.jpg" alt="">
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="services/comp_cert.php" class="work-box"> <img src="images/work-3.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <h5>Compliance & Standardization</h5>
-            <p><a href = "services/comp_cert.php">Compliance Certifications</a></p>
+            <p>Compliance Certifications</p>
           </div>
         </div>
         <!-- overlay --> 
