@@ -1,487 +1,654 @@
 
-<!DOCTYPE html>
-<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Corus - surveys &amp; powerful analytics</title>
-    <link rel="stylesheet" media="screen" href="/assets/home-e4d1d4163fe258a51eea657e770f78d352d5b50304a5a49cd25989f38792ee2a.css" />
-    <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-    <script src="/assets/jquery-395e36e8b50840dbe9f754bd87c5098de66e33f81061d9452420dbdb9ee760f1.js"></script>
-    <script src="/assets/jquery.sticky-aba542cdcfa4caa7ed3d38e08d0adfa5d81b7a20cc3b4c5399cfcb8a62099f47.js"></script>
-    <script src="/assets/bootstrap.min-8cf3303b02133447302fc8e6878531a51f5c4891445d287cdd908939ae5a4d2e.js"></script>
-    <script src="/assets/home-dec9bd745dbe8020052bffa6011c1b7449d98a64e5d3632aa83799c6b9757b26.js"></script>
+<!doctype html><!-- start coded_template: id:3859515515 path:generated_layouts/3859515505.html --><!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en">        <![endif]--><!--[if IE 8]>    <html class="no-js lt-ie9" lang="en">               <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="author" content="ABC Solutions">
+    <meta name="description" content="ABC Consulting provides analytics services and understands perspective required for building and implementation of Business and Market Data.">
+    <meta name="generator" content="HubSpot">
+    <title>Surveys and Analytics</title>
+    <link rel="shortcut icon" href="https://www.e-zest.com/hubfs/images/sitefavicon.ico?t=1510343398533">
+
     
-    <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="+fAGR2osTrqeyqOUiI3Lc9SIMwSVydpjijMGbNnlhBip4ktJkOnZV5+CLLIxAJ/OZ7GAGInwby7Boc09q8/nQQ==" />
-    <link rel="shortcut icon" type="image/x-icon" href="/assets/home/tw_favicon-90dac4842ef02b996fbd7b8b8a84f1acddc4678a3ece823283e2c62be1df8515.ico" />
-  </head>
-  <script type='text/javascript' data-cfasync='false'>
-  window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } };
-  (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '50080bb3-48f8-4114-8402-1762c500b793', f: true }); done = true; } }; })();
+    
+    <script src="https://static.hsstatic.net/jquery-libs/static-1.4/jquery/jquery-1.11.2.js"></script>
+    <script type="text/javascript">hsjQuery = window['jQuery']</script>
+    <link href="https://static.hsstatic.net/content_shared_assets/static-1.4049/css/public_common.css" rel="stylesheet">
+    <meta property="og:description" content=".">
+    <meta property="og:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:title" content="">
+
+
+    
+    
+
+    
+    
+    <link rel="canonical" href="http://www.e-zest.com/bpm_consulting/">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-362796-1', 'auto');
+  ga('send', 'pageview');
+
 </script>
 
-  <body class="home">
-    <div id="fb-root"></div>
-    <div class="corus-app">
-      <!-- Header -->
-<div class="main-menu">
-  <div class="Scroll-Menus">
-    <div class="menu-heading">
-      <h4>Menu</h4>
-      <a href="javascript:void(0);" id="close-menu"><img src="/assets/home/close-menu-131f761e30dd4e2d6f2d84fd55125fefe1a769310e33b0b5b828ce83f1195199.png" alt="Close menu" /></a>
-    </div>
-    <!-- menu-heading -->
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/pages/survey-platform">Free Survey Platform</a></li>
-      <li><a href="/pages/web-how-works">Proximity Feedback Services</a></li>
-      <li><a href="/pages/market-research-analytics">Market Research and Analytics</a></li>
-      <li><a href="/pages/team">Team</a></li>
-      <li><a href="/pages/privacy">Your Privacy</a></li>
-    </ul>
-    <div class="side_menu_signbtn">
-      <a href="#modal-auth-window" class="btn-signs landing-signup-link" rel="modal:open">Sign up</a>
-    </div>
-    <div class="menu-heading">
-      <h4>Support</h4>
-    </div>
-    <!-- menu-heading -->
-    <ul>
-      <li><a href="javascript:;"><i class="fa fa-phone"></i> +1 (720) 999-4791</a></li>
-      <li><a href="mailto:support@cor.us"><i class="fa fa-envelope-o"></i> support@cor.us</a></li>
-    </ul>
-    <div class="follow_us">
-      <h6>Follow us on social media</h6>
-      <a target="_blank" class="social-link social-tw" href="https://www.twitter.com/joincorus">
-        <i class="fa fa-twitter"></i></a>
-      <a target="_blank" class="social-link social-fb" href="https://www.facebook.com/JoinCorus/?ref=hl">
-        <i class="fa fa-facebook"></i></a>
-      <a target="_blank" class="social-link social-in" href="https://www.linkedin.com/company/trackwave-inc-?trk=top_nav_home">
-        <i class="fa fa-linkedin"></i></a>
-    </div>
-    <!-- follow_us -->
-    <div class="menu-heading">
-      <h4>Download APp</h4>
-    </div>
-    <!-- menu-heading -->
-    <p>The simplest and most rewarding way to share feedback with the businesses that serve you.</p>
-    <div class= 'download-links'>
-    <a href="https://play.google.com/store/apps/details?id=com.trackwave&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1">
-      <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/apps/en-play-badge.png" height="40px"/>
-    </a>
-    <a href="https://itunes.apple.com/us/app/corus/id1038055896?mt=8">
-      <!-- <img alt="Get it on the App Store" src="https://devimages-cdn.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" height="40px"/> -->
-      <img alt="Get it on the App Store" src="https://devimages-cdn.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" height="40px"/>
-    </a>
-</div>
+<meta property="og:image" content="images/abclogo.jpg">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="200">
+<meta property="og:image:height" content="200">
+<meta property="og:url" content="http://abc-consulting.tk/">
+<link href="//cdn2.hubspot.net/hub/-1/hub_generated/template_assets/1495141902003/hubspot_default/shared/responsive/layout.min.css" rel="stylesheet">
 
-    <div class="col-sm-12 copy_rights">
-      <p class="copy">&copy; 2017 trackwave, Inc. – <strong>Corus&reg;</strong>, All rights reserved. <br />
-        <a href="/pages/privacy">Privacy Policy &amp; Terms</a></p>
-    </div>
-    <img class="imgPng" src="/assets/home/footerPng-cb8f6b3573d6cdbd26cf183e70008e64f3d7cb7ac7d0ff45466ce386a0d83959.png" alt="Footerpng" />
-  </div>
-  <!-- Scroll-Menus -->
-</div>
-<!-- main-menu -->
 
-      <section class="mainWrap">
-  <section class="inner-banner research">
-    <section class="navigation">
-      <div class="head_top">
-      </div>
-      <div class="head_bottom">
-        <header>
-          <div class="header-content">
-            <div class="logo">
-              <a href="/" class="pull-left"><img src="/assets/home/logo-e4f782d2e3438a0310cd25a4ad5e7a10f20b38bbfdec3fecb160ceda016bd571.png" alt="Logo" /></a>
-              <p class="logo_text pull-left">strength in numbers</p>
-            </div>
-            <div class="header-nav">
-              <nav>
-                <ul class="member-actions">
-                  <li><a href="#modal-auth-window" class="login landing-login-link" rel="modal:open">Log in</a></li>
-                  <li><a href="#modal-auth-window" class="login landing-signup-link btn sign_up" rel="modal:open">Sign up</a></li>
-                  <li class="sepp"><img src="/assets/home/nav_sepp-d3aa0f4dbb8f8b908fb8b0fd14814be004bd0a7bc2e930c2ff9c2a657323b09d.png" alt="Nav sepp" /></li>
-                  <li><a href="javascript:void(0);" class="btn bar_btn"><i class="fa fa-bars"></i></a></li>
-                </ul>
-              </nav>
-            </div>
-            <div class="navicon">
-              <a class="nav-toggle btn bar_btn" href="#" ><i class="fa fa-bars"></i></a>
-            </div>
-          </div>
-        </header>
-      </div>
-    </section>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="hero-content text-center">
-            <h1>Corus Market Research and Analytics</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Header End -->
-  <section class="research_content section-padding">
-    <div class="container">
-      <div class="col-md-10 col-center dar_content">
-        <div class="dar_img_1">
-          <img src="/assets/home/dar_icon_1-9df92f1386bc5026457d7a3c7a2ad8910d14ef98f7ac9c76ba2df858e4a823be.png" alt="Dar icon 1" />
-        </div>
-        <div class="dar_1">
-          <h4 style="color:#009fd1;">RAPID DATA COLLECTION</h4>
-          <ul>
-            <li>Proprietary software enables rapid survey design and limitless customization.</li>
-            <li>18m respondents in over 60 countries, with granular subpopulation targeting.</li>
-            <li>19 demographic variables automatically appended to responses.</li>
-            <li>48-hour data turnaround on most surveys with sample sizes of 1,000.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-10 col-center dar_content">
-        <div class="dar_img_2">
-          <img src="/assets/home/dar_icon_2-16481037912159f95cac30762b8518caa42316f68ff428fc860eae68a7fad15f.png" alt="Dar icon 2" />
-        </div>
-        <div class="dar_1">
-          <h4 style="color:#fd6b0d;">ROBUST AND ACTIONABLE ANALYTICS</h4>
-          <ul>
-            <li><strong>Contextual.</strong> Our analyses are structured to support your strategic needs.</li>
-            <li><strong>Experienced.</strong> Team members were pioneers in data science across numerous industries.</li>
-            <li><strong>Quality.</strong> Statistical standards exceed our competition.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-10 col-center dar_content">
-        <div class="dar_img_3">
-          <img src="/assets/home/dar_icon_3-1479486ffb4af73b2d5351281561552afc61cd80839e06704d8d977f48ad7da2.png" alt="Dar icon 3" />
-        </div>
-        <div class="dar_1">
-          <h4 style="color:#ffb718;">BOARDROOM-READY REPORTING</h4>
-          <ul>
-            <li>Our reports are structured for narrative flow, and are designed to support strategic decision making out of the box.</li>
-            <li>We provide actionable insights, not a  PowerPoint tome of random facts.</li>
-            <li>We strive to make things simple and clear, not  overwhelming and dense.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Consumer Research -->
-  <section class="consumer_research section-padding">
-    <div class="container">
-      <div class="col-md-12">
-        <div class="consumer_research_top text-center">
-          <h3>Consumer research</h3>
-          <div class="sep_home"></div>
-          <p>Our analytics team can determine what drives the opinions of consumers, voters, or patients across the globe, with representative sampling by location</p>
-        </div>
-        <div class="consumer_research_bottom">
-          <span>Instantly ask <strong>18m people</strong> in over <strong>60 countries</strong> with <strong>precision targeting</strong></span>
-        </div>
-        <div class="consumer_research_img">
-          <img src="/assets/home/map_img-29a291bf027d308c0a6a478d510f33c240a0941a6c874cad00c6a8e2502ee7b7.png" alt="Map img" />
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Consumer Research End -->
-  <!-- Healthcare Research -->
-  <section class="health_research section-padding">
-    <div class="container">
-      <div class="col-md-12">
-        <div class="health_research_top text-center">
-          <h3>Healthcare research</h3>
-          <div class="sep_home"></div>
-        </div>
-        <div class="health_research_img clearfix">
-          <div class="col-md-5 world_map">
-            <h3 class="text-center">2.5m physicians
-              <span>+ 1m other HCPs</span>
-            </h3>
-            <img src="/assets/home/world_map_img-e33f6bbb7015a31bd578abfe1e33960c363fccf536bcbaad4192d81db77743c6.png" alt="World map img" />
-          </div>
-          <div class="col-md-2 map_areow">
-            <img src="/assets/home/map_areow_img-a3d71a8ddedde1b4fdf11ce87bca86015e15b8cbbfd15ddd165de44b4092c25f.png" alt="Map areow img" />
-          </div>
-          <div class="col-md-5 usa_map">
-            <h3 class="text-center">650k prescribers
-              <span>75% of US market</span>
-            </h3>
-            <img src="/assets/home/usa_map_img-95ccdafdf1234f022bd3dfd20c1b157a806ed1f07ce17c60c60882f62247f30b.png" alt="Usa map img" />
-          </div>
-        </div>
-        <div class="health_research_bottom clearfix">
-          <div class="col-sm-4 research_first_lists">
-            <h5 style="color:#ffb718;">Validated quality</h5>
-            <ul>
-              <li>All 50 US states and specialties</li>
-              <li>100% verified by NPI</li>
-              <li>100% opt-in</li>
-              <li>Tied to IMS decile</li>
-            </ul>
-          </div>
-          <div class="col-sm-4 research_second_lists">
-            <h5 style="color:#a3d65c;">Panel includes</h5>
-            <ul>
-              <li>Dentists</li>
-              <li>Optometrists</li>
-              <li>Pharmacists</li>
-              <li>PAs and NPs</li>
-              <li>And others...</li>
-            </ul>
-          </div>
-          <div class="col-sm-4 research_third_lists">
-            <h5 style="color:#009fd1;">Targeting by</h5>
-            <ul>
-              <li>Specialty</li>
-              <li>Location</li>
-              <li>IMS decile</li>
-              <li>Conference participants</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Healthcare Research End -->
-  <!-- Consumer Research -->
-  <section class="high_standard section-padding">
-    <div class="container">
-      <div class="col-md-12">
-        <div class="high_standard_top text-center">
-          <h3>High analytical standards</h3>
-          <div class="sep_home"></div>
-          <p>Our team members are selected only after rigorous validation of their abilities</p>
-        </div>
-        <div class="high_standard_img">
-          <img src="/assets/home/pie_chart_img-8e16927f38909ff886fd7842736c2e9b49c5f1bb75c03774f4df6849ee9b6254.png" alt="Pie chart img" />
-        </div>
-        <div class="high_standard_bottom">
-          <h4>We devised the following START principles to uphold our analytical integrity</h4>
-          <ul>
-            <li><strong style="color:#f7b80d;"><img src="/assets/home/itnegrit_icon_1-d00717a38c584d3e332cc09ff267ff3dd33b0be4a1842082c6d2e0408c2d7c5a.png" alt="Itnegrit icon 1" /> <u>S</u>TRATEGIC</strong>Match the output of analysis to well-understood client needs</li>
-            <li><strong style="color:#87c414;"><img src="/assets/home/itnegrit_icon_2-86aff22c2879d904e451cebc73e8b6c27dee07772b3137917b1a4df11ca58863.png" alt="Itnegrit icon 2" /> <u>T</u>imely</strong>Support prompt decisions while the data remain relevant</li>
-            <li><strong style="color:#1a6ca4;"><img src="/assets/home/itnegrit_icon_3-fe9d8cb7916c647b8732f204ea1ead378986dc5ad0c6fd2be781b095bd7cb177.png" alt="Itnegrit icon 3" /> <u>A</u>ctionable</strong>Enable decisive conclusions on the basis of sound evidence</li>
-            <li><strong style="color:#fd6e31;"><img src="/assets/home/itnegrit_icon_4-067484a244834a36b833bd0e2cdd9c79491c38fa7df9d3013e3c6b3dbab72283.png" alt="Itnegrit icon 4" /> <u>R</u>obust</strong>Withstand tests of reliability without ambiguity</li>
-            <li><strong style="color:#bf4dc9;"><img src="/assets/home/itnegrit_icon_5-1b453e732ce97ffe3f17d208e858812cd0881870f10f3874ca9f4a649648f5be.png" alt="Itnegrit icon 5" /> <u>T</u>ransparent</strong>Communicate results for clarity of meaning and method</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Consumer Research End -->
+<link rel="stylesheet" href="https://www.e-zest.com/hs-fs/hub/744339/hub_generated/template_assets/1499943837348/custom/system/css/Act-Theme-Custom.min.css">
 
-    </div>
-    <!-- Footer -->
-<footer class="footer">
-  <div class="container footerInner">
-    <div class="clearfix">
-      <div class="col-md-12 foot_logo">
-        <img src="/assets/home/footer_logo-e29a248a52dfea229f324b0fe4767e5fb9bf9473755c620728cd8325dfeaa528.png" alt="Footer logo" />
-      </div>
-      <div class="col-xs-12 col-sm-4 col-md-4 office-address">
-        <address>
-          <div class="contact">
-            <h6>Have a question?</h6>
-            <a href="tel:(+1) 210 4994616">
-              <i class="fa fa-phone"></i>
-              +1 (720) 999-4719
-            </a>
-            <a href="mailto:support@corus.com">
-              <i class="fa fa-envelope-o"></i>
-              support@cor.us
-            </a>
-          </div>
-          <div class="follow_us">
-            <h6>Follow us on social media</h6>
-            <a target="_blank" class="social-link social-tw" href="https://www.twitter.com/joincorus">
-              <i class="fa fa-twitter"></i></a>
-            <a target="_blank" class="social-link social-fb" href="https://www.facebook.com/JoinCorus/?ref=hl">
-              <i class="fa fa-facebook"></i></a>
-            <a target="_blank" class="social-link social-in" href="https://www.linkedin.com/company/trackwave-inc-?trk=top_nav_home">
-              <i class="fa fa-linkedin"></i></a>
-          </div>
-        </address>
-      </div>
-      <div class="col-xs-12 col-sm-4 col-md-4 footerLinks combineOne">
-        <h6>Quick Menu</h6>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/pages/survey-platform">Free Survey Platform</a></li>
-          <li><a href="/pages/web-how-works">Proximity Feedback Services</a></li>
-          <li><a href="/pages/market-research-analytics">Market Research and Analytics</a></li>
-          <li><a href="/pages/team">Team</a></li>
-          <li><a href="/pages/privacy">Your Privacy</a></li>
-        </ul>
-      </div>
-      <!-- footerLinks end -->
-      <div class="col-xs-12 col-sm-4 col-md-4 footerLinks combineOne">
-        <div>
-          <h6>EMAIL NEWSLETTER</h6>
-          <p>Subscribe to Corus updates and announcements.</p>
-          <form class="new_newsletter" id="new_newsletter" action="/newsletters" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
-            <div id="foo_id_1510347462"><style type="text/css" media="screen" scoped="scoped">#foo_id_1510347462 { display:none; }</style><label for="foo_id">If you are a human, ignore this field</label><input type="text" name="foo_id" id="foo_id" /></div>
-            <div class="form-group email_field">
-              <input placeholder="ENTER YOUR EMAIL ADDRESS" class="e_add" type="email" name="newsletter[email]" id="newsletter_email" />
-              <button name="button" type="submit" class="sub_btn pull-right">
-                <i class="fa fa-envelope-o"></i>
-</button>              <input type="text" name="newsletter[name]" id="newsletter_name" />
-            </div>
-</form>          <div class="landing-response success">Your email address has been added. Thanks for your interest in Corus.</div>
-          <div class="landing-error">E-Mail address is invalid or already exists in our database.</div>
-        </div>
-        <h6>DOWNLOADS</h6>
-        <div class= 'download-links'>
-    <a href="https://play.google.com/store/apps/details?id=com.trackwave&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1">
-      <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/apps/en-play-badge.png" height="40px"/>
-    </a>
-    <a href="https://itunes.apple.com/us/app/corus/id1038055896?mt=8">
-      <!-- <img alt="Get it on the App Store" src="https://devimages-cdn.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" height="40px"/> -->
-      <img alt="Get it on the App Store" src="https://devimages-cdn.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" height="40px"/>
-    </a>
-</div>
 
-      </div>
-      <!-- footerLinks end -->
-    </div>
-  </div>
-  <!-- footerInner end -->
-  <div class="footerTwo">
-    <div class="container foot_border">
-      <div class="row">
-        <div class="col-xs-12 col-sm-4 col-sm-push-8">
-          <h6>PARTNERS</h6>
-          <a href="https://mixpanel.com/f/partner" rel="nofollow" target="_blank">
-            <img src="//cdn.mxpnl.com/site_media/images/partner/badge_light.png" alt="Mobile Analytics" />
-          </a>
-        </div>
-        <div class="col-xs-12 col-sm-8 col-sm-pull-4">
-          <p class="copy">&copy; 2017 trackwave, Inc. – <strong>&nbsp;Corus&reg;&nbsp;</strong>, All rights reserved. |
-          <a href="/pages/privacy">Privacy Policy &amp; Terms</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- footerTwo End -->
+    <!-- The style tag has been deprecated. Attached stylesheets are included in the required_head_tags page variable. -->
+    <!-- Act Theme Main.js, please do not delete -->
+<script src="//cdn2.hubspot.net/hub/273774/file-1924801657-js/mp/themes/Act-Theme/js/act-async-load.js"></script>
+<!--/ Act Theme Main.js, please do not delete -->
+    
+
+
+</head>
+<body class="act-theme act-two-column-hero   hs-content-id-3699427022 hs-site-page page " style="">
+    <div class="header-container-wrapper">
+    <div class="header-container container-fluid">
+
+        <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+        <div class="row-fluid ">
+            <div class="span12 widget-span widget-type-global_group " style="" data-widget-type="global_group" data-x="0" data-w="12">
+<!-- start coded_template: id:3646437396 path:generated_global_groups/3646437371.html -->
+<div class="" data-global-widget-path="generated_global_groups/3646437371.html"><div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell header-wrapper with-navigation" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell header-inner-wrapper centered" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-3 ">
+<div class="row-fluid ">
+<div class="span4 widget-span widget-type-logo header-logo" style="" data-widget-type="logo" data-x="0" data-w="4">
+<!--end layout-widget-wrapper -->
+</div><!--end widget-span -->
+<div class="span8 widget-span widget-type-menu menu-reset flyouts-fade flyouts-slide main-navigation sticky menu-top-15" style="" data-widget-type="menu" data-x="4" data-w="8">
+<div class="cell-wrapper layout-widget-wrapper">
+<span id="hs_cos_wrapper_module_14496767418724" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_module_14496767418724" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="Main">
+ <ul>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="//www.e-zest.com/our-focus">Focus</a>
+   <ul class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/digital-commerce-services">Digital Commerce Services</a></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children"><a href="//www.e-zest.com/digital-experience-engineering">Digital Experience</a>
+     <ul class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/digital-experience-development-approach">Creating Experience</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/usability-engineering-services">Experience design</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/digital-strategy-services">Digital Strategy</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/digital-marketing-services">Digital Marketing</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/enterprise-services">Enterprise Mobility</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/enterprise-collaboration-services">Enterprise CMS Solutions</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/e-business">E-Commerce Solutions</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/digital-agency-solutions">Solutions for Digital Agencies</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/digital-experience-development-approach">Digital Experience Delivery Platforms</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children"><a href="//www.e-zest.com/productivity-solutions">Productivity</a>
+     <ul class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/productivity-platforms">Productivity Platforms</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/sharepoint-experience-engineering">Sharepoint Experience Engineering</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/information-architecture-on-sharepoint">Information Architecture on Sharepoint</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/digital-enterprise-and-digital-workplace">Digital Enterprise and Digital Workplace</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/business-processes-and-workflows">Business Processes and Workflows</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/enterprise-social-strategy-consulting-services">Enterprise Social Strategy Consulting Services</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/business-critical-application-integration">Business Critical Application Integration</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/search-discovery-and-findability-solutions">Search, Discovery and Findability Solutions</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children"><a href="//www.e-zest.com/cloud-and-big-data-analytics-solutions">Cloud and Big Data</a>
+     <ul class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/cloud-managed-services-sla">Managed Cloud Services</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/big-data-analytics">Analytics &amp; Big Data</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/cloud-platforms">Cloud Platforms</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/bi-tools">Analytics / BI Platforms</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/big-data-platforms">BigData Platforms</a></li>
+     </ul></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="//www.e-zest.com/innovations">Innovations</a>
+   <ul class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/smarterme-sales-productivity-re-defined">SmarterMe</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/cloudmap-cloud-orchestration-platform">CloudMAP</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/scorm-offline-player">Offline SCORM Player</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/tabit">TABIT</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/iris-knowledge-management-system">IRIS</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="//www.e-zest.com/technologies">Technology</a>
+   <ul class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/microsoft-technology-digital-transformation">Microsoft</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/j2ee-competency">Enterprise Java</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/open-source-competency">Open Source</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/mobile-operating-system/">Mobility Platforms</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/enterprise-platforms">Enterprise Platforms</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="//www.e-zest.com/services">Services</a>
+   <ul class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/offshore-product-development">Product Engineering for ISVs &amp; Start-ups</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/enterprise-application-services">Enterprise Application Services</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/independent-testing-services">Independent Testing Services</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/remote-infrastructure-management">Infrastructure Management Services</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/business_consulting/">Management Consulting Services</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/bpo-services">BPO/KPO Services</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="//www.e-zest.com/industry">Industry</a>
+   <ul class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/healthcare">Healthcare</a></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children"><a href="//www.e-zest.com/public-solution-development-services">Public Sector</a>
+     <ul class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/e-governance-solution-development-services">e-Governance Solutions</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/public-services-for-international-agencies">Services for International Agencies</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/manufacturing-solutions">Manufacturing</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/finance/">Finance</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/e-learning-solutions">e-Learning</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/travel-and-tourism-solutions">Travel and Tourism Solutions</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="//www.e-zest.com/about">About</a>
+   <ul class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/our-values">Culture &amp; Values</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/leadership-team">Leadership</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/board-of-directors">Board of Directors</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/clients">Clients</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/corporate-social-responsibility">CSR</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/insights">Perspective / Insights</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/career">Career</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/news-events">News &amp; Events</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/locations">Locations</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1"><a href="//blog.e-zest.com"><span>Blog</span></a></li>
+  <li class="hs-menu-item hs-menu-depth-1"><a href="//www.e-zest.com/request-for-services">
+    <div>
+     Contact Us
+    </div></a></li>
+ </ul>
+</div></span></div><!--end layout-widget-wrapper -->
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+</div><!-- end coded_template: id:3646437396 path:generated_global_groups/3646437371.html -->
+
+            </div><!--end widget-span -->
+        </div><!--end row-->
+        </div><!--end row-wrapper -->
+
+    </div><!--end header -->
+</div><!--end header wrapper -->
+
+<div class="body-container-wrapper">
+    <div class="body-container container-fluid">
+
+        <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+        <div class="row-fluid ">
+            <div class="span12 widget-span widget-type-cell hero-wrapper" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+                <div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+                <div class="row-fluid ">
+                    <div class="span12 widget-span widget-type-cell centered-small" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+                        <div class="row-fluid-wrapper row-depth-2 row-number-1 ">
+                        <div class="row-fluid ">
+                            <div class="span12 widget-span widget-type-header " style="" data-widget-type="header" data-x="0" data-w="12">
+                                <div class="cell-wrapper layout-widget-wrapper">
+                                    <span id="hs_cos_wrapper_module_14509432248707604" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_header" style="" data-hs-cos-general-type="widget" data-hs-cos-type="header"><h1><span id="hs_cos_wrapper_name" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="text">Market Surveys & Data Analytics </span></h1></span>
+                                </div><!--end layout-widget-wrapper -->
+                            </div><!--end widget-span -->
+                        </div><!--end row-->
+                        </div><!--end row-wrapper -->
+                        <div class="row-fluid-wrapper row-depth-2 row-number-2 ">
+                        <div class="row-fluid ">
+                            <div class="span12 widget-span widget-type-rich_text " style="" data-widget-type="rich_text" data-x="0" data-w="12">
+                                <div class="cell-wrapper layout-widget-wrapper">
+                                    <span id="hs_cos_wrapper_module_14509432659418859" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p>Helping businesses improve processes</p></span>
+                                </div><!--end layout-widget-wrapper -->
+                            </div><!--end widget-span -->
+                        </div><!--end row-->
+                        </div><!--end row-wrapper -->
+                        <div class="row-fluid-wrapper row-depth-2 row-number-3 ">
+                        <div class="row-fluid ">
+                            <div class="span12 widget-span widget-type-rich_text " style="" data-widget-type="rich_text" data-x="0" data-w="12">
+                                <div class="cell-wrapper layout-widget-wrapper">
+                                    <span id="hs_cos_wrapper_module_145112232657853958" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><a class="default-button" href="/request-for-services">Get In Touch ›</a></p></span>
+                                </div><!--end layout-widget-wrapper -->
+                            </div><!--end widget-span -->
+                        </div><!--end row-->
+                        </div><!--end row-wrapper -->
+                    </div><!--end widget-span -->
+            </div><!--end row-->
+            </div><!--end row-wrapper -->
+            <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+            <div class="row-fluid ">
+                <div class="span12 widget-span widget-type-raw_jinja " style="" data-widget-type="raw_jinja" data-x="0" data-w="12">
+
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <style>
+
+        body .hero-wrapper {
+
+            
+            
+
+            
+            
+
+            
+            
+                background-color: #fcfcfc;
+            
+
+            
+            
+                background-image: url(https://www.e-zest.com/hubfs/background_images/mgmt-consulting-services.jpg?t=1510343398533);
+            
+
+            
+            
+                background-position: center center;
+            
+
+            
+            
+                background-repeat: no-repeat;
+            
+
+            
+            
+                background-attachment: fixed;
+            
+
+            
+            
+                -webkit-background-size: cover;
+                background-size: cover;
+            
+
+            
+            
+        }
+        
+        
+        
+        
+        
+        
+            body .hero-wrapper,
+            body .hero-wrapper q,
+            body .hero-wrapper blockquote,
+            body .hero-wrapper hr,
+            body .hero-wrapper .field > label {
+                color: #ffffff;
+            }
+            body .hero-wrapper hr {
+                background: #ffffff;
+            }
+        
+        
+        
+        
+            body .hero-wrapper h1,
+            body .hero-wrapper h2,
+            body .hero-wrapper h3,
+            body .hero-wrapper h4,
+            body .hero-wrapper h5,
+            body .hero-wrapper h6,
+            body .hero-wrapper .section-intro {
+                color: #ffffff;
+            }
+            body .hero-wrapper h1:after {
+                background: #ffffff;
+            }
+        
+
+        
+        
+            body .hero-wrapper a {
+                color: #ffffff;
+            }
+        
+
+    </style>
+
+
+
+</div><!--end widget-span -->
+
+            </div><!--end row-->
+            </div><!--end row-wrapper -->
+        </div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+<div class="row-fluid-wrapper row-depth-0 row-number-1 ">
+<div class="row-fluid ">
+    <div class="span12 widget-span widget-type-cell content-section columns-section two-column-right-section" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+        <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+        <div class="row-fluid ">
+            <div class="span12 widget-span widget-type-cell centered column-equal-height medium-stack" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+                <div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+                <div class="row-fluid ">
+                    <div class="span8 widget-span widget-type-widget_container column main-column" style="" data-widget-type="widget_container" data-x="0" data-w="8">
+                        <span id="hs_cos_wrapper_module_14045563837526290" class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" style="" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><div id="hs_cos_wrapper_widget_3699427007" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><span class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container">RAPID DATA COLLECTION
+Proprietary software enables rapid survey design and limitless customization.
+18m respondents in over 60 countries, with granular subpopulation targeting.
+19 demographic variables automatically appended to responses.
+48-hour data turnaround on most surveys with sample sizes of 1,000.
+Dar icon 2
+ROBUST AND ACTIONABLE ANALYTICS
+Contextual. Our analyses are structured to support your strategic needs.
+Experienced. Team members were pioneers in data science across numerous industries.
+Quality. Statistical standards exceed our competition.
+Dar icon 3
+BOARDROOM-READY REPORTING
+Our reports are structured for narrative flow, and are designed to support strategic decision making out of the box.
+We provide actionable insights, not a PowerPoint tome of random facts.
+We strive to make things simple and clear, not overwhelming and dense..&nbsp;</span></p>
+<p><span class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><span class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container">Also, while changing&nbsp;</span></span>business processes, any downtime can cost the company a lot in terms of opportunity and costs. With Business Process Management (BPM) software, companies can identify and fill gaps in their business processes, while being compatible with existing systems.</p>
+<div>
+<p><strong>Why BPM?</strong></p>
+<p>BPM gives process owners great flexibility to describe, execute, analyze and improve processes. It provides a business-oriented architecture that allows process owners to set improvement goals and orchestrate actions across the company to achieve those goals.&nbsp;This end-to-end visibility of the process delivers unprecedented insight into process performance.&nbsp;</p>
+<p>ABC understands different perspective required for building and implementation of BPM solutions. We have delivered high quality BPM software to businesses.&nbsp;</p>
+<p><strong><span class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container">Why partner with ABC?</span></strong></p>
+<ul>
+<li>Because processes are always changing, and we held build dynamic&nbsp;BPM solutions.</li>
+<li>The tools needed for process improvement are different than the tools for service implementation and management. We understand it very well.&nbsp;</li>
+<li>We quickly and flexibly define end-to-end processes, identify performance goals and manage those goals.</li>
+<li>While lack of a SOA is not a barrier, not a pre-requisite to success of any BPM platform, we have an SOA in place. We belive this adds to flexibility and simplifies deployment of BPM platforms.</li>
+</ul>
+<p>Our BPM consulting methodology follows top-down business process management approach which addresses the most pressing needs of the modern enterprise – to acquire the agility necessary for survival in a globalized, digitized marketplace, while complying with statutory regulations and company policies, all within a safely controlled management hierarchy.</p>
+<ol>
+<li>First draw up a process architecture, to unite business goals with business processes. Goals are the true foundation of all business activities.</li>
+<li>Apply Human Interaction Management (HIM), to make best use of the talent in your organization, at all levels of the organization chart – not in order to downsize your people, but rather in order to leverage the skills you have on board. You can gain the dual advantages of structure (for efficiency) and agility (for responsiveness) through HIM.</li>
+<li>Use BPM/workflow to improve performance of mechanical work. The idea that BPM makes it possible for businesses to change mechanical processes on the fly is a complete myth. The IT department needs to stay involved for the complete duration, because you need them to architect the new version of a mechanical process. The IT staff makes sure that it complies with regulations, before testing and deployment.&nbsp;</li>
+<li>Finally,look at all the processes you have defined – both human-driven and mechanical and ask - &nbsp;Which of these could make use of your services? Then build the services you need, not those suggested by the IT department.</li>
+<li>At ABC, with our process consulting partner ANAAR Consulting, USA, we provide strategy consulting, process compliance services and integrated BPM solutions suite matching needs of customers.</li>
+</ol>
+</div></div></span>
+                    </div><!--end widget-span -->
+                    <div class="span4 widget-span widget-type-widget_container column sidebar right" style="" data-widget-type="widget_container" data-x="8" data-w="4">
+                        <span id="hs_cos_wrapper_module_140455646182616613" class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" style="" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><div id="hs_cos_wrapper_widget_3699427012" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><div class="module-wrapper"><p><!--HubSpot Call-to-Action Code --> 
+<span class="hs-cta-wrapper" id="hs-cta-wrapper-09d4a015-7569-4ef5-a534-f74fa28e6e34"> <span class="hs-cta-node hs-cta-09d4a015-7569-4ef5-a534-f74fa28e6e34" id="hs-cta-09d4a015-7569-4ef5-a534-f74fa28e6e34"> 
+<!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--> <a href="http://cta-redirect.hubspot.com/cta/redirect/744339/09d4a015-7569-4ef5-a534-f74fa28e6e34"><img class="hs-cta-img" id="hs-cta-img-09d4a015-7569-4ef5-a534-f74fa28e6e34" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/744339/09d4a015-7569-4ef5-a534-f74fa28e6e34.png" alt="Request for Services"></a> </span> <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script> <script type="text/javascript">
+hbspt.cta.load(744339, '09d4a015-7569-4ef5-a534-f74fa28e6e34');
+</script> </span> 
+<!-- end HubSpot Call-to-Action Code --><br> <!--HubSpot Call-to-Action Code --> 
+<span class="hs-cta-wrapper" id="hs-cta-wrapper-50499f26-1836-40ae-8258-c9777ad4cc5c"> <span class="hs-cta-node hs-cta-50499f26-1836-40ae-8258-c9777ad4cc5c" id="hs-cta-50499f26-1836-40ae-8258-c9777ad4cc5c"> 
+<!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--> <a href="http://cta-redirect.hubspot.com/cta/redirect/744339/50499f26-1836-40ae-8258-c9777ad4cc5c"><img class="hs-cta-img" id="hs-cta-img-50499f26-1836-40ae-8258-c9777ad4cc5c" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/744339/50499f26-1836-40ae-8258-c9777ad4cc5c.png" alt="White Papers"></a> </span> <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script> <script type="text/javascript">
+hbspt.cta.load(744339, '50499f26-1836-40ae-8258-c9777ad4cc5c');
+</script> </span> 
+<!-- end HubSpot Call-to-Action Code --><br> <!--HubSpot Call-to-Action Code --> 
+<span class="hs-cta-wrapper" id="hs-cta-wrapper-88f4cc0d-6d60-437d-9bea-8673f7a053fe"> <span class="hs-cta-node hs-cta-88f4cc0d-6d60-437d-9bea-8673f7a053fe" id="hs-cta-88f4cc0d-6d60-437d-9bea-8673f7a053fe"> 
+<!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--> <a href="http://cta-redirect.hubspot.com/cta/redirect/744339/88f4cc0d-6d60-437d-9bea-8673f7a053fe"><img class="hs-cta-img" id="hs-cta-img-88f4cc0d-6d60-437d-9bea-8673f7a053fe" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/744339/88f4cc0d-6d60-437d-9bea-8673f7a053fe.png" alt="Case Studies"></a> </span> <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script> <script type="text/javascript">
+hbspt.cta.load(744339, '88f4cc0d-6d60-437d-9bea-8673f7a053fe');
+</script> </span> 
+<!-- end HubSpot Call-to-Action Code --></p> </div></div>
+<div id="hs_cos_wrapper_widget_3699427017" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><div class="module-wrapper"><h3>Related Information</h3>
+<ul>
+<li><a href="/microsoft-crm-consulting/">Microsoft CRM Consulting</a></li>
+<li><a href="/km_consulting/">Knowledge Management Consulting</a></li>
+<li><a href="/open_source_consulting/">Open Source Consulting</a></li>
+<li><a href="/feasibility-analysis-india/">Feasibility Analysis Consulting</a></li>
+<li><a href="/e-business_consulting/">e-Business Consulting</a></li>
+<li><a href="/crm-consulting/">CRM Consluting</a></li>
+<li><a href="/technical_consulting/">Technology Consulting</a></li>
+<li><a href="/business_consulting/">Business Consulting</a></li>
+<li><a href="/web-2.0-application-development-services">Web 2.0 Development</a></li>
+</ul> </div></div></span>
+                    </div><!--end widget-span -->
+                </div><!--end row-->
+                </div><!--end row-wrapper -->
+            </div><!--end widget-span -->
+    </div><!--end row-->
+    </div><!--end row-wrapper -->
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+    </div><!--end body -->
+</div><!--end body wrapper -->
+
+<div class="footer-container-wrapper">
+    <div class="footer-container container-fluid">
+
+        <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+        <div class="row-fluid ">
+            <div class="span12 widget-span widget-type-global_group " style="" data-widget-type="global_group" data-x="0" data-w="12">
+<!-- start coded_template: id:3670990962 path:generated_global_groups/3670990947.html -->
+<div class="" data-global-widget-path="generated_global_groups/3670990947.html"><div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell footer-wrapper" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell footer-main" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-3 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell centered medium-stack" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-4 ">
+<div class="row-fluid ">
+<div class="span3 widget-span widget-type-cell footer-column" style="" data-widget-type="cell" data-x="0" data-w="3">
+
+<div class="row-fluid-wrapper row-depth-2 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-linked_image " style="" data-widget-type="linked_image" data-x="0" data-w="12">
+<div class="cell-wrapper layout-widget-wrapper">
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+
+
+
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell footer-bottom" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell centered" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-3 ">
+<div class="row-fluid ">
+<div class="span6 widget-span widget-type-page_footer footer-copyright1 footer-go-foggy" style="" data-widget-type="page_footer" data-x="0" data-w="6">
+<div class="cell-wrapper layout-widget-wrapper">
+<span id="hs_cos_wrapper_module_144967676630618" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_page_footer" style="" data-hs-cos-general-type="widget" data-hs-cos-type="page_footer">
+<footer>
+    <span class="hs-footer-company-copyright">© 2017 ABC Consulting</span>
 </footer>
+</span></div><!--end layout-widget-wrapper -->
+</div><!--end widget-span -->
+<div class="span6 widget-span widget-type-rich_text " style="" data-widget-type="rich_text" data-x="6" data-w="6">
+<div class="cell-wrapper layout-widget-wrapper">
+<span id="hs_cos_wrapper_module_14514766896621473" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p style="text-align: right;"><a href="http://www.e-zest.net/privacypolicy/">Privacy Policy</a> &nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.e-zest.net/legal-disclaimer">Disclaimer</a></p></span>
+</div><!--end layout-widget-wrapper -->
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
 
-    <div id="modal-auth-window" class="modal modal-auth">
-  <div class="content">
-    <div id="modal-sign-in">
-  <div class="auth-social">
-      <a id="facebook-connect-sign-in" href="/users/auth/facebook"><button class='social-button facebook'>Log in with Facebook</button></a>
-      <a id="google_oauth2-connect-sign-in" href="/users/auth/google_oauth2"><button class='social-button google_oauth2'>Log in with Google</button></a>
-  </div>
-  <form id="sign-in-user" class="new_user" action="/users/sign_in" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
-    <div id="foo_id_1510347462"><style type="text/css" media="screen" scoped="scoped">#foo_id_1510347462 { display:none; }</style><label for="foo_id">If you are a human, ignore this field</label><input type="text" name="foo_id" id="foo_id" /></div>
-    <div class="auth-social-error">Oops! Something went wrong. Please contact administrator.</div>
-    <div class="auth-or"><div>or</div></div>
-    <div class="auth-login-error"></div>
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
 
-    <input placeholder="Email address" autocomplete="off" tabindex="1" type="email" value="" name="user[email]" id="user_email" />
-    <input placeholder="Password" autocomplete="off" tabindex="2" type="password" name="user[password]" id="user_password" />
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
 
-    <label for="user_remember_me">
-      <input name="user[remember_me]" type="hidden" value="0" /><input type="checkbox" value="1" name="user[remember_me]" id="user_remember_me" />
-      <label tabindex="3" for="user_remember_me"><span class="checkbox"></span><span class="text">Remember me</span></label>
-</label>
-    <a class="forgot-password link" data-resetpath="/users/password/new" href="javascript:;">Forgot password</a>
-    <a class="resend-confirmation link" data-resendpath="/users/confirmation/new" href="javascript:;">Resend confirmation instructions.</a>
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+</div><!-- end coded_template: id:3670990962 path:generated_global_groups/3670990947.html -->
 
-    <div style="clear: both;"></div>
-    <div class="submit">
-      <input type="submit" name="commit" value="Log In" tabindex="4" data-disable-with="Log In" />
-    </div>
-</form></div>
+            </div><!--end widget-span -->
+        </div><!--end row-->
+        </div><!--end row-wrapper -->
 
-    <div id="modal-sign-up">
-  <div class="auth-social">
-      <a id="facebook-connect-sign-up" href="/users/auth/facebook"><button class='social-button facebook'>Sign up with Facebook</button></a>
-      <a id="google_oauth2-connect-sign-up" href="/users/auth/google_oauth2"><button class='social-button google_oauth2'>Sign up with Google</button></a>
-  </div>
-  <form id="sign-up-user" autocomplete="off" class="new_user" action="/users" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
-    <div id="baz_id_1510347462"><style type="text/css" media="screen" scoped="scoped">#baz_id_1510347462 { display:none; }</style><label for="baz_id">If you are a human, ignore this field</label><input type="text" name="baz_id" id="baz_id" /></div>
-    <div class="auth-social-error">Oops! Something went wrong. Please contact administrator.</div>
-    <div class="auth-or"><div>or</div></div>
-    <div class="auth-signup-error"></div>
-    <div class="auth-terms-error">You must agree to Terms of Service.</div>
+    </div><!--end footer -->
+</div><!--end footer wrapper -->
 
-    <input placeholder="First Name" tabindex="1" autocomplete="off" type="text" name="user[first_name]" id="user_first_name" />
-    <input placeholder="Last Name" tabindex="1" autocomplete="off" type="text" name="user[last_name]" id="user_last_name" />
 
-    <input placeholder="Email address" tabindex="2" autocomplete="off" type="email" value="" name="user[email]" id="user_email" />
-    <input placeholder="Password (8 characters or more)" tabindex="3" autocomplete="off" type="password" name="user[password]" id="user_password" />
-
-    <label class="terms-label" for="terms">
-      <input type="checkbox" name="terms" id="terms" value="1" />
-      <label tabindex="4" for="terms"><span class='checkbox'></span><span class='text terms-label'>By signing up, I agree to <a target="_blank" href="/pages/terms-of-use">Terms of Service</a></span></label>
-</label>    <input type="hidden" name="token" id="token" />
-    <div class="submit">
-      <input type="submit" name="commit" value="Sign Up" tabindex="5" data-disable-with="Sign Up" />
-    </div>
-</form></div>
-
-    <div id="modal-sign-up-message">
-  <h1>Account registered.</h1>
-  <h2 class='success-message'></h2>
-  <div class='close-success-message'>Close</div>
-</div>
-
-  </div>
-</div>
-<script src="/assets/home/auth-c238f90f1a85a6bbc6c52c9c52a1df9b4cbfcc845b9465978f375ae62108dd9b.js"></script>
-<script type="text/javascript">
-  $(function() {
-      var signup = new Trackwave.Form({
-        form_container: '#sign-up-user',
-        error_class_name: '.auth-signup-error',
-        disable_with: 'Signing up...',
-        check_terms: true
-      });
-      signup.register();
-
-      var signin = new Trackwave.Form({
-        form_container: '#sign-in-user',
-        error_class_name: '.auth-login-error',
-        disable_with: 'Logging in...',
-        check_terms: false
-      });
-      signin.register();
-    });
+    
+<script type="text/javascript" src="https://static.hsstatic.net/content_shared_assets/static-1.4049/js/public_common.js"></script>
+<script src="https://static.hsstatic.net/AsyncSupport/static-1.7/js/post_listing_asset.js"></script>
+<script>
+  hsjQuery(document).ready(function () {
+    var options = {
+      'id': "769389336",
+      'listing_url': "/_hcms/postlisting?blogId=3203284127&maxLinks=4&listingType=recent&orderByViews=false&hs-expires=1510948570&hs-version=1&hs-signature=AIj1bPu_wEV1mX3BQFFGxva6jXwLwEzDoA",
+      'include_featured_image': false
+    };
+    window.hsPopulateListingFeed(options);
+  });
 </script>
 
-    <a href="#modal-location-surveys" class="login locations-surveys-link" rel="modal:open">
-  You have <span>0</span> available surveys in nearby locations
-</a>
-<div id="modal-location-surveys" class="modal modal-nearby-locations">
-  <h1>Want to share your thoughts here?</h1>
-  <div class="modal-scroll">
-    <div class="content">
-      <div class='locations-list'></div>
-    </div>
-  </div>
-</div>
+
+        <!--[if lte IE 8]>
+        <script charset="utf-8" src="https://js.hsforms.net/forms/v2-legacy.js"></script>
+        <![endif]-->
+     
+<script src="https://js.hsforms.net/forms/v2.js"></script>
+
+    <script>
+        hbspt.forms.create({
+            portalId: '744339',
+            formId: '22c3f1ae-be53-4109-b02c-7c16cbfd6f26',
+            formInstanceId: '3043',
+            pageId: 3699427022,
+            
+            
+            
+            
+            pageName: "Business Process Management (BPM) Consulting Services",
+            
+            
+            redirectUrl: "http:\/\/www.e-zest.com\/bpm_consulting\/?portalId=744339&hsFormKey=82c8f16f8eb4834c41d62892df3e71ac#module_144967676630613",
+            
+            
+            
+            css: '',
+            target: '#hs_form_target_module_144967676630613',
+            
+            
+            
+            
+            
+            contentType: "standard-page",
+            
+            formData: {
+            cssClass: 'hs-form stacked hs-custom-form'
+            }
+        });
+    </script>
 
 
-<a href="#modal-namaste" class="feedback-success" rel="modal:open"></a>
-<div id="modal-namaste" class="modal modal-namaste">
-  <h1>Success</h1>
-  <div class='modal-scroll'>
-    <div class="content">
-      <div class="namaste">
-        <img alt="Thank you" src="/assets/survey/survey_thank_you_namaste-de5e336fb8e6020a0c87d256d5c86071efd0869573bbc14ef5d5d26abdcb4982.gif" />
-      </div>
+<!-- Start of HubSpot Analytics Code -->
+<script type="text/javascript">
+var _hsq = _hsq || [];
+_hsq.push(["setContentType", "standard-page"]);
+_hsq.push(["setCanonicalUrl", "http:\/\/www.e-zest.com\/bpm_consulting\/"]);
+_hsq.push(["setPageId", "3699427022"]);
+_hsq.push(["setContentMetadata", {
+    "contentPageId": 3699427022,
+    "legacyPageId": "3699427022",
+    "contentGroupId": null,
+    "abTestId": null,
+    "languageVariantId": 3699427022,
+    "languageCode": null
+}]);
+_hsq.push(["setTargetedContentMetadata", []]);
+</script>
 
-      <a class="button grey right" rel="modal:close" href="javascript:;">Close</a>
-      <a class="button green right" rel="modal:open" href="#modal-location-surveys ">Have more to share?</a>
-    </div>
-  </div>
-</div>
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/744339.js"></script>
+<!-- End of HubSpot Analytics Code -->
 
-  </body>
-</html>
+
+<script type="text/javascript">
+var hsVars = {
+    ticks: 1510343470960,
+    page_id: 3699427022,
+    content_group_id: 0,
+    portal_id: 744339,
+    app_hs_base_url: "https://app.hubspot.com",
+    language: "en",
+    analytics_page_type: "standard-page"
+}
+</script>
+
+
+
+<span id="hs_cos_wrapper_module_145139695009786494" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p style="text-align: center; font-size: 10px; padding: 0px 50px;">e-Zest Solutions is digital experience engineering company with facilities in the United States (Detroit &amp; San Jose), Germany (Hannover), United Kingdom (London UK) and India (Pune) with global clientele. Our services include custom software development, offshore software development, UX consulting, BigData, Managed cloud Services (Azure &amp; AWS), SharePoint consulting/Migration, Enterprise Java application development, Automated software testing services.</p></span>
+
+
+    <!-- Generated by the HubSpot Template Builder - template version 1.03 -->
+
+<!-- end coded_template: id:3859515515 path:generated_layouts/3859515505.html -->
+</body></html>
