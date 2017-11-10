@@ -256,7 +256,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <div class="browser_width grpelem" id="u10932-bw">
        <div class="gradient" id="u10932"><!-- group -->
         <div class="clearfix" id="u10932_align_to_page">
-         <a class="nonblock nontext MuseLinkActive clip_frame grpelem shared_content" id="u23197" href="index.html" data-href="page:U74" data-content-guid="u23197_content"><!-- svg --><img class="svg temp_no_img_src" id="u23193" data-orig-src="images/rexer-logo.svg?crc=4194367979" width="167" height="50" alt="Rexer Analytics Logo" data-mu-svgfallback="images/rexer-logo_poster_.png?crc=4140564334" src="images/abclogo.jpg"/></a>
+         <a class="nonblock nontext MuseLinkActive clip_frame grpelem shared_content" id="u23197" href="index.html" data-href="page:U74" data-content-guid="u23197_content"><!-- svg --><img class="svg temp_no_img_src" id="u23193" data-orig-src="images/rexer-logo.svg?crc=4194367979" width="167" height="50" alt="Rexer Analytics Logo" data-mu-svgfallback="images/rexer-logo_poster_.png?crc=4140564334" src="images/blank.gif?crc=4208392903"/></a>
          <nav class="MenuBar clearfix grpelem" id="menuu6657"><!-- horizontal box -->
           <div class="MenuItemContainer clearfix grpelem" id="u6658"><!-- vertical box -->
            <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix colelem" id="u6659" href="index.html" data-href="page:U74"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u6660-4" data-IBE-flags="txtStyleSrc"><!-- content --><p class="shared_content" data-content-guid="u6660-4_0_content">HOME</p></div></a>
@@ -610,7 +610,81 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      </div>
      <a class="anchor_item colelem shared_content" id="news" data-content-guid="news_content"></a>
      <!-- m_editable region-id="editable-static-tag-U30361-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-
+     <div class="clearfix colelem shared_content" id="u30361-4" data-muse-uid="U30361" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-content-guid="u30361-4_content"><!-- content -->
+      <p>Recent News</p>
+     </div>
+     <!-- /m_editable -->
+     <div class="colelem shared_content" id="u30363" data-content-guid="u30363_content"><!-- simple frame --></div>
+     <div class="colelem shared_content" id="u30362" data-content-guid="u30362_content"><!-- simple frame --></div>
+     <div class="clearfix colelem" id="pu30365"><!-- group -->
+      <div class="size_fixed grpelem shared_content" id="u30365" data-content-guid="u30365_content"><!-- custom html -->
+       
+            
+      </div>
+      <div class="size_fixed grpelem shared_content" id="u620266" data-content-guid="u620266_content"><!-- custom html -->
+       
+            
+      </div>
+      <div class="grpelem shared_content" id="u618062" data-content-guid="u618062_content"><!-- custom html -->
+       <div style="display:block;height:230px;width:100%;clear:both;position: relative;overflow:scroll!important;" id="home-news">
+<script language="JavaScript" src="http://feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Frexeranalytics.com%2Fnews%2Fcategory%2Ffeatured%2Ffeed%2F&desc=200&targ=n&utf=y&css="  charset="UTF-8" type="text/javascript">
+</script>
+</div>
+      </div>
+     </div>
+     <div class="browser_width colelem shared_content" id="u1405-bw" data-content-guid="u1405-bw_content">
+      <div id="u1405"><!-- group -->
+       <div class="clearfix" id="u1405_align_to_page">
+        <div class="clearfix grpelem" id="u1411"><!-- column -->
+         <div class="clearfix colelem" id="u1415-4" data-IBE-flags="txtStyleSrc"><!-- content -->
+          <p><span id="u1415">Main Navigation</span></p>
+         </div>
+         <a class="nonblock nontext MuseLinkActive clearfix colelem" id="u1413-4" href="index.html" data-href="page:U74" data-IBE-flags="txtStyleSrc"><!-- content --><p>Home</p></a>
+         <a class="nonblock nontext clearfix colelem" id="u1412-4" href="clients.html" data-href="page:U708" data-IBE-flags="txtStyleSrc"><!-- content --><p>Clients</p></a>
+         <a class="nonblock nontext clearfix colelem" id="u1416-4" href="thought-leadership.html" data-href="page:U25488" data-IBE-flags="txtStyleSrc"><!-- content --><p>Thought Leadership</p></a>
+         <a class="nonblock nontext clearfix colelem" id="u1417-4" href="about.html" data-href="page:U728" data-IBE-flags="txtStyleSrc"><!-- content --><p>About</p></a>
+         <a class="nonblock nontext clearfix colelem" id="u1414-4" href="contact.html" data-href="page:U738" data-IBE-flags="txtStyleSrc"><!-- content --><p>Contact</p></a>
+        </div>
+        <div class="clearfix grpelem" id="pu1419"><!-- column -->
+         <div class="clearfix colelem" id="u1419"><!-- column -->
+          <div class="footer-style clearfix colelem" id="u1420-4" data-IBE-flags="txtStyleSrc"><!-- content -->
+           <p>Quick Links</p>
+          </div>
+          <a class="nonblock nontext clearfix colelem" id="u26763-4" href="data-science-survey.html" data-href="page:U808" data-IBE-flags="txtStyleSrc"><!-- content --><p>Data Science Surveys</p></a>
+          <a class="nonblock nontext clearfix colelem" id="u1422-4" href="testimonials.html" data-href="page:U15640"><!-- content --><p>Testimonials</p></a>
+          <a class="nonblock nontext clearfix colelem" id="u1421-4" href="news/" data-IBE-flags="txtStyleSrc"><!-- content --><p>News</p></a>
+         </div>
+         <div class="clearfix colelem shared_content" id="u24363-4" data-IBE-flags="txtStyleSrc" data-content-guid="u24363-4_content"><!-- content -->
+          <p>© 2017 Rexer Analytics. All Rights Reserved.</p>
+         </div>
+        </div>
+        <div class="clearfix grpelem shared_content" id="u3983" data-content-guid="u3983_content"><!-- column -->
+         <a class="nonblock nontext clearfix colelem" id="u1408-4" href="contact.html" data-href="page:U738" data-IBE-flags="txtStyleSrc"><!-- content --><p><span id="u1408">Contact Us</span></p></a>
+         <div class="clearfix colelem" id="u3980"><!-- group -->
+          <div class="clip_frame grpelem" id="u23214"><!-- svg -->
+           <img class="svg temp_no_img_src" id="u23210" data-orig-src="images/contact-icon.svg?crc=122394086" width="25" height="25" alt="" data-mu-svgfallback="images/contact-icon_poster_.png?crc=3871839073" src="images/blank.gif?crc=4208392903"/>
+          </div>
+          <a class="nonblock nontext clearfix grpelem" id="u1409-4" href="tel:16172338185" data-IBE-flags="txtStyleSrc"><!-- content --><p>617-233-8185</p></a>
+         </div>
+         <div class="clearfix colelem" id="u3981"><!-- group -->
+          <div class="clip_frame grpelem" id="u23220"><!-- svg -->
+           <img class="svg temp_no_img_src" id="u23216" data-orig-src="images/mail-icon.svg?crc=4159189615" width="25" height="25" alt="" data-mu-svgfallback="images/mail-icon_poster_.png?crc=457653501" src="images/blank.gif?crc=4208392903"/>
+          </div>
+          <a class="nonblock nontext clearfix grpelem" id="u1407-4" href="mailto:info@rexeranalytics.com" data-IBE-flags="txtStyleSrc"><!-- content --><p>Email Us</p></a>
+         </div>
+         <div class="clearfix colelem" id="u3982"><!-- group -->
+          <div class="clip_frame grpelem" id="u23208"><!-- svg -->
+           <img class="svg temp_no_img_src" id="u23204" data-orig-src="images/address-icon.svg?crc=292022270" width="25" height="25" alt="" data-mu-svgfallback="images/address-icon_poster_.png?crc=4229990188" src="images/blank.gif?crc=4208392903"/>
+          </div>
+          <div class="clearfix grpelem" id="u1410-6" data-IBE-flags="txtStyleSrc"><!-- content -->
+           <p>30 Vine Street</p>
+           <p>Winchester, MA 01890</p>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
     </div>
    </div>
    <div class="preload_images">

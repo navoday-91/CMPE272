@@ -76,8 +76,7 @@
 <div class="row-fluid-wrapper row-depth-1 row-number-3 ">
 <div class="row-fluid ">
 <div class="span4 widget-span widget-type-logo header-logo" style="" data-widget-type="logo" data-x="0" data-w="4">
-<div class="cell-wrapper layout-widget-wrapper">
-<span id="hs_cos_wrapper_module_14496767418723" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_logo" style="" data-hs-cos-general-type="widget" data-hs-cos-type="logo"><a href="//www.e-zest.com/" id="hs-link-module_14496767418723" style="border-width:0px;border:0px;"><img src="https://www.e-zest.com/hs-fs/hubfs/images/128-e-Zest-logo.png?t=1510343398533&amp;width=128&amp;name=128-e-Zest-logo.png" class="hs-image-widget " style="width:128px;border-width:0px;border:0px;" width="128" alt="e-Zest Logo" title="e-Zest Logo" srcset="https://www.e-zest.com/hs-fs/hubfs/images/128-e-Zest-logo.png?t=1510343398533&amp;width=64&amp;name=128-e-Zest-logo.png 64w, https://www.e-zest.com/hs-fs/hubfs/images/128-e-Zest-logo.png?t=1510343398533&amp;width=128&amp;name=128-e-Zest-logo.png 128w, https://www.e-zest.com/hs-fs/hubfs/images/128-e-Zest-logo.png?t=1510343398533&amp;width=192&amp;name=128-e-Zest-logo.png 192w, https://www.e-zest.com/hs-fs/hubfs/images/128-e-Zest-logo.png?t=1510343398533&amp;width=256&amp;name=128-e-Zest-logo.png 256w, https://www.e-zest.com/hs-fs/hubfs/images/128-e-Zest-logo.png?t=1510343398533&amp;width=320&amp;name=128-e-Zest-logo.png 320w, https://www.e-zest.com/hs-fs/hubfs/images/128-e-Zest-logo.png?t=1510343398533&amp;width=384&amp;name=128-e-Zest-logo.png 384w" sizes="(max-width: 128px) 100vw, 128px"></a></span></div><!--end layout-widget-wrapper -->
+<!--end layout-widget-wrapper -->
 </div><!--end widget-span -->
 <div class="span8 widget-span widget-type-menu menu-reset flyouts-fade flyouts-slide main-navigation sticky menu-top-15" style="" data-widget-type="menu" data-x="4" data-w="8">
 <div class="cell-wrapper layout-widget-wrapper">
@@ -389,8 +388,8 @@
 <div>
 <p><strong>Why BPM?</strong></p>
 <p>BPM gives process owners great flexibility to describe, execute, analyze and improve processes. It provides a business-oriented architecture that allows process owners to set improvement goals and orchestrate actions across the company to achieve those goals.&nbsp;This end-to-end visibility of the process delivers unprecedented insight into process performance.&nbsp;</p>
-<p>e-Zest understands different perspective required for building and implementation of BPM solutions. We have delivered high quality BPM software to businesses.&nbsp;</p>
-<p><strong><span class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container">Why partner with e-Zest?</span></strong></p>
+<p>ABC understands different perspective required for building and implementation of BPM solutions. We have delivered high quality BPM software to businesses.&nbsp;</p>
+<p><strong><span class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container">Why partner with ABC?</span></strong></p>
 <ul>
 <li>Because processes are always changing, and we held build dynamic&nbsp;BPM solutions.</li>
 <li>The tools needed for process improvement are different than the tools for service implementation and management. We understand it very well.&nbsp;</li>
@@ -403,7 +402,7 @@
 <li>Apply Human Interaction Management (HIM), to make best use of the talent in your organization, at all levels of the organization chart – not in order to downsize your people, but rather in order to leverage the skills you have on board. You can gain the dual advantages of structure (for efficiency) and agility (for responsiveness) through HIM.</li>
 <li>Use BPM/workflow to improve performance of mechanical work. The idea that BPM makes it possible for businesses to change mechanical processes on the fly is a complete myth. The IT department needs to stay involved for the complete duration, because you need them to architect the new version of a mechanical process. The IT staff makes sure that it complies with regulations, before testing and deployment.&nbsp;</li>
 <li>Finally,look at all the processes you have defined – both human-driven and mechanical and ask - &nbsp;Which of these could make use of your services? Then build the services you need, not those suggested by the IT department.</li>
-<li>At e-Zest, with our process consulting partner ANAAR Consulting, USA, we provide strategy consulting, process compliance services and integrated BPM solutions suite matching needs of customers.</li>
+<li>At ABC, with our process consulting partner ANAAR Consulting, USA, we provide strategy consulting, process compliance services and integrated BPM solutions suite matching needs of customers.</li>
 </ol>
 </div></div></span>
                     </div><!--end widget-span -->
