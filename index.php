@@ -118,7 +118,7 @@
       </div>
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-trophy"></span>
         <div class="services-content">
-          <h5>Promotion material</h5>
+          <h5><a href = "services/promotions.php">Promotion material</a></h5>
 
         </div>
       </div>
