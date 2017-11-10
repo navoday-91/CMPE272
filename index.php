@@ -157,7 +157,7 @@
         </div>
         <!-- overlay --> 
         </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-4.jpg" class="work-box"> <img src="images/work-4.jpg" alt="">
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="services/analytics.php" class="work-box"> <img src="images/work-4.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <h5>Managing Tastes!</h5>
