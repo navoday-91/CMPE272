@@ -94,7 +94,7 @@
       </div>
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-briefcase"></span>
         <div class="services-content">
-          <h5><a href = "services/branding.php">corporate identity</a></h5>
+          <h5><a href = "services/branding1.php">corporate identity</a></h5>
 
         </div>
       </div>
@@ -106,7 +106,7 @@
       </div>
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-genius"></span>
         <div class="services-content">
-          <h5>Branding</h5>
+          <h5><a href = "services/branding.php">Branding</a></h5>
 
         </div>
       </div>
@@ -134,7 +134,7 @@
         <div class="overlay">
           <div class="overlay-caption">
             <h5>Changing How It Looks!</h5>
-            <p>Portal Design</p>
+            <p><a href = "services/portal.php">Portal Design</a></p>
           </div>
         </div>
         <!-- overlay --> 
@@ -143,7 +143,7 @@
         <div class="overlay">
           <div class="overlay-caption">
             <h5>Process Matters!</h5>
-            <p>Process Management</p>
+            <p><a href = "services/process_mgmt.php">Process Management</a></p>
           </div>
         </div>
         <!-- overlay --> 
@@ -152,7 +152,7 @@
         <div class="overlay">
           <div class="overlay-caption">
             <h5>Compliance & Standardization</h5>
-            <p>Compliance Certifications</p>
+            <p><a href = "services/comp_cert.php">Compliance Certifications</a></p>
           </div>
         </div>
         <!-- overlay --> 
