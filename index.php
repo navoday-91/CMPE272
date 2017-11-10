@@ -88,19 +88,19 @@
     <div class="row">
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-strategy"></span>
         <div class="services-content">
-          <h5>Strategy & Consulting</h5>
+          <h5><a href = "services/str_cnslt.php">Strategy & Consulting</a></h5>
 
         </div>
       </div>
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-briefcase"></span>
         <div class="services-content">
-          <h5>corporate identity</h5>
+          <h5><a href = "services/branding.php">corporate identity</a></h5>
 
         </div>
       </div>
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-tools"></span>
         <div class="services-content">
-          <h5>web design and development</h5>
+          <h5><a href = "services/webdesign.php">web design and development</a></h5>
 
         </div>
       </div>
