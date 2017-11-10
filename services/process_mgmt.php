@@ -2,10 +2,10 @@
 <!doctype html><!-- start coded_template: id:3859515515 path:generated_layouts/3859515505.html --><!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en">        <![endif]--><!--[if IE 8]>    <html class="no-js lt-ie9" lang="en">               <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="author" content="e-Zest Solutions">
-    <meta name="description" content="e-Zest provides business process management (BPM) consulting services and understands perspective required for building and implementation of BPM solutions.">
+    <meta name="author" content="ABC Solutions">
+    <meta name="description" content="ABC Consulting provides business process management (BPM) consulting services and understands perspective required for building and implementation of BPM solutions.">
     <meta name="generator" content="HubSpot">
-    <title>Business Process Management (BPM) Consulting Services from e-Zest</title>
+    <title>Business Process Management (BPM) Consulting Servicest</title>
     <link rel="shortcut icon" href="https://www.e-zest.com/hubfs/images/sitefavicon.ico?t=1510343398533">
 
     
@@ -38,11 +38,11 @@
 
 </script>
 
-<meta property="og:image" content="http://cdn2.hubspot.net/hubfs/744339/E-Zest_Images/128X128-pxl.png">
+<meta property="og:image" content="images/abclogo.jpg">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="200">
 <meta property="og:image:height" content="200">
-<meta property="og:url" content="http://www.e-zest.com/bpm_consulting/">
+<meta property="og:url" content="http://abc-consulting.tk/">
 <link href="//cdn2.hubspot.net/hub/-1/hub_generated/template_assets/1495141902003/hubspot_default/shared/responsive/layout.min.css" rel="stylesheet">
 
 
@@ -476,70 +476,15 @@ hbspt.cta.load(744339, '88f4cc0d-6d60-437d-9bea-8673f7a053fe');
 <div class="row-fluid ">
 <div class="span12 widget-span widget-type-linked_image " style="" data-widget-type="linked_image" data-x="0" data-w="12">
 <div class="cell-wrapper layout-widget-wrapper">
-<span id="hs_cos_wrapper_module_14514758045398354" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="linked_image"><a href="//www.e-zest.com/gdcr-2017" id="hs-link-module_14514758045398354" style="border-width:0px;border:0px;"><img src="https://www.e-zest.com/hs-fs/hubfs/global%20day%20of%20Coderetreat%20white%20200x200-white.jpg?t=1510343398533&amp;width=200&amp;name=global%20day%20of%20Coderetreat%20white%20200x200-white.jpg" class="hs-image-widget " style="width:200px;border-width:0px;border:0px;" width="200" alt="Know more about Global Day of Coderetreat 2017" title="Know more about Global Day of Coderetreat 2017" srcset="https://www.e-zest.com/hs-fs/hubfs/global%20day%20of%20Coderetreat%20white%20200x200-white.jpg?t=1510343398533&amp;width=100&amp;name=global%20day%20of%20Coderetreat%20white%20200x200-white.jpg 100w, https://www.e-zest.com/hs-fs/hubfs/global%20day%20of%20Coderetreat%20white%20200x200-white.jpg?t=1510343398533&amp;width=200&amp;name=global%20day%20of%20Coderetreat%20white%20200x200-white.jpg 200w, https://www.e-zest.com/hs-fs/hubfs/global%20day%20of%20Coderetreat%20white%20200x200-white.jpg?t=1510343398533&amp;width=300&amp;name=global%20day%20of%20Coderetreat%20white%20200x200-white.jpg 300w, https://www.e-zest.com/hs-fs/hubfs/global%20day%20of%20Coderetreat%20white%20200x200-white.jpg?t=1510343398533&amp;width=400&amp;name=global%20day%20of%20Coderetreat%20white%20200x200-white.jpg 400w, https://www.e-zest.com/hs-fs/hubfs/global%20day%20of%20Coderetreat%20white%20200x200-white.jpg?t=1510343398533&amp;width=500&amp;name=global%20day%20of%20Coderetreat%20white%20200x200-white.jpg 500w, https://www.e-zest.com/hs-fs/hubfs/global%20day%20of%20Coderetreat%20white%20200x200-white.jpg?t=1510343398533&amp;width=600&amp;name=global%20day%20of%20Coderetreat%20white%20200x200-white.jpg 600w" sizes="(max-width: 200px) 100vw, 200px"></a></span></div><!--end layout-widget-wrapper -->
+
 </div><!--end widget-span -->
 </div><!--end row-->
 </div><!--end row-wrapper -->
 
 </div><!--end widget-span -->
-<div class="span3 widget-span widget-type-cell footer-column" style="" data-widget-type="cell" data-x="3" data-w="3">
-
-<div class="row-fluid-wrapper row-depth-2 row-number-2 ">
-<div class="row-fluid ">
-<div class="span12 widget-span widget-type-post_listing footer-posts footer-go-foggy" style="" data-widget-type="post_listing" data-x="0" data-w="12">
-<div class="cell-wrapper layout-widget-wrapper">
-<span id="hs_cos_wrapper_module_144967676630611" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_post_listing" style="" data-hs-cos-general-type="widget" data-hs-cos-type="post_listing"><div class="block">
-  <h3>From Our Blog</h3>
-  <div class="widget-module">
-    <ul class="hs-hash-769389336">
-    </ul>
-  </div>
-</div>
-</span></div><!--end layout-widget-wrapper -->
-</div><!--end widget-span -->
-</div><!--end row-->
-</div><!--end row-wrapper -->
-
-</div><!--end widget-span -->
-<div class="span3 widget-span widget-type-cell footer-column" style="" data-widget-type="cell" data-x="6" data-w="3">
-
-<div class="row-fluid-wrapper row-depth-2 row-number-3 ">
-<div class="row-fluid ">
-<div class="span12 widget-span widget-type-form footer-subscribe" style="" data-widget-type="form" data-x="0" data-w="12">
-<div class="cell-wrapper layout-widget-wrapper">
-<span id="hs_cos_wrapper_module_144967676630613" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_form" style="" data-hs-cos-general-type="widget" data-hs-cos-type="form"><h3 id="hs_cos_wrapper_module_144967676630613_title" class="hs_cos_wrapper form-title" data-hs-cos-general-type="widget_field" data-hs-cos-type="text">Subscribe to Newsletter</h3>
-
-<div id="hs_form_target_module_144967676630613"></div>
-
-    
-     
 
 
 
-
-
-
-
-</span>
-</div><!--end layout-widget-wrapper -->
-</div><!--end widget-span -->
-</div><!--end row-->
-</div><!--end row-wrapper -->
-
-</div><!--end widget-span -->
-<div class="span3 widget-span widget-type-cell footer-column" style="" data-widget-type="cell" data-x="9" data-w="3">
-
-<div class="row-fluid-wrapper row-depth-2 row-number-4 ">
-<div class="row-fluid ">
-<div class="span12 widget-span widget-type-follow_me footer-social footer-go-foggy" style="" data-widget-type="follow_me" data-x="0" data-w="12">
-<div class="cell-wrapper layout-widget-wrapper">
-<span id="hs_cos_wrapper_module_144967676630615" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_follow_me" style="" data-hs-cos-general-type="widget" data-hs-cos-type="follow_me"><h3>Connect With Us</h3>
-<div style=""><a href="https://www.youtube.com/user/ezestcorporate" class="fm_button fm_youtube" target="_blank"><span style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.hsappstatic.net/social_shared/static-2.2815/img/followme/icon_youtube.png', sizingMethod='scale');  width: 32px; height: 32px; display:inline-block;cursor:pointer;  background-image:url('//static.hsappstatic.net/social_shared/static-2.2815/img/followme/icon_youtube.png'); _background-image:none;" title="Follow us on YouTube"></span></a><a href="http://www.linkedin.com/company/e-zest-solutions" class="fm_button fm_linkedin" target="_blank"><span style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.hsappstatic.net/social_shared/static-2.2815/img/followme/icon_linkedin.png', sizingMethod='scale');  width: 32px; height: 32px; display:inline-block;cursor:pointer;  background-image:url('//static.hsappstatic.net/social_shared/static-2.2815/img/followme/icon_linkedin.png'); _background-image:none;" title="Follow us on Linkedin"></span></a><a href="http://www.facebook.com/pages/e-Zest/61259256638" class="fm_button fm_facebook" target="_blank"><span style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.hsappstatic.net/social_shared/static-2.2815/img/followme/icon_facebook.png', sizingMethod='scale');  width: 32px; height: 32px; display:inline-block;cursor:pointer;  background-image:url('//static.hsappstatic.net/social_shared/static-2.2815/img/followme/icon_facebook.png'); _background-image:none;" title="Follow us on Facebook"></span></a><a href="https://twitter.com/ezest" class="fm_button fm_twitter" target="_blank"><span style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.hsappstatic.net/social_shared/static-2.2815/img/followme/icon_twitter.png', sizingMethod='scale');  width: 32px; height: 32px; display:inline-block;cursor:pointer;  background-image:url('//static.hsappstatic.net/social_shared/static-2.2815/img/followme/icon_twitter.png'); _background-image:none;" title="Follow us on Twitter"></span></a></div></span></div><!--end layout-widget-wrapper -->
-</div><!--end widget-span -->
-</div><!--end row-->
-</div><!--end row-wrapper -->
-
-</div><!--end widget-span -->
 </div><!--end row-->
 </div><!--end row-wrapper -->
 
@@ -565,7 +510,7 @@ hbspt.cta.load(744339, '88f4cc0d-6d60-437d-9bea-8673f7a053fe');
 <div class="cell-wrapper layout-widget-wrapper">
 <span id="hs_cos_wrapper_module_144967676630618" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_page_footer" style="" data-hs-cos-general-type="widget" data-hs-cos-type="page_footer">
 <footer>
-    <span class="hs-footer-company-copyright">© 2017 e-Zest Solutions</span>
+    <span class="hs-footer-company-copyright">© 2017 ABC Consulting</span>
 </footer>
 </span></div><!--end layout-widget-wrapper -->
 </div><!--end widget-span -->
@@ -629,7 +574,7 @@ hbspt.cta.load(744339, '88f4cc0d-6d60-437d-9bea-8673f7a053fe');
             
             
             
-            pageName: "Business Process Management (BPM) Consulting Services from e-Zest",
+            pageName: "Business Process Management (BPM) Consulting Services",
             
             
             redirectUrl: "http:\/\/www.e-zest.com\/bpm_consulting\/?portalId=744339&hsFormKey=82c8f16f8eb4834c41d62892df3e71ac#module_144967676630613",

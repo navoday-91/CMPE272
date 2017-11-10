@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>CCSRF | Compliance Certification Services Inc.</title>
+    <title>ABC | Compliance Certification Services Inc.</title>
 
 <link rel="stylesheet" href="http://www.ccsrf.com/wp-content/plugins/sitepress-multilingual-cms/res/css/language-selector.css?v=3.1.5" type="text/css" media="all" />
 
@@ -184,22 +184,6 @@
                                 
                             <div class="view-switcher"><!-- view switcher -->
             <div id="lang_sel"  >
-    <ul>
-        <li><a href="#" class="lang_sel_sel icl-en">
-            English</a>                                    
-            <ul>
-                                                <li class="icl-zh-hant">          
-                    <a href="http://www.ccsrf.com">
-                                        繁體中文                    </a>
-                </li>
-                                <li class="icl-zh-hans">          
-                    <a href="http://www.ccsrf.com?lang=zh-hans">
-                                        简体中文                    </a>
-                </li>
-                            </ul>            
-             
-                    </li>
-    </ul>    
 </div>
         </div>
                                 </div>
