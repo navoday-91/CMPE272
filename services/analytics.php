@@ -398,26 +398,14 @@ BOARDROOM-READY REPORTING
 Our reports are structured for narrative flow, and are designed to support strategic decision making out of the box.
 We provide actionable insights, not a PowerPoint tome of random facts.
 We strive to make things simple and clear, not overwhelming and dense..&nbsp;</span></p>
-<p><span class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><span class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container">Also, while changing&nbsp;</span></span>business processes, any downtime can cost the company a lot in terms of opportunity and costs. With Business Process Management (BPM) software, companies can identify and fill gaps in their business processes, while being compatible with existing systems.</p>
-<div>
-<p><strong>Why BPM?</strong></p>
-<p>BPM gives process owners great flexibility to describe, execute, analyze and improve processes. It provides a business-oriented architecture that allows process owners to set improvement goals and orchestrate actions across the company to achieve those goals.&nbsp;This end-to-end visibility of the process delivers unprecedented insight into process performance.&nbsp;</p>
-<p>ABC understands different perspective required for building and implementation of BPM solutions. We have delivered high quality BPM software to businesses.&nbsp;</p>
-<p><strong><span class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container">Why partner with ABC?</span></strong></p>
-<ul>
-<li>Because processes are always changing, and we held build dynamic&nbsp;BPM solutions.</li>
-<li>The tools needed for process improvement are different than the tools for service implementation and management. We understand it very well.&nbsp;</li>
-<li>We quickly and flexibly define end-to-end processes, identify performance goals and manage those goals.</li>
-<li>While lack of a SOA is not a barrier, not a pre-requisite to success of any BPM platform, we have an SOA in place. We belive this adds to flexibility and simplifies deployment of BPM platforms.</li>
-</ul>
-<p>Our BPM consulting methodology follows top-down business process management approach which addresses the most pressing needs of the modern enterprise – to acquire the agility necessary for survival in a globalized, digitized marketplace, while complying with statutory regulations and company policies, all within a safely controlled management hierarchy.</p>
-<ol>
-<li>First draw up a process architecture, to unite business goals with business processes. Goals are the true foundation of all business activities.</li>
-<li>Apply Human Interaction Management (HIM), to make best use of the talent in your organization, at all levels of the organization chart – not in order to downsize your people, but rather in order to leverage the skills you have on board. You can gain the dual advantages of structure (for efficiency) and agility (for responsiveness) through HIM.</li>
-<li>Use BPM/workflow to improve performance of mechanical work. The idea that BPM makes it possible for businesses to change mechanical processes on the fly is a complete myth. The IT department needs to stay involved for the complete duration, because you need them to architect the new version of a mechanical process. The IT staff makes sure that it complies with regulations, before testing and deployment.&nbsp;</li>
-<li>Finally,look at all the processes you have defined – both human-driven and mechanical and ask - &nbsp;Which of these could make use of your services? Then build the services you need, not those suggested by the IT department.</li>
-<li>At ABC, with our process consulting partner ANAAR Consulting, USA, we provide strategy consulting, process compliance services and integrated BPM solutions suite matching needs of customers.</li>
-</ol>
+
+We devised the following START principles to uphold our analytical integrity
+
+1  STRATEGICMatch the output of analysis to well-understood client needs
+2  TIMELYSupport prompt decisions while the data remain relevant
+3  ACTIONABLEEnable decisive conclusions on the basis of sound evidence
+4  ROBUSTWithstand tests of reliability without ambiguity
+5  TRANSPARENTCommunicate results for clarity of meaning and method
 </div></div></span>
                     </div><!--end widget-span -->
                     <div class="span4 widget-span widget-type-widget_container column sidebar right" style="" data-widget-type="widget_container" data-x="8" data-w="4">
@@ -645,7 +633,7 @@ var hsVars = {
 
 
 
-<span id="hs_cos_wrapper_module_145139695009786494" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p style="text-align: center; font-size: 10px; padding: 0px 50px;">e-Zest Solutions is digital experience engineering company with facilities in the United States (Detroit &amp; San Jose), Germany (Hannover), United Kingdom (London UK) and India (Pune) with global clientele. Our services include custom software development, offshore software development, UX consulting, BigData, Managed cloud Services (Azure &amp; AWS), SharePoint consulting/Migration, Enterprise Java application development, Automated software testing services.</p></span>
+
 
 
     <!-- Generated by the HubSpot Template Builder - template version 1.03 -->
