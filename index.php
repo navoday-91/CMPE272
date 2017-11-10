@@ -166,7 +166,7 @@
         </div>
         <!-- overlay --> 
         </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-5.jpg" class="work-box"> <img src="images/work-5.jpg" alt="">
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="services/mkt_trends.php" class="work-box"> <img src="images/work-5.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <h5>Keeping You One Step Ahead!</h5>
@@ -175,7 +175,7 @@
         </div>
         <!-- overlay --> 
         </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-6.jpg" class="work-box"> <img src="images/work-6.jpg" alt="">
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="services/suppchain.php" class="work-box"> <img src="images/work-6.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <h5>Supply Chain</h5>
@@ -184,7 +184,7 @@
         </div>
         <!-- overlay --> 
         </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-7.jpg" class="work-box"> <img src="images/work-7.jpg" alt="">
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="services/digmrktng.php" class="work-box"> <img src="images/work-7.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <h5>Reinventing Style</h5>
@@ -193,7 +193,7 @@
         </div>
         <!-- overlay --> 
         </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-8.jpg" class="work-box"> <img src="images/work-8.jpg" alt="">
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="services/legalconsulting.php" class="work-box"> <img src="images/work-8.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <h5>Legal Matters</h5>

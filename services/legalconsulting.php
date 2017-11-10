@@ -5,7 +5,7 @@
     <meta name="author" content="ABC Solutions">
     <meta name="description" content="ABC Consulting provides analytics services and understands perspective required for building and implementation of Business and Market Data.">
     <meta name="generator" content="HubSpot">
-    <title>Portals and CMS</title>
+    <title>Legal Consulting Services</title>
     <link rel="shortcut icon" href="https://www.e-zest.com/hubfs/images/sitefavicon.ico?t=1510343398533">
 
     
@@ -209,7 +209,7 @@
                         <div class="row-fluid ">
                             <div class="span12 widget-span widget-type-header " style="" data-widget-type="header" data-x="0" data-w="12">
                                 <div class="cell-wrapper layout-widget-wrapper">
-                                    <span id="hs_cos_wrapper_module_14509432248707604" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_header" style="" data-hs-cos-general-type="widget" data-hs-cos-type="header"><h1><span id="hs_cos_wrapper_name" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="text">Portal Management and CMS </span></h1></span>
+                                    <span id="hs_cos_wrapper_module_14509432248707604" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_header" style="" data-hs-cos-general-type="widget" data-hs-cos-type="header"><h1><span id="hs_cos_wrapper_name" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="text">Legal Consulting Services</span></h1></span>
                                 </div><!--end layout-widget-wrapper -->
                             </div><!--end widget-span -->
                         </div><!--end row-->
@@ -383,12 +383,25 @@
                 <div class="row-fluid-wrapper row-depth-1 row-number-2 ">
                 <div class="row-fluid ">
                     <div class="span8 widget-span widget-type-widget_container column main-column" style="" data-widget-type="widget_container" data-x="0" data-w="8">
-                        <span id="hs_cos_wrapper_module_14045563837526290" class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" style="" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><div id="hs_cos_wrapper_widget_3699427007" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><span class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><blockquote>He who seeds a thought, harvests a destiny.<cite>ABC Proverb</cite></blockquote>
-<p>ABC is released on a creative commons licence, this means you are free to use the template for both business and personal purposes but the web designers link in the footer must remain. The link has been styled to be as unobtrusive as possible and every attempt has been made to give this template the the look and feel of a professionally designed website rather than that of a free template.</p>
-<p>ABC also features social media buttons which allow you to quickly and easily display your LinkedIn, Facebook, and Twitter profiles to people visiting your site.</p>
-<p>The footer area also contains three additional navigations, allowing you to provide links to terms of use, privacy policy and cookie policy pages without sacrificing the overall aesthetics of your website. If this template is well received I may consider porting it to wordpress in the not too distant future.</p>
-<p>Because the site is coded in valid HTML 5 and CSS 3, page load times are very quick which is beneficial for search engine optimisation, the file size of the page you are reading is just 5.9kb. The Main navigation mouseover images are also pre-loaded to ensure a smooth and enjoyable user experience.</p>
-<p>If you enjoy using this template and would like to receive updates regarding my future work, please visit my blog by clicking the links in the sidebar and either subscribe via rss to receive email updates, or follow me on Twitter, Facebook, or Google Plus.</p>
+                        <span id="hs_cos_wrapper_module_14045563837526290" class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" style="" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><div id="hs_cos_wrapper_widget_3699427007" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><span class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container">
+                        When you need expertise in specific practice areas, as well as proven tools, methodology and dedicated full-time consultants – ABC Legal can help.
+
+We provide scoping, advisory, and process improvement consulting for our law firm and corporate client’s legal projects and work flows.
+
+Our dedicated consulting team and technology solutions, can assist you in managing risks, providing controls, and driving efficiencies. Our team has expertise in areas such as:
+
+eDiscovery and Managed Document Review
+Mergers and Acquisitions
+Data Security and Privacy
+Contract Management and Lease Administration
+Health Care Solutions
+Information Governance
+Enterprise Governance Risk and Compliance
+Internal Investigations
+Financial Investigations
+Our proven experience and results-driven approach helps us provide you with effective solutions your team can implement moving forward. Our consulting solutions give you the benefit of world-class consulting and specialized staffing services under one roof.
+
+Contact us today to learn more about our consulting solutions and the benefits of working with ABC Legal Consulting. Read our case studies to see how we've helped other law firms and legal departments.
 </div></div></span>
                     </div><!--end widget-span -->
                     <div class="span4 widget-span widget-type-widget_container column sidebar right" style="" data-widget-type="widget_container" data-x="8" data-w="4">
