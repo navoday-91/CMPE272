@@ -1,254 +1,634 @@
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-
-<html style="height: 100%">
-<head>
+<!doctype html><!-- start coded_template: id:3859515515 path:generated_layouts/3859515505.html --><!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en">        <![endif]--><!--[if IE 8]>    <html class="no-js lt-ie9" lang="en">               <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="author" content="ABC Solutions">
+    <meta name="description" content="ABC Consulting provides analytics services and understands perspective required for building and implementation of Business and Market Data.">
+    <meta name="generator" content="HubSpot">
+    <title>Strategy and Consulting</title>
+    <link rel="shortcut icon" href="https://www.e-zest.com/hubfs/images/sitefavicon.ico?t=1510343398533">
+
     
-    <title>Strategic Consulting Website Template | WIX</title>
-    <meta name="description" content="A polished website template ready to promote your consulting or financial company. The sharp design and clean layout provide the perfect backdrop to highlight your firm’s services, projects, and professional qualifications.">
-    <meta name="author" content="Wixpress">
-    <meta http-equiv="content-language" content="en"/>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-
-    <meta property="og:title" content="Strategic Consulting Website Template | WIX"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://www.wix.com/website-template/view/html/741"/>
-    <meta property="og:image" content="//static.wixstatic.com/media/9013cb9a97a02d3b3bd86348e1baf95a.wix_mp"/>
-    <meta content="Wix" property="og:site_name">
-    <meta property="og:description" content="A polished website template ready to promote your consulting or financial company. The sharp design and clean layout provide the perfect backdrop to highlight your firm’s services, projects, and professional qualifications."/>
-    <meta property="fb:admins" content="731184828"/>
-    <meta name="fb:app_id" content="236335823061286"/>
-    <meta name="google-site-verification" content="QXhlrY-V2PWOmnGUb8no0L-fKzG48uJ5ozW0ukU7Rpo"/>
-
-        <link rel="canonical" href="https://www.wix.com/website-template/view/html/741"/>
-
-            <link rel="alternate" hreflang="fr" href="https://fr.wix.com/website-template/view/html/741"/>
-            <link rel="alternate" hreflang="pt" href="https://pt.wix.com/website-template/view/html/741"/>
-            <link rel="alternate" hreflang="cs" href="https://cs.wix.com/website-template/view/html/741"/>
-            <link rel="alternate" hreflang="it" href="https://it.wix.com/website-template/view/html/741"/>
-            <link rel="alternate" hreflang="nl" href="https://nl.wix.com/website-template/view/html/741"/>
-            <link rel="alternate" hreflang="ko" href="https://ko.wix.com/website-template/view/html/741"/>
-            <link rel="alternate" hreflang="de" href="https://de.wix.com/website-template/view/html/741"/>
-            <link rel="alternate" hreflang="ru" href="https://ru.wix.com/website-template/view/html/741"/>
-            <link rel="alternate" hreflang="sv" href="https://sv.wix.com/website-template/view/html/741"/>
-            <link rel="alternate" hreflang="tr" href="https://tr.wix.com/website-template/view/html/741"/>
-            <link rel="alternate" hreflang="da" href="https://da.wix.com/website-template/view/html/741"/>
-            <link rel="alternate" hreflang="en" href="https://www.wix.com/website-template/view/html/741"/>
-            <link rel="alternate" hreflang="es" href="https://es.wix.com/website-template/view/html/741"/>
-            <link rel="alternate" hreflang="hi" href="https://hi.wix.com/website-template/view/html/741"/>
-            <link rel="alternate" hreflang="ja" href="https://ja.wix.com/website-template/view/html/741"/>
-            <link rel="alternate" hreflang="no" href="https://no.wix.com/website-template/view/html/741"/>
-            <link rel="alternate" hreflang="pl" href="https://pl.wix.com/website-template/view/html/741"/>
-        <link rel="alternate" hreflang="x-default" href="https://www.wix.com/website-template/view/html/741" />
-
-
-    <!--CSS-->
-    <link rel="stylesheet" type="text/css" href="//static.parastorage.com/services/wix-html-template-viewer/1.1021.0/css/reset.css"/>
-    <link rel="stylesheet" type="text/css" href="//static.parastorage.com/services/wix-html-template-viewer/1.1021.0/new-create/css/fonts.css"/>
-    <link rel="stylesheet" type="text/css" href="//static.parastorage.com/services/wix-public/1.235.0/css/Helvetica/fontFace.css"/>
-    <link rel="stylesheet" type="text/css" href="//static.parastorage.com/services/wix-html-template-viewer/1.1021.0/css/template_viewer.css"/>
-
-
-    <!--[if lte IE 9]>
-    <link rel="stylesheet" type="text/css" href="//static.parastorage.com/services/wix-html-template-viewer/1.1021.0/css/ie9-and-down.css"/>
-    <![endif]-->
-
-    </head>
-<body lang="en" style="height: 100%">
-<!-- Google Tag Manager -->
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MDD5C4"
-                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
-            {'gtm.start': new Date().getTime(),event:'gtm.js'}
-    );var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-MDD5C4');</script>
-<!-- End Google Tag Manager -->
     
-<script type="text/javascript">
-    var backUrl = "http:\/\/www.wix.com\/website\/templates";
-    var editUrl = "http://editor.wix.com/html/editor/web/renderer/new?metaSiteId=129325b3-ed7d-ef0d-d2f9-50c86f83bfc4&siteId=493289e3-8e71-4572-8ae4-fa130aafc392";
-    var galleryDocIndex = "$pageModel.galleryDocIndex";
-    var originAppUrl = "$pageModel.unsafeJSoriginAppUrl";
-    var W = W || {};
-    W.App = W.App || {};
-    W.App.CLIENT_CONFIG = {"biServerUrl":"//frog.wix.com/spettatore_bi?src=2&openingSiteId=493289e3-8e71-4572-8ae4-fa130aafc392&originAppUrl=http%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates&siteType=2"};
-    W.App.currentViewMode = 'desktop';
+    <script src="https://static.hsstatic.net/jquery-libs/static-1.4/jquery/jquery-1.11.2.js"></script>
+    <script type="text/javascript">hsjQuery = window['jQuery']</script>
+    <link href="https://static.hsstatic.net/content_shared_assets/static-1.4049/css/public_common.css" rel="stylesheet">
+    <meta property="og:description" content=".">
+    <meta property="og:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:title" content="">
 
-    W.Globals = W.Globals || {};
-    W.Globals.lang =  "en";
-    var analytics = {"staging":false,"code":"UA-2117194-1","domain":"wix.com"};
-    var openAsTab = true;
 
-    //Storing dynamic text for responsive design
-    var headerTxt = {};
-    headerTxt.editButtonSmall = 'Edit';
-    headerTxt.mainHeaderSmall = 'Create your own amazing website';
-</script>
+    
+    
 
-<!-- FACEBOOK CODE API-->
-<div id="fb-root"></div>
+    
+    
+    <link rel="canonical" href="http://www.e-zest.com/bpm_consulting/">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <script>
-    /* Facebook Like Button*/
-    (function (d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    /*Google+ */
-    (function () {
-        var po = document.createElement('script');
-        po.type = 'text/javascript';
-        po.async = true;
-        po.src = 'https://apis.google.com/js/plusone.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(po, s);
-    })();
+  ga('create', 'UA-362796-1', 'auto');
+  ga('send', 'pageview');
+
 </script>
-<!-- End of FACEBOOK CODE -->
 
-<div id="container" class="template_viewer" style="height: 100%;">
-    <div id="header">
-        <div class="navigation">
-            <div id="wixLogo">
-                <a href="http://www.wix.com/">Wix Press</a>
-            </div>
-                            <div id="template-mode-toggle">
-                    <div class="view-mode-toggle-button view-mode-toggle-button-desktop" data="desktop" title="Desktop view"></div>
-                    <div class="view-mode-toggle-button view-mode-toggle-button-mobile" data="mobile" title="Mobile view"></div>
-                </div>
-                        <div class="templateDetails" itemscope itemtype="http://schema.org/Product/WebsiteTemplate">
-                <meta itemprop="name" content="Strategic Consulting"/>
-            </div>
-            <!-- End of .templateDetails-->
-            <div class="templatesButtons">
-                <span id="templatesName">Click Edit and create your own amazing website</span> <a id="readMore"
-                                                                                                           href="#">Read more</a>
-                <meta itemprop="image" content="//static.wixstatic.com/media/9013cb9a97a02d3b3bd86348e1baf95a.wix_mp"/>
-                <a href="#" class="button" id="editButton">Edit this site<span>&nbsp;</span></a>
-                <span id="categoriesHolder">
+<meta property="og:image" content="images/abclogo.jpg">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="200">
+<meta property="og:image:height" content="200">
+<meta property="og:url" content="http://abc-consulting.tk/">
+<link href="//cdn2.hubspot.net/hub/-1/hub_generated/template_assets/1495141902003/hubspot_default/shared/responsive/layout.min.css" rel="stylesheet">
 
-                </span>
-                <span class="priceTypeWrapper"> Price: <span
-                        id="priceType">Free</span></span>
-                <span class="html5icon"></span>
 
-                <div class="socialButtons">
-                    <div class="socialButtonsContent">
-                        <div class="facebookWrapper">
-                            <div class="fb-like" data-send="false" data-layout="button_count"
-                                 data-show-faces="true"></div>
-                        </div>
-                        <div class="googlePlusWrapper">
-                            <g:plusone size="medium"></g:plusone>
-                        </div>
-                    </div>
-                    <!-- end of .socialButtonsContent -->
-                </div>
-                <!-- end of .socialButtons -->
-            </div>
-        </div>
-        <!-- End of .navigation-->
-    </div>
-    <!-- End of #Header-->
-    <div id="headerShadows">
-        <div class="rightShadow"></div>
-        <div class="leftShadow"></div>
-    </div>
-    <!-- End of #HeaderShadows-->
-    <div class="contentWrapper" style="height: calc(100% - 46px);">
-                                    <div class="preview-tab preview-tab-desktop" style="height: 100%">
-                <iframe src="https://www.wix.com/demone2/strategic-consulting" width="100%" height="100%"></iframe>
-            </div>
+<link rel="stylesheet" href="https://www.e-zest.com/hs-fs/hub/744339/hub_generated/template_assets/1499943837348/custom/system/css/Act-Theme-Custom.min.css">
+
+
+    <!-- The style tag has been deprecated. Attached stylesheets are included in the required_head_tags page variable. -->
+    <!-- Act Theme Main.js, please do not delete -->
+<script src="//cdn2.hubspot.net/hub/273774/file-1924801657-js/mp/themes/Act-Theme/js/act-async-load.js"></script>
+<!--/ Act Theme Main.js, please do not delete -->
+    
+
+
+</head>
+<body class="act-theme act-two-column-hero   hs-content-id-3699427022 hs-site-page page " style="">
+    <div class="header-container-wrapper">
+    <div class="header-container container-fluid">
+
+        <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+        <div class="row-fluid ">
+            <div class="span12 widget-span widget-type-global_group " style="" data-widget-type="global_group" data-x="0" data-w="12">
+<!-- start coded_template: id:3646437396 path:generated_global_groups/3646437371.html -->
+<div class="" data-global-widget-path="generated_global_groups/3646437371.html"><div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell header-wrapper with-navigation" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell header-inner-wrapper centered" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-3 ">
+<div class="row-fluid ">
+<div class="span4 widget-span widget-type-logo header-logo" style="" data-widget-type="logo" data-x="0" data-w="4">
+<!--end layout-widget-wrapper -->
+</div><!--end widget-span -->
+<div class="span8 widget-span widget-type-menu menu-reset flyouts-fade flyouts-slide main-navigation sticky menu-top-15" style="" data-widget-type="menu" data-x="4" data-w="8">
+<div class="cell-wrapper layout-widget-wrapper">
+<span id="hs_cos_wrapper_module_14496767418724" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_module_14496767418724" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="Main">
+ <ul>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="//www.e-zest.com/our-focus">Focus</a>
+   <ul class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/digital-commerce-services">Digital Commerce Services</a></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children"><a href="//www.e-zest.com/digital-experience-engineering">Digital Experience</a>
+     <ul class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/digital-experience-development-approach">Creating Experience</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/usability-engineering-services">Experience design</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/digital-strategy-services">Digital Strategy</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/digital-marketing-services">Digital Marketing</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/enterprise-services">Enterprise Mobility</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/enterprise-collaboration-services">Enterprise CMS Solutions</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/e-business">E-Commerce Solutions</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/digital-agency-solutions">Solutions for Digital Agencies</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/digital-experience-development-approach">Digital Experience Delivery Platforms</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children"><a href="//www.e-zest.com/productivity-solutions">Productivity</a>
+     <ul class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/productivity-platforms">Productivity Platforms</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/sharepoint-experience-engineering">Sharepoint Experience Engineering</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/information-architecture-on-sharepoint">Information Architecture on Sharepoint</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/digital-enterprise-and-digital-workplace">Digital Enterprise and Digital Workplace</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/business-processes-and-workflows">Business Processes and Workflows</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/enterprise-social-strategy-consulting-services">Enterprise Social Strategy Consulting Services</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/business-critical-application-integration">Business Critical Application Integration</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/search-discovery-and-findability-solutions">Search, Discovery and Findability Solutions</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children"><a href="//www.e-zest.com/cloud-and-big-data-analytics-solutions">Cloud and Big Data</a>
+     <ul class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/cloud-managed-services-sla">Managed Cloud Services</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/big-data-analytics">Analytics &amp; Big Data</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/cloud-platforms">Cloud Platforms</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/bi-tools">Analytics / BI Platforms</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/big-data-platforms">BigData Platforms</a></li>
+     </ul></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="//www.e-zest.com/innovations">Innovations</a>
+   <ul class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/smarterme-sales-productivity-re-defined">SmarterMe</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/cloudmap-cloud-orchestration-platform">CloudMAP</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/scorm-offline-player">Offline SCORM Player</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/tabit">TABIT</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/iris-knowledge-management-system">IRIS</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="//www.e-zest.com/technologies">Technology</a>
+   <ul class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/microsoft-technology-digital-transformation">Microsoft</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/j2ee-competency">Enterprise Java</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/open-source-competency">Open Source</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/mobile-operating-system/">Mobility Platforms</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/enterprise-platforms">Enterprise Platforms</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="//www.e-zest.com/services">Services</a>
+   <ul class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/offshore-product-development">Product Engineering for ISVs &amp; Start-ups</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/enterprise-application-services">Enterprise Application Services</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/independent-testing-services">Independent Testing Services</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/remote-infrastructure-management">Infrastructure Management Services</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/business_consulting/">Management Consulting Services</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/bpo-services">BPO/KPO Services</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="//www.e-zest.com/industry">Industry</a>
+   <ul class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/healthcare">Healthcare</a></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children"><a href="//www.e-zest.com/public-solution-development-services">Public Sector</a>
+     <ul class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/e-governance-solution-development-services">e-Governance Solutions</a></li>
+      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/public-services-for-international-agencies">Services for International Agencies</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/manufacturing-solutions">Manufacturing</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/finance/">Finance</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/e-learning-solutions">e-Learning</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/travel-and-tourism-solutions">Travel and Tourism Solutions</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="//www.e-zest.com/about">About</a>
+   <ul class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/our-values">Culture &amp; Values</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/leadership-team">Leadership</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/board-of-directors">Board of Directors</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/clients">Clients</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/corporate-social-responsibility">CSR</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/insights">Perspective / Insights</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/career">Career</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/news-events">News &amp; Events</a></li>
+    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/locations">Locations</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1"><a href="//blog.e-zest.com"><span>Blog</span></a></li>
+  <li class="hs-menu-item hs-menu-depth-1"><a href="//www.e-zest.com/request-for-services">
+    <div>
+     Contact Us
+    </div></a></li>
+ </ul>
+</div></span></div><!--end layout-widget-wrapper -->
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+</div><!-- end coded_template: id:3646437396 path:generated_global_groups/3646437371.html -->
+
+            </div><!--end widget-span -->
+        </div><!--end row-->
+        </div><!--end row-wrapper -->
+
+    </div><!--end header -->
+</div><!--end header wrapper -->
+
+<div class="body-container-wrapper">
+    <div class="body-container container-fluid">
+
+        <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+        <div class="row-fluid ">
+            <div class="span12 widget-span widget-type-cell hero-wrapper" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+                <div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+                <div class="row-fluid ">
+                    <div class="span12 widget-span widget-type-cell centered-small" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+                        <div class="row-fluid-wrapper row-depth-2 row-number-1 ">
+                        <div class="row-fluid ">
+                            <div class="span12 widget-span widget-type-header " style="" data-widget-type="header" data-x="0" data-w="12">
+                                <div class="cell-wrapper layout-widget-wrapper">
+                                    <span id="hs_cos_wrapper_module_14509432248707604" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_header" style="" data-hs-cos-general-type="widget" data-hs-cos-type="header"><h1><span id="hs_cos_wrapper_name" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="text">Strategy Consulting Services</span></h1></span>
+                                </div><!--end layout-widget-wrapper -->
+                            </div><!--end widget-span -->
+                        </div><!--end row-->
+                        </div><!--end row-wrapper -->
+                        <div class="row-fluid-wrapper row-depth-2 row-number-2 ">
+                        <div class="row-fluid ">
+                            <div class="span12 widget-span widget-type-rich_text " style="" data-widget-type="rich_text" data-x="0" data-w="12">
+                                <div class="cell-wrapper layout-widget-wrapper">
+                                    <span id="hs_cos_wrapper_module_14509432659418859" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p>Helping businesses become strategy champions</p></span>
+                                </div><!--end layout-widget-wrapper -->
+                            </div><!--end widget-span -->
+                        </div><!--end row-->
+                        </div><!--end row-wrapper -->
+                        <div class="row-fluid-wrapper row-depth-2 row-number-3 ">
+                        <div class="row-fluid ">
+                            <div class="span12 widget-span widget-type-rich_text " style="" data-widget-type="rich_text" data-x="0" data-w="12">
+                                <div class="cell-wrapper layout-widget-wrapper">
+                                    <span id="hs_cos_wrapper_module_145112232657853958" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><a class="default-button" href="/request-for-services">Get In Touch ›</a></p></span>
+                                </div><!--end layout-widget-wrapper -->
+                            </div><!--end widget-span -->
+                        </div><!--end row-->
+                        </div><!--end row-wrapper -->
+                    </div><!--end widget-span -->
+            </div><!--end row-->
+            </div><!--end row-wrapper -->
+            <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+            <div class="row-fluid ">
+                <div class="span12 widget-span widget-type-raw_jinja " style="" data-widget-type="raw_jinja" data-x="0" data-w="12">
+
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <style>
+
+        body .hero-wrapper {
+
+            
+            
+
+            
+            
+
+            
+            
+                background-color: #fcfcfc;
+            
+
+            
+            
+                background-image: url(https://www.e-zest.com/hubfs/background_images/mgmt-consulting-services.jpg?t=1510343398533);
+            
+
+            
+            
+                background-position: center center;
+            
+
+            
+            
+                background-repeat: no-repeat;
+            
+
+            
+            
+                background-attachment: fixed;
+            
+
+            
+            
+                -webkit-background-size: cover;
+                background-size: cover;
+            
+
+            
+            
+        }
         
-        <!--</div>--><!-- End of .content-->
-    </div>
-    <!-- End of .contentWrapper-->
-
-    <div id="dialog-overlay"></div>
-    <div id="dialog-box">
-        <a id="close-pop-up-button" href="#">Close Pop Up Button</a>
-        <div class="dialog-content">
-            <h1 class="dialog-title">&#8216;Strategic Consulting&#8217; - Website Template</h1>
-            <div class="leftColumn">
-                <h3>Good For:</h3>
-
-                <div id="dialog-good-for">Business, consultants and professionals </div>
-                <h3>Description:</h3>
-
-                <div id="dialog-description" itemprop="description">A polished website template ready to promote your consulting or financial company. The sharp design and clean layout provide the perfect backdrop to highlight your firm’s services, projects, and professional qualifications.</div>
-            </div>
-            <div class="rightColumn">
-                                                                <span>
-					<h3>Difficulty:&nbsp;</h3>
-					<div id="dialog-difficulty" itemprop="difficulty">Medium</div>
-				</span>
-				<span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-					<h3>Price:&nbsp;</h3>
-					<div id="dialog-price" itemprop="price">Free</div>
-					<link itemprop="availability" href="http://schema.org/InStock"/>
-				</span>
-                <a href="#" id="dialog-edit-now">Edit now</a>
-            </div>
-            <div class="clearBoth">&nbsp;</div>
-        </div>
-        <div class="dialog-box-shadows">
-            <div class="leftShadow"></div>
-            <div class="rightShadow"></div>
-        </div>
-    </div>
-    <!-- End of #dialog-box-->
-
-</div>
-<!-- End of #container-->
-
-<!--Scripts after page loads-->
-<script src="//static.wix.com/services/third-party/jquery/1.4.3/min/jquery.js" type="text/javascript"></script>
-<script type="text/javascript" src="//static.parastorage.com/services/wix-html-template-viewer/1.1021.0/js/components/scrollbar/custom-scrollbar.js"></script>
-<script type="text/javascript" src="//static.parastorage.com/services/wix-html-template-viewer/1.1021.0/js/common.js"></script>
-<script src="//static.parastorage.com/services/wix-html-template-viewer/1.1021.0/js/template_viewer.js" type="text/javascript"></script>
-
+        
+        
+        
+        
+        
+            body .hero-wrapper,
+            body .hero-wrapper q,
+            body .hero-wrapper blockquote,
+            body .hero-wrapper hr,
+            body .hero-wrapper .field > label {
+                color: #ffffff;
+            }
+            body .hero-wrapper hr {
+                background: #ffffff;
+            }
+        
+        
+        
+        
+            body .hero-wrapper h1,
+            body .hero-wrapper h2,
+            body .hero-wrapper h3,
+            body .hero-wrapper h4,
+            body .hero-wrapper h5,
+            body .hero-wrapper h6,
+            body .hero-wrapper .section-intro {
+                color: #ffffff;
+            }
+            body .hero-wrapper h1:after {
+                background: #ffffff;
+            }
         
 
-<div style="visibility: hidden">view_template_v.vm</div>
-<script type="text/javascript">
-            window.templateEditUrl = 'http://editor.wix.com/html/editor/web/renderer/new?metaSiteId=129325b3-ed7d-ef0d-d2f9-50c86f83bfc4&siteId=493289e3-8e71-4572-8ae4-fa130aafc392';
+        
+        
+            body .hero-wrapper a {
+                color: #ffffff;
+            }
+        
+
+    </style>
+
+
+
+</div><!--end widget-span -->
+
+            </div><!--end row-->
+            </div><!--end row-wrapper -->
+        </div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+<div class="row-fluid-wrapper row-depth-0 row-number-1 ">
+<div class="row-fluid ">
+    <div class="span12 widget-span widget-type-cell content-section columns-section two-column-right-section" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+        <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+        <div class="row-fluid ">
+            <div class="span12 widget-span widget-type-cell centered column-equal-height medium-stack" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+                <div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+                <div class="row-fluid ">
+                    <div class="span8 widget-span widget-type-widget_container column main-column" style="" data-widget-type="widget_container" data-x="0" data-w="8">
+                        <span id="hs_cos_wrapper_module_14045563837526290" class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" style="" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><div id="hs_cos_wrapper_widget_3699427007" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><span class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container">Strategy
+Are your competitors talking about you in their boardrooms? Does your strategy guide how you allocate resources? Can every employee articulate your strategy and are they empowered to execute on it? At ABC, we see strategy as much more than a plan. Since  founding, strategy has been our core business. We work with companies in every industry to develop strategies that deliver results.
+<p>We see things that others miss, offering you more creative solutions that combine our deep geographic experience, intimate sector knowledge and clear insights into how to create value in your business.
+We work collaboratively, build lasting capabilities into your team and help your organization mobilize for change.
+We define our success by your results. We care deeply about our clients. We enjoy our work―and we have fun doing it.
+Our strategy consulting expertise includes:
+
+Fundamentals of growth: Only 1 in 9 companies succeeds in achieving sustained growth. We help companies grow by defining and focusing on their core.
+Business unit strategy: Effective strategy for business units requires making proprietary decisions about where to play and how to win. The goal is to enable a business to reach its full economic potential.
+Corporate strategy: Corporate strategy involves a proprietary set of actions that enables a company to be worth more than just the sum of its parts. The most critical role of the center is to help business units achieve leadership positions.
+Founder's Mentality®: To win in the long term, most companies need the cost advantages and scale of global incumbents. Yet, in achieving that scale, companies often lose what we call the Founder’s Mentality—the very core strengths and values that helped them succeed.
+Digital: We help companies develop digital strategies that deliver on core strategy, delight customers and enable them to operate smarter and faster. Our B2B Digital Strategy product, ABC Digital Radar℠, blends a practical set of near-term, high-impact initiatives with a bold vision for how the pace of digital innovation is likely to reshape the industry over time.
+BothBrain® Innovation: ABC works with clients to transform innovation for new product development and make big ideas actionable by combining creative strategy and analytic approaches.
+Emerging markets: Home to most of the world’s population and recording double-digit growth, emerging markets in Asia, Latin America and Eastern Europe are must-win areas for multinational companies. ABC helps companies navigate this unfamiliar terrain and successfully compete against indigenous companies and other multinationals.
+Sustainability: ABC helps companies develop renewable energy policies, realize the full potential of recycling processes and identify the impact of new trends and regulations, among other things.</p>
+</div></div></span>
+                    </div><!--end widget-span -->
+                    <div class="span4 widget-span widget-type-widget_container column sidebar right" style="" data-widget-type="widget_container" data-x="8" data-w="4">
+                        <span id="hs_cos_wrapper_module_140455646182616613" class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" style="" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><div id="hs_cos_wrapper_widget_3699427012" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><div class="module-wrapper"><p><!--HubSpot Call-to-Action Code --> 
+<span class="hs-cta-wrapper" id="hs-cta-wrapper-09d4a015-7569-4ef5-a534-f74fa28e6e34"> <span class="hs-cta-node hs-cta-09d4a015-7569-4ef5-a534-f74fa28e6e34" id="hs-cta-09d4a015-7569-4ef5-a534-f74fa28e6e34"> 
+<!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--> <a href="http://cta-redirect.hubspot.com/cta/redirect/744339/09d4a015-7569-4ef5-a534-f74fa28e6e34"><img class="hs-cta-img" id="hs-cta-img-09d4a015-7569-4ef5-a534-f74fa28e6e34" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/744339/09d4a015-7569-4ef5-a534-f74fa28e6e34.png" alt="Request for Services"></a> </span> <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script> <script type="text/javascript">
+hbspt.cta.load(744339, '09d4a015-7569-4ef5-a534-f74fa28e6e34');
+</script> </span> 
+<!-- end HubSpot Call-to-Action Code --><br> <!--HubSpot Call-to-Action Code --> 
+<span class="hs-cta-wrapper" id="hs-cta-wrapper-50499f26-1836-40ae-8258-c9777ad4cc5c"> <span class="hs-cta-node hs-cta-50499f26-1836-40ae-8258-c9777ad4cc5c" id="hs-cta-50499f26-1836-40ae-8258-c9777ad4cc5c"> 
+<!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--> <a href="http://cta-redirect.hubspot.com/cta/redirect/744339/50499f26-1836-40ae-8258-c9777ad4cc5c"><img class="hs-cta-img" id="hs-cta-img-50499f26-1836-40ae-8258-c9777ad4cc5c" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/744339/50499f26-1836-40ae-8258-c9777ad4cc5c.png" alt="White Papers"></a> </span> <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script> <script type="text/javascript">
+hbspt.cta.load(744339, '50499f26-1836-40ae-8258-c9777ad4cc5c');
+</script> </span> 
+<!-- end HubSpot Call-to-Action Code --><br> <!--HubSpot Call-to-Action Code --> 
+<span class="hs-cta-wrapper" id="hs-cta-wrapper-88f4cc0d-6d60-437d-9bea-8673f7a053fe"> <span class="hs-cta-node hs-cta-88f4cc0d-6d60-437d-9bea-8673f7a053fe" id="hs-cta-88f4cc0d-6d60-437d-9bea-8673f7a053fe"> 
+<!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--> <a href="http://cta-redirect.hubspot.com/cta/redirect/744339/88f4cc0d-6d60-437d-9bea-8673f7a053fe"><img class="hs-cta-img" id="hs-cta-img-88f4cc0d-6d60-437d-9bea-8673f7a053fe" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/744339/88f4cc0d-6d60-437d-9bea-8673f7a053fe.png" alt="Case Studies"></a> </span> <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script> <script type="text/javascript">
+hbspt.cta.load(744339, '88f4cc0d-6d60-437d-9bea-8673f7a053fe');
+</script> </span> 
+<!-- end HubSpot Call-to-Action Code --></p> </div></div>
+<div id="hs_cos_wrapper_widget_3699427017" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><div class="module-wrapper"><h3>Related Information</h3>
+<ul>
+<li><a href="/microsoft-crm-consulting/">Microsoft CRM Consulting</a></li>
+<li><a href="/km_consulting/">Knowledge Management Consulting</a></li>
+<li><a href="/open_source_consulting/">Open Source Consulting</a></li>
+<li><a href="/feasibility-analysis-india/">Feasibility Analysis Consulting</a></li>
+<li><a href="/e-business_consulting/">e-Business Consulting</a></li>
+<li><a href="/crm-consulting/">CRM Consluting</a></li>
+<li><a href="/technical_consulting/">Technology Consulting</a></li>
+<li><a href="/business_consulting/">Business Consulting</a></li>
+<li><a href="/web-2.0-application-development-services">Web 2.0 Development</a></li>
+</ul> </div></div></span>
+                    </div><!--end widget-span -->
+                </div><!--end row-->
+                </div><!--end row-wrapper -->
+            </div><!--end widget-span -->
+    </div><!--end row-->
+    </div><!--end row-wrapper -->
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+    </div><!--end body -->
+</div><!--end body wrapper -->
+
+<div class="footer-container-wrapper">
+    <div class="footer-container container-fluid">
+
+        <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+        <div class="row-fluid ">
+            <div class="span12 widget-span widget-type-global_group " style="" data-widget-type="global_group" data-x="0" data-w="12">
+<!-- start coded_template: id:3670990962 path:generated_global_groups/3670990947.html -->
+<div class="" data-global-widget-path="generated_global_groups/3670990947.html"><div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell footer-wrapper" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell footer-main" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-3 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell centered medium-stack" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-4 ">
+<div class="row-fluid ">
+<div class="span3 widget-span widget-type-cell footer-column" style="" data-widget-type="cell" data-x="0" data-w="3">
+
+<div class="row-fluid-wrapper row-depth-2 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-linked_image " style="" data-widget-type="linked_image" data-x="0" data-w="12">
+<div class="cell-wrapper layout-widget-wrapper">
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+
+
+
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell footer-bottom" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell centered" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-3 ">
+<div class="row-fluid ">
+<div class="span6 widget-span widget-type-page_footer footer-copyright1 footer-go-foggy" style="" data-widget-type="page_footer" data-x="0" data-w="6">
+<div class="cell-wrapper layout-widget-wrapper">
+<span id="hs_cos_wrapper_module_144967676630618" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_page_footer" style="" data-hs-cos-general-type="widget" data-hs-cos-type="page_footer">
+<footer>
+    <span class="hs-footer-company-copyright">© 2017 ABC Consulting</span>
+</footer>
+</span></div><!--end layout-widget-wrapper -->
+</div><!--end widget-span -->
+<div class="span6 widget-span widget-type-rich_text " style="" data-widget-type="rich_text" data-x="6" data-w="6">
+<div class="cell-wrapper layout-widget-wrapper">
+<span id="hs_cos_wrapper_module_14514766896621473" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p style="text-align: right;"><a href="http://www.e-zest.net/privacypolicy/">Privacy Policy</a> &nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.e-zest.net/legal-disclaimer">Disclaimer</a></p></span>
+</div><!--end layout-widget-wrapper -->
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+</div><!-- end coded_template: id:3670990962 path:generated_global_groups/3670990947.html -->
+
+            </div><!--end widget-span -->
+        </div><!--end row-->
+        </div><!--end row-wrapper -->
+
+    </div><!--end footer -->
+</div><!--end footer wrapper -->
+
+
+    
+<script type="text/javascript" src="https://static.hsstatic.net/content_shared_assets/static-1.4049/js/public_common.js"></script>
+<script src="https://static.hsstatic.net/AsyncSupport/static-1.7/js/post_listing_asset.js"></script>
+<script>
+  hsjQuery(document).ready(function () {
+    var options = {
+      'id': "769389336",
+      'listing_url': "/_hcms/postlisting?blogId=3203284127&maxLinks=4&listingType=recent&orderByViews=false&hs-expires=1510948570&hs-version=1&hs-signature=AIj1bPu_wEV1mX3BQFFGxva6jXwLwEzDoA",
+      'include_featured_image': false
+    };
+    window.hsPopulateListingFeed(options);
+  });
+</script>
+
+
+        <!--[if lte IE 8]>
+        <script charset="utf-8" src="https://js.hsforms.net/forms/v2-legacy.js"></script>
+        <![endif]-->
+     
+<script src="https://js.hsforms.net/forms/v2.js"></script>
+
+    <script>
+        hbspt.forms.create({
+            portalId: '744339',
+            formId: '22c3f1ae-be53-4109-b02c-7c16cbfd6f26',
+            formInstanceId: '3043',
+            pageId: 3699427022,
+            
+            
+            
+            
+            pageName: "Business Process Management (BPM) Consulting Services",
+            
+            
+            redirectUrl: "http:\/\/www.e-zest.com\/bpm_consulting\/?portalId=744339&hsFormKey=82c8f16f8eb4834c41d62892df3e71ac#module_144967676630613",
+            
+            
+            
+            css: '',
+            target: '#hs_form_target_module_144967676630613',
+            
+            
+            
+            
+            
+            contentType: "standard-page",
+            
+            formData: {
+            cssClass: 'hs-form stacked hs-custom-form'
+            }
+        });
     </script>
-<script src="https://apps.wix.com/wix-dealer-webapp/api/loadScript?location=location" type="application/javascript"></script>
-<script>
 
-    function randomUUID() {
-        var s = [], itoh = '0123456789ABCDEF';
-        for (var i = 0; i < 36; i++) s[i] = Math.floor(Math.random() * 0x10);
-        s[14] = 4;
-        s[19] = (s[19] & 0x3) | 0x8;
-        for (var i = 0; i < 36; i++) s[i] = itoh[s[i]];
-        s[8] = s[13] = s[18] = s[23] = '-';
-        return s.join('');
-    }
 
-    dealerLoaderApi = new DealerLoaderApi();
-    dealerLoaderApi.loadDealer({bannerLocation: 'TEMPLATE_VIEWER', dealerOptions: {
-        editorSessionId: randomUUID()
-        , siteId: '493289e3-8e71-4572-8ae4-fa130aafc392'
-        , metaSiteId: '129325b3-ed7d-ef0d-d2f9-50c86f83bfc4'
-    } });
-
+<!-- Start of HubSpot Analytics Code -->
+<script type="text/javascript">
+var _hsq = _hsq || [];
+_hsq.push(["setContentType", "standard-page"]);
+_hsq.push(["setCanonicalUrl", "http:\/\/www.e-zest.com\/bpm_consulting\/"]);
+_hsq.push(["setPageId", "3699427022"]);
+_hsq.push(["setContentMetadata", {
+    "contentPageId": 3699427022,
+    "legacyPageId": "3699427022",
+    "contentGroupId": null,
+    "abTestId": null,
+    "languageVariantId": 3699427022,
+    "languageCode": null
+}]);
+_hsq.push(["setTargetedContentMetadata", []]);
 </script>
 
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/744339.js"></script>
+<!-- End of HubSpot Analytics Code -->
+
+
 <script type="text/javascript">
-//<![CDATA[
-(function() {
-var _analytics_scr = document.createElement('script');
-_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1206311024';
-var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
-})();
-// ]]>
-</script></body>
-</html>
+var hsVars = {
+    ticks: 1510343470960,
+    page_id: 3699427022,
+    content_group_id: 0,
+    portal_id: 744339,
+    app_hs_base_url: "https://app.hubspot.com",
+    language: "en",
+    analytics_page_type: "standard-page"
+}
+</script>
+
+
+
+
+
+
+    <!-- Generated by the HubSpot Template Builder - template version 1.03 -->
+
+<!-- end coded_template: id:3859515515 path:generated_layouts/3859515505.html -->
+</body></html>

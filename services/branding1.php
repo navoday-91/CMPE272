@@ -5,7 +5,7 @@
     <meta name="author" content="ABC Solutions">
     <meta name="description" content="ABC Consulting provides analytics services and understands perspective required for building and implementation of Business and Market Data.">
     <meta name="generator" content="HubSpot">
-    <title>Branding</title>
+    <title>Corporate Identity</title>
     <link rel="shortcut icon" href="https://www.e-zest.com/hubfs/images/sitefavicon.ico?t=1510343398533">
 
     
@@ -209,7 +209,7 @@
                         <div class="row-fluid ">
                             <div class="span12 widget-span widget-type-header " style="" data-widget-type="header" data-x="0" data-w="12">
                                 <div class="cell-wrapper layout-widget-wrapper">
-                                    <span id="hs_cos_wrapper_module_14509432248707604" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_header" style="" data-hs-cos-general-type="widget" data-hs-cos-type="header"><h1><span id="hs_cos_wrapper_name" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="text">Branding Services</span></h1></span>
+                                    <span id="hs_cos_wrapper_module_14509432248707604" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_header" style="" data-hs-cos-general-type="widget" data-hs-cos-type="header"><h1><span id="hs_cos_wrapper_name" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="text">Corporate Identity Design </span></h1></span>
                                 </div><!--end layout-widget-wrapper -->
                             </div><!--end widget-span -->
                         </div><!--end row-->
@@ -218,7 +218,7 @@
                         <div class="row-fluid ">
                             <div class="span12 widget-span widget-type-rich_text " style="" data-widget-type="rich_text" data-x="0" data-w="12">
                                 <div class="cell-wrapper layout-widget-wrapper">
-                                    <span id="hs_cos_wrapper_module_14509432659418859" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p>Helping businesses become visible</p></span>
+                                    <span id="hs_cos_wrapper_module_14509432659418859" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p>Helping businesses look different</p></span>
                                 </div><!--end layout-widget-wrapper -->
                             </div><!--end widget-span -->
                         </div><!--end row-->
@@ -383,19 +383,11 @@
                 <div class="row-fluid-wrapper row-depth-1 row-number-2 ">
                 <div class="row-fluid ">
                     <div class="span8 widget-span widget-type-widget_container column main-column" style="" data-widget-type="widget_container" data-x="0" data-w="8">
-                        <span id="hs_cos_wrapper_module_14045563837526290" class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" style="" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><div id="hs_cos_wrapper_widget_3699427007" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><span class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container">A strong brand architecture will harness economies of scale.
+                        <span id="hs_cos_wrapper_module_14045563837526290" class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" style="" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><div id="hs_cos_wrapper_widget_3699427007" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><span class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container">Our corporate identity design work shows up in business cards, infographics, outdoor signage, corporate signage, wayfinding, vehicle wraps and more. We also create custom graphics for Twitter backgrounds, Facebook cover photos, social media icons, PowerPoint slides and other digital media. Anything you need to run a business, we can brand it for you.
 
-Brand Architecture is a challenge that comes with success.  You create a new product line, a new profit center or a new service, better yet you grow or acquire a new business but with all this growth when do you take stock of the logos you have acquired.  When and how do you make the time to get your house of brands in order.  After all when we grow these brands and build these businesses the expectation is to harness “economies”.  Without a coherent brand architecture, you are lost, you spend money marketing brands that don’t reinforce one another, you create runts, and your marketing efforts get bogged down by costs and complexities… it’s simple, you’re not harnessing “brand equity” and it’s time consuming, expensive and inefficient.
-
-Let ABC help you explore your brand architecture, it’s an exercise we have a lot of experience doing. We’ll help you create a brand persona that fits your market, products and audience. We’ll take a holistic look at your house of brands and tie them together with our logo development process and brand architecture analysis.  Our logo creation process will help your business look professional, and we’ll also work with your company (or companies) on creating an effective brand architecture strategy making your brand consistent and recognizable across all channels.  Don’t just take our word for it check out these case studies Chinburg Properties & Key Auto Group, blog posts Brand Strategy and it’s effects on SEO, Brand Architecture Strategy, building brand value and articles.
-
-Achieve economies of scale with a strong brand architecture:
-Logo development
-Logo & Brand Strategy
-Corporate Style Guides
-Brand Guidelines
-SEO through brand & web architecture
-Analysis, Research and experience
+Business cards and stationery
+Tradeshow booths
+Branded PowerPoint slides
 </div></div></span>
                     </div><!--end widget-span -->
                     <div class="span4 widget-span widget-type-widget_container column sidebar right" style="" data-widget-type="widget_container" data-x="8" data-w="4">
