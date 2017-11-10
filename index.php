@@ -112,7 +112,7 @@
       </div>
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-megaphone"></span>
         <div class="services-content">
-          <h5>Digital marketing</h5>
+          <h5><a href = "services/digmrktng.php">Digital marketing</a></h5>
 
         </div>
       </div>
