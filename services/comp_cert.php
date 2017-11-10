@@ -133,8 +133,8 @@
             <div class="col-sm-4 left">
                                 <!-- logo -->
                 <h1 class="logo">
-                    <a href="http://www.ccsrf.com/?lang=en" title="CCSRF - Compliance Certification Services Inc." rel="home">
-                        <img src="http://www.ccsrf.com/wp-content/uploads/2014/12/logo.png" />                    </a>
+                    <a href="http://www.ccsrf.com/?lang=en" title="ABC - Compliance Certification Services" rel="home">
+                        <img src="images/abclogo.jpg" />                    </a>
                 </h1>
                 <!-- end logo -->
                             </div>
@@ -153,112 +153,28 @@
             
                                 <!-- main menu -->
     <div id="main-menu" class="mega-menu">
-    <ul id="menu-menu-tw-%e8%8b%b1%e8%aa%9e0" class=""><li id="nav-menu-item-4157" class="menu-item menu-item-type-post_type menu-item-object-page  narrow "><a href="http://www.ccsrf.com/?page_id=2922&amp;lang=en" class="">Company Profile</a></li>
+    <ul id="menu-menu-tw-%e8%8b%b1%e8%aa%9e0" class=""><li id="nav-menu-item-4157" class="menu-item menu-item-type-post_type menu-item-object-page  narrow "><a href="http://www.abc-consulting.tk" class="">Company Profile</a></li>
 <li id="nav-menu-item-4158" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has-sub narrow "><h5>News Center</h5>
 <div class="popup"><div class="inner" style=""><ul class="sub-menu">
-	<li id="nav-menu-item-4305" class="menu-item menu-item-type-custom menu-item-object-custom " data-cols="1"><a href="http://www.ccsrf.com/?cat=3&amp;lang=en" class="">Company News</a></li>
-	<li id="nav-menu-item-4307" class="menu-item menu-item-type-custom menu-item-object-custom " data-cols="1"><a href="http://www.ccsrf.com/?cat=42&amp;lang=en" class="">Certification News</a></li>
+	<li id="nav-menu-item-4305" class="menu-item menu-item-type-custom menu-item-object-custom " data-cols="1"><a href="http://www.abc-consulting.tk" class="">Company News</a></li>
+	<li id="nav-menu-item-4307" class="menu-item menu-item-type-custom menu-item-object-custom " data-cols="1"><a href="http://www.abc-consulting.tk" class="">Certification News</a></li>
 </ul></div></div>
 </li>
 <li id="nav-menu-item-4159" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has-sub wide pos-center col-3"><h5>Service Scope</h5>
 <div class="popup"><div class="inner" style=""><ul class="sub-menu">
 	<li id="nav-menu-item-5706" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  sub" data-cols="1"><a href="http://www.ccsrf.com/?page_id=2967&amp;lang=en" class="">Product Certification</a>
 	<ul class="sub-menu">
-		<li id="nav-menu-item-4161" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3139&amp;lang=en" class="">EMC</a></li>
-		<li id="nav-menu-item-4162" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3144&amp;lang=en" class="">RF</a></li>
-		<li id="nav-menu-item-4163" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3149&amp;lang=en" class="">Automotives</a></li>
-		<li id="nav-menu-item-5749" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=5742&amp;lang=en" class="">OTA</a></li>
-		<li id="nav-menu-item-5750" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=5722&amp;lang=en" class="">SAR</a></li>
-		<li id="nav-menu-item-4164" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3154&amp;lang=en" class="">Global Certification</a></li>
-		<li id="nav-menu-item-4209" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3208&amp;lang=en" class="">Railway/Marinetime Application</a></li>
-		<li id="nav-menu-item-4165" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3159&amp;lang=en" class="">Accreditations</a></li>
-		<li id="nav-menu-item-4916" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="http://rcb.ccsrf.com" class="">RCB</a></li>
+		<li id="nav-menu-item-4161" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.abc-consulting.tk" class="">EMC</a></li>
+		<li id="nav-menu-item-4162" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.abc-consulting.tk" class="">RF</a></li>
+		<li id="nav-menu-item-4163" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.abc-consulting.tk" class="">Automotives</a></li>
+		<li id="nav-menu-item-5749" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.abc-consulting.tk" class="">OTA</a></li>
+		<li id="nav-menu-item-5750" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.abc-consulting.tk" class="">SAR</a></li>
+		<li id="nav-menu-item-4164" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.abc-consulting.tk" class="">Global Certification</a></li>
+		<li id="nav-menu-item-4209" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.abc-consulting.tk" class="">Railway/Marinetime Application</a></li>
+		<li id="nav-menu-item-4165" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.abc-consulting.tk" class="">Accreditations</a></li>
+		<li id="nav-menu-item-4916" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="http://www.abc-consulting.tk"">RCB</a></li>
 	</ul>
 </li>
-	<li id="nav-menu-item-4166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  sub" data-cols="1"><a href="http://www.ccsrf.com/?page_id=2977&amp;lang=en" class="">Safety Certification</a>
-	<ul class="sub-menu">
-		<li id="nav-menu-item-4167" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3164&amp;lang=en" class="">IT &#038; Telecom</a></li>
-		<li id="nav-menu-item-4168" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3169&amp;lang=en" class="">Audio.Video</a></li>
-		<li id="nav-menu-item-4169" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3174&amp;lang=en" class="">Household Appliance</a></li>
-		<li id="nav-menu-item-4170" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3178&amp;lang=en" class="">Lighting appliance</a></li>
-		<li id="nav-menu-item-5558" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=5539&amp;lang=en" class="">3C lithium-ion power bank &#038; 3C secondary lithium-ion battery / group</a></li>
-	</ul>
-</li>
-	<li id="nav-menu-item-4171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  sub" data-cols="1"><h5>EMI Components</h5>
-	<ul class="sub-menu">
-		<li id="nav-menu-item-4172" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3114&amp;lang=en" class="">Inductors</a></li>
-		<li id="nav-menu-item-4173" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3119&amp;lang=en" class="">Discretes</a></li>
-	</ul>
-</li>
-</ul></div></div>
-</li>
-<li id="nav-menu-item-4174" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has-sub narrow "><h5>Human Resource</h5>
-<div class="popup"><div class="inner" style=""><ul class="sub-menu">
-	<li id="nav-menu-item-4204" class="menu-item menu-item-type-custom menu-item-object-custom " data-cols="1"><a href="http://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=5a4a426c38463e223c583a1d1d1d1d5f2443a363189j97" class="">Careers</a></li>
-	<li id="nav-menu-item-4175" class="menu-item menu-item-type-post_type menu-item-object-page " data-cols="1"><a href="http://www.ccsrf.com/?page_id=3129&amp;lang=en" class="">Facilities</a></li>
-	<li id="nav-menu-item-4176" class="menu-item menu-item-type-post_type menu-item-object-page " data-cols="1"><a href="http://www.ccsrf.com/?page_id=3134&amp;lang=en" class="">Benefits</a></li>
-</ul></div></div>
-</li>
-<li id="nav-menu-item-4177" class="menu-item menu-item-type-post_type menu-item-object-page  narrow "><a href="http://www.ccsrf.com/?page_id=3108&amp;lang=en" class="">Contact Us</a></li>
-</ul>    </div><!-- end main menu -->
-                        <!-- mobile menu -->
-    <div id="main-mobile-menu">
-            <div id="main-mobile-toggle" class="mobile-menu-toggle">
-            <span>Menu</span>
-            <span class="btn btn-inverse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </span>
-        </div>
-        <div class="accordion-menu"><ul id="menu-menu-tw-%e8%8b%b1%e8%aa%9e0-1" class=""><li id="accordion-menu-item-4157" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=2922&amp;lang=en" class="">Company Profile</a><span class="arrow"></span></li>
-<li id="accordion-menu-item-4158" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has-sub"><h5>News Center</h5><span class="arrow"></span>
-<ul class="sub-menu">
-	<li id="accordion-menu-item-4305" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="http://www.ccsrf.com/?cat=3&amp;lang=en" class="">Company News</a><span class="arrow"></span></li>
-	<li id="accordion-menu-item-4307" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="http://www.ccsrf.com/?cat=42&amp;lang=en" class="">Certification News</a><span class="arrow"></span></li>
-</ul>
-</li>
-<li id="accordion-menu-item-4159" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has-sub"><h5>Service Scope</h5><span class="arrow"></span>
-<ul class="sub-menu">
-	<li id="accordion-menu-item-5706" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has-sub"><a href="http://www.ccsrf.com/?page_id=2967&amp;lang=en" class="">Product Certification</a><span class="arrow"></span>
-	<ul class="sub-menu">
-		<li id="accordion-menu-item-4161" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3139&amp;lang=en" class="">EMC</a><span class="arrow"></span></li>
-		<li id="accordion-menu-item-4162" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3144&amp;lang=en" class="">RF</a><span class="arrow"></span></li>
-		<li id="accordion-menu-item-4163" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3149&amp;lang=en" class="">Automotives</a><span class="arrow"></span></li>
-		<li id="accordion-menu-item-5749" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=5742&amp;lang=en" class="">OTA</a><span class="arrow"></span></li>
-		<li id="accordion-menu-item-5750" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=5722&amp;lang=en" class="">SAR</a><span class="arrow"></span></li>
-		<li id="accordion-menu-item-4164" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3154&amp;lang=en" class="">Global Certification</a><span class="arrow"></span></li>
-		<li id="accordion-menu-item-4209" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3208&amp;lang=en" class="">Railway/Marinetime Application</a><span class="arrow"></span></li>
-		<li id="accordion-menu-item-4165" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3159&amp;lang=en" class="">Accreditations</a><span class="arrow"></span></li>
-		<li id="accordion-menu-item-4916" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="http://rcb.ccsrf.com" class="">RCB</a><span class="arrow"></span></li>
-	</ul>
-</li>
-	<li id="accordion-menu-item-4166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has-sub"><a href="http://www.ccsrf.com/?page_id=2977&amp;lang=en" class="">Safety Certification</a><span class="arrow"></span>
-	<ul class="sub-menu">
-		<li id="accordion-menu-item-4167" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3164&amp;lang=en" class="">IT &#038; Telecom</a><span class="arrow"></span></li>
-		<li id="accordion-menu-item-4168" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3169&amp;lang=en" class="">Audio.Video</a><span class="arrow"></span></li>
-		<li id="accordion-menu-item-4169" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3174&amp;lang=en" class="">Household Appliance</a><span class="arrow"></span></li>
-		<li id="accordion-menu-item-4170" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3178&amp;lang=en" class="">Lighting appliance</a><span class="arrow"></span></li>
-		<li id="accordion-menu-item-5558" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=5539&amp;lang=en" class="">3C lithium-ion power bank &#038; 3C secondary lithium-ion battery / group</a><span class="arrow"></span></li>
-	</ul>
-</li>
-	<li id="accordion-menu-item-4171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has-sub"><h5>EMI Components</h5><span class="arrow"></span>
-	<ul class="sub-menu">
-		<li id="accordion-menu-item-4172" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3114&amp;lang=en" class="">Inductors</a><span class="arrow"></span></li>
-		<li id="accordion-menu-item-4173" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3119&amp;lang=en" class="">Discretes</a><span class="arrow"></span></li>
-	</ul>
-</li>
-</ul>
-</li>
-<li id="accordion-menu-item-4174" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has-sub"><h5>Human Resource</h5><span class="arrow"></span>
-<ul class="sub-menu">
-	<li id="accordion-menu-item-4204" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="http://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=5a4a426c38463e223c583a1d1d1d1d5f2443a363189j97" class="">Careers</a><span class="arrow"></span></li>
-	<li id="accordion-menu-item-4175" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3129&amp;lang=en" class="">Facilities</a><span class="arrow"></span></li>
-	<li id="accordion-menu-item-4176" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3134&amp;lang=en" class="">Benefits</a><span class="arrow"></span></li>
-</ul>
-</li>
-<li id="accordion-menu-item-4177" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://www.ccsrf.com/?page_id=3108&amp;lang=en" class="">Contact Us</a><span class="arrow"></span></li>
 </ul>        </div>
         </div>
     <!-- end mobile menu -->
