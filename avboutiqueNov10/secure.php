@@ -6,7 +6,7 @@ if(!$userid || !$pwd)
 {
 die("Empty Fields");
 }
-$cxn = mysqli_connect("162.241.244.118","anjalivi_newuser","newuser","anjalivi_testnewdb") ;
+$cxn = mysqli_connect("localhost","anjalivi_newuser","newuser","anjalivi_testnewdb") ;
 if(mysqli_connect_errno()){
 echo "Failed to connect to MYSQL:" . mysqli_connect_error();
 }
