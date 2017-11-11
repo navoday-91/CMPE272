@@ -332,7 +332,7 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
                                             }
                                             else{
                                                 $i = 4;
-                                                for ($i=4;$cookie_value[$i]>0;$i--){
+                                                for ($i=4;$i>=0 && $cookie_value[$i]>0;$i--){
                                                     ?>
                                                     <li>
                                                     <?php
