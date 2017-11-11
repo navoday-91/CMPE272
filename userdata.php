@@ -92,96 +92,11 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
 <div class="cell-wrapper layout-widget-wrapper">
 <span id="hs_cos_wrapper_module_14496767418724" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_module_14496767418724" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="Main">
  <ul>
-  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="//www.e-zest.com/our-focus">Focus</a>
-   <ul class="hs-menu-children-wrapper">
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/digital-commerce-services">Digital Commerce Services</a></li>
-    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children"><a href="//www.e-zest.com/digital-experience-engineering">Digital Experience</a>
-     <ul class="hs-menu-children-wrapper">
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/digital-experience-development-approach">Creating Experience</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/usability-engineering-services">Experience design</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/digital-strategy-services">Digital Strategy</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/digital-marketing-services">Digital Marketing</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/enterprise-services">Enterprise Mobility</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/enterprise-collaboration-services">Enterprise CMS Solutions</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/e-business">E-Commerce Solutions</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/digital-agency-solutions">Solutions for Digital Agencies</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/digital-experience-development-approach">Digital Experience Delivery Platforms</a></li>
-     </ul></li>
-    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children"><a href="//www.e-zest.com/productivity-solutions">Productivity</a>
-     <ul class="hs-menu-children-wrapper">
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/productivity-platforms">Productivity Platforms</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/sharepoint-experience-engineering">Sharepoint Experience Engineering</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/information-architecture-on-sharepoint">Information Architecture on Sharepoint</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/digital-enterprise-and-digital-workplace">Digital Enterprise and Digital Workplace</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/business-processes-and-workflows">Business Processes and Workflows</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/enterprise-social-strategy-consulting-services">Enterprise Social Strategy Consulting Services</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/business-critical-application-integration">Business Critical Application Integration</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/search-discovery-and-findability-solutions">Search, Discovery and Findability Solutions</a></li>
-     </ul></li>
-    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children"><a href="//www.e-zest.com/cloud-and-big-data-analytics-solutions">Cloud and Big Data</a>
-     <ul class="hs-menu-children-wrapper">
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/cloud-managed-services-sla">Managed Cloud Services</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/big-data-analytics">Analytics &amp; Big Data</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/cloud-platforms">Cloud Platforms</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/bi-tools">Analytics / BI Platforms</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/big-data-platforms">BigData Platforms</a></li>
-     </ul></li>
-   </ul></li>
-  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="//www.e-zest.com/innovations">Innovations</a>
-   <ul class="hs-menu-children-wrapper">
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/smarterme-sales-productivity-re-defined">SmarterMe</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/cloudmap-cloud-orchestration-platform">CloudMAP</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/scorm-offline-player">Offline SCORM Player</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/tabit">TABIT</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/iris-knowledge-management-system">IRIS</a></li>
-   </ul></li>
-  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="//www.e-zest.com/technologies">Technology</a>
-   <ul class="hs-menu-children-wrapper">
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/microsoft-technology-digital-transformation">Microsoft</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/j2ee-competency">Enterprise Java</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/open-source-competency">Open Source</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/mobile-operating-system/">Mobility Platforms</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/enterprise-platforms">Enterprise Platforms</a></li>
-   </ul></li>
-  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="//www.e-zest.com/services">Services</a>
-   <ul class="hs-menu-children-wrapper">
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/offshore-product-development">Product Engineering for ISVs &amp; Start-ups</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/enterprise-application-services">Enterprise Application Services</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/independent-testing-services">Independent Testing Services</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/remote-infrastructure-management">Infrastructure Management Services</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/business_consulting/">Management Consulting Services</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/bpo-services">BPO/KPO Services</a></li>
-   </ul></li>
-  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="//www.e-zest.com/industry">Industry</a>
-   <ul class="hs-menu-children-wrapper">
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/healthcare">Healthcare</a></li>
-    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children"><a href="//www.e-zest.com/public-solution-development-services">Public Sector</a>
-     <ul class="hs-menu-children-wrapper">
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/e-governance-solution-development-services">e-Governance Solutions</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/public-services-for-international-agencies">Services for International Agencies</a></li>
-     </ul></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/manufacturing-solutions">Manufacturing</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/finance/">Finance</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/e-learning-solutions">e-Learning</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/travel-and-tourism-solutions">Travel and Tourism Solutions</a></li>
-   </ul></li>
-  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="//www.e-zest.com/about">About</a>
-   <ul class="hs-menu-children-wrapper">
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/our-values">Culture &amp; Values</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/leadership-team">Leadership</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/board-of-directors">Board of Directors</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/clients">Clients</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/corporate-social-responsibility">CSR</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/insights">Perspective / Insights</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/career">Career</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/news-events">News &amp; Events</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/locations">Locations</a></li>
-   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="../index.php">Home</a>
+  </li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="../php/logout.php">Logout</a>
+  </li>
   <li class="hs-menu-item hs-menu-depth-1"><a href="https://navoday91.wordpress.com/"><span>Blog</span></a></li>
-  <li class="hs-menu-item hs-menu-depth-1"><a href="http://abc-consulting.tk">
-    <div>
-     Contact Us
-    </div></a></li>
  </ul>
 </div></span></div><!--end layout-widget-wrapper -->
 </div><!--end widget-span -->
@@ -416,40 +331,7 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
                                         ?>
                                         </ul>
 </div></div></span>
-                    </div><!--end widget-span -->
-                    <div class="span4 widget-span widget-type-widget_container column sidebar right" style="" data-widget-type="widget_container" data-x="8" data-w="4">
-                        <span id="hs_cos_wrapper_module_140455646182616613" class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" style="" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><div id="hs_cos_wrapper_widget_3699427012" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><div class="module-wrapper"><p><!--HubSpot Call-to-Action Code --> 
-<span class="hs-cta-wrapper" id="hs-cta-wrapper-09d4a015-7569-4ef5-a534-f74fa28e6e34"> <span class="hs-cta-node hs-cta-09d4a015-7569-4ef5-a534-f74fa28e6e34" id="hs-cta-09d4a015-7569-4ef5-a534-f74fa28e6e34"> 
-<!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--> <a href="http://cta-redirect.hubspot.com/cta/redirect/744339/09d4a015-7569-4ef5-a534-f74fa28e6e34"><img class="hs-cta-img" id="hs-cta-img-09d4a015-7569-4ef5-a534-f74fa28e6e34" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/744339/09d4a015-7569-4ef5-a534-f74fa28e6e34.png" alt="Request for Services"></a> </span> <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script> <script type="text/javascript">
-hbspt.cta.load(744339, '09d4a015-7569-4ef5-a534-f74fa28e6e34');
-</script> </span> 
-<!-- end HubSpot Call-to-Action Code --><br> <!--HubSpot Call-to-Action Code --> 
-<span class="hs-cta-wrapper" id="hs-cta-wrapper-50499f26-1836-40ae-8258-c9777ad4cc5c"> <span class="hs-cta-node hs-cta-50499f26-1836-40ae-8258-c9777ad4cc5c" id="hs-cta-50499f26-1836-40ae-8258-c9777ad4cc5c"> 
-<!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--> <a href="http://cta-redirect.hubspot.com/cta/redirect/744339/50499f26-1836-40ae-8258-c9777ad4cc5c"><img class="hs-cta-img" id="hs-cta-img-50499f26-1836-40ae-8258-c9777ad4cc5c" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/744339/50499f26-1836-40ae-8258-c9777ad4cc5c.png" alt="White Papers"></a> </span> <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script> <script type="text/javascript">
-hbspt.cta.load(744339, '50499f26-1836-40ae-8258-c9777ad4cc5c');
-</script> </span> 
-<!-- end HubSpot Call-to-Action Code --><br> <!--HubSpot Call-to-Action Code --> 
-<span class="hs-cta-wrapper" id="hs-cta-wrapper-88f4cc0d-6d60-437d-9bea-8673f7a053fe"> <span class="hs-cta-node hs-cta-88f4cc0d-6d60-437d-9bea-8673f7a053fe" id="hs-cta-88f4cc0d-6d60-437d-9bea-8673f7a053fe"> 
-<!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--> <a href="http://cta-redirect.hubspot.com/cta/redirect/744339/88f4cc0d-6d60-437d-9bea-8673f7a053fe"><img class="hs-cta-img" id="hs-cta-img-88f4cc0d-6d60-437d-9bea-8673f7a053fe" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/744339/88f4cc0d-6d60-437d-9bea-8673f7a053fe.png" alt="Case Studies"></a> </span> <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script> <script type="text/javascript">
-hbspt.cta.load(744339, '88f4cc0d-6d60-437d-9bea-8673f7a053fe');
-</script> </span> 
-<!-- end HubSpot Call-to-Action Code --></p> </div></div>
-<div id="hs_cos_wrapper_widget_3699427017" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><div class="module-wrapper"><h3>Related Information</h3>
-<ul>
-<li><a href="/microsoft-crm-consulting/">Microsoft CRM Consulting</a></li>
-<li><a href="/km_consulting/">Knowledge Management Consulting</a></li>
-<li><a href="/open_source_consulting/">Open Source Consulting</a></li>
-<li><a href="/feasibility-analysis-india/">Feasibility Analysis Consulting</a></li>
-<li><a href="/e-business_consulting/">e-Business Consulting</a></li>
-<li><a href="/crm-consulting/">CRM Consluting</a></li>
-<li><a href="/technical_consulting/">Technology Consulting</a></li>
-<li><a href="/business_consulting/">Business Consulting</a></li>
-<li><a href="/web-2.0-application-development-services">Web 2.0 Development</a></li>
-</ul> </div></div></span>
-                    </div><!--end widget-span -->
-                </div><!--end row-->
-                </div><!--end row-wrapper -->
-            </div><!--end widget-span -->
+                    
     </div><!--end row-->
     </div><!--end row-wrapper -->
 </div><!--end widget-span -->
@@ -526,7 +408,6 @@ hbspt.cta.load(744339, '88f4cc0d-6d60-437d-9bea-8673f7a053fe');
 </div><!--end widget-span -->
 <div class="span6 widget-span widget-type-rich_text " style="" data-widget-type="rich_text" data-x="6" data-w="6">
 <div class="cell-wrapper layout-widget-wrapper">
-<span id="hs_cos_wrapper_module_14514766896621473" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p style="text-align: right;"><a href="http://www.e-zest.net/privacypolicy/">Privacy Policy</a> &nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.e-zest.net/legal-disclaimer">Disclaimer</a></p></span>
 </div><!--end layout-widget-wrapper -->
 </div><!--end widget-span -->
 </div><!--end row-->
