@@ -132,6 +132,24 @@ if(!isset($_COOKIE[$cookie_name])) {
 
         </div>
       </div>
+      <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-genius"></span>
+        <div class="services-content">
+          <h5><a href = "userdata.php">5 Recently Visited Services</a></h5>
+
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-genius"></span>
+        <div class="services-content">
+          <h5><a href = "userdata1.php">5 Most Visited Services</a></h5>
+
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-genius"></span>
+        <div class="services-content">
+          <h5><a href = "#">Check Our Other Sevrices Below</a></h5>
+
+        </div>
+      </div>
     </div>
   </div>
 </section>
