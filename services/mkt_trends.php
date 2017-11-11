@@ -18,6 +18,13 @@ else{
 }
 $cookie_value[4] = $page_id;
 setcookie($cookie_name, json_encode($cookie_value), time() + (86400 * 30), "/");
+
+$cookie_name = "most_visits";
+$cookie_value = $_COOKIE[$cookie_name];
+$cookie_value = json_decode($cookie_value, true);
+$cookie_value[$page_id] += 1;
+setcookie($cookie_name, json_encode($cookie_value), time() + (86400 * 30), "/");
+
 ?>
 <!-- start coded_template: id:3859515515 path:generated_layouts/3859515505.html --><!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en">        <![endif]--><!--[if IE 8]>    <html class="no-js lt-ie9" lang="en">               <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head>
     <meta charset="utf-8">

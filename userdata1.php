@@ -334,11 +334,11 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
                                             else{
                                                 $i = 0;
                                                 $keys = array_keys($cookie_value);
-                                                for ($i=0;$i<5;$i++){
+                                                for ($i=0;$i<5 && $cookie_value[$keys[$i]]>0;$i++){
                                                     ?>
                                                     <li>
                                                     <?php
-                                                    echo($services_dict[$cookie_value[$keys[$i]]]);
+                                                    echo($services_dict[$keys[$i]]);
                                                     ?>
                                                     </li>
                                                     <?php
