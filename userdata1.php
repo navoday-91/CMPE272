@@ -327,12 +327,12 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
                         <span id="hs_cos_wrapper_module_14045563837526290" class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" style="" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><div id="hs_cos_wrapper_widget_3699427007" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><span class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container">
                                         <ul>
                                         <?php 
+                                            $keys = array_keys($cookie_value);
                                             arsort($cookie_value);
-                                            if($cookie_value[0] == 0){
+                                            if($cookie_value[$keys[0]] == 0){
                                                 echo("No Products Visited");
                                             }
                                             else{
-                                                $i = 0;
                                                 $keys = array_keys($cookie_value);
                                                 for ($i=0;$i<5 && $cookie_value[$keys[$i]]>0;$i++){
                                                     ?>
