@@ -4,6 +4,7 @@
 $cookie_name = "prev_visits";
 $cookie_value = $_COOKIE[$cookie_name];
 $cookie_value = json_decode($cookie_value);
+$services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Consulting</a>");
 ?>
 
 
@@ -225,8 +226,8 @@ $cookie_value = json_decode($cookie_value);
                                             }
                                             else{
                                                 
-                                                for ($i=4;$cookie_value[$i]>0;$i++){
-                                                    echo($cookie_value[$i]);
+                                                for ($i=4;$cookie_value[$i]>0;$i--){
+                                                    echo($services_dict[$cookie_value[$i]]);
                                                 }
                                             }
                                         ?>
