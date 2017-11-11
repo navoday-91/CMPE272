@@ -1,5 +1,25 @@
 
-<!doctype html><!-- start coded_template: id:3859515515 path:generated_layouts/3859515505.html --><!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en">        <![endif]--><!--[if IE 8]>    <html class="no-js lt-ie9" lang="en">               <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head>
+<!doctype html>
+<?php
+$page_id = 12;
+$cookie_name = "prev_visits";
+$cookie_value = $_COOKIE[$cookie_name];
+$cookie_value = json_decode($cookie_value, true);
+if (in_array($page_id, $cookie_value)){
+    for($i=array_search($page_id, $cookie_value);$i<4;$i++){
+        $cookie_value[$i] = $cookie_value[$i+1];
+    }
+}
+else{
+    $i = 0;
+    for($i=0;$i<4;$i++){
+        $cookie_value[$i] = $cookie_value[$i+1];
+    }
+}
+$cookie_value[4] = $page_id;
+setcookie($cookie_name, json_encode($cookie_value), time() + (86400 * 30), "/");
+?>
+<!-- start coded_template: id:3859515515 path:generated_layouts/3859515505.html --><!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en">        <![endif]--><!--[if IE 8]>    <html class="no-js lt-ie9" lang="en">               <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="author" content="ABC Solutions">
