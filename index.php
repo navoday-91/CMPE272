@@ -4,7 +4,7 @@
 $cookie_name = "prev_visits";
 if(!isset($_COOKIE[$cookie_name])) {
     $cookie_value = [0,0,0,0,0];
-    setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
+    setcookie($cookie_name, json_encode($cookie_value), time() + (86400 * 30), "/");
 }
 ?>
 

@@ -5,16 +5,17 @@ $cookie_name = "prev_visits";
 $cookie_value = $_COOKIE[$cookie_name];
 $cookie_value = json_decode($cookie_value);
 if (in_array(1, $cookie_value)){
-    for($i=array_search(1,$cookie_value);$i<4;$i++){
+    for($i=array_search($page_id,$cookie_value);$i<4;$i++){
         $cookie_value[i] = $cookie_value[i+1];
     }
 }
 else{
+    $i = 0;
     for($i=0;$i<4;$i++){
         $cookie_value[i] = $cookie_value[i+1];
     }
 }
-$cookie_value[4] = 1;
+$cookie_value[4] = $page_id;
 setcookie($cookie_name, json_encode($cookie_value), time() + (86400 * 30), "/");
 ?>
 
