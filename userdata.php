@@ -3,7 +3,7 @@
 <?php
 $cookie_name = "prev_visits";
 $cookie_value = $_COOKIE[$cookie_name];
-$cookie_value = json_decode($cookie_value);
+$cookie_value = json_decode($cookie_value, true);
 $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Consulting</a>");
 ?>
 
@@ -396,20 +396,25 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
                 <div class="row-fluid ">
                     <div class="span8 widget-span widget-type-widget_container column main-column" style="" data-widget-type="widget_container" data-x="0" data-w="8">
                         <span id="hs_cos_wrapper_module_14045563837526290" class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" style="" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><div id="hs_cos_wrapper_widget_3699427007" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><span class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container">
+                                        <ul>
                                         <?php 
-                                            echo("what the hell".$services_dict[1]);
-                                            echo("cookie".$cookie_value[4]);
-                                            echo($services_dict[$cookie_value[4]]);
                                             if($cookie_value[4] == 0){
                                                 echo("No Products Visited");
                                             }
                                             else{
-                                                echo("You are here");
+                                                echo("You were here");
                                                 for ($i=4;$cookie_value[$i]>0;$i--){
+                                                    ?>
+                                                    <li>
+                                                    <?php
                                                     echo($services_dict[$cookie_value[$i]]);
+                                                    ?>
+                                                    </li>
+                                                    <?php
                                                 }
                                             }
                                         ?>
+                                        </ul>
 </div></div></span>
                     </div><!--end widget-span -->
                     <div class="span4 widget-span widget-type-widget_container column sidebar right" style="" data-widget-type="widget_container" data-x="8" data-w="4">
