@@ -194,7 +194,7 @@ if(!isset($_COOKIE[$cookie_name])) {
         </div>
         <!-- overlay --> 
         </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="services/digmrktng.php" class="work-box"> <img src="images/work-7.jpg" alt="">
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="services/digmrktng1.php" class="work-box"> <img src="images/work-7.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <h5>Reinventing Style</h5>

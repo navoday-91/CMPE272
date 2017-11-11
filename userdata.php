@@ -4,7 +4,21 @@
 $cookie_name = "prev_visits";
 $cookie_value = $_COOKIE[$cookie_name];
 $cookie_value = json_decode($cookie_value, true);
-$services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Consulting</a>");
+$services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Consulting</a>",
+2 => "<a href = 'services/branding1.php'>Corporate Identity</a>",
+3 => "<a href = 'services/webdesign.php'>Web Design & Development</a>",
+4 => "<a href = 'services/branding.php'>Branding</a>",
+5 => "<a href = 'services/digmrktng.php'>Digital Marketing</a>",
+6 => "<a href = 'services/promotions.php'>Promotional Material</a>",
+7 => "<a href = 'services/portal.php'>Portal Designs and CMS</a>",
+8 => "<a href = 'services/process_mgmt.php'>Process Management</a>",
+9 => "<a href = 'services/comp_cert.php'>Compliance and Standardization</a>",
+10 => "<a href = 'services/analytics.php'>Surveys & Analytics</a>",
+11 => "<a href = 'services/mkt_trends.php'>Market Trends</a>",
+12 => "<a href = 'services/supp_chain.php'>Supply Chain Consulting</a>",
+13 => "<a href = 'services/digmrktng.php'>Design and Reinvent</a>",
+14 => "<a href = 'services/legalconsulting.php'>Legal Consulting</a>",
+);
 ?>
 
 

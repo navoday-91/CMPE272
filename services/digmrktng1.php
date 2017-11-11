@@ -1,7 +1,7 @@
 
 <!doctype html>
 <?php
-$page_id = 3;
+$page_id = 13;
 $cookie_name = "prev_visits";
 $cookie_value = $_COOKIE[$cookie_name];
 $cookie_value = json_decode($cookie_value, true);
@@ -25,7 +25,7 @@ setcookie($cookie_name, json_encode($cookie_value), time() + (86400 * 30), "/");
     <meta name="author" content="ABC Solutions">
     <meta name="description" content="ABC Consulting provides analytics services and understands perspective required for building and implementation of Business and Market Data.">
     <meta name="generator" content="HubSpot">
-    <title>Web Designing</title>
+    <title>Digital Marketing</title>
     <link rel="shortcut icon" href="https://www.e-zest.com/hubfs/images/sitefavicon.ico?t=1510343398533">
 
     
@@ -229,7 +229,7 @@ setcookie($cookie_name, json_encode($cookie_value), time() + (86400 * 30), "/");
                         <div class="row-fluid ">
                             <div class="span12 widget-span widget-type-header " style="" data-widget-type="header" data-x="0" data-w="12">
                                 <div class="cell-wrapper layout-widget-wrapper">
-                                    <span id="hs_cos_wrapper_module_14509432248707604" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_header" style="" data-hs-cos-general-type="widget" data-hs-cos-type="header"><h1><span id="hs_cos_wrapper_name" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="text">Web Designing and Creativity </span></h1></span>
+                                    <span id="hs_cos_wrapper_module_14509432248707604" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_header" style="" data-hs-cos-general-type="widget" data-hs-cos-type="header"><h1><span id="hs_cos_wrapper_name" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="text">Digital Marketing Services </span></h1></span>
                                 </div><!--end layout-widget-wrapper -->
                             </div><!--end widget-span -->
                         </div><!--end row-->
@@ -238,7 +238,7 @@ setcookie($cookie_name, json_encode($cookie_value), time() + (86400 * 30), "/");
                         <div class="row-fluid ">
                             <div class="span12 widget-span widget-type-rich_text " style="" data-widget-type="rich_text" data-x="0" data-w="12">
                                 <div class="cell-wrapper layout-widget-wrapper">
-                                    <span id="hs_cos_wrapper_module_14509432659418859" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p>Helping businesses improve processes</p></span>
+                                    <span id="hs_cos_wrapper_module_14509432659418859" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p>Helping businesses become e-visible</p></span>
                                 </div><!--end layout-widget-wrapper -->
                             </div><!--end widget-span -->
                         </div><!--end row-->
@@ -403,12 +403,14 @@ setcookie($cookie_name, json_encode($cookie_value), time() + (86400 * 30), "/");
                 <div class="row-fluid-wrapper row-depth-1 row-number-2 ">
                 <div class="row-fluid ">
                     <div class="span8 widget-span widget-type-widget_container column main-column" style="" data-widget-type="widget_container" data-x="0" data-w="8">
-                        <span id="hs_cos_wrapper_module_14045563837526290" class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" style="" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><div id="hs_cos_wrapper_widget_3699427007" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><span class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><blockquote>He who seeds a thought, harvests a destiny.<cite>ABC Proverb</cite></blockquote>
-<p>ABC is released on a creative commons licence, this means you are free to use the template for both business and personal purposes but the web designers link in the footer must remain. The link has been styled to be as unobtrusive as possible and every attempt has been made to give this template the the look and feel of a professionally designed website rather than that of a free template.</p>
-<p>ABC also features social media buttons which allow you to quickly and easily display your LinkedIn, Facebook, and Twitter profiles to people visiting your site.</p>
-<p>The footer area also contains three additional navigations, allowing you to provide links to terms of use, privacy policy and cookie policy pages without sacrificing the overall aesthetics of your website. If this template is well received I may consider porting it to wordpress in the not too distant future.</p>
-<p>Because the site is coded in valid HTML 5 and CSS 3, page load times are very quick which is beneficial for search engine optimisation, the file size of the page you are reading is just 5.9kb. The Main navigation mouseover images are also pre-loaded to ensure a smooth and enjoyable user experience.</p>
-<p>If you enjoy using this template and would like to receive updates regarding my future work, please visit my blog by clicking the links in the sidebar and either subscribe via rss to receive email updates, or follow me on Twitter, Facebook, or Google Plus.</p>
+                        <span id="hs_cos_wrapper_module_14045563837526290" class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" style="" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><div id="hs_cos_wrapper_widget_3699427007" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><span class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><p>DESIGN
+There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.</p>
+<p>WE CREATE FIRST CLASS DESIGN
+
+By being true to the brand we represent, we elevate the audiences’ relationship to it. Like becomes love becomes a passion. Passion becomes advocacy. And we see the brand blossom from within, creating a whole story the audience embraces. That’s when the brand can truly flex its muscles.</p>
+<p>WE ARE STORYTELLERS. BRANDS ARE OUR SUBJECTS. DESIGN IS OUR VOICE.
+
+We believe ideas come from everyone, everywhere. At BlackTie, everyone within our agency walls is a designer in their own right. And there are a few principles we believe—and we believe everyone should believe—about our design craft. These truths drive us, motivate us, and ultimately help us redefine the power of design.</p>
 </div></div></span>
                     </div><!--end widget-span -->
                     <div class="span4 widget-span widget-type-widget_container column sidebar right" style="" data-widget-type="widget_container" data-x="8" data-w="4">
