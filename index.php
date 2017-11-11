@@ -6,6 +6,25 @@ if(!isset($_COOKIE[$cookie_name])) {
     $cookie_value = [0,0,0,0,0];
     setcookie($cookie_name, json_encode($cookie_value), time() + (86400 * 30), "/");
 }
+$cookie_name = "most_visits";
+if(!isset($_COOKIE[$cookie_name])) {
+    $services_dict = array(1 => 0,
+    2 => 0,
+    3 => 0,
+    4 => 0,
+    5 => 0,
+    6 => 0,
+    7 => 0,
+    8 => 0,
+    9 => 0,
+    10 => 0,
+    11 => 0,
+    12 => 0,
+    13 => 0,
+    14 => 0
+    );
+    setcookie($cookie_name, json_encode($services_dict), time() + (86400 * 30), "/");
+}
 ?>
 
 
