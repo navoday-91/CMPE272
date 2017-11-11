@@ -45,19 +45,19 @@ else
         }
     if (!(empty($email))) {
         if($i > 0){
-            $where_clause .= " and `last name` =" . "'".$email."'";
+            $where_clause .= " and `email` =" . "'".$email."'";
         }
         else{
-            $where_clause .= "`last name` ="."'".$email."'";
+            $where_clause .= "`email` ="."'".$email."'";
         }
             $i += 1;
         }
     if (!(empty($phone))) {
         if($i > 0){
-            $where_clause .= " and `last name` =" . "'".$phone."'";
+            $where_clause .= " and `phone` =" . "'".$phone."'";
         }
         else{
-            $where_clause .= "`last name` ="."'".$phone."'";
+            $where_clause .= "`phone` ="."'".$phone."'";
         }
             $i += 1;
         }
