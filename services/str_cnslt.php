@@ -1,11 +1,12 @@
 
 <!doctype html>
 <?php
+$page_id = 1;
 $cookie_name = "prev_visits";
 $cookie_value = $_COOKIE[$cookie_name];
-$cookie_value = json_decode($cookie_value);
-if (in_array(1, $cookie_value)){
-    for($i=array_search($page_id,$cookie_value);$i<4;$i++){
+$cookie_value = json_decode($cookie_value, true);
+if (in_array($page_id, $cookie_value)){
+    for($i=array_search($page_id, $cookie_value);$i<4;$i++){
         $cookie_value[i] = $cookie_value[i+1];
     }
 }
