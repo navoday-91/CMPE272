@@ -220,17 +220,7 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
                             <div class="span12 widget-span widget-type-header " style="" data-widget-type="header" data-x="0" data-w="12">
                                 <div class="cell-wrapper layout-widget-wrapper">
                                     <span id="hs_cos_wrapper_module_14509432248707604" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_header" style="" data-hs-cos-general-type="widget" data-hs-cos-type="header"><h1><span id="hs_cos_wrapper_name" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="text">
-                                        <?php 
-                                            if($cookie_value[4] == 0){
-                                                echo("No Products Visited");
-                                            }
-                                            else{
-                                                
-                                                for ($i=4;$cookie_value[$i]>0;$i--){
-                                                    echo($services_dict[$cookie_value[$i]]);
-                                                }
-                                            }
-                                        ?>
+                                        Products Visited
                                     </span></h1></span>
                                 </div><!--end layout-widget-wrapper -->
                             </div><!--end widget-span -->
@@ -240,7 +230,7 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
                         <div class="row-fluid ">
                             <div class="span12 widget-span widget-type-rich_text " style="" data-widget-type="rich_text" data-x="0" data-w="12">
                                 <div class="cell-wrapper layout-widget-wrapper">
-                                    <span id="hs_cos_wrapper_module_14509432659418859" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p>Helping businesses become strategy champions</p></span>
+                                    <span id="hs_cos_wrapper_module_14509432659418859" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p>You visited these products recently</p></span>
                                 </div><!--end layout-widget-wrapper -->
                             </div><!--end widget-span -->
                         </div><!--end row-->
@@ -405,21 +395,17 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
                 <div class="row-fluid-wrapper row-depth-1 row-number-2 ">
                 <div class="row-fluid ">
                     <div class="span8 widget-span widget-type-widget_container column main-column" style="" data-widget-type="widget_container" data-x="0" data-w="8">
-                        <span id="hs_cos_wrapper_module_14045563837526290" class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" style="" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><div id="hs_cos_wrapper_widget_3699427007" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><span class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container">Strategy
-Are your competitors talking about you in their boardrooms? Does your strategy guide how you allocate resources? Can every employee articulate your strategy and are they empowered to execute on it? At ABC, we see strategy as much more than a plan. Since  founding, strategy has been our core business. We work with companies in every industry to develop strategies that deliver results.
-<p>We see things that others miss, offering you more creative solutions that combine our deep geographic experience, intimate sector knowledge and clear insights into how to create value in your business.
-We work collaboratively, build lasting capabilities into your team and help your organization mobilize for change.
-We define our success by your results. We care deeply about our clients. We enjoy our work―and we have fun doing it.
-Our strategy consulting expertise includes:
-
-Fundamentals of growth: Only 1 in 9 companies succeeds in achieving sustained growth. We help companies grow by defining and focusing on their core.
-Business unit strategy: Effective strategy for business units requires making proprietary decisions about where to play and how to win. The goal is to enable a business to reach its full economic potential.
-Corporate strategy: Corporate strategy involves a proprietary set of actions that enables a company to be worth more than just the sum of its parts. The most critical role of the center is to help business units achieve leadership positions.
-Founder's Mentality®: To win in the long term, most companies need the cost advantages and scale of global incumbents. Yet, in achieving that scale, companies often lose what we call the Founder’s Mentality—the very core strengths and values that helped them succeed.
-Digital: We help companies develop digital strategies that deliver on core strategy, delight customers and enable them to operate smarter and faster. Our B2B Digital Strategy product, ABC Digital Radar℠, blends a practical set of near-term, high-impact initiatives with a bold vision for how the pace of digital innovation is likely to reshape the industry over time.
-BothBrain® Innovation: ABC works with clients to transform innovation for new product development and make big ideas actionable by combining creative strategy and analytic approaches.
-Emerging markets: Home to most of the world’s population and recording double-digit growth, emerging markets in Asia, Latin America and Eastern Europe are must-win areas for multinational companies. ABC helps companies navigate this unfamiliar terrain and successfully compete against indigenous companies and other multinationals.
-Sustainability: ABC helps companies develop renewable energy policies, realize the full potential of recycling processes and identify the impact of new trends and regulations, among other things.</p>
+                        <span id="hs_cos_wrapper_module_14045563837526290" class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" style="" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><div id="hs_cos_wrapper_widget_3699427007" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><span class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><?php 
+                                            if($cookie_value[4] == 0){
+                                                echo("No Products Visited");
+                                            }
+                                            else{
+                                                echo("You are here"."'Visited Products Dict'");
+                                                for ($i=4;$cookie_value[$i]>0;$i--){
+                                                    echo($services_dict[$cookie_value[$i]]);
+                                                }
+                                            }
+                                        ?>
 </div></div></span>
                     </div><!--end widget-span -->
                     <div class="span4 widget-span widget-type-widget_container column sidebar right" style="" data-widget-type="widget_container" data-x="8" data-w="4">
