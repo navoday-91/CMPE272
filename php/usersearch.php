@@ -74,7 +74,7 @@ else
     } 
     else {
         $_SESSION['query'] = "select * from userdata where $where_clause;";
-        header("location: ../userdata.php"); // Redirecting To User Data Page
+        header("location: ../usersrch.php"); // Redirecting To User Data Page
         }
     mysqli_close($connection); // Closing Connection
 }
