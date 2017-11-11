@@ -331,7 +331,7 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
                                                 echo("No Products Visited");
                                             }
                                             else{
-                                                echo("You were here");
+                                                
                                                 for ($i=4;$cookie_value[$i]>0;$i--){
                                                     ?>
                                                     <li>

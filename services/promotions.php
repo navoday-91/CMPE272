@@ -101,96 +101,11 @@ setcookie($cookie_name, json_encode($cookie_value), time() + (86400 * 30), "/");
 <div class="cell-wrapper layout-widget-wrapper">
 <span id="hs_cos_wrapper_module_14496767418724" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_module_14496767418724" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="Main">
  <ul>
-  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="//www.e-zest.com/our-focus">Focus</a>
-   <ul class="hs-menu-children-wrapper">
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/digital-commerce-services">Digital Commerce Services</a></li>
-    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children"><a href="//www.e-zest.com/digital-experience-engineering">Digital Experience</a>
-     <ul class="hs-menu-children-wrapper">
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/digital-experience-development-approach">Creating Experience</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/usability-engineering-services">Experience design</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/digital-strategy-services">Digital Strategy</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/digital-marketing-services">Digital Marketing</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/enterprise-services">Enterprise Mobility</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/enterprise-collaboration-services">Enterprise CMS Solutions</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/e-business">E-Commerce Solutions</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/digital-agency-solutions">Solutions for Digital Agencies</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/digital-experience-development-approach">Digital Experience Delivery Platforms</a></li>
-     </ul></li>
-    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children"><a href="//www.e-zest.com/productivity-solutions">Productivity</a>
-     <ul class="hs-menu-children-wrapper">
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/productivity-platforms">Productivity Platforms</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/sharepoint-experience-engineering">Sharepoint Experience Engineering</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/information-architecture-on-sharepoint">Information Architecture on Sharepoint</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/digital-enterprise-and-digital-workplace">Digital Enterprise and Digital Workplace</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/business-processes-and-workflows">Business Processes and Workflows</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/enterprise-social-strategy-consulting-services">Enterprise Social Strategy Consulting Services</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/business-critical-application-integration">Business Critical Application Integration</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/search-discovery-and-findability-solutions">Search, Discovery and Findability Solutions</a></li>
-     </ul></li>
-    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children"><a href="//www.e-zest.com/cloud-and-big-data-analytics-solutions">Cloud and Big Data</a>
-     <ul class="hs-menu-children-wrapper">
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/cloud-managed-services-sla">Managed Cloud Services</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/big-data-analytics">Analytics &amp; Big Data</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/cloud-platforms">Cloud Platforms</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/bi-tools">Analytics / BI Platforms</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/big-data-platforms">BigData Platforms</a></li>
-     </ul></li>
-   </ul></li>
-  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="//www.e-zest.com/innovations">Innovations</a>
-   <ul class="hs-menu-children-wrapper">
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/smarterme-sales-productivity-re-defined">SmarterMe</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/cloudmap-cloud-orchestration-platform">CloudMAP</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/scorm-offline-player">Offline SCORM Player</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/tabit">TABIT</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/iris-knowledge-management-system">IRIS</a></li>
-   </ul></li>
-  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="//www.e-zest.com/technologies">Technology</a>
-   <ul class="hs-menu-children-wrapper">
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/microsoft-technology-digital-transformation">Microsoft</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/j2ee-competency">Enterprise Java</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/open-source-competency">Open Source</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/mobile-operating-system/">Mobility Platforms</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/enterprise-platforms">Enterprise Platforms</a></li>
-   </ul></li>
-  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="//www.e-zest.com/services">Services</a>
-   <ul class="hs-menu-children-wrapper">
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/offshore-product-development">Product Engineering for ISVs &amp; Start-ups</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/enterprise-application-services">Enterprise Application Services</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/independent-testing-services">Independent Testing Services</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/remote-infrastructure-management">Infrastructure Management Services</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/business_consulting/">Management Consulting Services</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/bpo-services">BPO/KPO Services</a></li>
-   </ul></li>
-  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="//www.e-zest.com/industry">Industry</a>
-   <ul class="hs-menu-children-wrapper">
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/healthcare">Healthcare</a></li>
-    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children"><a href="//www.e-zest.com/public-solution-development-services">Public Sector</a>
-     <ul class="hs-menu-children-wrapper">
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/e-governance-solution-development-services">e-Governance Solutions</a></li>
-      <li class="hs-menu-item hs-menu-depth-3"><a href="//www.e-zest.com/public-services-for-international-agencies">Services for International Agencies</a></li>
-     </ul></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/manufacturing-solutions">Manufacturing</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/finance/">Finance</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/e-learning-solutions">e-Learning</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/travel-and-tourism-solutions">Travel and Tourism Solutions</a></li>
-   </ul></li>
-  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="//www.e-zest.com/about">About</a>
-   <ul class="hs-menu-children-wrapper">
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/our-values">Culture &amp; Values</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/leadership-team">Leadership</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/board-of-directors">Board of Directors</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/clients">Clients</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/corporate-social-responsibility">CSR</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/insights">Perspective / Insights</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/career">Career</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/news-events">News &amp; Events</a></li>
-    <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/locations">Locations</a></li>
-   </ul></li>
-  <li class="hs-menu-item hs-menu-depth-1"><a href="//blog.e-zest.com"><span>Blog</span></a></li>
-  <li class="hs-menu-item hs-menu-depth-1"><a href="//www.e-zest.com/request-for-services">
-    <div>
-     Contact Us
-    </div></a></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="../index.php">Home</a>
+  </li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="../php/logout.php">Logout</a>
+  </li>
+  <li class="hs-menu-item hs-menu-depth-1"><a href="https://navoday91.wordpress.com/"><span>Blog</span></a></li>
  </ul>
 </div></span></div><!--end layout-widget-wrapper -->
 </div><!--end widget-span -->
