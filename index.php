@@ -1,4 +1,14 @@
 <!doctype html>
+
+<?php
+$cookie_name = "prev_visits";
+if(!isset($_COOKIE[$cookie_name])) {
+    $cookie_value = [0,0,0,0,0];
+    setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
+}
+?>
+
+
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
@@ -44,7 +54,7 @@
               session_start();
               if(isset($_SESSION['login_user'])){
           ?>
-          <li><a href="#"><?php echo($_SESSION['login_user']) ?></a></li>
+          <li><a href="userdata.php"><?php echo($_SESSION['login_user']) ?></a></li>
           <li><a href="php/logout.php">Logout</a></li>
           <?php
               }

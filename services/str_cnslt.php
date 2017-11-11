@@ -1,12 +1,33 @@
 
-<!doctype html><!-- start coded_template: id:3859515515 path:generated_layouts/3859515505.html --><!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en">        <![endif]--><!--[if IE 8]>    <html class="no-js lt-ie9" lang="en">               <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head>
+<!doctype html>
+<?php
+$cookie_name = "prev_visits";
+$cookie_value = $_COOKIE[$cookie_name];
+$cookie_value = json_decode($cookie_value);
+if (in_array(1, $cookie_value)){
+    for($i=array_search(1,$cookie_value);$i<4;$i++){
+        $cookie_value[i] = $cookie_value[i+1];
+    }
+}
+else{
+    for($i=0;$i<4;$i++){
+        $cookie_value[i] = $cookie_value[i+1];
+    }
+}
+$cookie_value[4] = 1;
+setcookie($cookie_name, json_encode($cookie_value), time() + (86400 * 30), "/");
+?>
+
+
+
+<!-- start coded_template: id:3859515515 path:generated_layouts/3859515505.html --><!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en">        <![endif]--><!--[if IE 8]>    <html class="no-js lt-ie9" lang="en">               <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="author" content="ABC Solutions">
     <meta name="description" content="ABC Consulting provides analytics services and understands perspective required for building and implementation of Business and Market Data.">
     <meta name="generator" content="HubSpot">
     <title>Strategy and Consulting</title>
-    <link rel="shortcut icon" href="https://www.e-zest.com/hubfs/images/sitefavicon.ico?t=1510343398533">
+    
 
     
     
@@ -167,8 +188,8 @@
     <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/news-events">News &amp; Events</a></li>
     <li class="hs-menu-item hs-menu-depth-2"><a href="//www.e-zest.com/locations">Locations</a></li>
    </ul></li>
-  <li class="hs-menu-item hs-menu-depth-1"><a href="//blog.e-zest.com"><span>Blog</span></a></li>
-  <li class="hs-menu-item hs-menu-depth-1"><a href="//www.e-zest.com/request-for-services">
+  <li class="hs-menu-item hs-menu-depth-1"><a href="https://navoday91.wordpress.com/"><span>Blog</span></a></li>
+  <li class="hs-menu-item hs-menu-depth-1"><a href="http://abc-consulting.tk">
     <div>
      Contact Us
     </div></a></li>
