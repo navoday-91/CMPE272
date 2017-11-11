@@ -316,7 +316,7 @@
                                             if ($rows > 0) {
                                                 while ($user = $query->fetch_assoc()) {
                                         ?>
-                                        <li><?php echo($user["username"]." ; ".$user["first name"]." ; ".$user["last name"].".;.".$user["email"].".;.".$user["phone"]); ?></li>
+                                        <li><?php echo("Userid - ".$user["username"]." ; Name - ".$user["first name"]." ".$user["last name"]." ; E-mail - ".$user["email"]." ; Phone - ".$user["phone"]); ?></li>
                                         <?php
                                                 }
                                             }
