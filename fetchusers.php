@@ -13,7 +13,7 @@
             $rows = mysqli_num_rows($query);
             if ($rows > 0) {
                 while ($user = $query->fetch_assoc()) {
-                    echo("<li>$user['username']</li>");
+                    echo("<li>".$user["username"]."</li>");
                 }
             }
             else{
