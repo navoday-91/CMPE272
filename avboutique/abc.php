@@ -1,22 +1,20 @@
 <html>
 <body>
 <form action="" method="post">
+    <ul>
 <?php
-// create a new cURL resource
 $ch = curl_init();
 
-// set URL and other appropriate options
 curl_setopt($ch, CURLOPT_URL, "http://www.abc-consulting.tk/fetchusers.php");
 curl_setopt($ch, CURLOPT_HEADER, 0);
 
-// grab URL and pass it to the browser
 $result = curl_exec($ch);
 
-// close cURL resource, and free up system resources
 curl_close($ch);
 
 echo($result);
 ?>
+    </ul>
 </form>
 </body>
 </html>
