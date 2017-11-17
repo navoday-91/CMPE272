@@ -208,7 +208,7 @@
           window.addEventListener("load", init, false);
            function sendText(id) {
                    inuser = id;
-        		doSend(id + ";" + document.getElementById(inuser.concat("iptext")).value);
+        		doSend(id + ";" + document.getElementById(id.concat("iptext")).value);
            }
           function clearText() {
         		document.myform.outputtext.value = "";
