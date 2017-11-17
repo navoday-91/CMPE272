@@ -200,8 +200,8 @@
           }
           function writeToScreen(message)
           {
-            document.getElementById(inuser + outputtext).value += message
-        	document.getElementById(inuser + outputtext).scrollTop = document.getElementById(inuser + outputtext).scrollHeight;
+            document.getElementById(inuser + "outputtext").value += message
+        	document.getElementById(inuser + "outputtext").scrollTop = document.getElementById(inuser + "outputtext").scrollHeight;
           }
           window.addEventListener("load", init, false);
            function sendText(id) {
