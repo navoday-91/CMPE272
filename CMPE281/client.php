@@ -205,6 +205,7 @@
           }
           window.addEventListener("load", init, false);
            function sendText(id) {
+                   inuser = id;
         		doSend(id + ";" + document.myform.inputtext.value );
            }
           function clearText() {
