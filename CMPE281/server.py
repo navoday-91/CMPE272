@@ -10,6 +10,22 @@ class MyServerProtocol(WebSocketServerProtocol):
     clients = {}
     i = 0
     user = ""
+    db = MySQLdb.connect("localhost", "admin", "redhat", "cmpe281")
+
+    # prepare a cursor object using cursor() method
+    cursor = db.cursor()
+
+    sql = "SELECT * FROM login;"
+    try:
+        # Execute the SQL command
+        cursor.execute(sql)
+        # Fetch all the rows in a list of lists.
+        results = cursor.fetchall()
+        for row in results:
+            print(row[1])
+    except:
+        print("Error: unable to fetch data")
+
     def register(self, client, payload):
         """
         Add client to list of managed connections.
