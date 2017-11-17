@@ -44,19 +44,7 @@ class MyServerProtocol(WebSocketServerProtocol):
         del self.liveclients[self.user]
 
     def findPartner(self, client):
-        """
-        Find chat partner for a client. Check if there any of tracked clients
-        is idle. If there is no idle client just exit quietly. If there is
-        available partner assign him/her to our client.
-        """
-        print("we are finding partners - ", [c for c in self.clients])
-        available_partners = [c for c in self.clients if c != client.peer and not self.clients[c]["partner"]]
-        if not available_partners:
-            print("no partners for {} check in a moment".format(client.peer))
-        else:
-            partner_key = random.choice(available_partners)
-            self.clients[partner_key]["partner"] = client
-            self.clients[client.peer]["partner"] = self.clients[partner_key]["object"]
+        print("")
 
     def communicate(self, client, payload, isBinary):
         sendto = payload.decode('utf-8').split(";")[1]

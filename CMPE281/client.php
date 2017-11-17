@@ -133,14 +133,14 @@
         <script language="javascript" type="text/javascript">
           function init()
           {
-        	document.extform.url.value = "ws://localhost:9000/";
-        	document.extform.YourName.value = "Navoday";
-        	document.extform.ConnectTo.value = "<Connect To>";
-        	document.extform.disconnectButton.disabled = true;
+        	<?php
+              session_start();
+              ?>
+              user = <?php echo($_SESSION['login_user']) ?>
           }
           function doConnect()
           {
-            websocket = new WebSocket(document.extform.url.value);
+            websocket = new WebSocket("ws://35.197.90.146:9000/");
             websocket.onopen = function(evt) { onOpen(evt) };
             websocket.onclose = function(evt) { onClose(evt) };
             websocket.onmessage = function(evt) { onMessage(evt) };
@@ -149,15 +149,13 @@
           function onOpen(evt)
           {
             writeToScreen("connected\n");
-            websocket.send(document.extform.YourName.value + ";" + document.extform.ConnectTo.value );
-        	document.extform.connectButton.disabled = true;
-        	document.extform.disconnectButton.disabled = false;
+            websocket.send(user + ";" + id);
+        	
           }
           function onClose(evt)
           {
             writeToScreen("disconnected\n");
-        	document.extform.connectButton.disabled = false;
-        	document.extform.disconnectButton.disabled = true;
+        	
           }
           function onMessage(evt)
           {
@@ -167,13 +165,12 @@
           {
             writeToScreen('error: ' + evt.data + '\n');
         	websocket.close();
-        	document.extform.connectButton.disabled = false;
-        	document.extform.disconnectButton.disabled = true;
+        	
           }
           function doSend(message)
           {
             writeToScreen("You: " + message + '\n');
-            websocket.send(document.extform.YourName.value + ";" + document.extform.ConnectTo.value + ";" + message);
+            websocket.send(user + ";" + message);
             document.myform.inputtext.value = ""
           }
           function writeToScreen(message)
@@ -182,8 +179,8 @@
         	document.myform.outputtext.scrollTop = document.myform.outputtext.scrollHeight;
           }
           window.addEventListener("load", init, false);
-           function sendText() {
-        		doSend( document.myform.inputtext.value );
+           function sendText(id) {
+        		doSend(id + ";" + document.myform.inputtext.value );
            }
           function clearText() {
         		document.myform.outputtext.value = "";
@@ -275,8 +272,8 @@
                 element = element + '<div class="popup-head-left">'+ name +'</div>';
                 element = element + '<div class="popup-head-right"><a href="javascript:close_popup(\''+ id +'\');">&#10005;</a></div>';
                 element = element + '<div style="clear: both"></div></div><div class="popup-messages">';
-                element = element + '<form name="myform"><textarea readonly name="outputtext" rows="16" cols="47"></textarea></textarea><textarea name="inputtext" rows="2" cols="33"></textarea> <input class="send" type="button" name=sendButton id="send" value="Send" onClick="sendText();"></form></div></div>';
-                element = element + '<form name="extform"><p><textarea name="YourName" cols="50"></textarea></p><p><textarea name="ConnectTo" cols="50"></textarea></p><p><textarea name="url" cols="50"></textarea></p><p><input type="button" name=clearButton value="Clear" onClick="clearText();"><input type="button" name=disconnectButton value="Disconnect" onClick="doDisconnect();"><input type="button" name=connectButton value="Connect" onClick="doConnect();"></p></form>';
+                element = element + '<form name="myform"><textarea readonly name="outputtext" rows="16" cols="47"></textarea></textarea><textarea name="inputtext" rows="2" cols="33"></textarea> <input class="send" type="button" name=sendButton id="send" value="Send" onClick="sendText(\''+ id +'\');"></form></div></div>';
+                
                 document.getElementsByTagName("body")[0].innerHTML = document.getElementsByTagName("body")[0].innerHTML + element;
 
                 popups.unshift(id);
@@ -314,12 +311,11 @@
         <div class="chat-sidebar">
             <div class="sidebar-name">
                 <!-- Pass username and display name to register popup -->
-                <a href="javascript:register_popup('Rahul', 'Rahul Tiwari');">
+                <a href="javascript:register_popup('911', '911 - Emergency');">
                     <img width="30" height="30" src="https://scontent-sjc2-1.xx.fbcdn.net/v/t1.0-9/1966860_10203635303187228_940938618_n.jpg?oh=93caaa2b1784b28ee0d2eda0404c1255&oe=5AA5DC11" />
-                    <span>Rahul Tiwari</span>
+                    <span>911 - Emergency</span>
                 </a>
             </div>
         </div>
-
     </body>
 </html>
