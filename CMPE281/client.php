@@ -131,12 +131,15 @@
         </style>
         
         <script language="javascript" type="text/javascript">
-          function init()
-          {
-        	<?php
+          
+          <?php
               session_start();
               ?>
               user = "<?php echo($_SESSION['login_user']) ?>";
+              
+          function init()
+          {
+        	
               doConnect();
           }
           function doConnect()
@@ -149,7 +152,6 @@
           }
           function onOpen(evt)
           {
-            writeToScreen("connected\n");
             websocket.send(user + ";" + id);
         	
           }
