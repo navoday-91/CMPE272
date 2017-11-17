@@ -136,6 +136,7 @@
               session_start();
               ?>
               user = "<?php echo($_SESSION['login_user']) ?>";
+              inuser = ""
               
           function init()
           {
@@ -163,15 +164,16 @@
           function onMessage(evt)
           {
               found = 0;
+              inuser = evt.data.split(";",3)[0];
             for(var iii = 0; iii < popups.length; iii++)
                 {
                     
                     //already registered. Bring it to front.
-                    if(user == popups[iii])
+                    if(inuser == popups[iii])
                     {
                         Array.remove(popups, iii);
 
-                        popups.unshift(user);
+                        popups.unshift(inuser);
 
                         calculate_popups();
 
@@ -180,9 +182,8 @@
                     }
                 }
             if (found == 0){
-                register_popup(user, user);
+                register_popup(inuser, inuser);
             }
-
             writeToScreen(evt.data.split(";",3)[0]+': '+evt.data.split(";",3)[2] +'\n');
           }
           function onError(evt)
@@ -199,8 +200,8 @@
           }
           function writeToScreen(message)
           {
-            document.getElementById(user + outputtext).value += message
-        	document.myform.outputtext.scrollTop = document.myform.outputtext.scrollHeight;
+            document.getElementById(inuser + outputtext).value += message
+        	document.getElementById(inuser + outputtext).scrollTop = document.getElementById(inuser + outputtext).scrollHeight;
           }
           window.addEventListener("load", init, false);
            function sendText(id) {
