@@ -332,7 +332,7 @@
                 ?>
                     <div class="sidebar-name">
                         <!-- Pass username and display name to register popup -->
-                        <a href="javascript:register_popup(<?php echo($user["username"]) ?>, <?php echo($user["first name"]) ?>);">
+                        <a href="javascript:register_popup('<?php echo($user["username"]) ?>', '<?php echo($user["first name"]) ?>');">
                             <img width="30" height="30" src="https://scontent-sjc2-1.xx.fbcdn.net/v/t1.0-9/1966860_10203635303187228_940938618_n.jpg?oh=93caaa2b1784b28ee0d2eda0404c1255&oe=5AA5DC11" />
                             <span><?php echo($user["first name"]) ?></span>
                         </a>
