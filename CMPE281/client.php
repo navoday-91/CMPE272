@@ -171,6 +171,7 @@
                     //already registered. Bring it to front.
                     if(inuser == popups[iii])
                     {
+                        temphold = document.getElementById(inuser.concat("optext")).value;
                         Array.remove(popups, iii);
 
                         popups.unshift(inuser);
@@ -179,6 +180,7 @@
 
 
                         found = 1;
+                        document.getElementById(inuser.concat("optext")).value = temphold;
                     }
                 }
             if (found == 0){
