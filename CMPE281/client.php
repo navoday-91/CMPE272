@@ -152,7 +152,7 @@
           }
           function onOpen(evt)
           {
-            websocket.send(user + ";" + id);
+            websocket.send(user + ";" + "TEST");
         	
           }
           function onClose(evt)
