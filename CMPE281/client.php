@@ -196,7 +196,7 @@
           {
             writeToScreen("You: " + message.split(";",2)[1] + '\n');
             websocket.send(user + ";" + message);
-            document.myform.inputtext.value = ""
+            document.getElementById(inuser.concat("iptext")).value = ""
           }
           function writeToScreen(message)
           {
@@ -206,7 +206,7 @@
           window.addEventListener("load", init, false);
            function sendText(id) {
                    inuser = id;
-        		doSend(id + ";" + document.myform.inputtext.value );
+        		doSend(id + ";" + document.getElementById(inuser.concat("iptext")).value);
            }
           function clearText() {
         		document.myform.outputtext.value = "";
@@ -298,7 +298,7 @@
                 element = element + '<div class="popup-head-left">'+ name +'</div>';
                 element = element + '<div class="popup-head-right"><a href="javascript:close_popup(\''+ id +'\');">&#10005;</a></div>';
                 element = element + '<div style="clear: both"></div></div><div class="popup-messages">';
-                element = element + '<form name="myform"><textarea readonly id='+ id.concat("optext") + ' rows="16" cols="47"></textarea></textarea><textarea name="inputtext" rows="2" cols="33"></textarea> <input class="send" type="button" name=sendButton id="send" value="Send" onClick="sendText(\''+ id +'\');"></form></div></div>';
+                element = element + '<form id='+id.concat("form")+'><textarea readonly id='+ id.concat("optext") + ' rows="16" cols="47"></textarea></textarea><textarea id='+ id.concat("iptext") + ' rows="2" cols="33"></textarea> <input class="send" type="button" name=sendButton id="send" value="Send" onClick="sendText(\''+ id +'\');"></form></div></div>';
                 
                 document.getElementsByTagName("body")[0].innerHTML = document.getElementsByTagName("body")[0].innerHTML + element;
 
