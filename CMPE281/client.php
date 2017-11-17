@@ -136,7 +136,7 @@
         	<?php
               session_start();
               ?>
-              user = <?php echo($_SESSION['login_user']) ?>;
+              user = "<?php echo($_SESSION['login_user']) ?>";
               doConnect();
           }
           function doConnect()
