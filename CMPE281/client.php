@@ -338,8 +338,6 @@
                         </a>
                     </div>
             
-                
-                <?php echo($user["username"]); ?>
                 <?php
                         }
                     }
