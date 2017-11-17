@@ -172,7 +172,7 @@
           }
           function doSend(message)
           {
-            writeToScreen("You: " + message + '\n');
+            writeToScreen("You: " + message.split(";",2)[1] + '\n');
             websocket.send(user + ";" + message);
             document.myform.inputtext.value = ""
           }
@@ -312,6 +312,7 @@
     </head>
     <body>
         <div class="chat-sidebar">
+            
             <div class="sidebar-name">
                 <!-- Pass username and display name to register popup -->
                 <a href="javascript:register_popup('911', '911 - Emergency');">
@@ -319,6 +320,30 @@
                     <span>911 - Emergency</span>
                 </a>
             </div>
+            <?php
+                $connection = mysqli_connect("localhost", "admin", "redhat");
+                // Selecting Database
+                    $db = mysqli_select_db($connection, "cmpe281");
+                    // SQL query to fetch information of registerd users and finds user match.
+                    $query = mysqli_query($connection, "select `username`, `first name` from userdata;");
+                    $rows = mysqli_num_rows($query);
+                    if ($rows > 0) {
+                        while ($user = $query->fetch_assoc()) {
+                ?>
+                    <div class="sidebar-name">
+                        <!-- Pass username and display name to register popup -->
+                        <a href="javascript:register_popup(<?php echo($user["username"]) ?>, <?php echo($user["first name"]) ?>);">
+                            <img width="30" height="30" src="https://scontent-sjc2-1.xx.fbcdn.net/v/t1.0-9/1966860_10203635303187228_940938618_n.jpg?oh=93caaa2b1784b28ee0d2eda0404c1255&oe=5AA5DC11" />
+                            <span><?php echo($user["first name"]) ?></span>
+                        </a>
+                    </div>
+            
+                
+                <?php echo($user["username"]); ?>
+                <?php
+                        }
+                    }
+                ?>
         </div>
     </body>
 </html>
