@@ -1,5 +1,4 @@
-import random
-import MySQLdb
+import pymysql.cursors
 
 from autobahn.twisted.websocket import WebSocketServerProtocol, \
     WebSocketServerFactory
@@ -10,7 +9,7 @@ class MyServerProtocol(WebSocketServerProtocol):
     clients = {}
     i = 0
     user = ""
-    db = MySQLdb.connect("localhost", "admin", "redhat", "cmpe281")
+    db = pymysql.connect("localhost", "admin", "redhat", "cmpe281")
 
     # prepare a cursor object using cursor() method
     cursor = db.cursor()
