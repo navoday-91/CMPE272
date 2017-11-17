@@ -200,8 +200,8 @@
           }
           function writeToScreen(message)
           {
-            document.getElementById(inuser).value += message
-        	document.getElementById(inuser).scrollTop = document.getElementById(inuser).scrollHeight;
+            document.getElementById(inuser.concat("optext")).value += message
+        	document.getElementById(inuser.concat("optext")).scrollTop = document.getElementById(inuser.concat("optext")).scrollHeight;
           }
           window.addEventListener("load", init, false);
            function sendText(id) {
@@ -298,7 +298,7 @@
                 element = element + '<div class="popup-head-left">'+ name +'</div>';
                 element = element + '<div class="popup-head-right"><a href="javascript:close_popup(\''+ id +'\');">&#10005;</a></div>';
                 element = element + '<div style="clear: both"></div></div><div class="popup-messages">';
-                element = element + '<form name="myform"><textarea readonly id='+ id + ' rows="16" cols="47"></textarea></textarea><textarea name="inputtext" rows="2" cols="33"></textarea> <input class="send" type="button" name=sendButton id="send" value="Send" onClick="sendText(\''+ id +'\');"></form></div></div>';
+                element = element + '<form name="myform"><textarea readonly id='+ id.concat("optext") + ' rows="16" cols="47"></textarea></textarea><textarea name="inputtext" rows="2" cols="33"></textarea> <input class="send" type="button" name=sendButton id="send" value="Send" onClick="sendText(\''+ id +'\');"></form></div></div>';
                 
                 document.getElementsByTagName("body")[0].innerHTML = document.getElementsByTagName("body")[0].innerHTML + element;
 
