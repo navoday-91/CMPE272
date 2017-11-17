@@ -162,6 +162,27 @@
           }
           function onMessage(evt)
           {
+              found = 0;
+            for(var iii = 0; iii < popups.length; iii++)
+                {
+                    
+                    //already registered. Bring it to front.
+                    if(user == popups[iii])
+                    {
+                        Array.remove(popups, iii);
+
+                        popups.unshift(user);
+
+                        calculate_popups();
+
+
+                        found = 1;
+                    }
+                }
+            if (found == 0){
+                register_popup(user, user);
+            }
+
             writeToScreen(evt.data.split(";",3)[0]+': '+evt.data.split(";",3)[2] +'\n');
           }
           function onError(evt)
@@ -178,7 +199,7 @@
           }
           function writeToScreen(message)
           {
-            document.myform.outputtext.value += message;
+            document.getElementById(user + outputtext).value += message
         	document.myform.outputtext.scrollTop = document.myform.outputtext.scrollHeight;
           }
           window.addEventListener("load", init, false);
@@ -275,7 +296,7 @@
                 element = element + '<div class="popup-head-left">'+ name +'</div>';
                 element = element + '<div class="popup-head-right"><a href="javascript:close_popup(\''+ id +'\');">&#10005;</a></div>';
                 element = element + '<div style="clear: both"></div></div><div class="popup-messages">';
-                element = element + '<form name="myform"><textarea readonly name="outputtext" rows="16" cols="47"></textarea></textarea><textarea name="inputtext" rows="2" cols="33"></textarea> <input class="send" type="button" name=sendButton id="send" value="Send" onClick="sendText(\''+ id +'\');"></form></div></div>';
+                element = element + '<form name="myform"><textarea readonly name='+ id + '"outputtext" rows="16" cols="47"></textarea></textarea><textarea name="inputtext" rows="2" cols="33"></textarea> <input class="send" type="button" name=sendButton id="send" value="Send" onClick="sendText(\''+ id +'\');"></form></div></div>';
                 
                 document.getElementsByTagName("body")[0].innerHTML = document.getElementsByTagName("body")[0].innerHTML + element;
 
