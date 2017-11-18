@@ -286,6 +286,7 @@
 
                 for(var iii = 0; iii < popups.length; iii++)
                 {
+                    optext[iii] = document.getElementById(popups[iii].concat("optext")).value;
                     //already registered. Bring it to front.
                     if(id == popups[iii])
                     {
