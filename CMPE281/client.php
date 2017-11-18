@@ -137,7 +137,7 @@
               ?>
               user = "<?php echo($_SESSION['login_user']) ?>";
               inuser = ""
-              
+              var optext = [];
           function init()
           {
         	
@@ -167,23 +167,25 @@
               inuser = evt.data.split(";",3)[0];
             for(var iii = 0; iii < popups.length; iii++)
                 {
-                    
+                    optext[iii] = document.getElementById(popups[iii].concat("optext")).value;
                     //already registered. Bring it to front.
                     if(inuser == popups[iii])
                     {
-                        temphold = document.getElementById(inuser.concat("optext")).value;
                         Array.remove(popups, iii);
-
+                        temphold = optext[iii];
+                        Array.remove(optext, iii);
                         popups.unshift(inuser);
-
+                        optext.unshift(temphold);
                         calculate_popups();
-
-
                         found = 1;
-                        document.getElementById(inuser.concat("optext")).value = temphold;
+                        for(var iii = 0; iii < popups.length; iii++)
+                        {
+                            document.getElementById(popups[iii].concat("optext")).value = optext[iii];
+                        }
                     }
                 }
             if (found == 0){
+                
                 register_popup(inuser, inuser);
             }
             writeToScreen(evt.data.split(";",3)[0]+': '+evt.data.split(";",3)[2] +'\n');
@@ -241,11 +243,14 @@
                     if(id == popups[iii])
                     {
                         Array.remove(popups, iii);
-
+                        Array.remove(optext, iii);
                         document.getElementById(id).style.display = "none";
 
                         calculate_popups();
-
+                        for(var iii = 0; iii < popups.length; iii++)
+                        {
+                            document.getElementById(popups[iii].concat("optext")).value = optext[iii];
+                        }
                         return;
                     }
                 }
@@ -284,12 +289,18 @@
                     //already registered. Bring it to front.
                     if(id == popups[iii])
                     {
+                        
                         Array.remove(popups, iii);
-
+                        var temphold = optext[iii];
+                        Array.remove(optext, iii);
                         popups.unshift(id);
+                        optext.unshift(temphold);
 
                         calculate_popups();
-
+                        for(var iii = 0; iii < popups.length; iii++)
+                        {
+                            document.getElementById(popups[iii].concat("optext")).value = optext[iii];
+                        }
 
                         return;
                     }
@@ -305,8 +316,13 @@
                 document.getElementsByTagName("body")[0].innerHTML = document.getElementsByTagName("body")[0].innerHTML + element;
 
                 popups.unshift(id);
+                optext.unshift("");
 
                 calculate_popups();
+                for(var iii = 0; iii < popups.length; iii++)
+                        {
+                            document.getElementById(popups[iii].concat("optext")).value = optext[iii];
+                        }
 
             }
 
