@@ -48,8 +48,8 @@ class MyServerProtocol(WebSocketServerProtocol):
     def communicate(self, client, payload, isBinary):
         sendto = payload.decode('utf-8').split(";")[1]
         if sendto not in self.liveclients:
-            self.sendMessage(sendto + ";" + payload.decode('utf-8').split(";")[0] + ";" +
-                             "Sorry you don't have partner yet, check back in a minute")
+            self.sendMessage((sendto + ";" + payload.decode('utf-8').split(";")[0] + ";" +
+                             "Sorry you don't have partner yet, check back in a minute").encode('ascii'))
         else:
             c = self.liveclients[sendto]
             c.sendMessage(payload, isBinary)
