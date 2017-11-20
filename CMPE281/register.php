@@ -144,7 +144,7 @@
           $_SESSION['error'] = '';
           ?>
           
-          <button class="button button-block" name="user_search"/>Sign-in</button>
+          <button class="button button-block" name="Login"/>Sign-in</button>
           
           </form>
 
