@@ -100,7 +100,9 @@
             <label>
               Community<span class="req">*</span>
             </label>
-            <select name = "community"> Community
+          </div>
+          <div class="field-wrap">
+              <select name = "community"> Community
                 <?php if ($rows > 0) {
                     while ($user = $query->fetch_assoc()) { ?>
                         <option value = "<?php echo($user['community_name']); ?>"> <?php echo($user['community_name']); ?></option>
@@ -110,7 +112,6 @@
                     <?php } ?>
             </select>
           </div>
-          
           <button type="submit" class="button button-block" name="Register"/>Signup</button>
           
           </form>
