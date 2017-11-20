@@ -23,8 +23,6 @@ else
     echo("Connected successfully \n");
     // To protect MySQL injection for Security purpose
     $commname = ($_POST['community_name']);
-    $commname = stripslashes($commname);
-    $commname = mysqli_real_escape_string($connection, $commname);
     // Selecting Database
     $db = mysqli_select_db($connection, "cmpe281");
     // SQL query to fetch information of registerd users and finds user match.
@@ -32,9 +30,10 @@ else
     $rows = mysqli_num_rows($query);
     echo("Number of username rows = " + $rows);
     if ($rows == 0) {
-        $query = mysqli_query($connection, "insert into communities values('$commname');");
+        $query = mysqli_query($connection, "insert into communities values($commname);");
         echo(mysqli_error($connection));
         $_SESSION['error1'] = "Registration Successful";
+        $_SESSION['error1'] = $commname;
         header("location: ../createcomm.php");
     }
     else {
