@@ -6,7 +6,7 @@ if (empty($_POST['user_username']) || empty($_POST['user_password'])) {
 $error = "Username or Password is invalid";
 echo($error);
 $_SESSION['error'] = $error;
-//header("location: ../CMPE281/index.php"); // Redirecting back
+header("location: ../CMPE281/index.php"); // Redirecting back
 }
 else
 {
@@ -40,13 +40,13 @@ $_SESSION['login_user']=$username; // Initializing Session
 
 //$_SESSION['community']=$community; // Initializing Session
 //$_SESSION['role']=$role; // Initializing Session
-header("location: ../CMPE281/index.php"); // Redirecting To Other Page
+header("location: ../CMPE281/client.php"); // Redirecting To Other Page
 
 } else {
 $error = "Username or Password is invalid";
 $_SESSION['error'] = $error;
 echo($error);
-//header("location: ../CMPE281/client.php"); // Redirecting To Login Page
+header("location: ../CMPE281/client.php"); // Redirecting To Login Page
 }
 mysqli_close($connection); // Closing Connection
 }
