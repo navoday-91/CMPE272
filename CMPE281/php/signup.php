@@ -96,10 +96,10 @@ else
         }
         $query = mysqli_query($connection, "insert into userdata values(default,'$username','$firstname','$lastname','$email','$address','$phone', '$picurl', '$community');");
         echo(mysqli_error($connection));
-        $query = mysqli_query($connection, "insert into login values(default,'$username','$password');");
+        $query = mysqli_query($connection, "insert into login values(default,'$username','$password','$community','citizen');");
         echo(mysqli_error($connection));
         $_SESSION['error'] = "Registration Successful";
-        header("location: ../userlogin.php");
+        header("location: ../index.php");
     } 
     else {
         $error = "Username is occupied, try another!";

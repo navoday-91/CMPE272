@@ -96,13 +96,10 @@
                 $rows = mysqli_num_rows($query);
                 
           ?>
-          <div class="field-wrap">
-            <label>
-              Community<span class="req">*</span>
-            </label>
-          </div>
+          
           <div class="field-wrap">
               <select name = "community"> Community
+                  <option value = ""> Select Community</option>
                 <?php if ($rows > 0) {
                     while ($user = $query->fetch_assoc()) { ?>
                         <option value = "<?php echo($user['community_name']); ?>"> <?php echo($user['community_name']); ?></option>
@@ -119,7 +116,7 @@
         </div>
         
         <div id="login">   
-          <h1>Login</h1>
+          <h1>Sign-in</h1>
           
           <form action="php/cmpe281login.php" method="post">
           
@@ -147,7 +144,7 @@
           $_SESSION['error'] = '';
           ?>
           
-          <button class="button button-block" name="user_search"/>Login</button>
+          <button class="button button-block" name="user_search"/>Sign-in</button>
           
           </form>
 
