@@ -28,9 +28,11 @@
                 height: 100%;
                 right: 0px;
                 top: 0px;
+                bottom: 0px;
                 padding-top: 10px;
                 padding-bottom: 10px;
                 border: 1px solid rgba(29, 49, 91, .3);
+                overflow-y: scroll;
             }
 
             .sidebar-name
