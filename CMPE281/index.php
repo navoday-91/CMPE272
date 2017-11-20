@@ -16,7 +16,7 @@
 <div id="dialog" class="dialog dialog-effect-in">
   <div class="dialog-front">
     <div class="dialog-content">
-      <form id="login_form" class="dialog-form" action="../php/cmpe281login.php" method="POST">
+      <form id="login_form" class="dialog-form" action="php/cmpe281login.php" method="POST">
         <fieldset>
           <legend>Log in</legend>
           <div class="form-group">
