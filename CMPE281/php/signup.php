@@ -94,7 +94,7 @@ else
             $_SESSION['error'] = $error;
             header("location: ../register.php"); // Redirecting To Registration Page
         }
-        $query = mysqli_query($connection, "insert into userdata values(default,'$username','$firstname','$lastname','$email','$address','$phone', '$picurl', '$community');");
+        $query = mysqli_query($connection, "insert into userdata values(default,'$username','$firstname','$lastname','$email','$address','$phone', '$community', '$picurl');");
         echo(mysqli_error($connection));
         $query = mysqli_query($connection, "insert into login values(default,'$username','$password','$community','citizen');");
         echo(mysqli_error($connection));
