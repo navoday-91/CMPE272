@@ -79,9 +79,33 @@
           
           <div class="field-wrap">
             <label>
-              Profile Picture URL<span class="req">*</span>
+              Profile Picture URL<span class="">*</span>
             </label>
             <input type="text"required autocomplete="off" name="pic_url"/>
+          </div>
+          <?php
+                $connection = mysqli_connect("localhost", "admin", "redhat");
+                if ($connection->connect_error) {
+                    die("Connection failed: " . $connection->connect_error);
+                    echo('connection to db failed');
+                    echo($connection);
+                }
+                $db = mysqli_select_db($connection, "cmpe281");
+                // SQL query to fetch communities.
+                $query = mysqli_query($connection, "select * from communities;");
+                $rows = mysqli_num_rows($query);
+                
+          ?>
+          <div class="field-wrap">
+            <label>
+              CommunityL<span class="">*</span>
+            </label>
+            <select name = "community">
+                <?php if ($rows > 0) {
+                    while ($user = $query->fetch_assoc()) { ?>
+                <option value = "<?php echo($user['community_name']); ?>"> <?php echo($user['community_name']); ?></option>
+                    <?php } } ?>
+            </select>
           </div>
           
           <button type="submit" class="button button-block" name="Register"/>Signup</button>
@@ -119,7 +143,7 @@
           $_SESSION['error'] = '';
           ?>
           
-          <button class="button button-block" name="user_search"/>Search</button>
+          <button class="button button-block" name="user_search"/>Login</button>
           
           </form>
 
