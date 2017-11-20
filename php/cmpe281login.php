@@ -44,7 +44,8 @@ header("location: ../CMPE281/index.php"); // Redirecting To Other Page
 } else {
 $error = "Username or Password is invalid";
 $_SESSION['error'] = $error;
-header("location: ../CMPE281/index.php"); // Redirecting To Login Page
+echo($error);
+//header("location: ../CMPE281/index.php"); // Redirecting To Login Page
 }
 mysqli_close($connection); // Closing Connection
 }
