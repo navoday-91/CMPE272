@@ -70,8 +70,8 @@ else
     $email = ($_POST['email']);
     $address = ($_POST['address']);
     $phone = ($_POST['phone']);
-    $picurl = ($_POST('pic_url'));
-    $community = ($_POST('community'));
+    $picurl = ($_POST['pic_url']);
+    $community = ($_POST['community']);
     if ($picurl == ""){
         $picurl = "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjJzvma6s3XAhVLyFQKHR-JBYwQjRwIBw&url=http%3A%2F%2Fwww.millenia.dm%2Fabout-millenia-architects%2F&psig=AOvVaw0jp22Pbljcor5lj2-H4oV2&ust=1511290562609975";
     }
