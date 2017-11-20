@@ -352,14 +352,21 @@
                                               
                                             </fieldset>
                                           </form>
-                                          <?php if (isset($_POST['Edit'])) {
-                                                $commname = ($_POST['community']);
+                                          <?php if (isset($_POST['Edit']) || isset($_SESSION['addmgrcomm'])) {
+                                                
+                                                if (isset($_SESSION['addmgrcomm'])){
+                                                    $commname = $_SESSION['addmgrcomm'];
+                                                }
+                                                else{
+                                                    $commname = ($_POST['community']);
+                                                }
+                                                $_SESSION['addmgrcomm'] = $commname;
                                                 // Selecting Database
                                                 $db = mysqli_select_db($connection, "cmpe281");
                                                 // SQL query to fetch information of registerd users and finds user match.
                                                 $query = mysqli_query($connection, "select login.`username`, userdata.`first name`, userdata.`last name` from userdata, login where userdata.username = login.username and login.community_name = '$commname' and login.role = 'manager';");
                                                 $rows = mysqli_num_rows($query);
-                                                echo("Number of username rows = " + $rows);
+                                                
                                                 if ($rows == 0) {
                                             ?>        
                                                 <li>NO MANAGERS AVAILABLE FOR THIS COMMUNITY YET. ADD A MANAGER.</li>
@@ -375,6 +382,30 @@
                                                 }
                                                 }
                                                 }
+                                                ?>
+                                                <form id="login_form" class="dialog-form" action="editcomm.php" method="POST">
+                                                <fieldset>
+                                                  <legend>Add a community manager</legend>
+                                                  <div class="form-group">
+                                                    <label for="user_id" class="control-label">User ID:</label>
+                                                    <input type="text" id="user_id" class="form-control" name="user_id" autofocus/>
+                                                  </div>
+                                
+                                                  <?php if (isset($_SESSION['error2'])){ ?>
+                                                  <div class="text-center pad-top-20">
+                                                    <p><font color="red"><strong><?php echo($_SESSION['error1']); ?></strong></font></p>
+                                                  </div>
+                                                  <?php
+                                                      $_SESSION['error2'] = "";
+                                                      } 
+                                                  ?>
+                                                  <div class="pad-top-20 pad-btm-20">
+                                                    <input type="submit" class="btn btn-default btn-block btn-lg" name="Add" value="Add">
+                                                  </div>
+                                                  
+                                                </fieldset>
+                                                </form>
+                                                <?php
                                           }
                                               ?>
                                               
