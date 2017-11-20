@@ -23,7 +23,7 @@ else
     echo("Connected successfully \n");
     // To protect MySQL injection for Security purpose
     $commname = ($_POST['community_name']);
-    $commname = stripslashes($username);
+    $commname = stripslashes($commname);
     $commname = mysqli_real_escape_string($connection, $commname);
     // Selecting Database
     $db = mysqli_select_db($connection, "cmpe281");
