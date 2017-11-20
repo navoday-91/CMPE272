@@ -6,7 +6,7 @@ if (empty($_POST['user_username']) || empty($_POST['user_password'])) {
 $error = "Username or Password is invalid";
 echo($error);
 $_SESSION['error'] = $error;
-header("location: ../CMPE281/index.php"); // Redirecting back
+header("location: ../index.php"); // Redirecting back
 }
 else
 {
@@ -32,21 +32,21 @@ $query = mysqli_query($connection, "select * from login where password='$passwor
 $rows = mysqli_num_rows($query);
 if ($rows == 1) {
     while ($user = $query->fetch_assoc()) {
-//        $community = $user["community"];
-//        $role = $user["role"];
+        $community = $user["community_name"];
+        $role = $user["role"];
         
     }
 $_SESSION['login_user']=$username; // Initializing Session
 
-//$_SESSION['community']=$community; // Initializing Session
-//$_SESSION['role']=$role; // Initializing Session
-header("location: ../CMPE281/client.php"); // Redirecting To Other Page
+$_SESSION['community']=$community; 
+$_SESSION['role']=$role; 
+header("location: ../client.php"); // Redirecting To Other Page
 
 } else {
 $error = "Username or Password is invalid";
 $_SESSION['error'] = $error;
 echo($error);
-header("location: ../CMPE281/client.php"); // Redirecting To Login Page
+header("location: ../index.php"); // Redirecting To Login Page
 }
 mysqli_close($connection); // Closing Connection
 }
