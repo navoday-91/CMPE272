@@ -98,13 +98,16 @@
           ?>
           <div class="field-wrap">
             <label>
-              CommunityL<span class="">*</span>
+              Community<span class="req">*</span>
             </label>
-            <select name = "community">
+            <select name = "community"> Community
                 <?php if ($rows > 0) {
                     while ($user = $query->fetch_assoc()) { ?>
-                <option value = "<?php echo($user['community_name']); ?>"> <?php echo($user['community_name']); ?></option>
-                    <?php } } ?>
+                        <option value = "<?php echo($user['community_name']); ?>"> <?php echo($user['community_name']); ?></option>
+                    <?php } } 
+                    else{?>
+                        <option value = ""> No Communities Available</option>
+                    <?php } ?>
             </select>
           </div>
           
