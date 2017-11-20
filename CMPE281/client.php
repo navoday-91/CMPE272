@@ -138,6 +138,8 @@
               session_start();
               ?>
               user = "<?php echo($_SESSION['login_user']) ?>";
+              community = "<?php echo($_SESSION['community']) ?>";
+              role = "<?php echo($_SESSION['role']) ?>";
               inuser = ""
               var optext = [];
           function init()
@@ -369,7 +371,7 @@
                 // Selecting Database
                     $db = mysqli_select_db($connection, "cmpe281");
                     // SQL query to fetch information of registerd users and finds user match.
-                    $query = mysqli_query($connection, "select `username`, `first name` from userdata;");
+                    $query = mysqli_query($connection, "select `username`, `first name`, `picurl` from userdata;");
                     $rows = mysqli_num_rows($query);
                     if ($rows > 0) {
                         while ($user = $query->fetch_assoc()) {
@@ -377,7 +379,7 @@
                     <div class="sidebar-name">
                         <!-- Pass username and display name to register popup -->
                         <a href="javascript:register_popup('<?php echo($user["username"]) ?>', '<?php echo($user["first name"]) ?>');">
-                            <img width="30" height="30" src="https://scontent-sjc2-1.xx.fbcdn.net/v/t1.0-9/1966860_10203635303187228_940938618_n.jpg?oh=93caaa2b1784b28ee0d2eda0404c1255&oe=5AA5DC11" />
+                            <img width="30" height="30" src="<?php echo($user["picurl"]) ?>" />
                             <span><?php echo($user["first name"]) ?></span>
                         </a>
                     </div>
@@ -387,6 +389,16 @@
                     }
                 ?>
         </div>
-        
+        <?php
+        if ($_SESSION['login_user'] == "admin"){
+            ?>
+            <h1>You are logged in as Administrator</h1>
+            <ul>
+                <li><h3><a href = "createcomm.php">Create a community</a></h3></li>
+                <li><h3><a href = "editcomm.php">Edit Community Managers</a></h3></li>
+            </ul>
+            <?php
+        }
+        ?>
     </body>
 </html>
