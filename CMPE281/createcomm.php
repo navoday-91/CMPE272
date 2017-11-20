@@ -1,11 +1,10 @@
 
 <!doctype html>
+
 <?php
-
-?>
-
-
-
+                                                session_start();
+                                              ?>
+                                              
 <!-- start coded_template: id:3859515515 path:generated_layouts/3859515505.html --><!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en">        <![endif]--><!--[if IE 8]>    <html class="no-js lt-ie9" lang="en">               <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -315,9 +314,6 @@
                                                 <input type="text" id="community_name" class="form-control" name="community_name" autofocus/>
                                               </div>
                             
-                                              <?php
-                                                session_start();
-                                              ?>
                                               <?php if (isset($_SESSION['error1'])){ ?>
                                               <div class="text-center pad-top-20">
                                                 <p><font color="red"><strong><?php echo($_SESSION['error1']); ?></strong></font></p>
