@@ -137,10 +137,10 @@
           <?php
               session_start();
               ?>
-              user = "<?php echo($_SESSION['login_user']) ?>";
-              community = "<?php echo($_SESSION['community']) ?>";
-              role = "<?php echo($_SESSION['role']) ?>";
-              inuser = ""
+              var user = "<?php echo($_SESSION['login_user']) ?>";
+              var community = "<?php echo($_SESSION['community']) ?>";
+              var role = "<?php echo($_SESSION['role']) ?>";
+              var inuser = "";
               var optext = [];
           function init()
           {
