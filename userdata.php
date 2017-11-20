@@ -181,12 +181,12 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
                 <div class="span12 widget-span widget-type-raw_jinja " style="" data-widget-type="raw_jinja" data-x="0" data-w="12">
 
 
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
     
 
     
