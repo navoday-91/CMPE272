@@ -37,8 +37,8 @@ if ($rows == 1) {
         
     }
 $_SESSION['login_user']=$username; // Initializing Session
-$_SESSION['community']=$community; // Initializing Session
-$_SESSION['role']=$role; // Initializing Session
+//$_SESSION['community']=$community; // Initializing Session
+//$_SESSION['role']=$role; // Initializing Session
 header("location: ../CMPE281/index.php"); // Redirecting To Other Page
 
 } else {
