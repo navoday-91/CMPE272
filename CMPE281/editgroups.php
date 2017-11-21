@@ -348,6 +348,7 @@
                                                             echo($connection);
                                                         }
                                                         $db = mysqli_select_db($connection, "cmpe281");
+                                                        $community = $_SESSION['community'];
                                                         // SQL query to fetch communities.
                                                         $query = mysqli_query($connection, "select `groupname` from groups where community = '$community';");
                                                         $rows = mysqli_num_rows($query);
