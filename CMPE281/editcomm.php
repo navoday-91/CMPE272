@@ -306,6 +306,32 @@
                     <div class="span8 widget-span widget-type-widget_container column main-column" style="" data-widget-type="widget_container" data-x="0" data-w="8">
                         <span id="hs_cos_wrapper_module_14045563837526290" class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" style="" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><div id="hs_cos_wrapper_widget_3699427007" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><span class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container">
                                         <ul>
+                                            <?php if (isset($_POST['Add'])) {
+                                                
+                                                $newmgr = ($_POST['new_mgr']);
+                                                
+                                                // Selecting Database
+                                                $db = mysqli_select_db($connection, "cmpe281");
+                                                // SQL query to fetch information of registerd users and finds user match.
+                                                $query = mysqli_query($connection, "update login set role = 'manager' where username = '$newmgr';");
+                                                
+                                                $_SESSION['error2'] = "Manager Added";
+                                                
+                                              }
+                                            ?>        
+                                            <?php if (isset($_POST['del_mgr'])) {
+                                                
+                                                $delmgr = ($_POST['del_mgr']);
+                                                
+                                                // Selecting Database
+                                                $db = mysqli_select_db($connection, "cmpe281");
+                                                // SQL query to fetch information of registerd users and finds user match.
+                                                $query = mysqli_query($connection, "update login set role = 'citizenr' where username = '$delmgr';");
+                                                
+                                                $_SESSION['error1'] = "Manager Removed";
+                                                
+                                              }
+                                            ?>
                                         <form id="login_form" class="dialog-form" action="editcomm.php" method="POST">
                                             <fieldset>
                                               <legend>Edit a Community</legend>
@@ -377,7 +403,11 @@
                                                 else{
                                                 if ($rows > 0) {
                                                     while ($user = $query->fetch_assoc()) { ?>
-                                                        <li> <?php echo($user['username']); ?> "\t" <?php echo($user['first name']);?> <?php echo($user['last name']);?>
+                                                        <li> <?php echo($user['username']); ?> &nbsp;&nbsp;&nbsp; <?php echo($user['first name']);?> <?php echo($user['last name']);?>&nbsp;&nbsp;&nbsp;
+                                                        <form action="editcomm.php" method="post">
+                                                            <input type="hidden" id="del_mgr" name="del_mgr" value="<?php echo($user['username']); ?>" />
+                                                            <button>Remove Manager</button>
+                                                        </form>
                                                 </li>
                                                 <?php
                                                 }
@@ -406,7 +436,6 @@
                                                                 <option value = ""> No Users Available</option>
                                                         <?php } ?>
                                                     </select>
-                                                    <input type="text" id="user_id" class="form-control" name="user_id" autofocus/>
                                                   </div>
                                 
                                                   <?php if (isset($_SESSION['error2'])){ ?>
@@ -427,19 +456,7 @@
                                           }
                                               ?>
                                               
-                                              <?php if (isset($_POST['Add'])) {
-                                                
-                                                $newmgr = ($_POST['new_mgr']);
-                                                
-                                                // Selecting Database
-                                                $db = mysqli_select_db($connection, "cmpe281");
-                                                // SQL query to fetch information of registerd users and finds user match.
-                                                $query = mysqli_query($connection, "update login set role = 'manager' where username = '$newmgr';");
-                                                
-                                                $_SESSION['error2'] = "Manager Added";
-                                                
-                                              }
-                                            ?>        
+                                              
                                               
                                         </ul>
 </div></div></span>
