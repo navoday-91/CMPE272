@@ -328,7 +328,7 @@
                                                 // SQL query to fetch information of registerd users and finds user match.
                                                 $query = mysqli_query($connection, "update login set role = 'citizen' where username = '$delmgr';");
                                                 
-                                                $_SESSION['error1'] = "Manager Removed" + $delmgr;
+                                                $_SESSION['error1'] = "Manager Removed".$delmgr;
                                                 
                                               }
                                             ?>
