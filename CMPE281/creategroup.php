@@ -11,7 +11,7 @@
     <meta name="author" content="Open Source Communicator">
     <meta name="description" content="">
     <meta name="generator" content="HubSpot">
-    <title>Edit a Community</title>
+    <title>Create a New Group</title>
     
 
     
@@ -130,7 +130,7 @@
                             <div class="span12 widget-span widget-type-header " style="" data-widget-type="header" data-x="0" data-w="12">
                                 <div class="cell-wrapper layout-widget-wrapper">
                                     <span id="hs_cos_wrapper_module_14509432248707604" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_header" style="" data-hs-cos-general-type="widget" data-hs-cos-type="header"><h1><span id="hs_cos_wrapper_name" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="text">
-                                        Edit Community
+                                        New Group
                                     </span></h1></span>
                                 </div><!--end layout-widget-wrapper -->
                             </div><!--end widget-span -->
@@ -140,7 +140,7 @@
                         <div class="row-fluid ">
                             <div class="span12 widget-span widget-type-rich_text " style="" data-widget-type="rich_text" data-x="0" data-w="12">
                                 <div class="cell-wrapper layout-widget-wrapper">
-                                    <span id="hs_cos_wrapper_module_14509432659418859" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p>Edit Community Managers Here!</p></span>
+                                    <span id="hs_cos_wrapper_module_14509432659418859" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p>Create a new group here!</p></span>
                                 </div><!--end layout-widget-wrapper -->
                             </div><!--end widget-span -->
                         </div><!--end row-->
@@ -306,7 +306,13 @@
                     <div class="span8 widget-span widget-type-widget_container column main-column" style="" data-widget-type="widget_container" data-x="0" data-w="8">
                         <span id="hs_cos_wrapper_module_14045563837526290" class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" style="" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><div id="hs_cos_wrapper_widget_3699427007" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><span class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container">
                                         <ul>
-                                            <?php if (isset($_POST['Add'])) {
+                                            <?php if (isset($_POST['Create'])) {
+                                                if (empty($_POST['group_name']) || empty($_POST['group_type'])) {
+                                                
+                                                        $error = "Community Name can't be blank";
+                                                        $_SESSION['error3'] = $error;
+                                                }
+                                                else{
                                                 $connection = mysqli_connect("localhost", "admin", "redhat");
                                                         if ($connection->connect_error) {
                                                             die("Connection failed: " . $connection->connect_error);
@@ -314,162 +320,62 @@
                                                             echo($connection);
                                                         }
                                                         $db = mysqli_select_db($connection, "cmpe281");
-                                                $newmgr = ($_POST['new_mgr']);
+                                                $groupname = ($_POST['group_name']);
+                                                $grouptype = ($_POST['group_type']);
+                                                $community = ($_SESSION['community']);
+                                                $_SESSION['group_name'] = $groupname;
                                                 
                                                 // Selecting Database
                                                 $db = mysqli_select_db($connection, "cmpe281");
-                                                // SQL query to fetch information of registerd users and finds user match.
-                                                $query = mysqli_query($connection, "update login set role = 'manager' where username = '$newmgr';");
+                                                $query = mysqli_query($connection, "select * from groups where groupname='$groupname' and community='$community';");
+                                                $rows = mysqli_num_rows($query);
+                                                echo("Number of username rows = " + $rows);
+                                                if ($rows == 0) {
+                                                    $query = mysqli_query($connection, "insert into groups values('$groupname','$grouptype','$community');");
                                                 
-                                                $_SESSION['error2'] = "Manager Added"." - ".$newmgr;
-                                                
+                                                    $_SESSION['error3'] = "Group Added"." - ".$groupname;
+                                                }
+                                                else {
+                                                    $error = "Group name is occupied, try another!";
+                                                    $_SESSION['error3'] = $error;
+                                                    }
+                                                if($grouptype == "Bot"){
+                                                    header("location: botrules.php");
+                                                }
+                                                else{
+                                                    header("location: grpusers.php");
+                                                }
+                                                } 
                                               }
                                             ?>        
-                                            <?php if (isset($_POST['del_mgr'])) {
-                                                $connection = mysqli_connect("localhost", "admin", "redhat");
-                                                        if ($connection->connect_error) {
-                                                            die("Connection failed: " . $connection->connect_error);
-                                                            echo('connection to db failed');
-                                                            echo($connection);
-                                                        }
-                                                        $db = mysqli_select_db($connection, "cmpe281");
-                                                $delmgr = ($_POST['del_mgr']);
-                                                
-                                                // Selecting Database
-                                                $db = mysqli_select_db($connection, "cmpe281");
-                                                // SQL query to fetch information of registerd users and finds user match.
-                                                $query = mysqli_query($connection, "update login set role = 'citizen' where username = '$delmgr';");
-                                                
-                                                $_SESSION['error1'] = "Manager Removed"." - ".$delmgr;
-                                                
-                                              }
-                                            ?>
-                                        <form id="login_form" class="dialog-form" action="editcomm.php" method="POST">
+                                        <form id="group_form" class="dialog-form" action="creategroup.php" method="POST">
                                             <fieldset>
-                                              <legend>Edit a Community</legend>
+                                              <legend>Create a Group</legend>
                                               <div class="form-group">
-                                                
-                                                <?php
-                                                        $connection = mysqli_connect("localhost", "admin", "redhat");
-                                                        if ($connection->connect_error) {
-                                                            die("Connection failed: " . $connection->connect_error);
-                                                            echo('connection to db failed');
-                                                            echo($connection);
-                                                        }
-                                                        $db = mysqli_select_db($connection, "cmpe281");
-                                                        // SQL query to fetch communities.
-                                                        $query = mysqli_query($connection, "select * from communities;");
-                                                        $rows = mysqli_num_rows($query);
-                                                        
-                                                  ?>
-                                                  <label for="community" class="control-label">Community Name:</label>
-                                                  <select id="community" class="form-control" name = "community" autofocus> 
-                                                          <option value = ""> Select Community</option>
-                                                        <?php if ($rows > 0) {
-                                                            while ($user = $query->fetch_assoc()) { ?>
-                                                                <option value = "<?php echo($user['community_name']); ?>" <?php if ($user['community_name'] == $_SESSION['addmgrcomm']){echo('selected');} ?>> <?php echo($user['community_name']);
-                                                        ?></option>
-                                                        <?php } } 
-                                                            else{?>
-                                                                <option value = ""> No Communities Available</option>
-                                                        <?php } ?>
-                                                    </select>
+                                                <label for="group_name" class="control-label">Group Name:</label>
+                                                <input type="text" id="group_name" class="form-control" name="group_name" autofocus/>
                                               </div>
-                            
-                                              <?php if (isset($_SESSION['error1'])){ ?>
+                                              <div class="form-group">
+                                                <label for="group_type" class="control-label">Group Type:</label>
+                                                <select id="group_type" class="form-control" name = "group_type" autofocus> 
+                                                          <option value = "Bot"> Bot Driven</option>
+                                                          <option value = "Open"> Open</option>
+                                                </select>
+                                              </div>
+                                              <?php if (isset($_SESSION['error3'])){ ?>
                                               <div class="text-center pad-top-20">
-                                                <p><font color="red"><strong><?php echo($_SESSION['error1']); ?></strong></font></p>
+                                                <p><font color="red"><strong><?php echo($_SESSION['error3']); ?></strong></font></p>
                                               </div>
                                               <?php
-                                                  $_SESSION['error1'] = "";
+                                                  $_SESSION['error3'] = "";
                                                   } 
                                               ?>
                                               <div class="pad-top-20 pad-btm-20">
-                                                <input type="submit" class="btn btn-default btn-block btn-lg" name="Edit" value="Edit">
+                                                <input type="submit" class="btn btn-default btn-block btn-lg" name="Create" value="Create">
                                               </div>
                                               
                                             </fieldset>
                                           </form>
-                                          <?php if (isset($_POST['Edit']) || isset($_SESSION['addmgrcomm'])) {
-                                                
-                                                if (isset($_POST['Edit'])){
-                                                    
-                                                    $commname = ($_POST['community']);
-                                                }
-                                                else{
-                                                    $commname = $_SESSION['addmgrcomm'];
-                                                }
-                                                $_SESSION['addmgrcomm'] = $commname;
-                                                // Selecting Database
-                                                $db = mysqli_select_db($connection, "cmpe281");
-                                                // SQL query to fetch information of registerd users and finds user match.
-                                                $query = mysqli_query($connection, "select login.`username`, userdata.`first name`, userdata.`last name` from userdata, login where userdata.username = login.username and login.community_name = '$commname' and login.role = 'manager';");
-                                                $rows = mysqli_num_rows($query);
-                                                
-                                                if ($rows == 0) {
-                                            ?>        
-                                                <li>NO MANAGERS AVAILABLE FOR THIS COMMUNITY YET. ADD A MANAGER.</li>
-                                            <?php    
-                                                    
-                                                }
-                                                else{
-                                                if ($rows > 0) {
-                                                    while ($user = $query->fetch_assoc()) { ?>
-                                                        <li> <?php echo($user['username']); ?> &nbsp;&nbsp;&nbsp; <?php echo($user['first name']);?> <?php echo($user['last name']);?>&nbsp;&nbsp;&nbsp;
-                                                        <form action="editcomm.php" method="post">
-                                                            <input type="hidden" id="del_mgr" name="del_mgr" value="<?php echo($user['username']); ?>" />
-                                                            <button>Remove Manager</button>
-                                                        </form>
-                                                </li>
-                                                <?php
-                                                }
-                                                }
-                                                }
-                                                ?>
-                                                <form id="login_form" class="dialog-form" action="editcomm.php" method="POST">
-                                                <fieldset>
-                                                  <legend>Add a community manager for <?php echo($commname);?></legend>
-                                                  <div class="form-group">
-                                                    <label for="new_mgr" class="control-label">User ID:</label>
-                                                    <select id="new_mgr" class="form-control" name = "new_mgr" autofocus> 
-                                                          <option value = ""> Select User To Add</option>
-                                                        <?php 
-                                                        $db = mysqli_select_db($connection, "cmpe281");
-                                                        // SQL query to fetch information of registerd users and finds user match.
-                                                        $query = mysqli_query($connection, "select `username` from login where community_name = '$commname' and role = 'citizen';");
-                                                        $rows = mysqli_num_rows($query);
-                                                        if ($rows > 0) {
-                                                            while ($user = $query->fetch_assoc()) { 
-                                                            ?>
-                                                                
-                                                                <option value = "<?php echo($user['username']); ?>"><?php echo($user['username']); ?></option>
-                                                        <?php } } 
-                                                            else{?>
-                                                                <option value = ""> No Users Available</option>
-                                                        <?php } ?>
-                                                    </select>
-                                                  </div>
-                                
-                                                  <?php if (isset($_SESSION['error2'])){ ?>
-                                                  <div class="text-center pad-top-20">
-                                                    <p><font color="red"><strong><?php echo($_SESSION['error1']); ?></strong></font></p>
-                                                  </div>
-                                                  <?php
-                                                      $_SESSION['error2'] = "";
-                                                      } 
-                                                  ?>
-                                                  <div class="pad-top-20 pad-btm-20">
-                                                    <input type="submit" class="btn btn-default btn-block btn-lg" name="Add" value="Add">
-                                                  </div>
-                                                  
-                                                </fieldset>
-                                                </form>
-                                                <?php
-                                          }
-                                              ?>
-                                              
-                                              
-                                              
                                         </ul>
 </div></div></span>
                     

@@ -359,13 +359,6 @@
     <body>
         <div class="chat-sidebar">
             
-            <div class="sidebar-name">
-                <!-- Pass username and display name to register popup -->
-                <a href="javascript:register_popup('911', '911 - Emergency');">
-                    <img width="30" height="30" src="https://scontent-sjc2-1.xx.fbcdn.net/v/t1.0-9/1966860_10203635303187228_940938618_n.jpg?oh=93caaa2b1784b28ee0d2eda0404c1255&oe=5AA5DC11" />
-                    <span>911 - Emergency</span>
-                </a>
-            </div>
             <?php
                 $connection = mysqli_connect("localhost", "admin", "redhat");
                 // Selecting Database
@@ -390,12 +383,25 @@
                 ?>
         </div>
         <?php
-        if ($_SESSION['login_user'] == "admin"){
+        if ($_SESSION['role'] == "admin"){
             ?>
             <h1>You are logged in as Administrator</h1>
             <ul>
                 <li><h3><a href = "createcomm.php">Create a community</a></h3></li>
                 <li><h3><a href = "editcomm.php">Edit Community Managers</a></h3></li>
+            </ul>
+            <?php
+        }
+        ?>
+        
+        <?php
+        if ($_SESSION['role'] == "manager"){
+            ?>
+            <h1>You are logged in as Community Manager of <?php echo($_SESSION['community']);?></h1>
+            <ul>
+                <li><h3><a href = "creategroup.php">Create a Group</a></h3></li>
+                <li><h3><a href = "editcomm.php">Remove Groups</a></h3></li>
+                <li><h3><a href = "editcomm.php">Remove Community Members</a></h3></li>
             </ul>
             <?php
         }
