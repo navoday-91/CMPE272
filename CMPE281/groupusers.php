@@ -363,6 +363,7 @@
                                                             echo($connection);
                                                         }
                                                         $db = mysqli_select_db($connection, "cmpe281");
+                                                        $community = $_SESSION['community'];
                                                         if ($_SESSION['TBSET'] == 0){
                                                             $tablename = $_POST['groups'].$community;
                                                             $_SESSION['TBSETNAME'] = $tablename;
@@ -371,7 +372,7 @@
                                                             $tablename = $_SESSION['TBSETNAME'];
                                                         }
                                                         $_SESSION['TBSET'] += 1;
-                                                        $community = $_SESSION['community'];
+                                                        
                                                         $_SESSION['error3'] = $tablename.$_SESSION['TBSETNAME'].$_SESSION['TBSET'];
                                                         // SQL query to fetch users.
                                                         $query = mysqli_query($connection, "select login.`username`, userdata.`first name`, userdata.`last name` from userdata, login where userdata.username = login.username and login.community_name = '$community' ;");
