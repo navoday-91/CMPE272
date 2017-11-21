@@ -371,9 +371,9 @@
                 ?>
                     <div class="sidebar-name">
                         <!-- Pass username and display name to register popup -->
-                        <a href="javascript:register_popup('<?php echo($user["username"]) ?>', '<?php echo($user["first name"]) ?>');">
-                            <img width="30" height="30" src="<?php echo($user["picurl"]) ?>" />
-                            <span><?php echo($user["first name"]) ?></span>
+                        <a href="javascript:register_popup('<?php echo($user["groupname"]) ?>', '<?php echo($user["groupname"]) ?>');">
+                            <img width="30" height="30" src="http://4c3f12db975a1c8b62fd-ee282e5b70d98fac94cba689ef7806d7.r43.cf1.rackcdn.com/default_group_normal.png" />
+                            <span><?php echo($user["groupname"]) ?></span>
                         </a>
                     </div>
             
