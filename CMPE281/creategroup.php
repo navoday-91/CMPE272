@@ -333,12 +333,6 @@
                                                     $query = mysqli_query($connection, "insert into groups values('$groupname','$grouptype','$community');");
                                                 
                                                     $_SESSION['error3'] = "Group Added"." - ".$grouptype.$groupname;
-                                                    if($grouptype == 'Bot'){
-                                                    header("location: botrules.php");
-                                                }
-                                                else{
-                                                    header("location: grpusers.php");
-                                                }
                                                 }
                                                 else {
                                                     $error = "Group name is occupied, try another!";
@@ -363,11 +357,16 @@
                                               </div>
                                               <?php if (isset($_SESSION['error3'])){ ?>
                                               <div class="text-center pad-top-20">
-                                                <p><font color="red"><strong><?php echo($_SESSION['error3']); ?></strong></font></p>
+                                                <p><font color="red"><strong><?php echo($_SESSION['error3']); ?>
+                                                <?php  if($grouptype =='Bot'){
+                                                    ?><a href="botrules.php"> Set Up Rules For your Bot</a>
+                                                ?>
+                                                </strong></font></p>
                                               </div>
                                               <?php
                                                   $_SESSION['error3'] = "";
                                                   } 
+                                                 
                                               ?>
                                               <div class="pad-top-20 pad-btm-20">
                                                 <input type="submit" class="btn btn-default btn-block btn-lg" name="Create" value="Create">
