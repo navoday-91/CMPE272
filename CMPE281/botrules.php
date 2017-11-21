@@ -339,9 +339,7 @@
                                                  $_SESSION['error3'] = "Rule Added";
                                                 } 
                                               }
-                                              if (isset($_POST['Done'])) {
-                                                  header("location: grpusers.php");
-                                              }
+                                              
                                             ?>        
                                         <form id="group_form" class="dialog-form" action="botrules.php" method="POST">
                                             <fieldset>
@@ -366,7 +364,7 @@
                                                 <input type="submit" class="btn btn-default btn-block btn-lg" name="Add" value="Add">
                                               </div>
                                               <div class="pad-top-20 pad-btm-20">
-                                                <input type="submit" class="btn btn-default btn-block btn-lg" name="Done" value="Done">
+                                                <a href="mnggroups.php">Done</a>
                                               </div>
                                               
                                             </fieldset>

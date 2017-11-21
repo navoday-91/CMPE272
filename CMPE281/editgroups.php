@@ -354,7 +354,7 @@
                                                         $rows = mysqli_num_rows($query);
                                                         
                                                   ?>
-                                                  <label for="groups" class="control-label">Goup Names:</label>
+                                                  <label for="groups" class="control-label">Group Names:</label>
                                                   <select id="groups" class="form-control" name = "groups" autofocus> 
                                                         <?php if ($rows > 0) {
                                                             while ($user = $query->fetch_assoc()) { ?>
@@ -367,12 +367,12 @@
                                                     </select>
                                               </div>
                             
-                                              <?php if (isset($_SESSION['error1'])){ ?>
+                                              <?php if (isset($_SESSION['error2'])){ ?>
                                               <div class="text-center pad-top-20">
-                                                <p><font color="red"><strong><?php echo($_SESSION['error1']); ?></strong></font></p>
+                                                <p><font color="red"><strong><?php echo($_SESSION['error2']); ?></strong></font></p>
                                               </div>
                                               <?php
-                                                  $_SESSION['error1'] = "";
+                                                  $_SESSION['error2'] = "";
                                                   } 
                                               ?>
                                               <div class="pad-top-20 pad-btm-20">
