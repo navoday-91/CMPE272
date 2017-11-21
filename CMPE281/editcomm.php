@@ -408,7 +408,7 @@
                                                 
                                                 if ($rows == 0) {
                                             ?>        
-                                                <li>NO MANAGERS AVAILABLE FOR THIS COMMUNITY YET. ADD A MANAGER.</li>
+                                                <li>NO MANAGERS AVAILABLE FOR THIS COMMUNITY YET. ADD A MANAGER. <?php echo($commname); ?></li>
                                             <?php    
                                                     
                                                 }
