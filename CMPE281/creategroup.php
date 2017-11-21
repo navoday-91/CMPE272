@@ -309,7 +309,7 @@
                                             <?php if (isset($_POST['Create'])) {
                                                 if (empty($_POST['group_name']) || empty($_POST['group_type'])) {
                                                 
-                                                        $error = "Community Name can't be blank";
+                                                        $error = "Group Name can't be blank";
                                                         $_SESSION['error3'] = $error;
                                                 }
                                                 else{
@@ -332,7 +332,7 @@
                                                 if ($rows == 0) {
                                                     $query = mysqli_query($connection, "insert into groups values('$groupname','$grouptype','$community');");
                                                 
-                                                    $_SESSION['error3'] = "Group Added"." - ".$groupname;
+                                                    $_SESSION['error3'] = "Group Added"." - ".$grouptype.$groupname;
                                                     if($grouptype == 'Bot'){
                                                     header("location: botrules.php");
                                                 }
