@@ -329,22 +329,21 @@
                                                 $db = mysqli_select_db($connection, "cmpe281");
                                                 $query = mysqli_query($connection, "select * from groups where groupname='$groupname' and community='$community';");
                                                 $rows = mysqli_num_rows($query);
-                                                echo("Number of username rows = " + $rows);
                                                 if ($rows == 0) {
                                                     $query = mysqli_query($connection, "insert into groups values('$groupname','$grouptype','$community');");
                                                 
                                                     $_SESSION['error3'] = "Group Added"." - ".$groupname;
-                                                }
-                                                else {
-                                                    $error = "Group name is occupied, try another!";
-                                                    $_SESSION['error3'] = $error;
-                                                    }
-                                                if($grouptype == "Bot"){
+                                                    if($grouptype == 'Bot'){
                                                     header("location: botrules.php");
                                                 }
                                                 else{
                                                     header("location: grpusers.php");
                                                 }
+                                                }
+                                                else {
+                                                    $error = "Group name is occupied, try another!";
+                                                    $_SESSION['error3'] = $error;
+                                                    }
                                                 } 
                                               }
                                             ?>        
