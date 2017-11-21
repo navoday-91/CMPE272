@@ -325,7 +325,7 @@
                                                 $db = mysqli_select_db($connection, "cmpe281");
                                                 $query = mysqli_query($connection, "insert into `$tablename` values('$User','$Roles');");
                                                 
-                                                    $error = "New member added!";
+                                                    $error = "New member added!".$tablename.$User;
                                                     $_SESSION['error3'] = $error;
                                                 }
                                                  

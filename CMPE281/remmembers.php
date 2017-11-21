@@ -320,9 +320,9 @@
                                                 $db = mysqli_select_db($connection, "cmpe281");
                                                 $community = $_SESSION['community'];
                                                 // SQL query to delete information of registerd users 
-                                                $query = mysqli_query($connection, "delete from login where username = $username;");
-                                                $query = mysqli_query($connection, "delete from userdata where username = $username;");
-                                                $_SESSION['error2'] = "User Removed"." - ";
+                                                $query = mysqli_query($connection, "delete from login where username = '$username';");
+                                                $query = mysqli_query($connection, "delete from userdata where username = '$username';");
+                                                $_SESSION['error2'] = "User Removed";
                                                 
                                               }
                                             ?>        
