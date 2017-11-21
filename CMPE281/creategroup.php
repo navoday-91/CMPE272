@@ -360,7 +360,7 @@
                                                 <p><font color="red"><strong><?php echo($_SESSION['error3']); ?>
                                                 <?php  if($grouptype =='Bot'){
                                                     ?><a href="botrules.php"> Set Up Rules For your Bot</a>
-                                                ?>
+                                                <?php } ?>
                                                 </strong></font></p>
                                               </div>
                                               <?php
