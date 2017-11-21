@@ -320,8 +320,17 @@
                                                 $db = mysqli_select_db($connection, "cmpe281");
                                                 $community = $_SESSION['community'];
                                                 // SQL query to fetch information of registerd users and finds user match.
+                                                $query = mysqli_query($connection, "select `grouptype` from groups where community = '$community' and groupname = '$remgrp';");
+                                                while ($user = $query->fetch_assoc()) { 
+                                                    $grouptype = $user['grouptype'];
+                                                }
                                                 $query = mysqli_query($connection, "delete from groups where groupname = '$remgrp' and community = '$community';");
-                                                
+                                                $tablename = $remgrp.$community."rules";
+                                                $tablename1 = $remgrp.$community;
+                                                if ($grouptype == 'Bot'){
+                                                $query = mysqli_query($connection, "drop table `$tablename`;");
+                                                }
+                                                $query = mysqli_query($connection, "drop table `$tablename1`;");
                                                 $_SESSION['error2'] = "Group Removed"." - ";
                                                 
                                               }
@@ -340,13 +349,12 @@
                                                         }
                                                         $db = mysqli_select_db($connection, "cmpe281");
                                                         // SQL query to fetch communities.
-                                                        $query = mysqli_query($connection, "select `groupname` from groups where community = '';");
+                                                        $query = mysqli_query($connection, "select `groupname` from groups where community = '$community';");
                                                         $rows = mysqli_num_rows($query);
                                                         
                                                   ?>
                                                   <label for="groups" class="control-label">Goup Names:</label>
                                                   <select id="groups" class="form-control" name = "groups" autofocus> 
-                                                          <option value = ""> Select Community</option>
                                                         <?php if ($rows > 0) {
                                                             while ($user = $query->fetch_assoc()) { ?>
                                                                 <option value = "<?php echo($user['groupname']); ?>"><?php echo($user['groupname']);
