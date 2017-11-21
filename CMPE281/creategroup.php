@@ -332,7 +332,7 @@
                                                 $tablename = $groupname.$community;
                                                 if ($rows == 0) {
                                                     $query = mysqli_query($connection, "insert into groups values('$groupname','$grouptype','$community');");
-                                                    $query = mysqli_query($connection, "create table `$tablename`(`member` varchar(30), `role` varchar(12);");
+                                                    $query = mysqli_query($connection, "create table `$tablename`(`member` varchar(30), `role` varchar(12));");
                                                     $_SESSION['error3'] = "Group Added";
                                                 }
                                                 else {
