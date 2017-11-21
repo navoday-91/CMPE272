@@ -373,7 +373,7 @@
                                                         }
                                                         $_SESSION['TBSET'] += 1;
                                                         
-                                                        $_SESSION['error3'] = $tablename.$_SESSION['TBSETNAME'].$_SESSION['TBSET'];
+                                                        
                                                         // SQL query to fetch users.
                                                         $query = mysqli_query($connection, "select login.`username`, userdata.`first name`, userdata.`last name` from userdata, login where userdata.username = login.username and login.community_name = '$community' ;");
                                                         $rows = mysqli_num_rows($query);
