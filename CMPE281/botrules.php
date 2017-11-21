@@ -332,11 +332,11 @@
                                                 $query = mysqli_query($connection, "SHOW TABLES LIKE '$tablename';");
                                                 $rows = mysqli_num_rows($query);
                                                 if ($rows == 0){
-                                                $query = mysqli_query($connection, "create table $tablename(`rule_txt` varchar(100), `rule_val` varchar(100));");
+                                                $query = mysqli_query($connection, "create table `$tablename`(`rule_txt` varchar(100), `rule_val` varchar(100));");
                                                 }
-                                                $query = mysqli_query($connection, "insert into $tablename values('$rule','$ruleval');");
+                                                $query = mysqli_query($connection, "insert into `$tablename` values('$rule','$ruleval');");
                                                 
-                                                 $_SESSION['error3'] = "Rule Added".$tablename;
+                                                 $_SESSION['error3'] = "Rule Added";
                                                 } 
                                               }
                                               if (isset($_POST['done'])) {
