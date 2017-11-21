@@ -332,7 +332,7 @@
                                                 if ($rows == 0) {
                                                     $query = mysqli_query($connection, "insert into groups values('$groupname','$grouptype','$community');");
                                                 
-                                                    $_SESSION['error3'] = "Group Added"." - ".$grouptype.$groupname;
+                                                    $_SESSION['error3'] = "Group Added";
                                                 }
                                                 else {
                                                     $error = "Group name is occupied, try another!";
@@ -359,7 +359,7 @@
                                               <div class="text-center pad-top-20">
                                                 <p><font color="red"><strong><?php echo($_SESSION['error3']); ?>
                                                 <?php  if($grouptype =='Bot'){
-                                                    ?><a href="botrules.php"> Set Up Rules For your Bot</a>
+                                                    ?><a href="botrules.php"> - Set Up Rules For your Bot</a>
                                                 <?php } ?>
                                                 </strong></font></p>
                                               </div>

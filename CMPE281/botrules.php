@@ -336,7 +336,7 @@
                                                 }
                                                 $query = mysqli_query($connection, "insert into $tablename values('$rule','$ruleval');");
                                                 
-                                                 $_SESSION['error3'] = "Rule Added";
+                                                 $_SESSION['error3'] = "Rule Added".$tablename;
                                                 } 
                                               }
                                               if (isset($_POST['done'])) {
