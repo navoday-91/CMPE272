@@ -326,7 +326,7 @@
                                                 
                                               }
                                             ?>        
-                                        <form id="login_form" class="dialog-form" action="editgroups.php" method="POST">
+                                        <form id="login_form" class="dialog-form" action="remmembers.php" method="POST">
                                             <fieldset>
                                               <legend>Remove a member</legend>
                                               <div class="form-group">
