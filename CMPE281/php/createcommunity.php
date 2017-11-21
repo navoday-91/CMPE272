@@ -32,7 +32,7 @@ else
     if ($rows == 0) {
         $query = mysqli_query($connection, "insert into communities values('$commname');");
         echo(mysqli_error($connection));
-        $_SESSION['error1'] = "Registration Successful";
+        $_SESSION['error1'] = "New Community Created";
         header("location: ../createcomm.php");
     }
     else {

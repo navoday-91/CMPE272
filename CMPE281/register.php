@@ -79,9 +79,9 @@
           
           <div class="field-wrap">
             <label>
-              Profile Picture URL<span class="">*</span>
+              Profile Picture URL<span class=""></span>
             </label>
-            <input type="text"required autocomplete="off" name="pic_url"/>
+            <input type="text" autocomplete="off" name="pic_url"/>
           </div>
           <?php
                 $connection = mysqli_connect("localhost", "admin", "redhat");
