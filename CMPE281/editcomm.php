@@ -354,11 +354,12 @@
                                           </form>
                                           <?php if (isset($_POST['Edit']) || isset($_SESSION['addmgrcomm'])) {
                                                 
-                                                if (isset($_SESSION['addmgrcomm'])){
-                                                    $commname = $_SESSION['addmgrcomm'];
+                                                if (isset($_POST['Edit'])){
+                                                    
+                                                    $commname = ($_POST['community']);
                                                 }
                                                 else{
-                                                    $commname = ($_POST['community']);
+                                                    $commname = $_SESSION['addmgrcomm'];
                                                 }
                                                 $_SESSION['addmgrcomm'] = $commname;
                                                 // Selecting Database
@@ -385,7 +386,7 @@
                                                 ?>
                                                 <form id="login_form" class="dialog-form" action="editcomm.php" method="POST">
                                                 <fieldset>
-                                                  <legend>Add a community manager</legend>
+                                                  <legend>Add a community manager for <?php echo($commname);?></legend>
                                                   <div class="form-group">
                                                     <label for="new_mgr" class="control-label">User ID:</label>
                                                     <select id="new_mgr" class="form-control" name = "new_mgr" autofocus> 
