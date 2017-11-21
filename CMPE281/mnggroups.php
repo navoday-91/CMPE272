@@ -331,6 +331,7 @@
                                                         <?php if ($rows > 0) {
                                                             while ($user = $query->fetch_assoc()) { ?>
                                                                 <option value = "<?php echo($user['groupname']); ?>"><?php echo($user['groupname']);
+                                                                $_SESSION['TBSET'] = 0;
                                                         ?></option>
                                                         <?php } } 
                                                             else{?>

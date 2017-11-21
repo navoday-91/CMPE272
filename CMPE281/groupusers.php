@@ -309,7 +309,50 @@
                                               
                                         <form id="login_form" class="dialog-form" action="groupusers.php" method="POST">
                                             <fieldset>
-                                              <legend>Manage a group</legend>
+                                                <?php if (isset($_POST['Add'])) {
+                                                
+                                                $connection = mysqli_connect("localhost", "admin", "redhat");
+                                                        if ($connection->connect_error) {
+                                                            die("Connection failed: " . $connection->connect_error);
+                                                            echo('connection to db failed');
+                                                            echo($connection);
+                                                        }
+                                                        $db = mysqli_select_db($connection, "cmpe281");
+                                                $tablename = $_SESSION['TBSETNAME'];
+                                                $User = $_POST['User'];
+                                                $Roles = $_POST['Roles'];
+                                                // Selecting Database
+                                                $db = mysqli_select_db($connection, "cmpe281");
+                                                $query = mysqli_query($connection, "insert into `$tablename` values('$User','$Roles');");
+                                                
+                                                    $error = "New member added!";
+                                                    $_SESSION['error3'] = $error;
+                                                }
+                                                 
+                                              
+                                            ?>
+                                            <?php if (isset($_POST['Remove'])) {
+                                                
+                                                $connection = mysqli_connect("localhost", "admin", "redhat");
+                                                        if ($connection->connect_error) {
+                                                            die("Connection failed: " . $connection->connect_error);
+                                                            echo('connection to db failed');
+                                                            echo($connection);
+                                                        }
+                                                        $db = mysqli_select_db($connection, "cmpe281");
+                                                $tablename = $_SESSION['TBSETNAME'];
+                                                $User = $_POST['members'];
+                                                // Selecting Database
+                                                $db = mysqli_select_db($connection, "cmpe281");
+                                                $query = mysqli_query($connection, "delete from `$tablename` where member = '$User';");
+                                                
+                                                    $error = "Member Removed!";
+                                                    $_SESSION['error2'] = $error;
+                                                }
+                                                 
+                                              
+                                            ?>
+                                              <legend>Add Users & Roles:</legend>
                                               <div class="form-group">
                                                 
                                                 <?php
@@ -326,8 +369,8 @@
                                                         $rows = mysqli_num_rows($query);
                                                         
                                                   ?>
-                                                  <label for="groups" class="control-label">Goup Names:</label>
-                                                  <select id="groups" class="form-control" name = "groups" autofocus> 
+                                                  <label for="User" class="control-label">Community Members:</label>
+                                                  <select id="User" class="form-control" name = "User" autofocus> 
                                                         <?php if ($rows > 0) {
                                                             while ($user = $query->fetch_assoc()) { ?>
                                                                 <option value = "<?php echo($user['username']); ?>"><?php echo($user['username']."    ".$user['first name'." ".$user['last name']]);
@@ -337,7 +380,8 @@
                                                                 <option value = ""> No Users Available</option>
                                                         <?php } ?>
                                                     </select>
-                                                    <select id="groups" class="form-control" name = "groups" autofocus> 
+                                                    <label for="Roles" class="control-label">Community Members:</label>
+                                                    <select id="Roles" class="form-control" name = "Roles" autofocus> 
                                                                 <option value = "admin"> Administrator</option>
                                                                 <option value = "contributor"> Contributor</option>
                                                     </select>
@@ -360,7 +404,7 @@
                                           
                                           <form id="remove_form" class="dialog-form" action="groupusers.php" method="POST">
                                             <fieldset>
-                                              <legend><?php echo($_POST['groups']); ?></legend>
+                                              <legend>Remove existing users:</legend>
                                               <div class="form-group">
                                                 
                                                 <?php
@@ -373,14 +417,22 @@
                                                         
                                                         $db = mysqli_select_db($connection, "cmpe281");
                                                         $community = $_SESSION['community'];
-                                                        $tablename = $_POST['groups'].$community;
+                                                        if ($_SESSION['TBSET'] == 0){
+                                                            $tablename = $_POST['groups'].$community;
+                                                            $_SESSION['TBSETNAME'] = $tablename;
+                                                        }
+                                                        else{
+                                                            $tablename = $_SESSION['TBSETNAME'];
+                                                        }
+                                                        $_SESSION['TBSET'] += 1;
+                                                        
                                                         // SQL query to fetch communities.
                                                         $query = mysqli_query($connection, "select `member`, `role` from `$tablename`;");
                                                         $rows = mysqli_num_rows($query);
                                                         
                                                   ?>
-                                                  <label for="groups" class="control-label">Group Names:</label>
-                                                  <select id="groups" class="form-control" name = "groups" autofocus> 
+                                                  <label for="members" class="control-label">Group Members:</label>
+                                                  <select id="members" class="form-control" name = "members" autofocus> 
                                                         <?php if ($rows > 0) {
                                                             while ($user = $query->fetch_assoc()) { ?>
                                                                 <option value = "<?php echo($user['member']); ?>"><?php echo($user['member']." - ".$user['role']);
