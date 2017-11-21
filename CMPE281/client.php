@@ -400,8 +400,8 @@
             <h1>You are logged in as Community Manager of <?php echo($_SESSION['community']);?></h1>
             <ul>
                 <li><h3><a href = "creategroup.php">Create a Group</a></h3></li>
-                <li><h3><a href = "editcomm.php">Remove Groups</a></h3></li>
-                <li><h3><a href = "editcomm.php">Remove Community Members</a></h3></li>
+                <li><h3><a href = "editgroups.php">Remove Groups</a></h3></li>
+                <li><h3><a href = "remmembers.php">Remove Community Members</a></h3></li>
             </ul>
             <?php
         }

@@ -11,7 +11,7 @@
     <meta name="author" content="Open Source Communicator">
     <meta name="description" content="">
     <meta name="generator" content="HubSpot">
-    <title>Create Rules for Bot</title>
+    <title>Remove a group</title>
     
 
     
@@ -130,7 +130,7 @@
                             <div class="span12 widget-span widget-type-header " style="" data-widget-type="header" data-x="0" data-w="12">
                                 <div class="cell-wrapper layout-widget-wrapper">
                                     <span id="hs_cos_wrapper_module_14509432248707604" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_header" style="" data-hs-cos-general-type="widget" data-hs-cos-type="header"><h1><span id="hs_cos_wrapper_name" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="text">
-                                        Setup Rules
+                                        Delete Groups
                                     </span></h1></span>
                                 </div><!--end layout-widget-wrapper -->
                             </div><!--end widget-span -->
@@ -140,7 +140,7 @@
                         <div class="row-fluid ">
                             <div class="span12 widget-span widget-type-rich_text " style="" data-widget-type="rich_text" data-x="0" data-w="12">
                                 <div class="cell-wrapper layout-widget-wrapper">
-                                    <span id="hs_cos_wrapper_module_14509432659418859" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p>Enter the Bot questions!</p></span>
+                                    <span id="hs_cos_wrapper_module_14509432659418859" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p>Remove your community groups!</p></span>
                                 </div><!--end layout-widget-wrapper -->
                             </div><!--end widget-span -->
                         </div><!--end row-->
@@ -306,13 +306,7 @@
                     <div class="span8 widget-span widget-type-widget_container column main-column" style="" data-widget-type="widget_container" data-x="0" data-w="8">
                         <span id="hs_cos_wrapper_module_14045563837526290" class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" style="" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><div id="hs_cos_wrapper_widget_3699427007" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><span class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container">
                                         <ul>
-                                            <?php if (isset($_POST['Add'])) {
-                                                if (empty($_POST['rule_txt']) || empty($_POST['rule_val'])) {
-                                                
-                                                        $error = "Rule values can't be blank";
-                                                        $_SESSION['error3'] = $error;
-                                                }
-                                                else{
+                                            <?php if (isset($_POST['Remove'])) {
                                                 $connection = mysqli_connect("localhost", "admin", "redhat");
                                                         if ($connection->connect_error) {
                                                             die("Connection failed: " . $connection->connect_error);
@@ -320,57 +314,65 @@
                                                             echo($connection);
                                                         }
                                                         $db = mysqli_select_db($connection, "cmpe281");
-                                                $rule = ($_POST['rule_txt']);
-                                                $ruleval = ($_POST['rule_val']);
-                                                $community = ($_SESSION['community']);
-                                                $groupname = $_SESSION['group_name'];
-                                                $tablename = $groupname.$community."rules";
-                                                
+                                                $remgrp = ($_POST['groups']);
                                                 
                                                 // Selecting Database
                                                 $db = mysqli_select_db($connection, "cmpe281");
-                                                $query = mysqli_query($connection, "SHOW TABLES LIKE '$tablename';");
-                                                $rows = mysqli_num_rows($query);
-                                                if ($rows == 0){
-                                                $query = mysqli_query($connection, "create table `$tablename`(`rule_txt` varchar(100), `rule_val` varchar(100));");
-                                                }
-                                                $query = mysqli_query($connection, "insert into `$tablename` values('$rule','$ruleval');");
+                                                $community = $_SESSION['community'];
+                                                // SQL query to fetch information of registerd users and finds user match.
+                                                $query = mysqli_query($connection, "delete from groups where groupname = '$remgrp' and community = '$community';");
                                                 
-                                                 $_SESSION['error3'] = "Rule Added";
-                                                } 
-                                              }
-                                              if (isset($_POST['Done'])) {
-                                                  header("location: grpusers.php");
+                                                $_SESSION['error2'] = "Group Removed"." - ";
+                                                
                                               }
                                             ?>        
-                                        <form id="group_form" class="dialog-form" action="botrules.php" method="POST">
+                                        <form id="login_form" class="dialog-form" action="editgroups.php" method="POST">
                                             <fieldset>
-                                              <legend>Add a Rule</legend>
+                                              <legend>Remove a group</legend>
                                               <div class="form-group">
-                                                <label for="rule_txt" class="control-label">Data Required:</label>
-                                                <input type="text" id="rule_txt" class="form-control" name="rule_txt" autofocus/>
+                                                
+                                                <?php
+                                                        $connection = mysqli_connect("localhost", "admin", "redhat");
+                                                        if ($connection->connect_error) {
+                                                            die("Connection failed: " . $connection->connect_error);
+                                                            echo('connection to db failed');
+                                                            echo($connection);
+                                                        }
+                                                        $db = mysqli_select_db($connection, "cmpe281");
+                                                        // SQL query to fetch communities.
+                                                        $query = mysqli_query($connection, "select `groupname` from groups where community = '';");
+                                                        $rows = mysqli_num_rows($query);
+                                                        
+                                                  ?>
+                                                  <label for="groups" class="control-label">Goup Names:</label>
+                                                  <select id="groups" class="form-control" name = "groups" autofocus> 
+                                                          <option value = ""> Select Community</option>
+                                                        <?php if ($rows > 0) {
+                                                            while ($user = $query->fetch_assoc()) { ?>
+                                                                <option value = "<?php echo($user['groupname']); ?>"><?php echo($user['groupname']);
+                                                        ?></option>
+                                                        <?php } } 
+                                                            else{?>
+                                                                <option value = ""> No Groups Available</option>
+                                                        <?php } ?>
+                                                    </select>
                                               </div>
-                                              <div class="form-group">
-                                                <label for="rule_val" class="control-label">Valid Values(ANY/Comma Separated Values):</label>
-                                                <input type="text" id="rule_val" class="form-control" name="rule_val" autofocus/>
-                                              </div>
-                                              <?php if (isset($_SESSION['error3'])){ ?>
+                            
+                                              <?php if (isset($_SESSION['error1'])){ ?>
                                               <div class="text-center pad-top-20">
-                                                <p><font color="red"><strong><?php echo($_SESSION['error3']); ?></strong></font></p>
+                                                <p><font color="red"><strong><?php echo($_SESSION['error1']); ?></strong></font></p>
                                               </div>
                                               <?php
-                                                  $_SESSION['error3'] = "";
+                                                  $_SESSION['error1'] = "";
                                                   } 
                                               ?>
                                               <div class="pad-top-20 pad-btm-20">
-                                                <input type="submit" class="btn btn-default btn-block btn-lg" name="Add" value="Add">
-                                              </div>
-                                              <div class="pad-top-20 pad-btm-20">
-                                                <input type="submit" class="btn btn-default btn-block btn-lg" name="Done" value="Done">
+                                                <input type="submit" class="btn btn-default btn-block btn-lg" name="Remove" value="Remove">
                                               </div>
                                               
                                             </fieldset>
                                           </form>
+                                              
                                         </ul>
 </div></div></span>
                     
