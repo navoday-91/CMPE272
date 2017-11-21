@@ -401,6 +401,7 @@
             <ul>
                 <li><h3><a href = "creategroup.php">Create a Group</a></h3></li>
                 <li><h3><a href = "editgroups.php">Remove Groups</a></h3></li>
+                <li><h3><a href = "mnggroups.php">Manage Group Members</a></h3></li>
                 <li><h3><a href = "remmembers.php">Remove Community Members</a></h3></li>
             </ul>
             <?php
