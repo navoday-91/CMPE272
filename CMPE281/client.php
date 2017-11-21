@@ -388,7 +388,7 @@
                     $db = mysqli_select_db($connection, "cmpe281");
                     $community = $_SESSION['community'];
                     // SQL query to fetch information of registerd users and finds user match.
-                    $query = mysqli_query($connection, "select login.`username`, `first name`, `picurl` from userdata, login where login.username = userdata.username and login.community = '$community';");
+                    $query = mysqli_query($connection, "select login.`username`, `first name`, `picurl` from userdata, login where login.username = userdata.username and login.community_name = '$community';");
                     $rows = mysqli_num_rows($query);
                     if ($rows > 0) {
                         while ($user = $query->fetch_assoc()) {
