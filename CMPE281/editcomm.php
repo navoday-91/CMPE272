@@ -326,9 +326,9 @@
                                                 // Selecting Database
                                                 $db = mysqli_select_db($connection, "cmpe281");
                                                 // SQL query to fetch information of registerd users and finds user match.
-                                                $query = mysqli_query($connection, "update login set role = 'citizenr' where username = '$delmgr';");
+                                                $query = mysqli_query($connection, "update login set role = 'citizen' where username = '$delmgr';");
                                                 
-                                                $_SESSION['error1'] = "Manager Removed";
+                                                $_SESSION['error1'] = "Manager Removed" + $delmgr;
                                                 
                                               }
                                             ?>
