@@ -377,7 +377,7 @@
                                                 else{
                                                 if ($rows > 0) {
                                                     while ($user = $query->fetch_assoc()) { ?>
-                                                        <li> <?php echo($user['username']); ?>      <?php echo($user['first name']);?> <?php echo($user['last name']);?>
+                                                        <li> <?php echo($user['username']); ?> "\t" <?php echo($user['first name']);?> <?php echo($user['last name']);?>
                                                 </li>
                                                 <?php
                                                 }
@@ -392,18 +392,15 @@
                                                     <select id="new_mgr" class="form-control" name = "new_mgr" autofocus> 
                                                           <option value = ""> Select User To Add</option>
                                                         <?php 
-                                                        $commname = $_SESSION['addmgrcomm'];
-                                                        echo($commname);
                                                         $db = mysqli_select_db($connection, "cmpe281");
                                                         // SQL query to fetch information of registerd users and finds user match.
                                                         $query = mysqli_query($connection, "select `username` from login where community_name = '$commname' and role = 'citizen';");
                                                         $rows = mysqli_num_rows($query);
                                                         if ($rows > 0) {
                                                             while ($user = $query->fetch_assoc()) { 
-                                                            echo($user['username']);
                                                             ?>
                                                                 
-                                                                <option value = "<?php echo($user['username']); ?></option>
+                                                                <option value = "<?php echo($user['username']); ?>"><?php echo($user['username']); ?></option>
                                                         <?php } } 
                                                             else{?>
                                                                 <option value = ""> No Users Available</option>
