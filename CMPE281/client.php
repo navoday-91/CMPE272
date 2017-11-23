@@ -197,7 +197,6 @@
                 // Selecting Database
                     $db = mysqli_select_db($connection, "cmpe281");
                     $community = $_SESSION['community'];
-                    $inuser = $_POST['inuser'];
                     // SQL query to fetch information of registerd users and finds user match.
                     $query = mysqli_query($connection, "select `username`, `first name`, `last name`, `picurl` from userdata where username = '$inuser';");
                     $rows = mysqli_num_rows($query);
