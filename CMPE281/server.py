@@ -50,16 +50,6 @@ class MyServerProtocol(WebSocketServerProtocol):
                 global group_community
                 group_community = row[0]
                 return groupflag
-        except MySQLError as e:
-            print('Got error {!r}, errno is {}'.format(e, e.args[0]))
-        except pymysql.InternalError as error:
-            code, message = error.args
-            print(">>>>>>>>>>>>>", code, message)
-        except ProgrammingError as e:
-            print("Caught a Programming Error:",)
-            print(e)
-        except (pymysql.Error, pymysql.Warning) as e:
-            print(e)
         except:
             print("Error: unable to fetch data")
 
@@ -80,12 +70,11 @@ class MyServerProtocol(WebSocketServerProtocol):
         recdfrom = payload.decode('utf-8').split(";")[0]
         global group_community
         tablename = sendto + group_community
-        sql = "SELECT member FROM `" + tablename + "`;"
+        sql = "SELECT * FROM `" + tablename + "`;"
         print(sql)
         try:
             # Execute the SQL command
             self.cursor.execute(sql)
-            groupflag = False
             # Fetch all the rows in a list of lists.
             results = self.cursor.fetchall()
             for row in results:
@@ -95,8 +84,8 @@ class MyServerProtocol(WebSocketServerProtocol):
                     c = self.liveclients[reciever]
                     print(payload)
                     c.sendMessage(payload, isBinary)
-        except:
-            print("Error: unable to fetch data")
+        except pymysql.Error as e:
+            print("Error: unable to fetch data" + e)
 
     def onConnect(self, request):
         print("Client connecting: {0}".format(request.peer))
