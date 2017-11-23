@@ -189,7 +189,9 @@
                     }
                 }
             if (found == 0){
-                $.post('client.php', {"inuser": inuser});
+                <?php 
+                    echo $inuser = "<script>document.write(inuser)</script>";
+                ?>
                 <?php
                 $connection = mysqli_connect("localhost", "admin", "redhat");
                 // Selecting Database
