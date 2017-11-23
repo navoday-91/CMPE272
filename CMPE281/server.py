@@ -14,7 +14,7 @@ class MyServerProtocol(WebSocketServerProtocol):
 
     # prepare a cursor object using cursor() method
     cursor = db.cursor()
-    sql = "SELECT * FROM login;"
+    sql = "SELECT * FROM groups;"
     try:
           # Execute the SQL command
         cursor.execute(sql)
@@ -51,7 +51,8 @@ class MyServerProtocol(WebSocketServerProtocol):
         # prepare a cursor object using cursor() method
         cursor = db.cursor()
         groupflag = False
-        sql = "SELECT community FROM groups where groupname = '" + sendto +"';"
+        sql = "SELECT * FROM login;"
+        #sql = "SELECT community FROM groups where groupname = '" + sendto +"';"
         try:
             # Execute the SQL command
             cursor.execute(sql)
