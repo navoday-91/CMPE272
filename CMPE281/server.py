@@ -2,12 +2,13 @@ import pymysql.cursors
 
 from autobahn.twisted.websocket import WebSocketServerProtocol, \
     WebSocketServerFactory
+from twisted.internet import reactor
 from pymysql import MySQLError, ProgrammingError
 
 
 class MyServerProtocol(WebSocketServerProtocol):
     liveclients = {}
-    clients = {}
+    group_status = {}
     i = 0
     user = ""
     db = pymysql.connect("localhost", "admin", "redhat", "cmpe281")
@@ -24,8 +25,6 @@ class MyServerProtocol(WebSocketServerProtocol):
             self.liveclients[self.user] = client
             self.i += 1
 
-        #self.clients[client.peer] = {"object": client, "partner": None}
-
     def unregister(self, client):
         """
         Remove client from list of managed connections.
@@ -36,27 +35,47 @@ class MyServerProtocol(WebSocketServerProtocol):
 
     def isGroup(self, sendto):
         # prepare a cursor object using cursor() method
+        global groupflag
         groupflag = False
-        sql = "SELECT community FROM groups where groupname = '" + sendto +"';"
-        print(sql)
+        sql = "SELECT community, grouptype FROM groups where groupname = '" + sendto +"';"
         try:
             # Execute the SQL command
             self.cursor.execute(sql)
             # Fetch all the rows in a list of lists.
             results = self.cursor.fetchall()
             for row in results:
-                global groupflag
                 groupflag = True
                 global group_community
                 group_community = row[0]
-                return groupflag
+                return groupflag, row[1]
         except:
             print("Error: unable to fetch data")
 
+    def botcommunicate(self, client, payload, isBinary):
+        sendto = payload.decode('utf-8').split(";")[1]
+        recdfrom = payload.decode('utf-8').split(";")[0]
+        global group_community
+        tablename = sendto + group_community + "rules"
+        sql = "SELECT rule_txt, rule_val FROM `" + tablename +"`;"
+        try:
+            # Execute the SQL command
+            self.cursor.execute(sql)
+            # Fetch all the rows in a list of lists.
+            results = self.cursor.fetchall()
+            count = ""
+            for row in results:
+                count = row[0]
+        except pymysql.Error as e:
+            print("Error: unable to fetch data" + e)
+
     def communicate(self, client, payload, isBinary):
         sendto = payload.decode('utf-8').split(";")[1]
-        if self.isGroup(sendto):
-            self.groupcommunicate(self, payload, isBinary)
+        group_flag, group_type = self.isGroup(sendto)
+        if group_flag:
+            if group_type == 'Bot':
+                self.botcommunicate(self, payload, isBinary)
+            else:
+                self.groupcommunicate(self, payload, isBinary)
         else:
             if sendto not in self.liveclients:
                 self.sendMessage((sendto + ";" + payload.decode('utf-8').split(";")[0] + ";" +
@@ -71,7 +90,6 @@ class MyServerProtocol(WebSocketServerProtocol):
         global group_community
         tablename = sendto + group_community
         sql = "SELECT * FROM `" + tablename + "`;"
-        print(sql)
         try:
             # Execute the SQL command
             self.cursor.execute(sql)
@@ -122,5 +140,5 @@ if __name__ == '__main__':
 
     # note to self: if using putChild, the child must be bytes...
 
-    reactor.listenTCP(9000, factory)
+    reactor.callInThread(reactor.listenTCP, 9000, factory)
     reactor.run()
