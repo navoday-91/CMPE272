@@ -37,7 +37,9 @@ class MyServerProtocol(WebSocketServerProtocol):
     def isGroup(self, sendto):
 
         # prepare a cursor object using cursor() method
-        sql = "SELECT community FROM groups where groupname = " + sendto +";"
+        #sql = "SELECT community FROM groups where groupname = " + sendto +";"
+        sql = "SELECT * FROM groups;"
+
         print(sql)
         try:
             # Execute the SQL command
