@@ -189,8 +189,24 @@
                     }
                 }
             if (found == 0){
-                
-                register_popup(inuser, inuser);
+                <?php
+                $connection = mysqli_connect("localhost", "admin", "redhat");
+                // Selecting Database
+                    $db = mysqli_select_db($connection, "cmpe281");
+                    $community = $_SESSION['community'];
+                    // SQL query to fetch information of registerd users and finds user match.
+                    $query = mysqli_query($connection, "select `username`, `first name`, `last name`, `picurl` from userdata where username = userdata;");
+                    $rows = mysqli_num_rows($query);
+                    if ($rows > 0) {
+                        while ($user = $query->fetch_assoc()) {
+                ?>
+                var fname = "<?php echo($user["first name"]) ?>";
+                var lname = "<?php echo($user["last name"]) ?>"
+                register_popup(inuser, fname.concat(" ".concat(lname)));
+                <?php
+                        }
+                    }
+                ?>
             }
             writeToScreen(evt.data.split(";",3)[0]+': '+evt.data.split(";",3)[2] +'\n');
           }
@@ -388,14 +404,14 @@
                     $db = mysqli_select_db($connection, "cmpe281");
                     $community = $_SESSION['community'];
                     // SQL query to fetch information of registerd users and finds user match.
-                    $query = mysqli_query($connection, "select login.`username`, `first name`, `picurl` from userdata, login where login.username = userdata.username and login.community_name = '$community';");
+                    $query = mysqli_query($connection, "select login.`username`, `first name`, `last name`, `picurl` from userdata, login where login.username = userdata.username and login.community_name = '$community';");
                     $rows = mysqli_num_rows($query);
                     if ($rows > 0) {
                         while ($user = $query->fetch_assoc()) {
                 ?>
                     <div class="sidebar-name">
                         <!-- Pass username and display name to register popup -->
-                        <a href="javascript:register_popup('<?php echo($user["username"]) ?>', '<?php echo($user["first name"]) ?>');">
+                        <a href="javascript:register_popup('<?php echo($user["username"]) ?>', '<?php echo($user["first name"]." ".$user["last name"]) ?>');">
                             <img width="30" height="30" src="<?php echo($user["picurl"]) ?>" />
                             <span><?php echo($user["first name"]) ?></span>
                         </a>

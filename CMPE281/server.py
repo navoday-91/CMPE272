@@ -14,17 +14,6 @@ class MyServerProtocol(WebSocketServerProtocol):
     # prepare a cursor object using cursor() method
     cursor = db.cursor()
 
-    sql = "SELECT * FROM login;"
-    try:
-        # Execute the SQL command
-        cursor.execute(sql)
-        # Fetch all the rows in a list of lists.
-        results = cursor.fetchall()
-        for row in results:
-            print(row[1])
-    except:
-        print("Error: unable to fetch data")
-
     def register(self, client, payload):
         """
         Add client to list of managed connections.
@@ -42,17 +31,58 @@ class MyServerProtocol(WebSocketServerProtocol):
         """
         del self.liveclients[self.user]
 
-    def findPartner(self, client):
-        print("")
+    group_community = ""
+    def isGroup(sendto):
+        sql = "SELECT community FROM groups where groupname = '" + sendto +"';"
+        try:
+            # Execute the SQL command
+            global cursor
+            cursor.execute(sql)
+            groupflag = False
+            # Fetch all the rows in a list of lists.
+            results = cursor.fetchall()
+            for row in results:
+                groupflag = True
+                global group_community
+                group_community = row[2]
+                return groupflag
+        except:
+            print("Error: unable to fetch data")
 
     def communicate(self, client, payload, isBinary):
         sendto = payload.decode('utf-8').split(";")[1]
-        if sendto not in self.liveclients:
-            self.sendMessage((sendto + ";" + payload.decode('utf-8').split(";")[0] + ";" +
-                             "Sorry you don't have partner yet, check back in a minute").encode('ascii'))
+        if self.isGroup(sendto):
+            self.groupcommunicate(self, payload, isBinary)
         else:
-            c = self.liveclients[sendto]
-            c.sendMessage(payload, isBinary)
+            if sendto not in self.liveclients:
+                self.sendMessage((sendto + ";" + payload.decode('utf-8').split(";")[0] + ";" +
+                                 "Sorry you don't have partner yet, check back in a minute").encode('ascii'))
+            else:
+                c = self.liveclients[sendto]
+                c.sendMessage(payload, isBinary)
+
+    def groupcommunicate(self, client, payload, isBinary):
+        sendto = payload.decode('utf-8').split(";")[1]
+        recdfrom = payload.decode('utf-8').split(";")[0]
+        global group_community
+        tablename = sendto + group_community
+        sql = "SELECT member FROM `" + tablename + "`;"
+        try:
+            # Execute the SQL command
+            global cursor
+            cursor.execute(sql)
+            groupflag = False
+            # Fetch all the rows in a list of lists.
+            results = cursor.fetchall()
+            for row in results:
+                if row[1] != "admin":
+                    reciever = row[0]
+                if reciever != recdfrom and reciever in self.liveclients:
+                    c = self.liveclients[reciever]
+                    print(payload)
+                    c.sendMessage(payload, isBinary)
+        except:
+            print("Error: unable to fetch data")
 
     def onConnect(self, request):
         print("Client connecting: {0}".format(request.peer))
