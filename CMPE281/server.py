@@ -14,17 +14,6 @@ class MyServerProtocol(WebSocketServerProtocol):
 
     # prepare a cursor object using cursor() method
     cursor = db.cursor()
-    sql = "SELECT * FROM groups;"
-    try:
-          # Execute the SQL command
-        cursor.execute(sql)
-      # Fetch all the rows in a list of lists.
-        results = cursor.fetchall()
-
-        for row in results:
-            print(row[1])
-    except:
-        print("Error: unable to fetch data")
 
     def register(self, client, payload):
         """
@@ -51,8 +40,8 @@ class MyServerProtocol(WebSocketServerProtocol):
         # prepare a cursor object using cursor() method
         cursor = db.cursor()
         groupflag = False
-        sql = "SELECT * FROM login;"
-        #sql = "SELECT community FROM groups where groupname = '" + sendto +"';"
+        sql = "SELECT community FROM groups where groupname = '" + sendto +"';"
+        print(sql)
         try:
             # Execute the SQL command
             cursor.execute(sql)
@@ -62,7 +51,7 @@ class MyServerProtocol(WebSocketServerProtocol):
                 global groupflag
                 groupflag = True
                 global group_community
-                group_community = row[2]
+                group_community = row[0]
                 return groupflag
         except MySQLError as e:
             print('Got error {!r}, errno is {}'.format(e, e.args[0]))
