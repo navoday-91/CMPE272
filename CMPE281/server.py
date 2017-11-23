@@ -14,6 +14,17 @@ class MyServerProtocol(WebSocketServerProtocol):
 
     # prepare a cursor object using cursor() method
     cursor = db.cursor()
+    sql = "SELECT * FROM login;"
+    try:
+          # Execute the SQL command
+        cursor.execute(sql)
+      # Fetch all the rows in a list of lists.
+        results = cursor.fetchall()
+
+        for row in results:
+            print(row[1])
+    except:
+        print("Error: unable to fetch data")
 
     def register(self, client, payload):
         """
@@ -35,7 +46,21 @@ class MyServerProtocol(WebSocketServerProtocol):
     group_community = ""
 
     def isGroup(self, sendto):
+        db = pymysql.connect("localhost", "admin", "redhat", "cmpe281")
 
+        # prepare a cursor object using cursor() method
+        cursor = db.cursor()
+        sql = "SELECT * FROM login;"
+        try:
+            # Execute the SQL command
+            cursor.execute(sql)
+            # Fetch all the rows in a list of lists.
+            results = cursor.fetchall()
+
+            for row in results:
+                print(row[1])
+        except:
+            print("Error: unable to fetch data")
         # prepare a cursor object using cursor() method
         #sql = "SELECT community FROM groups where groupname = " + sendto +";"
         sql = "SELECT * FROM groups;"
