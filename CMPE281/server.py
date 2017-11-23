@@ -2,7 +2,7 @@ import pymysql.cursors
 
 from autobahn.twisted.websocket import WebSocketServerProtocol, \
     WebSocketServerFactory
-from pymysql import MySQLError
+from pymysql import MySQLError, ProgrammingError
 
 
 class MyServerProtocol(WebSocketServerProtocol):
@@ -35,22 +35,33 @@ class MyServerProtocol(WebSocketServerProtocol):
     group_community = ""
 
     def isGroup(self, sendto):
+        db = pymysql.connect("localhost", "admin", "redhat", "cmpe281")
+
+        # prepare a cursor object using cursor() method
+        cursor = db.cursor()
         sql = "SELECT community FROM groups where groupname = '" + sendto +"';"
         print(sql)
         try:
             # Execute the SQL command
-            global cursor
+            #global cursor
             cursor.execute(sql)
             groupflag = False
             # Fetch all the rows in a list of lists.
             results = cursor.fetchall()
             for row in results:
+                global groupflag
                 groupflag = True
                 global group_community
                 group_community = row[2]
                 return groupflag
         except MySQLError as e:
             print('Got error {!r}, errno is {}'.format(e, e.args[0]))
+        except pymysql.InternalError as error:
+            code, message = error.args
+            print(">>>>>>>>>>>>>", code, message)
+        except ProgrammingError as e:
+            print("Caught a Programming Error:",)
+            print(e)
         except:
             print("Error: unable to fetch data")
 
