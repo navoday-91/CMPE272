@@ -80,10 +80,10 @@ class MyServerProtocol(WebSocketServerProtocol):
             for row in results:
                 if row[1] != "admin":
                     reciever = row[0]
-                if reciever != recdfrom and reciever in self.liveclients:
-                    c = self.liveclients[reciever]
-                    print(payload)
-                    c.sendMessage(payload, isBinary)
+                    if reciever != recdfrom and reciever in self.liveclients:
+                        c = self.liveclients[reciever]
+                        print(payload)
+                        c.sendMessage(payload, isBinary)
         except pymysql.Error as e:
             print("Error: unable to fetch data" + e)
 
