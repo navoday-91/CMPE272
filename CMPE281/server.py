@@ -32,7 +32,8 @@ class MyServerProtocol(WebSocketServerProtocol):
         del self.liveclients[self.user]
 
     group_community = ""
-    def isGroup(sendto):
+
+    def isGroup(self, sendto):
         sql = "SELECT community FROM groups where groupname = '" + sendto +"';"
         try:
             # Execute the SQL command
