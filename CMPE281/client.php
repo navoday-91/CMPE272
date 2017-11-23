@@ -190,7 +190,7 @@
                 }
             if (found == 0){
                 <?php 
-                    echo $inuser = "<script>document.write(inuser)</script>";
+                    $inuser = "<script>document.write(inuser)</script>";
                 ?>
                 <?php
                 $connection = mysqli_connect("localhost", "admin", "redhat");
