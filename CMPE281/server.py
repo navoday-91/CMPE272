@@ -140,5 +140,6 @@ if __name__ == '__main__':
 
     # note to self: if using putChild, the child must be bytes...
 
-    reactor.callInThread(reactor.listenTCP, 9000, factory)
+    #reactor.callInThread(reactor.listenTCP, 9000, factory)
+    reactor.listenTCP(9000, factory)
     reactor.run()
