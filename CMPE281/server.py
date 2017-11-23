@@ -50,27 +50,11 @@ class MyServerProtocol(WebSocketServerProtocol):
 
         # prepare a cursor object using cursor() method
         cursor = db.cursor()
-        sql = "SELECT * FROM login;"
+        groupflag = False
+        sql = "SELECT community FROM groups where groupname = '" + sendto +"';"
         try:
             # Execute the SQL command
             cursor.execute(sql)
-            # Fetch all the rows in a list of lists.
-            results = cursor.fetchall()
-
-            for row in results:
-                print(row[1])
-        except:
-            print("Error: unable to fetch data")
-        # prepare a cursor object using cursor() method
-        #sql = "SELECT community FROM groups where groupname = " + sendto +";"
-        sql = "SELECT * FROM groups;"
-
-        print(sql)
-        try:
-            # Execute the SQL command
-            global cursor
-            cursor.execute(sql)
-            groupflag = False
             # Fetch all the rows in a list of lists.
             results = cursor.fetchall()
             for row in results:
