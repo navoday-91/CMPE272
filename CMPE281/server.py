@@ -35,18 +35,15 @@ class MyServerProtocol(WebSocketServerProtocol):
     group_community = ""
 
     def isGroup(self, sendto):
-        db = pymysql.connect("localhost", "admin", "redhat", "cmpe281")
-
         # prepare a cursor object using cursor() method
-        cursor = db.cursor()
         groupflag = False
         sql = "SELECT community FROM groups where groupname = '" + sendto +"';"
         print(sql)
         try:
             # Execute the SQL command
-            cursor.execute(sql)
+            self.cursor.execute(sql)
             # Fetch all the rows in a list of lists.
-            results = cursor.fetchall()
+            results = self.cursor.fetchall()
             for row in results:
                 global groupflag
                 groupflag = True
@@ -87,11 +84,10 @@ class MyServerProtocol(WebSocketServerProtocol):
         print(sql)
         try:
             # Execute the SQL command
-            global cursor
-            cursor.execute(sql)
+            self.cursor.execute(sql)
             groupflag = False
             # Fetch all the rows in a list of lists.
-            results = cursor.fetchall()
+            results = self.cursor.fetchall()
             for row in results:
                 if row[1] != "admin":
                     reciever = row[0]
