@@ -50,6 +50,7 @@ class MyServerProtocol(WebSocketServerProtocol):
                 return groupflag, row[1]
         except:
             print("Error: unable to fetch data")
+        return False, None
 
     def botcommunicate(self, client, payload, isBinary):
         sendto = payload.decode('utf-8').split(";")[1]
@@ -140,6 +141,6 @@ if __name__ == '__main__':
 
     # note to self: if using putChild, the child must be bytes...
 
-    #reactor.callInThread(reactor.listenTCP, 9000, factory)
-    reactor.listenTCP(9000, factory)
+    reactor.callInThread(reactor.listenTCP, 9000, factory)
+    #reactor.listenTCP(9000, factory)
     reactor.run()
