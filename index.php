@@ -120,7 +120,7 @@ if(!isset($_COOKIE[$cookie_name])) {
               <button class="dropbtn">User Area</button>
               <div class="dropdown-content">
                 <a href="register.php">Signup</a>
-                <a href="abcusers.php">All Users(cURL)</a>
+                <a href="logindata.php">All Users(cURL)</a>
               </div>
             </div>
             </li>
