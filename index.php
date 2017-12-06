@@ -60,21 +60,21 @@ if(!isset($_COOKIE[$cookie_name])) {
         display: none;
         position: absolute;
         background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        min-width: 100px;
+        box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
         z-index: 1;
         }
         .dropdown-content a {
         color: black;
-        padding: 12px 16px;
+        padding: 2px 2px;
         text-decoration: none;
         display: block;
 }
         .dropbtn {
         background-color: #4CAF50;
         color: white;
-        padding: 16px;
-        font-size: 16px;
+        padding: 2px;
+        font-size: 14px;
         border: none;
         cursor: pointer;
 }
