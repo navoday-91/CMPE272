@@ -351,6 +351,13 @@ tr:nth-child(even) {
                                             
                                             echo($result."<br/>");
                                             
+                                            echo("<b>Users from Rahul's Site:</b><br/><br/>");
+                                            curl_setopt($ch, CURLOPT_URL, "http://www.highlights-gaming.ga/highlights-979943632/fetchusers.php");
+                                            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                                            
+                                            $result = curl_exec($ch);
+                                            
+                                            echo($result."<br/>");
                                             curl_close($ch);
                                         ?>
                                         </ul>
