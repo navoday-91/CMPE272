@@ -63,8 +63,21 @@ if(!isset($_COOKIE[$cookie_name])) {
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
+        }
+        .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
 }
-
+        .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+}
 </style>
 </head>
 <?php
@@ -102,6 +115,7 @@ if(!isset($_COOKIE[$cookie_name])) {
           <?php 
               }
           ?>
+          <li>
             <div class="dropdown">
               <button class="dropbtn">User Area</button>
               <div class="dropdown-content">
@@ -109,6 +123,7 @@ if(!isset($_COOKIE[$cookie_name])) {
                 <a href="abcusers.php">All Users(cURL)</a>
               </div>
             </div>
+            </li>
         </ul>
       </nav>
       <a href="#" class="nav-toggle">Menu<span></span></a> </div>
