@@ -310,7 +310,7 @@
                                         <?php
                                             $ch = curl_init();
                                             
-                                            echo("Users from Navoday's Site: <br/> ");
+                                            echo("<b>Users from Navoday's Site: <b><br/><br/> ");
                                             curl_setopt($ch, CURLOPT_URL, "http://www.abc-consulting.tk/fetchusers.php");
                                             curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
                                             
@@ -318,7 +318,7 @@
                                             
                                             echo($result."<br/>");
                                             
-                                            echo("Users from Neha's Site:<br/>");
+                                            echo("<b>Users from Neha's Site:<b><br/><br/>");
                                             curl_setopt($ch, CURLOPT_URL, "http://www.wonderarchitectures.ga/fetchusers.php");
                                             curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
                                             
@@ -326,7 +326,7 @@
                                             
                                             echo($result."<br/>");
                                             
-                                            echo("Users from Anav's Site:<br/>");
+                                            echo("<b>Users from Anav's Site:<b><br/><br/>");
                                             curl_setopt($ch, CURLOPT_URL, "http://anavsharma.com/barkinghampalace/curlmydb/index.php");
                                             curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
                                             
