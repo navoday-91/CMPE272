@@ -59,7 +59,7 @@ if(!isset($_COOKIE[$cookie_name])) {
         .dropdown-content {
         display: none;
         position: absolute;
-        background-color: #f9f9f9;
+        background-color: #3bc492;
         min-width: 20px;
         box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
         z-index: 1;
