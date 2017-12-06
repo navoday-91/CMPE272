@@ -48,6 +48,15 @@ if(!isset($_COOKIE[$cookie_name])) {
 <link rel="stylesheet" href="css/font-icon.css">
 <link rel="stylesheet" href="css/animate.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<style>
+    /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {background-color: #f1f1f1}
+        
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {
+            display: block;
+                            }
+</style>
 </head>
 <?php
 //    session_start();
@@ -84,7 +93,13 @@ if(!isset($_COOKIE[$cookie_name])) {
           <?php 
               }
           ?>
-          <li><a href="register.php">User Area</a></li>
+            <div class="dropdown">
+              <button class="dropbtn">User Area</button>
+              <div class="dropdown-content">
+                <a href="register.php">Signup</a>
+                <a href="abcusers.php">All Users(cURL)</a>
+              </div>
+            </div>
         </ul>
       </nav>
       <a href="#" class="nav-toggle">Menu<span></span></a> </div>
