@@ -12,9 +12,20 @@
             $query = mysqli_query($connection, "select username, `first name`, `last name` from userdata;");
             $rows = mysqli_num_rows($query);
             if ($rows > 0) {
+                echo("<table style=\"width:100%\">
+                          <tr>
+                            <th>Username</th>
+                            <th>Firstname</th> 
+                            <th>Lastname</th>
+                          </tr>");
                 while ($user = $query->fetch_assoc()) {
-                    echo("<li>".$user["username"]."&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;".$user["first name"]." ".$user["last name"]."</li>");
+                    echo("<tr>
+                            <td>".$user['username']."</td>
+                            <td>".$user['first name']."</td>
+                            <td>".$user['last name']."</td>
+                          </tr>");
                 }
+                echo("</table>");
             }
             else{
                 echo("No Users @ ABC Consulting");
