@@ -73,7 +73,7 @@ if(!isset($_COOKIE[$cookie_name])) {
         .dropbtn {
         background-color: #4CAF50;
         color: white;
-        padding: 2px;
+        padding: 8px;
         font-size: 14px;
         border: none;
         cursor: pointer;
