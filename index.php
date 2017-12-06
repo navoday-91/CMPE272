@@ -60,7 +60,7 @@ if(!isset($_COOKIE[$cookie_name])) {
         display: none;
         position: absolute;
         background-color: #f9f9f9;
-        min-width: 100px;
+        min-width: 20px;
         box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
         z-index: 1;
         }
