@@ -55,6 +55,14 @@ tr:nth-child(even) {
                                             $result = curl_exec($ch);
                                             
                                             echo($result."<br/>");
+
+                                            echo("<b>Users from Anjali's Site:</b><br/><br/>");
+                                            curl_setopt($ch, CURLOPT_URL, "http://www.abc-consulting.tk/avboutique/fetchusers.php");
+                                            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+                                            $result = curl_exec($ch);
+
+                                            echo($result."<br/>");
                                             curl_close($ch);
                                         ?>
     </ul>
