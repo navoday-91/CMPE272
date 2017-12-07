@@ -9,7 +9,7 @@
             // Selecting Database
             $db = mysqli_select_db($connection, "anjalivi_testnewdb");
             // SQL query to fetch information of registerd users and finds user match.
-            $query = mysqli_query($connection, "select username, `first name`, `last name` from Member;");
+            $query = mysqli_query($connection, "select userid, `fname`, `lname` from Member;");
             $rows = mysqli_num_rows($query);
             if ($rows > 0) {
                 echo("<table style=\"width:100%\">
@@ -20,9 +20,9 @@
                           </tr>");
                 while ($user = $query->fetch_assoc()) {
                     echo("<tr>
-                            <td>".$user['username']."</td>
-                            <td>".$user['first name']."</td>
-                            <td>".$user['last name']."</td>
+                            <td>".$user['userid']."</td>
+                            <td>".$user['fname']."</td>
+                            <td>".$user['lname']."</td>
                           </tr>");
                 }
                 echo("</table>");
