@@ -1,5 +1,5 @@
       <?php
-        $connection = mysqli_connect("anjalivi_newuser","newuser","anjalivi_testnewdb");
+        $connection = mysqli_connect("localhost","anjalivi_newuser","newuser","anjalivi_testnewdb");
         if ($connection->connect_error) {
             die("Connection failed: " . $connection->connect_error);
             echo('connection to db failed');
