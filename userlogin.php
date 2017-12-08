@@ -46,8 +46,8 @@ function fbLogin() {
     FB.login(function (response) {
         if (response.authResponse) {
             // Get and display the user profile data
-            getFbUserData();
-            window.location = "https://www.abc-consulting.tk";
+//            getFbUserData();
+            window.location = "http://www.abc-consulting.tk";
         } else {
             document.getElementById('status').innerHTML = 'User cancelled login or did not fully authorize.';
         }
