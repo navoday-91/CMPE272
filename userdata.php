@@ -1,5 +1,17 @@
+<?php
 
+// jCart v1.3
+// http://conceptlogic.com/jcart/
+
+// This file demonstrates a basic store setup
+
+// If your page calls session_start() be sure to include jcart.php first
+include_once('jcart/jcart.php');
+
+session_start();
+?>
 <!doctype html>
+
 <?php
 $cookie_name = "prev_visits";
 $cookie_value = $_COOKIE[$cookie_name];
@@ -23,6 +35,7 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
 
 
 
+
 <!-- start coded_template: id:3859515515 path:generated_layouts/3859515505.html --><!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en">        <![endif]--><!--[if IE 8]>    <html class="no-js lt-ie9" lang="en">               <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -43,10 +56,9 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
     <meta name="twitter:title" content="">
 
 
-    
-    
+    <link rel="stylesheet" type="text/css" media="screen, projection" href="style.css" />
 
-    
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="jcart/css/jcart.css" />
     
     <link rel="canonical" href="http://www.e-zest.com/bpm_consulting/">
 
@@ -109,6 +121,14 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
   <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="../index.php">Home</a>
   </li>
   <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="../php/logout.php">Logout</a>
+  </li>
+  <li>
+      <div class="dropdown">
+              <button class="dropbtn">Cart</button>
+              <div class="dropdown-content">
+                    <div id="jcart"><?php $jcart->display_cart();?></div>
+              </div>
+      </div>
   </li>
   <li class="hs-menu-item hs-menu-depth-1"><a href="https://navoday91.wordpress.com/"><span>Blog</span></a></li>
  </ul>
@@ -535,7 +555,8 @@ var hsVars = {
 }
 </script>
 
-
+        <script type="text/javascript" src="jcart/js/jquery-1.4.4.min.js"></script>
+		<script type="text/javascript" src="jcart/js/jcart.min.js"></script>
 
 
 
