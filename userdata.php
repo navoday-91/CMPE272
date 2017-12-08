@@ -184,7 +184,7 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
       <div class="dropdown">
               <button>Cart</button>
               <div class="dropdown-menu">
-                    <div id="jcart"><?php $jcart->display_cart();?></div>
+                    <div id="jcart" class="jcart"><?php $jcart->display_cart();?></div>
               </div>
       </div>
   </li>
