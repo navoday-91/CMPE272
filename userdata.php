@@ -81,8 +81,9 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
     }
     
     .dropdown .dropdown-menu {
-        position: relative;
+        position: absolute;
         top: 100%;
+        right: 0px;
         display: none;
         margin: 0;
     
