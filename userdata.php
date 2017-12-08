@@ -123,6 +123,12 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
     .dropdown a:hover {
         background: #BBBBBB;
     }
+    
+    .dropdown .dropdown-menu.jcart ul { margin:0; list-style:none; padding:0 20px; text-align:left; }
+    .dropdown .dropdown-menu.jcart fieldset { border:0; }
+    .dropdown .dropdown-menu.jcart strong { color:#000066; }
+    .dropdown .dropdown-menu.jcart { margin:0 20px 20px 0; padding-top:20px; border:dashed 2px #66cc66; float:left; background:#fff; text-align:center; }
+    
 </style>
 
 
