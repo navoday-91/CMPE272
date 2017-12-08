@@ -94,6 +94,8 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
         list-style: none; /** Remove list bullets */
         width: 200px; /** Set the width to 100% of it's parent */
         padding: 0;
+        
+        #jcart th, #jcart td { padding:5px; border:0; border:solid 1px #ccc; vertical-align:middle; text-align:left; font-weight:normal; }
     }
     
     .dropdown:hover .dropdown-menu {
