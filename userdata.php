@@ -83,7 +83,7 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
     .dropdown .dropdown-menu {
         position: absolute;
         top: 100%;
-        right: 0px;
+        float: left;
         display: none;
         margin: 0;
     
@@ -92,7 +92,7 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
          ****************/
     
         list-style: none; /** Remove list bullets */
-        width: 100px; /** Set the width to 100% of it's parent */
+        width: 300px; /** Set the width to 100% of it's parent */
         padding: 0;
     }
     
