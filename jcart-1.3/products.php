@@ -17,7 +17,7 @@ session_start();
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-		<title>ABC Shopping Store</title>
+		<title>jCart - Free Ajax/PHP shopping cart</title>
 
 		<link rel="stylesheet" type="text/css" media="screen, projection" href="style.css" />
 
@@ -27,10 +27,6 @@ session_start();
 	<body>
 		<div id="wrapper">
 			<h2>ABC - Store</h2>
-
-			<div id="sidebar">
-				<div id="jcart"><?php $jcart->display_cart();?></div>
-			</div>
 
 			<div id="content">
 
