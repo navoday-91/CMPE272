@@ -91,7 +91,7 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
          ** NEW STYLES **
          ****************/
     
-        list-style: none; /** Remove list bullets */
+        /** Remove list bullets */
         width: 200px; /** Set the width to 100% of it's parent */
         padding: 0;
         
