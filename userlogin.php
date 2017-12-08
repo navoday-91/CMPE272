@@ -61,7 +61,7 @@ function getFbUserData(){
         document.getElementById('fbLink').setAttribute("onclick","fbLogout()");
         document.getElementById('fbLink').innerHTML = 'Logout from Facebook';
         document.getElementById('status').innerHTML = 'Thanks for logging in, ' + response.first_name + '!';
-        document.getElementById('userData').innerHTML = '<p><b>FB ID:</b> '+response.id+'</p><p><b>Name:</b> '+response.first_name+' '+response.last_name+'</p><p><b>Email:</b> '+response.email+'</p><p><b>Gender:</b> '+response.gender+'</p><p><b>Locale:</b> '+response.locale+'</p><p><b>Picture:</b> <img src="'+response.picture.data.url+'"/></p><p><b>FB Profile:</b> <a target="_blank" href="'+response.link+'">click to view profile</a></p>';
+        
     });
 }
 
@@ -112,10 +112,9 @@ function fbLogout() {
           <div id="status"></div>
 
 <!-- Facebook login or logout button -->
-<a href="javascript:void(0);" onclick="fbLogin()" id="fbLink">Login With Facebook</a>
+<div class="text-center"><a href="javascript:void(0);" onclick="fbLogin()" id="fbLink">Login With Facebook</a></div>
 
 <!-- Display user profile data -->
-<div id="userData"></div>
         </fieldset>
       </form>
     </div>
