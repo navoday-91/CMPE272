@@ -75,35 +75,53 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
 </script>
 
 <style>
-    /* Change color of dropdown links on hover */
-        .dropdown-content a:hover {background-color: #f1f1f1}
-        
-        /* Show the dropdown menu on hover */
-        .dropdown:hover .dropdown-content {
-            display: block;
-                            }
-        .dropdown-content {
-        display: none;
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown .dropdown-menu {
         position: absolute;
-        background-color: #3bc492;
-        min-width: 60px;
-        box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-        }
-        .dropdown-content a {
-        color: black;
-        padding: 2px 2px;
-        text-decoration: none;
+        top: 100%;
+        display: none;
+        margin: 0;
+    
+        /****************
+         ** NEW STYLES **
+         ****************/
+    
+        list-style: none; /** Remove list bullets */
+        width: 100%; /** Set the width to 100% of it's parent */
+        padding: 0;
+    }
+    
+    .dropdown:hover .dropdown-menu {
         display: block;
-}
-        .dropbtn {
-        background-color: #00008B;
-        color: white;
-        padding: 2px;
-        font-size: 12px;
+    }
+    
+    /** Button Styles **/
+    .dropdown button {
+        background: #FF6223;
+        color: #FFFFFF;
         border: none;
-        cursor: pointer;
-}
+        margin: 0;
+        padding: 0.4em 0.8em;
+        font-size: 1em;
+    }
+    
+    /** List Item Styles **/
+    .dropdown a {
+        display: block;
+        padding: 0.2em 0.8em;
+        text-decoration: none;
+        background: #CCCCCC;
+        color: #333333;
+    }
+    
+    /** List Item Hover Styles **/
+    .dropdown a:hover {
+        background: #BBBBBB;
+    }
 </style>
 
 
@@ -157,8 +175,8 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
   </li>
   <li>
       <div class="dropdown">
-              <button class="dropbtn">Cart</button>
-              <div class="dropdown-content">
+              <button>Cart</button>
+              <div class="dropdown-menu">
                     <div id="jcart"><?php $jcart->display_cart();?></div>
               </div>
       </div>
