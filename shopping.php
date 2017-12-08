@@ -1,5 +1,5 @@
 <?php
-include_once('shopcart/jcart/jcart.php');
+include_once('jcart/jcart.php');
 ?>
 
 <head>
@@ -7,10 +7,10 @@ include_once('shopcart/jcart/jcart.php');
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="author" content="ABC Solutions">
     <title>Test Page</title>
-<link rel="stylesheet" type="text/css" media="screen, projection" href="shopcart/jcart/css/jcart.css" />
+<link rel="stylesheet" type="text/css" media="screen, projection" href="jcart/css/jcart.css" />
 
-    <script type="text/javascript" src="shopcart/jcart/js/jquery-1.4.4.min.js"></script>
-    <script type="text/javascript" src="shopcart/jcart/js/jcart.min.js"></script>
+    <script type="text/javascript" src="jcart/js/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="jcart/js/jcart.min.js"></script>
 </head>
 <body>
 <div id="jcart"><?php $jcart->display_cart();?></div>
@@ -34,5 +34,8 @@ include_once('shopcart/jcart/jcart.php');
                                                         <input type="submit" name="my-add-button" value="add to cart" class="button" />
                                                 </fieldset>
                                         </form>
+                                        
+                                        
+                                        <div id="jcart"><?php $jcart->display_cart();?></div>
 </body>
 </html>
