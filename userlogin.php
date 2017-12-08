@@ -109,7 +109,7 @@ function fbLogout() {
             <p>Do you wish to register<br> for <a href="register.php" class="link user-actions"><strong>a new account</strong></a>?</p>
           </div>
           <br/>
-          <div id="status"></div>
+          <div class="text-center" id="status"></div>
 
 <!-- Facebook login or logout button -->
 <div class="text-center"><a href="javascript:void(0);" onclick="fbLogin()" id="fbLink">Login With Facebook</a></div>
