@@ -74,6 +74,34 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
 
 </script>
 
+<style>
+dropdown:hover .dropdown-content {
+            display: block;
+                            }
+        .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #3bc492;
+        min-width: 20px;
+        box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        }
+        .dropdown-content a {
+        color: black;
+        padding: 2px 2px;
+        text-decoration: none;
+        display: block;
+}
+        .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 8px;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+}
+</style>
+
 <meta property="og:image" content="images/abclogo.jpg">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="200">
