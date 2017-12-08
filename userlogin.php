@@ -46,7 +46,7 @@ function fbLogin() {
     FB.login(function (response) {
         if (response.authResponse) {
             // Get and display the user profile data
-//            getFbUserData();
+            // getFbUserData();
             window.location = "http://www.abc-consulting.tk";
         } else {
             document.getElementById('status').innerHTML = 'User cancelled login or did not fully authorize.';
@@ -116,7 +116,6 @@ function fbLogout() {
 
 <!-- Display user profile data -->
 <div id="userData"></div>
-S
         </fieldset>
       </form>
     </div>
