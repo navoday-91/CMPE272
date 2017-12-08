@@ -75,7 +75,11 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
 </script>
 
 <style>
-dropdown:hover .dropdown-content {
+    /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {background-color: #f1f1f1}
+        
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {
             display: block;
                             }
         .dropdown-content {
@@ -101,6 +105,7 @@ dropdown:hover .dropdown-content {
         cursor: pointer;
 }
 </style>
+
 
 <meta property="og:image" content="images/abclogo.jpg">
 <meta property="og:image:type" content="image/png">
