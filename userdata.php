@@ -6,7 +6,6 @@
 // This file demonstrates a basic store setup
 
 // If your page calls session_start() be sure to include jcart.php first
-<?php
 
 // jCart v1.3
 // http://conceptlogic.com/jcart/
@@ -622,7 +621,6 @@ if (!function_exists('request_uri')) {
 }
 ?>
 
-?>
 <!doctype html>
 
 <?php
