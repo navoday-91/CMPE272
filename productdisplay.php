@@ -1159,7 +1159,44 @@ h1 { font-size: 1.5em; margin: 10px; }
       </form>
 				</center>
 
+        <br/>
+        <br/>
+        <h2>Reviews:</h2> <br/><br/>
+        
+        <?php
+        $connection = mysqli_connect("localhost", "navoday", "redhat");
+        if ($connection->connect_error) {
+            die("Connection failed: " . $connection->connect_error);
+            echo('connection to db failed');
+            echo($connection);
+            }
 
+            // Selecting Database
+            $username = $_SESSION['login_user'];
+            $db = mysqli_select_db($connection, "abc");
+            // SQL query to fetch information of registerd users and finds user match.
+            $query = mysqli_query($connection, "select reviews.review, userdata.* from reviews, userdata where reviews.username = userdata.username;");
+            $rows = mysqli_num_rows($query);
+            if ($rows > 0) {
+                echo("<table style=\"width:100%\">
+                          <tr>
+                            <th>User</th>
+                            <th>Review</th> 
+                          </tr>");
+                while ($user = $query->fetch_assoc()) {
+                    echo("<tr>
+                            <td>".$user['first name']." ".$user['last name']."</td>
+                            <td>".$user['review']."</td>
+                          </tr>");
+                }
+                echo("</table>");
+            }
+            else{
+                echo("No Users @ ABC Consulting");
+            }
+            mysqli_close($connection);
+      ?>
+        
 				<div class="clear"></div>
 
 				
