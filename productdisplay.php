@@ -1059,8 +1059,8 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
             
                                             
                                             parse_str($_SERVER['QUERY_STRING']); 
-                                            echo("ID PRODUCT = ".$id);
-                                            curl_setopt($ch, CURLOPT_URL, "http://anavsharma.com/barkinghampalace/gen.php?id=".$id);
+                                            $req = "id=".$id;
+                                            curl_setopt($ch, CURLOPT_URL, "http://anavsharma.com/barkinghampalace/gen.php?".$req);
                                             curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
                                             
                                             $result = curl_exec($ch);
