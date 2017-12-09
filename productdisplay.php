@@ -1145,6 +1145,25 @@ h1 { font-size: 1.5em; margin: 10px; }
                 </fieldset>
                 </center>
           </div>
+          <br/>
+          <?php
+        $connection = mysqli_connect("localhost", "navoday", "redhat");
+        if ($connection->connect_error) {
+            die("Connection failed: " . $connection->connect_error);
+            echo('connection to db failed');
+            echo($connection);
+            }
+
+            // Selecting Database
+            $username = $_SESSION['login_user'];
+            $db = mysqli_select_db($connection, "abc");
+            // SQL query to fetch information of registerd users and finds user match.
+            $query = mysqli_query($connection, "select count(*) as count, avg(rating) as rating from rating where productid = '$id';");
+            $user = $query->fetch_assoc();
+        ?>
+        
+          <?php echo("Total ".$user['count']." Ratings.        Avg. Rating: ".$user['rating']) ?>
+          <br/>
           <?php if (isset($_SESSION['error'])){ ?>
           <div class="text-center pad-top-20">
             <p><font color="red"><strong><?php echo($_SESSION['error']); ?></strong></font></p>
@@ -1185,8 +1204,8 @@ h1 { font-size: 1.5em; margin: 10px; }
                           </tr>");
                 while ($user = $query->fetch_assoc()) {
                     echo("<tr>
-                            <td>".$user['first name']." ".$user['last name']."</td>
-                            <td>".$user['review']."</td>
+                            <td align=\"center\">".$user['first name']." ".$user['last name']."</td>
+                            <td align=\"right\">".$user['review']."</td>
                           </tr>");
                 }
                 echo("</table>");
