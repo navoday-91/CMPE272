@@ -27,6 +27,7 @@ session_start();
 	<body>
 		<div id="wrapper">
 			<h2>ABC - Store</h2>
+			<div id="jcart"><?php $jcart->display_cart();?></div>
 
 			<div id="content">
 
