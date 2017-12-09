@@ -132,10 +132,8 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
 
     }
     
-    .dropdown .dropdown-menu a {font-size: 5px}
-    
     .dropdown:hover .dropdown-menu {
-        display: inline-block;
+        display: none;
     }
     
     /** Button Styles **/
