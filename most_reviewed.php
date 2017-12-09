@@ -1085,7 +1085,7 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
                                                             
                                                             $result = curl_exec($ch);
                                                         }
-                                            echo($result."<br/>");
+                                                        echo($result."<br/>");
                                                     }}
                 ?>
 				
