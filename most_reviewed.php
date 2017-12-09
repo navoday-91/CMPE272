@@ -1072,7 +1072,7 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
                                                     while ($user = $query->fetch_assoc()) {
                                                         if (substr($user['productid'], 0, 2) == 'NN'){
                                                             $ch = curl_init();
-                                                            curl_setopt($ch, CURLOPT_URL, "http://www.wonderarchitectures.ga/curleach.php");
+                                                            curl_setopt($ch, CURLOPT_URL, "http://www.wonderarchitectures.ga/curleach.php?id=".$user['productid']);
                                                             curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
                                                             
                                                             $result = curl_exec($ch);
@@ -1080,7 +1080,7 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
                                                         if (substr($user['productid'], 0, 2) == 'AS'){
                                             
                                                             $ch = curl_init();
-                                                            curl_setopt($ch, CURLOPT_URL, "http://anavsharma.com/barkinghampalace/altproduct.php");
+                                                            curl_setopt($ch, CURLOPT_URL, "http://anavsharma.com/barkinghampalace/altproduct.php?id=".$user['productid']);
                                                             curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
                                                             
                                                             $result = curl_exec($ch);
