@@ -1115,7 +1115,21 @@ h1 { font-size: 1.5em; margin: 10px; }
                                             echo($result."<br/>");
                 ?>
                 
-                <center>
+                
+				
+				<center>
+				    <div id="dialog" class="dialog dialog-effect-in">
+  <div class="dialog-front">
+    <div class="dialog-content">
+      <form id="reviewform" class="dialog-form" action="php/subreview.php" method="POST">
+        <fieldset>
+          <legend>Rating and Reviews</legend>
+          <div class="form-group">
+            <label for="review" class="control-label">Review</label>
+            <input type="text" id="review" class="form-control" name="review" autofocus/>
+          </div>
+          <div class="form-group">
+              <center>
                     
                     <fieldset class="rating">
     <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
@@ -1128,19 +1142,8 @@ h1 { font-size: 1.5em; margin: 10px; }
     <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
     <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
     <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
-</fieldset>
+                </fieldset>
                 </center>
-				
-				<center>
-				    <div id="dialog" class="dialog dialog-effect-in">
-  <div class="dialog-front">
-    <div class="dialog-content">
-      <form id="reviewform" class="dialog-form" action="php/subreview.php" method="POST">
-        <fieldset>
-          <legend>Log in</legend>
-          <div class="form-group">
-            <label for="review" class="control-label">Review</label>
-            <input type="text" id="review" class="form-control" name="review" autofocus/>
           </div>
           <div class="pad-top-20 pad-btm-20">
             <input type="submit" class="btn btn-default btn-block btn-lg" name="Submit" value="Submit">
