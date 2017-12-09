@@ -1,6 +1,7 @@
 <?php
 session_start(); // Starting Session
 $error=''; // Variable To Store Error Message
+parse_str($_SERVER['QUERY_STRING']);
 if (isset($_POST['Submit'])) {
     if (empty($_POST['rating']) || empty($_POST['review'])) {
         if (empty($_POST['rating'])) {
@@ -31,7 +32,7 @@ else
     $username = $_SESSION['login_user'];
     $review = ($_POST['review']);
     $review_f = floatval($review);
-    parse_str($_SERVER['QUERY_STRING']);
+    
     $db = mysqli_select_db($connection, "abc");
     // SQL query to fetch information of registerd users and finds user match.
         $query = mysqli_query($connection, "insert into reviews values('$id','$review','$username',default);");
