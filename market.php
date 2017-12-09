@@ -780,7 +780,7 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
      
         
         form {
-            min-height: 275px;
+            min-height: 200px;
         }
     
 </style>
@@ -1047,8 +1047,10 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
 </div><!--end row-wrapper -->
 <div class="row-fluid-wrapper row-depth-0 row-number-1 ">
 <div class="row-fluid ">
-    <div class="span12 widget-span widget-type-cell content-section columns-section two-column-right-section" style="" data-widget-type="cell" data-x="5" data-w="12">
+    <div class="span12 widget-span widget-type-cell content-section columns-section two-column-right-section" style="" data-widget-type="cell" data-x="0" data-w="12">
 
+        <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+        <div class="row-fluid ">
     <script language="javascript" type="text/javascript">
             var token = "<?php echo($_SESSION['jcartToken']) ?>";                        
                                         
@@ -1086,7 +1088,7 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
                                         
                                         
                                     ?>
-</div></div>
+</div></div></div></div></div>
                     
     
 
