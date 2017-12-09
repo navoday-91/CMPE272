@@ -1055,7 +1055,8 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
             var token = "<?php echo($_SESSION['jcartToken']) ?>";                        
                                         
     </script>                                
-                <?php 
+                <?php             
+                                            $connection = mysqli_connect("localhost", "navoday", "redhat");
                                             if ($connection->connect_error) {
                                                 die("Connection failed: " . $connection->connect_error);
                                                 echo('connection to db failed');
