@@ -835,6 +835,7 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
               </div>
       </div>
   </li>
+  <li class="hs-menu-item hs-menu-depth-1"><a href="https://navoday91.wordpress.com/"><span>Blog</span></a></li>
  </ul>
 </div></span></div><!--end layout-widget-wrapper -->
 </div><!--end widget-span -->
@@ -1039,79 +1040,21 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
 </div><!--end row-wrapper -->
 <div class="row-fluid-wrapper row-depth-0 row-number-1 ">
 <div class="row-fluid ">
-    <div class="span12 widget-span widget-type-cell content-section columns-section two-column-right-section" style="" data-widget-type="cell" data-x="0" data-w="12">
-
-        <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
-        <div class="row-fluid ">
-            <div class="span12 widget-span widget-type-cell centered column-equal-height medium-stack" style="" data-widget-type="cell" data-x="0" data-w="12">
-
-                <div class="row-fluid-wrapper row-depth-1 row-number-2 ">
-                <div class="row-fluid ">
-                    <div class="span8 widget-span widget-type-widget_container column main-column" style="" data-widget-type="widget_container" data-x="0" data-w="8">
-                        <span id="hs_cos_wrapper_module_14045563837526290" class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" style="" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><div id="hs_cos_wrapper_widget_3699427007" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><span class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container">
+    <script language="javascript" type="text/javascript">
+            var token = "<?php echo($_SESSION['jcartToken']) ?>";                        
                                         
-                                        
-                                    <div id="content">
+    </script>                                
+                <?php
+                                            $ch = curl_init();
+                                            curl_setopt($ch, CURLOPT_URL, "http://www.wonderarchitectures.ga/curl.php");
+                                            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                                            
+                                            $result = curl_exec($ch);
+                                            
+                                            echo($result."<br/>");
+                ?>
+				
 
-				<form method="post" action="" class="jcart">
-					<fieldset>
-						<input type="hidden" name="jcartToken" value="<?php echo $_SESSION['jcartToken'];?>" />
-						<input type="hidden" name="my-item-id" value="ABC-123" />
-						<input type="hidden" name="my-item-name" value="Soccer Ball" />
-						<input type="hidden" name="my-item-price" value="25.00" />
-						<input type="hidden" name="my-item-url" value="" />
-
-						<ul>
-							<li><strong>Soccer Ball</strong></li>
-							<li>Price: $25.00</li>
-							<li>
-								<label>Qty: <input type="text" name="my-item-qty" value="1" size="3" /></label>
-							</li>
-						</ul>
-
-						<input type="submit" name="my-add-button" value="add to cart" class="button" />
-					</fieldset>
-				</form>
-
-				<form method="post" action="" class="jcart">
-					<fieldset>
-						<input type="hidden" name="jcartToken" value="<?php echo $_SESSION['jcartToken'];?>" />
-						<input type="hidden" name="my-item-id" value="2" />
-						<input type="hidden" name="my-item-name" value="Baseball Mitt" />
-						<input type="hidden" name="my-item-price" value="19.50" />
-						<input type="hidden" name="my-item-url" value="http://yahoo.com" />
-
-						<ul>
-							<li><strong>Baseball Mitt</strong></li>
-							<li>Price: $19.50</li>
-							<li>
-								<label>Qty: <input type="text" name="my-item-qty" value="1" size="3" /></label>
-							</li>
-						</ul>
-
-						<input type="submit" name="my-add-button" value="add to cart" class="button" />
-					</fieldset>
-				</form>
-
-				<form method="post" action="" class="jcart">
-					<fieldset>
-						<input type="hidden" name="jcartToken" value="<?php echo $_SESSION['jcartToken'];?>" />
-						<input type="hidden" name="my-item-id" value="3" />
-						<input type="hidden" name="my-item-name" value="Hockey Stick" />
-						<input type="hidden" name="my-item-price" value="33.25" />
-						<input type="hidden" name="my-item-url" value="http://bing.com" />
-
-						<ul>
-							<li><strong>Hockey Stick</strong></li>
-							<li>Price: $33.25</li>
-							<li>
-								<label>Qty: <input type="text" name="my-item-qty" value="1" size="3" /></label>
-							</li>
-						</ul>
-
-						<input type="submit" name="my-add-button" value="add to cart" class="button tip" />
-					</fieldset>
-				</form>
 
 				<div class="clear"></div>
 
@@ -1127,16 +1070,9 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
                                         
                                         
                                     ?>
-</div></div></span>
+</div>
                     
-    </div><!--end row-->
-    </div><!--end row-wrapper -->
-</div><!--end widget-span -->
-</div><!--end row-->
-</div><!--end row-wrapper -->
-
-    </div><!--end body -->
-</div><!--end body wrapper -->
+    
 
 <div class="footer-container-wrapper">
     <div class="footer-container container-fluid">
