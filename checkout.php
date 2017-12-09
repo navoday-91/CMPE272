@@ -14,20 +14,19 @@ session_start();
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-
-
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-		<title>jCart - Free Ajax/PHP shopping cart</title>
+		<title>ABC - Product Checkout</title>
 
 		<link rel="stylesheet" type="text/css" media="screen, projection" href="style.css" />
 
 		<link rel="stylesheet" type="text/css" media="screen, projection" href="jcart/css/jcart.css" />
-	</head>
 
+				
+		
 <?php
-$cookie_name = "prev_visits";
+$cookie_name = "most_visits";
 $cookie_value = $_COOKIE[$cookie_name];
 $cookie_value = json_decode($cookie_value, true);
 $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Consulting</a>",
@@ -46,7 +45,6 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
 14 => "<a href = 'services/legalconsulting.php'>Legal Consulting</a>",
 );
 ?>
-
 
 
 
@@ -70,9 +68,10 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
     <meta name="twitter:title" content="">
 
 
-    <link rel="stylesheet" type="text/css" media="screen, projection" href="style.css" />
+    
+    
 
-		<link rel="stylesheet" type="text/css" media="screen, projection" href="jcart/css/jcart.css" />
+    
     
     <link rel="canonical" href="http://www.e-zest.com/bpm_consulting/">
 
@@ -87,107 +86,6 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
   ga('send', 'pageview');
 
 </script>
-
-<style>
-    .dropdown {
-        position: relative;
-        display: inline-block;
-    }
-    
-    .dropdown .dropdown-menu {
-        position: absolute;
-        top: 100%;
-        float: right;
-        display: none;
-        margin: 0;
-    
-        /****************
-         ** NEW STYLES **
-         ****************/
-    
-        /** Remove list bullets */
-        width: 200px; /** Set the width to 100% of it's parent */
-        padding: 0;
-        
-        #jcart * { margin:0; padding:0; font-family:arial, tahoma, verdana, sans-serif; }
-        #jcart, #jcart input, #jcart-tooltip { font-size:12px; }
-        
-        #jcart fieldset { border:0; }
-        
-        #jcart-error { text-align:center; padding:5px; }
-        
-        #jcart table { width:100%; border:0; background:#fff; border-collapse:collapse; }
-        #jcart thead {  }
-        #jcart-title {  }
-        #jcart tbody {  }
-        #jcart tfoot {  }
-        #jcart tr {  }
-        #jcart th { background:#ccffcc }
-        #jcart th, #jcart td { padding:5px; border:0; border:solid 1px #ccc; vertical-align:middle; text-align:left; font-weight:normal; }
-        #jcart #jcart-empty { text-align:center; }
-        
-        .jcart-item-qty { width:25%; }
-        #jcart .jcart-item-name { width:50%; font-weight:bold; }
-        #jcart .jcart-item-price { width:25%; font-weight:bold; text-align:right; }
-        .jcart-item-price span { display:block; }
-        
-        .jcart-remove { font-size:11px; font-weight:normal; }
-        
-        #jcart-subtotal { display:block; }
-        #jcart-subtotal strong {  }
-        
-        #jcart-buttons input { padding:2px; margin:2px; }
-        
-        #jcart-checkout { float:right; padding:2px; }
-        
-        #jcart-paypal-checkout { display:block; width:14em; padding:10px; margin:20px auto; }
-        
-        #jcart-tooltip { display:none; position:absolute; padding:3px 7px 3px 25px; background:url(../images/checkmark.png) 3px center no-repeat #fdfdfd; border:1px solid #a6c9e2; z-index:9999; }
-
-    }
-    
-    .dropdown:hover .dropdown-menu {
-        display: inline-block;
-    }
-    
-    /** Button Styles **/
-    .dropdown button {
-        background: #FF6223;
-        color: #FFFFFF;
-        border: none;
-        margin: 0;
-        padding: 0.4em 0.8em;
-        font-size: 1em;
-    }
-    
-    /** List Item Styles **/
-    .dropdown a {
-        display: block;
-        padding: 0.2em 0.8em;
-        text-decoration: none;
-        background: #CCCCCC;
-        color: #333333;
-    }
-    
-    /** List Item Hover Styles **/
-    .dropdown a:hover {
-        background: #BBBBBB;
-    }
-    
-    
-    .dropdown .dropdown-menu.jcart-item-name { width:50%; font-weight:bold; }
-    .dropdown .dropdown-menu.jcart-item-price { width:25%; font-weight:bold; text-align:right; }
-    .dropdown .dropdown-menu.jcart-item-qty { width:25%; }
-    
-    
-     
-        
-        form {
-            min-height: 275px;
-        }
-    
-</style>
-
 
 <meta property="og:image" content="images/abclogo.jpg">
 <meta property="og:image:type" content="image/png">
@@ -237,14 +135,6 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
   </li>
   <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="../php/logout.php">Logout</a>
   </li>
-  <li>
-      <div class="dropdown">
-              <button>Cart</button>
-              <div class="dropdown-menu">
-                    <div id="jcart"><?php $jcart->display_cart();?></div>
-              </div>
-      </div>
-  </li>
   <li class="hs-menu-item hs-menu-depth-1"><a href="https://navoday91.wordpress.com/"><span>Blog</span></a></li>
  </ul>
 </div></span></div><!--end layout-widget-wrapper -->
@@ -284,7 +174,7 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
                             <div class="span12 widget-span widget-type-header " style="" data-widget-type="header" data-x="0" data-w="12">
                                 <div class="cell-wrapper layout-widget-wrapper">
                                     <span id="hs_cos_wrapper_module_14509432248707604" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_header" style="" data-hs-cos-general-type="widget" data-hs-cos-type="header"><h1><span id="hs_cos_wrapper_name" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="text">
-                                        ABC Market
+                                        Products Visited
                                     </span></h1></span>
                                 </div><!--end layout-widget-wrapper -->
                             </div><!--end widget-span -->
@@ -294,7 +184,7 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
                         <div class="row-fluid ">
                             <div class="span12 widget-span widget-type-rich_text " style="" data-widget-type="rich_text" data-x="0" data-w="12">
                                 <div class="cell-wrapper layout-widget-wrapper">
-                                    <span id="hs_cos_wrapper_module_14509432659418859" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p>A Collection of Products from our Partners</p></span>
+                                    <span id="hs_cos_wrapper_module_14509432659418859" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p>You visited these products most</p></span>
                                 </div><!--end layout-widget-wrapper -->
                             </div><!--end widget-span -->
                         </div><!--end row-->
@@ -316,12 +206,12 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
                 <div class="span12 widget-span widget-type-raw_jinja " style="" data-widget-type="raw_jinja" data-x="0" data-w="12">
 
 
-
-
-
-
-
-
+    
+    
+    
+    
+    
+    
     
 
     
@@ -450,39 +340,36 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
 </div><!--end row-wrapper -->
 <div class="row-fluid-wrapper row-depth-0 row-number-1 ">
 <div class="row-fluid ">
-    <div class="span12 widget-span widget-type-cell content-section columns-section two-column-right-section" style="" data-widget-type="cell" data-x="0" data-w="15">
+    <div class="span12 widget-span widget-type-cell content-section columns-section two-column-right-section" style="" data-widget-type="cell" data-x="0" data-w="12">
 
         <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
         <div class="row-fluid ">
-	<body>
-		<div id="wrapper">
-			<h2>Product Checkout</h2>
+            <div class="span12 widget-span widget-type-cell centered column-equal-height medium-stack" style="" data-widget-type="cell" data-x="0" data-w="12">
 
-			<div id="sidebar">
-			</div>
+                <div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+                <div class="row-fluid ">
+                    <div class="span8 widget-span widget-type-widget_container column main-column" style="" data-widget-type="widget_container" data-x="0" data-w="8">
+                        <span id="hs_cos_wrapper_module_14045563837526290" class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" style="" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container"><div id="hs_cos_wrapper_widget_3699427007" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><span class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container">
+                                        <div id="jcart"><?php $jcart->display_cart();?></div>
 
-			<div id="content">
-				<div id="jcart"><?php $jcart->display_cart();?></div>
-
-				<p><a href="index.php">&larr; Continue shopping</a></p>
+				<p><a href="market.php">&larr; Continue shopping</a></p>
 
 				<?php
 					//echo '<pre>';
 					//var_dump($_SESSION['jcart']);
 					//echo '</pre>';
 				?>
-			</div>
 
-			<div class="clear"></div>
-		</div>
-</div>    
-                                    <?php
-                                        
-                                        
-                                    ?>
-</div></div></div></div></div>
+</div></div></span>
                     
-    
+    </div><!--end row-->
+    </div><!--end row-wrapper -->
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+    </div><!--end body -->
+</div><!--end body wrapper -->
 
 <div class="footer-container-wrapper">
     <div class="footer-container container-fluid">
@@ -664,14 +551,13 @@ var hsVars = {
 }
 </script>
 
-        <script type="text/javascript" src="jcart/js/jquery-1.4.4.min.js"></script>
+
+
+<script type="text/javascript" src="jcart/js/jquery-1.4.4.min.js"></script>
 		<script type="text/javascript" src="jcart/js/jcart.min.js"></script>
-
-
 
 
     <!-- Generated by the HubSpot Template Builder - template version 1.03 -->
 
 <!-- end coded_template: id:3859515515 path:generated_layouts/3859515505.html -->
 </body></html>
-		
