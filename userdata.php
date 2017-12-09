@@ -523,7 +523,7 @@ class Jcart {
 				echo tab(6) . "<td class='jcart-item-name'>\n";
 
 				if ($item['url']) {
-					echo tab(7) . "\n";
+					echo tab(7) . "{$item['name']}</a>\n";;
 				}
 				else {
 					echo tab(7) . $item['name'] . "\n";
