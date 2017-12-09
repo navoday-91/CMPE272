@@ -1067,25 +1067,31 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
                                                 $db = mysqli_select_db($connection, "abc");
                                                 // SQL query to fetch information of registerd users and finds user match.
                                                 $query = mysqli_query($connection, "select productid from reviews group by productid order by count(*) DESC;");
+                                                echo("here1");
                                                 $rows = mysqli_num_rows($query);
+                                                echo($rows);
                                                 if ($rows > 0) {
                                                     while ($user = $query->fetch_assoc()) {
+                                                        echo(substr($user['productid'], 0, 2));
                                                         if (substr($user['productid'], 0, 2) == 'NN'){
+                                                            echo("Neha"."http://www.wonderarchitectures.ga/curleach.php?id=".$user['productid']);
                                                             $ch = curl_init();
                                                             curl_setopt($ch, CURLOPT_URL, "http://www.wonderarchitectures.ga/curleach.php?id=".$user['productid']);
                                                             curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
                                                             
                                                             $result = curl_exec($ch);
+                                                            echo($result);
                                                         }
                                                         if (substr($user['productid'], 0, 2) == 'AS'){
-                                            
+                                                            echo("Anav"."http://anavsharma.com/barkinghampalace/altproduct.php?id=".$user['productid']);
                                                             $ch = curl_init();
                                                             curl_setopt($ch, CURLOPT_URL, "http://anavsharma.com/barkinghampalace/altproduct.php?id=".$user['productid']);
                                                             curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
                                                             
                                                             $result = curl_exec($ch);
+                                                            echo($result);
                                                         }
-                                                        echo($result."<br/>");
+                                                        
                                                     }}
                 ?>
 				
