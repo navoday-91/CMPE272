@@ -7,13 +7,13 @@ if (isset($_POST['Submit'])) {
             $error = "Rating can't be blank";
             echo($error);
             $_SESSION['error'] = $error;
-            header("../productdisplay.php?id=".$id); // Redirecting back
+            header("location: ../productdisplay.php?id=".$id); // Redirecting back
             }
         if (empty($_POST['review'])) {
             $error = "Review can't be blank";
             echo($error);
             $_SESSION['error'] = $error;
-            header("../productdisplay.php?id=".$id); // Redirecting back
+            header("location: ../productdisplay.php?id=".$id); // Redirecting back
             }
 }
 else
