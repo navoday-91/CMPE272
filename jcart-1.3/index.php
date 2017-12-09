@@ -22,7 +22,13 @@ session_start();
 		<link rel="stylesheet" type="text/css" media="screen, projection" href="style.css" />
 
 		<link rel="stylesheet" type="text/css" media="screen, projection" href="jcart/css/jcart.css" />
-
+        
+        <style> 
+        
+        form {
+            min-height: 500px;
+        }
+        </style>
 	</head>
 	<body>
 		<div id="wrapper">
@@ -102,6 +108,7 @@ session_start();
 					//echo '<pre>';
 					//var_dump($_SESSION['jcart']);
 					//echo '</pre>';
+					header("location: ../market.php");
 				?>
 			</div>
 

@@ -98,7 +98,7 @@ if(!isset($_COOKIE[$cookie_name])) {
           <li><a href="#intro">About</a></li>
           <li><a href="#services">services</a></li>
           <li><a href="#teams">Our Team</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="jcart-1.3/index.php">Marketplace</a></li>
           <li><a href="#contact">Contact</a></li>
           <?php
               session_start();
