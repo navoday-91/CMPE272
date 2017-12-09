@@ -656,19 +656,7 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
     <title>Product Description</title>
     
     
-    <link href="css/bootstrap-theme.min1.css" rel="stylesheet">
-<!--<link href="css/bootstrap.min1.css" rel="stylesheet">-->	
-<link rel="stylesheet"  href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-<link href="css/star-rating.css" media="all" rel="stylesheet" type="text/css" />
 
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min1.js"></script>
-<script src="js/modal.js"></script>
-<script src="js/star-rating.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 
     
@@ -1095,44 +1083,8 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
 				?>
 			</div>    
 			
-			<div class="container">
-  <div class="row">
-    <div class="col-md-4"></div>
-	<div class="col-md-4">
-	
-		<br><br><br><br><br>
-		<!-- Button trigger modal -->
-		<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">Submit review</button>
-		<br><br>
-		<div id="message"></div>
-		
-		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="myModalLabel">Review System</h4>
-					</div>
-					
-					<div class="modal-body">
-						<form method="POST" id="dataform" action="" autocomplete="true">
-							<label>Leave your Feedback</label>
-							<input id="star" value="4" type="number" class="rating" min=0 max=5 step=0.2 data-size="md">
-							<label>Comments:</label>
-							<textarea id="comment" class="form-control" placeholder="Please enter comments here about your experience with this teacher." rows="6"></textarea>
-					</div>
-					<div class="modal-footer">
-							<button type="reset" class="btn btn-default" data-dismiss="modal">Close</button>
-							<button type="submit" id="submit_rate" class="btn btn-primary">Submit</button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>	
-	</div>
-	<div class="col-md-4"></div>
-  </div>
-</div>
+			
+</div></div></div></div>
 </body>
 <script>
 $(document).ready(function(){ 
