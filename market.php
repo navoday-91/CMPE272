@@ -1051,8 +1051,6 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
 
         <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
         <div class="row-fluid ">
-            <div class="span8 widget-span widget-type-widget_container column main-column" style="" data-widget-type="widget_container" data-x="0" data-w="8">
-    <script language="javascript" type="text/javascript">
             var token = "<?php echo($_SESSION['jcartToken']) ?>";                        
                                         
     </script>                                
@@ -1089,7 +1087,7 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
                                         
                                         
                                     ?>
-</div></div></div></div></div></div>
+</div></div></div></div></div>
                     
     
 
