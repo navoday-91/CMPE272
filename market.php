@@ -1062,6 +1062,12 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
           <div class="pad-top-20 pad-btm-20">
             <input type="submit" class="btn btn-default btn-block btn-lg" name="Most Reviewed Products" value="Most Reviewed Products">
           </div>
+          <div class="pad-top-20 pad-btm-20">
+            <input type="submit" class="btn btn-default btn-block btn-lg" name="Most Rated Products" value="Most Rated Products">
+          </div>
+          <div class="pad-top-20 pad-btm-20">
+            <input type="submit" class="btn btn-default btn-block btn-lg" name="Most Visited Products" value="Most Visited Products">
+          </div>
         </fieldset>
       </form> 
             </div>
