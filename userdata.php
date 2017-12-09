@@ -6,7 +6,7 @@
 // This file demonstrates a basic store setup
 
 // If your page calls session_start() be sure to include jcart.php first
-include_once('jcart/jcart1.php');
+include_once('jcart/jcart.php');
 
 session_start();
 ?>
@@ -131,6 +131,8 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
         #jcart-tooltip { display:none; position:absolute; padding:3px 7px 3px 25px; background:url(../images/checkmark.png) 3px center no-repeat #fdfdfd; border:1px solid #a6c9e2; z-index:9999; }
 
     }
+    
+    .dropdown .dropdown-menu a {font-size: 5px}
     
     .dropdown:hover .dropdown-menu {
         display: inline-block;
