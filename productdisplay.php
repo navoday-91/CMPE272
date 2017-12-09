@@ -1162,7 +1162,7 @@ h1 { font-size: 1.5em; margin: 10px; }
             $user = $query->fetch_assoc();
         ?>
         
-          <?php echo("Total ".$user['count']." Ratings.        Avg. Rating: ".$user['rating']) ?>
+          <left><?php echo("Total ".$user['count']." Ratings.        Avg. Rating: ".$user['rating']) ?></left>
           <br/>
           <?php if (isset($_SESSION['error'])){ ?>
           <div class="text-center pad-top-20">
@@ -1205,7 +1205,7 @@ h1 { font-size: 1.5em; margin: 10px; }
                 while ($user = $query->fetch_assoc()) {
                     echo("<tr>
                             <td align=\"center\">".$user['first name']." ".$user['last name']."</td>
-                            <td align=\"right\">".$user['review']."</td>
+                            <td align=\"left\">".$user['review']."</td>
                           </tr>");
                 }
                 echo("</table>");
