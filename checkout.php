@@ -14,6 +14,8 @@ session_start();
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
@@ -23,9 +25,438 @@ session_start();
 
 		<link rel="stylesheet" type="text/css" media="screen, projection" href="jcart/css/jcart.css" />
 	</head>
+
+<?php
+$cookie_name = "prev_visits";
+$cookie_value = $_COOKIE[$cookie_name];
+$cookie_value = json_decode($cookie_value, true);
+$services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Consulting</a>",
+2 => "<a href = 'services/branding1.php'>Corporate Identity</a>",
+3 => "<a href = 'services/webdesign.php'>Web Design & Development</a>",
+4 => "<a href = 'services/branding.php'>Branding</a>",
+5 => "<a href = 'services/digmrktng.php'>Digital Marketing</a>",
+6 => "<a href = 'services/promotions.php'>Promotional Material</a>",
+7 => "<a href = 'services/portal.php'>Portal Designs and CMS</a>",
+8 => "<a href = 'services/process_mgmt.php'>Process Management</a>",
+9 => "<a href = 'services/comp_cert.php'>Compliance and Standardization</a>",
+10 => "<a href = 'services/analytics.php'>Surveys & Analytics</a>",
+11 => "<a href = 'services/mkt_trends.php'>Market Trends</a>",
+12 => "<a href = 'services/supp_chain.php'>Supply Chain Consulting</a>",
+13 => "<a href = 'services/digmrktng.php'>Design and Reinvent</a>",
+14 => "<a href = 'services/legalconsulting.php'>Legal Consulting</a>",
+);
+?>
+
+
+
+
+<!-- start coded_template: id:3859515515 path:generated_layouts/3859515505.html --><!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en">        <![endif]--><!--[if IE 8]>    <html class="no-js lt-ie9" lang="en">               <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="author" content="ABC Solutions">
+    <meta name="description" content="ABC Consulting provides analytics services and understands perspective required for building and implementation of Business and Market Data.">
+    <meta name="generator" content="HubSpot">
+    <title>User Data</title>
+    
+
+    
+    
+    <script src="https://static.hsstatic.net/jquery-libs/static-1.4/jquery/jquery-1.11.2.js"></script>
+    <script type="text/javascript">hsjQuery = window['jQuery']</script>
+    <link href="https://static.hsstatic.net/content_shared_assets/static-1.4049/css/public_common.css" rel="stylesheet">
+    <meta property="og:description" content=".">
+    <meta property="og:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:title" content="">
+
+
+    <link rel="stylesheet" type="text/css" media="screen, projection" href="style.css" />
+
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="jcart/css/jcart.css" />
+    
+    <link rel="canonical" href="http://www.e-zest.com/bpm_consulting/">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-362796-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<style>
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        float: right;
+        display: none;
+        margin: 0;
+    
+        /****************
+         ** NEW STYLES **
+         ****************/
+    
+        /** Remove list bullets */
+        width: 200px; /** Set the width to 100% of it's parent */
+        padding: 0;
+        
+        #jcart * { margin:0; padding:0; font-family:arial, tahoma, verdana, sans-serif; }
+        #jcart, #jcart input, #jcart-tooltip { font-size:12px; }
+        
+        #jcart fieldset { border:0; }
+        
+        #jcart-error { text-align:center; padding:5px; }
+        
+        #jcart table { width:100%; border:0; background:#fff; border-collapse:collapse; }
+        #jcart thead {  }
+        #jcart-title {  }
+        #jcart tbody {  }
+        #jcart tfoot {  }
+        #jcart tr {  }
+        #jcart th { background:#ccffcc }
+        #jcart th, #jcart td { padding:5px; border:0; border:solid 1px #ccc; vertical-align:middle; text-align:left; font-weight:normal; }
+        #jcart #jcart-empty { text-align:center; }
+        
+        .jcart-item-qty { width:25%; }
+        #jcart .jcart-item-name { width:50%; font-weight:bold; }
+        #jcart .jcart-item-price { width:25%; font-weight:bold; text-align:right; }
+        .jcart-item-price span { display:block; }
+        
+        .jcart-remove { font-size:11px; font-weight:normal; }
+        
+        #jcart-subtotal { display:block; }
+        #jcart-subtotal strong {  }
+        
+        #jcart-buttons input { padding:2px; margin:2px; }
+        
+        #jcart-checkout { float:right; padding:2px; }
+        
+        #jcart-paypal-checkout { display:block; width:14em; padding:10px; margin:20px auto; }
+        
+        #jcart-tooltip { display:none; position:absolute; padding:3px 7px 3px 25px; background:url(../images/checkmark.png) 3px center no-repeat #fdfdfd; border:1px solid #a6c9e2; z-index:9999; }
+
+    }
+    
+    .dropdown:hover .dropdown-menu {
+        display: inline-block;
+    }
+    
+    /** Button Styles **/
+    .dropdown button {
+        background: #FF6223;
+        color: #FFFFFF;
+        border: none;
+        margin: 0;
+        padding: 0.4em 0.8em;
+        font-size: 1em;
+    }
+    
+    /** List Item Styles **/
+    .dropdown a {
+        display: block;
+        padding: 0.2em 0.8em;
+        text-decoration: none;
+        background: #CCCCCC;
+        color: #333333;
+    }
+    
+    /** List Item Hover Styles **/
+    .dropdown a:hover {
+        background: #BBBBBB;
+    }
+    
+    
+    .dropdown .dropdown-menu.jcart-item-name { width:50%; font-weight:bold; }
+    .dropdown .dropdown-menu.jcart-item-price { width:25%; font-weight:bold; text-align:right; }
+    .dropdown .dropdown-menu.jcart-item-qty { width:25%; }
+    
+    
+     
+        
+        form {
+            min-height: 275px;
+        }
+    
+</style>
+
+
+<meta property="og:image" content="images/abclogo.jpg">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="200">
+<meta property="og:image:height" content="200">
+<meta property="og:url" content="http://abc-consulting.tk/">
+<link href="//cdn2.hubspot.net/hub/-1/hub_generated/template_assets/1495141902003/hubspot_default/shared/responsive/layout.min.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://www.e-zest.com/hs-fs/hub/744339/hub_generated/template_assets/1499943837348/custom/system/css/Act-Theme-Custom.min.css">
+
+
+    <!-- The style tag has been deprecated. Attached stylesheets are included in the required_head_tags page variable. -->
+    <!-- Act Theme Main.js, please do not delete -->
+<script src="//cdn2.hubspot.net/hub/273774/file-1924801657-js/mp/themes/Act-Theme/js/act-async-load.js"></script>
+<!--/ Act Theme Main.js, please do not delete -->
+    
+
+
+</head>
+<body class="act-theme act-two-column-hero   hs-content-id-3699427022 hs-site-page page " style="">
+    <div class="header-container-wrapper">
+    <div class="header-container container-fluid">
+
+        <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+        <div class="row-fluid ">
+            <div class="span12 widget-span widget-type-global_group " style="" data-widget-type="global_group" data-x="0" data-w="12">
+<!-- start coded_template: id:3646437396 path:generated_global_groups/3646437371.html -->
+<div class="" data-global-widget-path="generated_global_groups/3646437371.html"><div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell header-wrapper with-navigation" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell header-inner-wrapper centered" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-3 ">
+<div class="row-fluid ">
+<div class="span4 widget-span widget-type-logo header-logo" style="" data-widget-type="logo" data-x="0" data-w="4">
+<!--end layout-widget-wrapper -->
+</div><!--end widget-span -->
+<div class="span8 widget-span widget-type-menu menu-reset flyouts-fade flyouts-slide main-navigation sticky menu-top-15" style="" data-widget-type="menu" data-x="4" data-w="8">
+<div class="cell-wrapper layout-widget-wrapper">
+<span id="hs_cos_wrapper_module_14496767418724" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_module_14496767418724" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="Main">
+ <ul>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="../index.php">Home</a>
+  </li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children"><a href="../php/logout.php">Logout</a>
+  </li>
+  <li>
+      <div class="dropdown">
+              <button>Cart</button>
+              <div class="dropdown-menu">
+                    <div id="jcart"><?php $jcart->display_cart();?></div>
+              </div>
+      </div>
+  </li>
+  <li class="hs-menu-item hs-menu-depth-1"><a href="https://navoday91.wordpress.com/"><span>Blog</span></a></li>
+ </ul>
+</div></span></div><!--end layout-widget-wrapper -->
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+</div><!-- end coded_template: id:3646437396 path:generated_global_groups/3646437371.html -->
+
+            </div><!--end widget-span -->
+        </div><!--end row-->
+        </div><!--end row-wrapper -->
+
+    </div><!--end header -->
+</div><!--end header wrapper -->
+
+<div class="body-container-wrapper">
+    <div class="body-container container-fluid">
+
+        <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+        <div class="row-fluid ">
+            <div class="span12 widget-span widget-type-cell hero-wrapper" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+                <div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+                <div class="row-fluid ">
+                    <div class="span12 widget-span widget-type-cell centered-small" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+                        <div class="row-fluid-wrapper row-depth-2 row-number-1 ">
+                        <div class="row-fluid ">
+                            <div class="span12 widget-span widget-type-header " style="" data-widget-type="header" data-x="0" data-w="12">
+                                <div class="cell-wrapper layout-widget-wrapper">
+                                    <span id="hs_cos_wrapper_module_14509432248707604" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_header" style="" data-hs-cos-general-type="widget" data-hs-cos-type="header"><h1><span id="hs_cos_wrapper_name" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="text">
+                                        ABC Market
+                                    </span></h1></span>
+                                </div><!--end layout-widget-wrapper -->
+                            </div><!--end widget-span -->
+                        </div><!--end row-->
+                        </div><!--end row-wrapper -->
+                        <div class="row-fluid-wrapper row-depth-2 row-number-2 ">
+                        <div class="row-fluid ">
+                            <div class="span12 widget-span widget-type-rich_text " style="" data-widget-type="rich_text" data-x="0" data-w="12">
+                                <div class="cell-wrapper layout-widget-wrapper">
+                                    <span id="hs_cos_wrapper_module_14509432659418859" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p>A Collection of Products from our Partners</p></span>
+                                </div><!--end layout-widget-wrapper -->
+                            </div><!--end widget-span -->
+                        </div><!--end row-->
+                        </div><!--end row-wrapper -->
+                        <div class="row-fluid-wrapper row-depth-2 row-number-3 ">
+                        <div class="row-fluid ">
+                            <div class="span12 widget-span widget-type-rich_text " style="" data-widget-type="rich_text" data-x="0" data-w="12">
+                                <div class="cell-wrapper layout-widget-wrapper">
+                                    <span id="hs_cos_wrapper_module_145112232657853958" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><a class="default-button" href="/request-for-services">Get In Touch ›</a></p></span>
+                                </div><!--end layout-widget-wrapper -->
+                            </div><!--end widget-span -->
+                        </div><!--end row-->
+                        </div><!--end row-wrapper -->
+                    </div><!--end widget-span -->
+            </div><!--end row-->
+            </div><!--end row-wrapper -->
+            <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+            <div class="row-fluid ">
+                <div class="span12 widget-span widget-type-raw_jinja " style="" data-widget-type="raw_jinja" data-x="0" data-w="12">
+
+
+
+
+
+
+
+
+    
+
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <style>
+
+        body .hero-wrapper {
+
+            
+            
+
+            
+            
+
+            
+            
+                background-color: #fcfcfc;
+            
+
+            
+            
+                background-image: url(https://www.e-zest.com/hubfs/background_images/mgmt-consulting-services.jpg?t=1510343398533);
+            
+
+            
+            
+                background-position: center center;
+            
+
+            
+            
+                background-repeat: no-repeat;
+            
+
+            
+            
+                background-attachment: fixed;
+            
+
+            
+            
+                -webkit-background-size: cover;
+                background-size: cover;
+            
+
+            
+            
+        }
+        
+        
+        
+        
+        
+        
+            body .hero-wrapper,
+            body .hero-wrapper q,
+            body .hero-wrapper blockquote,
+            body .hero-wrapper hr,
+            body .hero-wrapper .field > label {
+                color: #ffffff;
+            }
+            body .hero-wrapper hr {
+                background: #ffffff;
+            }
+        
+        
+        
+        
+            body .hero-wrapper h1,
+            body .hero-wrapper h2,
+            body .hero-wrapper h3,
+            body .hero-wrapper h4,
+            body .hero-wrapper h5,
+            body .hero-wrapper h6,
+            body .hero-wrapper .section-intro {
+                color: #ffffff;
+            }
+            body .hero-wrapper h1:after {
+                background: #ffffff;
+            }
+        
+
+        
+        
+            body .hero-wrapper a {
+                color: #ffffff;
+            }
+        
+
+    </style>
+
+
+
+</div><!--end widget-span -->
+
+            </div><!--end row-->
+            </div><!--end row-wrapper -->
+        </div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+<div class="row-fluid-wrapper row-depth-0 row-number-1 ">
+<div class="row-fluid ">
+    <div class="span12 widget-span widget-type-cell content-section columns-section two-column-right-section" style="" data-widget-type="cell" data-x="0" data-w="15">
+
+        <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+        <div class="row-fluid ">
 	<body>
 		<div id="wrapper">
-			<h2>Demo Checkout</h2>
+			<h2>Product Checkout</h2>
 
 			<div id="sidebar">
 			</div>
