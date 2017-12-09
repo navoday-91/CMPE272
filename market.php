@@ -776,6 +776,13 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
     .dropdown .dropdown-menu.jcart-item-price { width:25%; font-weight:bold; text-align:right; }
     .dropdown .dropdown-menu.jcart-item-qty { width:25%; }
     
+    
+     
+        
+        form {
+            min-height: 500px;
+        }
+    
 </style>
 
 
