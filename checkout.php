@@ -475,8 +475,203 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
 
 			<div class="clear"></div>
 		</div>
+</div>    
+                                    <?php
+                                        
+                                        
+                                    ?>
+</div></div></div></div></div>
+                    
+    
 
-		<script type="text/javascript" src="jcart/js/jquery-1.4.4.min.js"></script>
+<div class="footer-container-wrapper">
+    <div class="footer-container container-fluid">
+
+        <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+        <div class="row-fluid ">
+            <div class="span12 widget-span widget-type-global_group " style="" data-widget-type="global_group" data-x="0" data-w="12">
+<!-- start coded_template: id:3670990962 path:generated_global_groups/3670990947.html -->
+<div class="" data-global-widget-path="generated_global_groups/3670990947.html"><div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell footer-wrapper" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell footer-main" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-3 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell centered medium-stack" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-4 ">
+<div class="row-fluid ">
+<div class="span3 widget-span widget-type-cell footer-column" style="" data-widget-type="cell" data-x="0" data-w="3">
+
+<div class="row-fluid-wrapper row-depth-2 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-linked_image " style="" data-widget-type="linked_image" data-x="0" data-w="12">
+<div class="cell-wrapper layout-widget-wrapper">
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+
+
+
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell footer-bottom" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell centered" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-3 ">
+<div class="row-fluid ">
+<div class="span6 widget-span widget-type-page_footer footer-copyright1 footer-go-foggy" style="" data-widget-type="page_footer" data-x="0" data-w="6">
+<div class="cell-wrapper layout-widget-wrapper">
+<span id="hs_cos_wrapper_module_144967676630618" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_page_footer" style="" data-hs-cos-general-type="widget" data-hs-cos-type="page_footer">
+<footer>
+    <span class="hs-footer-company-copyright">© 2017 ABC Consulting</span>
+</footer>
+</span></div><!--end layout-widget-wrapper -->
+</div><!--end widget-span -->
+<div class="span6 widget-span widget-type-rich_text " style="" data-widget-type="rich_text" data-x="6" data-w="6">
+<div class="cell-wrapper layout-widget-wrapper">
+</div><!--end layout-widget-wrapper -->
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+</div><!-- end coded_template: id:3670990962 path:generated_global_groups/3670990947.html -->
+
+            </div><!--end widget-span -->
+        </div><!--end row-->
+        </div><!--end row-wrapper -->
+
+    </div><!--end footer -->
+</div><!--end footer wrapper -->
+
+
+    
+<script type="text/javascript" src="https://static.hsstatic.net/content_shared_assets/static-1.4049/js/public_common.js"></script>
+<script src="https://static.hsstatic.net/AsyncSupport/static-1.7/js/post_listing_asset.js"></script>
+<script>
+  hsjQuery(document).ready(function () {
+    var options = {
+      'id': "769389336",
+      'listing_url': "/_hcms/postlisting?blogId=3203284127&maxLinks=4&listingType=recent&orderByViews=false&hs-expires=1510948570&hs-version=1&hs-signature=AIj1bPu_wEV1mX3BQFFGxva6jXwLwEzDoA",
+      'include_featured_image': false
+    };
+    window.hsPopulateListingFeed(options);
+  });
+</script>
+
+
+        <!--[if lte IE 8]>
+        <script charset="utf-8" src="https://js.hsforms.net/forms/v2-legacy.js"></script>
+        <![endif]-->
+     
+<script src="https://js.hsforms.net/forms/v2.js"></script>
+
+    <script>
+        hbspt.forms.create({
+            portalId: '744339',
+            formId: '22c3f1ae-be53-4109-b02c-7c16cbfd6f26',
+            formInstanceId: '3043',
+            pageId: 3699427022,
+            
+            
+            
+            
+            pageName: "Business Process Management (BPM) Consulting Services",
+            
+            
+            redirectUrl: "http:\/\/www.e-zest.com\/bpm_consulting\/?portalId=744339&hsFormKey=82c8f16f8eb4834c41d62892df3e71ac#module_144967676630613",
+            
+            
+            
+            css: '',
+            target: '#hs_form_target_module_144967676630613',
+            
+            
+            
+            
+            
+            contentType: "standard-page",
+            
+            formData: {
+            cssClass: 'hs-form stacked hs-custom-form'
+            }
+        });
+    </script>
+
+
+<!-- Start of HubSpot Analytics Code -->
+<script type="text/javascript">
+var _hsq = _hsq || [];
+_hsq.push(["setContentType", "standard-page"]);
+_hsq.push(["setCanonicalUrl", "http:\/\/www.e-zest.com\/bpm_consulting\/"]);
+_hsq.push(["setPageId", "3699427022"]);
+_hsq.push(["setContentMetadata", {
+    "contentPageId": 3699427022,
+    "legacyPageId": "3699427022",
+    "contentGroupId": null,
+    "abTestId": null,
+    "languageVariantId": 3699427022,
+    "languageCode": null
+}]);
+_hsq.push(["setTargetedContentMetadata", []]);
+</script>
+
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/744339.js"></script>
+<!-- End of HubSpot Analytics Code -->
+
+
+<script type="text/javascript">
+var hsVars = {
+    ticks: 1510343470960,
+    page_id: 3699427022,
+    content_group_id: 0,
+    portal_id: 744339,
+    app_hs_base_url: "https://app.hubspot.com",
+    language: "en",
+    analytics_page_type: "standard-page"
+}
+</script>
+
+        <script type="text/javascript" src="jcart/js/jquery-1.4.4.min.js"></script>
 		<script type="text/javascript" src="jcart/js/jcart.min.js"></script>
-	</body>
-</html>
+
+
+
+
+    <!-- Generated by the HubSpot Template Builder - template version 1.03 -->
+
+<!-- end coded_template: id:3859515515 path:generated_layouts/3859515505.html -->
+</body></html>
+		
