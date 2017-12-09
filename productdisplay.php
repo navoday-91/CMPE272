@@ -1058,7 +1058,8 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
                 <?php
             
                                             
-                                            parse_str($_SERVER['QUERY_STRING']);    
+                                            parse_str($_SERVER['QUERY_STRING']); 
+                                            $id = $_GET['id'];
                                             curl_setopt($ch, CURLOPT_URL, "http://anavsharma.com/barkinghampalace/gen.php?id=".$id);
                                             curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
                                             
