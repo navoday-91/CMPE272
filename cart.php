@@ -107,7 +107,7 @@ session_start();
 
 			<div class="clear"></div>
 		</div>
-
+        <script type="text/javascript">localStorage.clear();</script>
 		<script type="text/javascript" src="jcart/js/jquery-1.4.4.min.js"></script>
 		<script type="text/javascript" src="jcart/js/jcart.min.js"></script>
 	</body>
