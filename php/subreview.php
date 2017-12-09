@@ -35,12 +35,14 @@ else
     
     $db = mysqli_select_db($connection, "abc");
     // SQL query to fetch information of registerd users and finds user match.
+        echo("insert into reviews values('$id','$review','$username',default);");
+        echo("insert into rating values('$id','$review_f');");
         $query = mysqli_query($connection, "insert into reviews values('$id','$review','$username',default);");
         echo(mysqli_error($connection));
         $query = mysqli_query($connection, "insert into rating values('$id','$review_f');");
         echo(mysqli_error($connection));
         $_SESSION['error'] = "Review Submitted";
-        header("location: ../productdisplay.php?id=".$id);
+        //header("location: ../productdisplay.php?id=".$id);
     mysqli_close($connection); // Closing Connection
 }
 }
