@@ -780,7 +780,7 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
      
         
         form {
-            min-height: 500px;
+            min-height: 275px;
         }
     
 </style>
