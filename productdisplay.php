@@ -1200,7 +1200,7 @@ h1 { font-size: 1.5em; margin: 10px; }
                 echo("<table style=\"width:100%\">
                           <tr>
                             <th>User</th>
-                            <th>Review</th> 
+                            <th align=\"left\">Review</th> 
                           </tr>");
                 while ($user = $query->fetch_assoc()) {
                     echo("<tr>
