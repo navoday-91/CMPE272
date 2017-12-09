@@ -656,13 +656,13 @@ $services_dict = array(1 => "<a href = 'services/str_cnslt.php'>Strategy and Con
     <title>Product Description</title>
     
     
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-<!--<link href="css/bootstrap.min.css" rel="stylesheet">-->	
+    <link href="css/bootstrap-theme.min1.css" rel="stylesheet">
+<!--<link href="css/bootstrap.min1.css" rel="stylesheet">-->	
 <link rel="stylesheet"  href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 <link href="css/star-rating.css" media="all" rel="stylesheet" type="text/css" />
 
 <script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min1.js"></script>
 <script src="js/modal.js"></script>
 <script src="js/star-rating.js" type="text/javascript"></script>
 
